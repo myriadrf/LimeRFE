@@ -1,0 +1,579 @@
+EESchema Schematic File Version 2
+LIBS:Lime_HAM_Z
+LIBS:LimeMicroBGD_Library
+LIBS:Cellular_Subsystem_Library
+LIBS:LimeMicroBGD_Library_bb
+LIBS:LMS8001_AppPCB-cache
+LIBS:LMS8001_PowerSupply-cache
+LIBS:ADM7155_Addon-cache
+LIBS:LMS8001_DigitalPCB-cache
+LIBS:SWR_Meter_Subsystem_library
+LIBS:GPIO_Subsystem-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FilterLib
+LIBS:BB_Library
+LIBS:Lime_RFE-rescue
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 44
+Title "LMS8001_AppPCB"
+Date "23 jan 2019"
+Rev "1v0"
+Comp "Lime Microsystems"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR0463
+U 1 1 5C64A27F
+P 6225 5275
+F 0 "#PWR0463" H 6225 5275 30  0001 C CNN
+F 1 "GND" H 6225 5205 30  0001 C CNN
+F 2 "" H 6225 5275 60  0000 C CNN
+F 3 "" H 6225 5275 60  0000 C CNN
+	1    6225 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0464
+U 1 1 5C64A281
+P 6225 4275
+F 0 "#PWR0464" H 6225 4275 30  0001 C CNN
+F 1 "GND" H 6225 4205 30  0001 C CNN
+F 2 "" H 6225 4275 60  0000 C CNN
+F 3 "" H 6225 4275 60  0000 C CNN
+	1    6225 4275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6225 4375 6225 4275
+Wire Wire Line
+	6225 5175 6225 5275
+Wire Wire Line
+	5525 4775 5725 4775
+Wire Wire Line
+	4925 4775 5125 4775
+Wire Wire Line
+	3825 4775 4425 4775
+Wire Wire Line
+	8525 4775 9175 4775
+$Comp
+L SMD_0603_NF R123
+U 1 1 5C64A283
+P 7425 2425
+F 0 "R123" H 7415 2495 50  0000 C CNN
+F 1 "SMD_0603_NF" H 7400 2600 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603_gap05" H 7375 2675 60  0001 C CNN
+F 3 "~" V 7425 2425 60  0000 C CNN
+F 4 "_" H 7425 3085 60  0001 C CNN "Vendor"
+F 5 "_" H 7445 3155 60  0001 C CNN "Vendor Part Number"
+F 6 "_" H 7435 2995 60  0001 C CNN "Manufacturer"
+F 7 "_" H 7445 2865 60  0001 C CNN "Manufacturer Part Number"
+F 8 "_" H 7425 2765 60  0001 C CNN "Description"
+	1    7425 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7075 4075 7075 4325
+Connection ~ 7075 4775
+Wire Wire Line
+	7075 3575 7175 3575
+Connection ~ 7075 3575
+$Comp
+L GND #PWR0465
+U 1 1 5C64A286
+P 7675 3575
+F 0 "#PWR0465" H 7675 3575 30  0001 C CNN
+F 1 "GND" H 7675 3505 30  0001 C CNN
+F 2 "" H 7675 3575 60  0000 C CNN
+F 3 "" H 7675 3575 60  0000 C CNN
+	1    7675 3575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7575 3575 7675 3575
+$Comp
+L 0.1uF_0402 C125
+U 1 1 5C4F27EA
+P 7375 3575
+F 0 "C125" H 7425 3675 50  0000 L CNN
+F 1 "0.1uF_0402" H 7175 3975 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 7375 3875 39  0001 C CNN
+F 3 "" H 7375 3575 60  0000 C CNN
+F 4 "DigiKey" H 7375 4075 60  0001 C CNN "Vendor"
+F 5 "490-6328-1-ND" H 7325 4175 60  0001 C CNN "Vendor Part Number"
+F 6 "Murrata_Electronics" H 7375 4275 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104KA88J" H 7425 4375 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 16V X7R 0402" H 7475 4475 60  0001 C CNN "Description"
+F 9 "0.1uF" H 7500 3475 50  0000 C CNN "Component Value"
+	1    7375 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0466
+U 1 1 5C64A28B
+P 7675 3125
+F 0 "#PWR0466" H 7675 3125 30  0001 C CNN
+F 1 "GND" H 7675 3055 30  0001 C CNN
+F 2 "" H 7675 3125 60  0000 C CNN
+F 3 "" H 7675 3125 60  0000 C CNN
+	1    7675 3125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7575 3125 7675 3125
+Wire Wire Line
+	7175 3125 7075 3125
+Connection ~ 7075 3125
+$Comp
+L SMD_0603_NF R122
+U 1 1 5C64A28D
+P 7425 1975
+F 0 "R122" H 7415 2045 50  0000 C CNN
+F 1 "SMD_0603_NF" H 7400 2150 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603_gap05" H 7375 2225 60  0001 C CNN
+F 3 "~" V 7425 1975 60  0000 C CNN
+F 4 "_" H 7425 2635 60  0001 C CNN "Vendor"
+F 5 "_" H 7445 2705 60  0001 C CNN "Vendor Part Number"
+F 6 "_" H 7435 2545 60  0001 C CNN "Manufacturer"
+F 7 "_" H 7445 2415 60  0001 C CNN "Manufacturer Part Number"
+F 8 "_" H 7425 2315 60  0001 C CNN "Description"
+	1    7425 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7075 3025 7075 3675
+Wire Wire Line
+	7175 2425 7075 2425
+Connection ~ 7075 2425
+$Comp
+L GND #PWR0467
+U 1 1 5C64A28F
+P 7775 2425
+F 0 "#PWR0467" H 7775 2425 30  0001 C CNN
+F 1 "GND" H 7775 2355 30  0001 C CNN
+F 2 "" H 7775 2425 60  0000 C CNN
+F 3 "" H 7775 2425 60  0000 C CNN
+	1    7775 2425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7675 2425 7775 2425
+$Comp
+L GND #PWR0468
+U 1 1 5C64A290
+P 7775 1975
+F 0 "#PWR0468" H 7775 1975 30  0001 C CNN
+F 1 "GND" H 7775 1905 30  0001 C CNN
+F 2 "" H 7775 1975 60  0000 C CNN
+F 3 "" H 7775 1975 60  0000 C CNN
+	1    7775 1975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7675 1975 7775 1975
+Wire Wire Line
+	7075 1975 7075 2525
+Connection ~ 7075 1975
+$Comp
+L 0R_0603 R119
+U 1 1 5C64A293
+P 4675 4775
+F 0 "R119" H 4665 4845 50  0000 C CNN
+F 1 "0R_0603" H 4650 4950 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 4625 5025 60  0001 C CNN
+F 3 "" V 4675 4775 60  0000 C CNN
+F 4 "Digi-Key" H 4675 5435 60  0001 C CNN "Vendor"
+F 5 "541-2779-1-ND" H 4695 5505 60  0001 C CNN "Vendor Part Number"
+F 6 "Vishay_Dale" H 4685 5345 60  0001 C CNN "Manufacturer"
+F 7 "RCS06030000Z0EA" H 4695 5215 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0 OHM JUMPER 1/4W 0603" H 4675 5115 60  0001 C CNN "Description"
+F 9 "0R" H 4675 4765 50  0000 C CNN "Component Value"
+	1    4675 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0603 R125
+U 1 1 5C4F45D0
+P 8275 4775
+F 0 "R125" H 8265 4845 50  0000 C CNN
+F 1 "0R_0603" H 8250 4950 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 8225 5025 60  0001 C CNN
+F 3 "" V 8275 4775 60  0000 C CNN
+F 4 "Digi-Key" H 8275 5435 60  0001 C CNN "Vendor"
+F 5 "541-2779-1-ND" H 8295 5505 60  0001 C CNN "Vendor Part Number"
+F 6 "Vishay_Dale" H 8285 5345 60  0001 C CNN "Manufacturer"
+F 7 "RCS06030000Z0EA" H 8295 5215 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0 OHM JUMPER 1/4W 0603" H 8275 5115 60  0001 C CNN "Description"
+F 9 "0R" H 8275 4765 50  0000 C CNN "Component Value"
+	1    8275 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 4775 8025 4775
+$Comp
+L 0R_0603 R121
+U 1 1 5C64A297
+P 7075 2775
+F 0 "R121" H 7065 2845 50  0000 C CNN
+F 1 "0R_0603" H 7050 2950 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 7025 3025 60  0001 C CNN
+F 3 "" V 7075 2775 60  0000 C CNN
+F 4 "Digi-Key" H 7075 3435 60  0001 C CNN "Vendor"
+F 5 "541-2779-1-ND" H 7095 3505 60  0001 C CNN "Vendor Part Number"
+F 6 "Vishay_Dale" H 7085 3345 60  0001 C CNN "Manufacturer"
+F 7 "RCS06030000Z0EA" H 7095 3215 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0 OHM JUMPER 1/4W 0603" H 7075 3115 60  0001 C CNN "Description"
+F 9 "0R" H 7075 2765 50  0000 C CNN "Component Value"
+	1    7075 2775
+	0    1    1    0   
+$EndComp
+$Comp
+L SMD_0603_NF R120
+U 1 1 5C64A298
+P 5025 5125
+F 0 "R120" H 5015 5195 50  0000 C CNN
+F 1 "SMD_0603_NF" H 5000 5300 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603_gap05" H 4975 5375 60  0001 C CNN
+F 3 "~" V 5025 5125 60  0000 C CNN
+F 4 "_" H 5025 5785 60  0001 C CNN "Vendor"
+F 5 "_" H 5045 5855 60  0001 C CNN "Vendor Part Number"
+F 6 "_" H 5035 5695 60  0001 C CNN "Manufacturer"
+F 7 "_" H 5045 5565 60  0001 C CNN "Manufacturer Part Number"
+F 8 "_" H 5025 5465 60  0001 C CNN "Description"
+	1    5025 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0469
+U 1 1 5C64A29A
+P 5025 5475
+F 0 "#PWR0469" H 5025 5475 30  0001 C CNN
+F 1 "GND" H 5025 5405 30  0001 C CNN
+F 2 "" H 5025 5475 60  0000 C CNN
+F 3 "" H 5025 5475 60  0000 C CNN
+	1    5025 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 5375 5025 5475
+Wire Wire Line
+	5025 4875 5025 4775
+Connection ~ 5025 4775
+$Comp
+L GND #PWR0470
+U 1 1 5C64A29F
+P 7925 5475
+F 0 "#PWR0470" H 7925 5475 30  0001 C CNN
+F 1 "GND" H 7925 5405 30  0001 C CNN
+F 2 "" H 7925 5475 60  0000 C CNN
+F 3 "" H 7925 5475 60  0000 C CNN
+	1    7925 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 5375 7925 5475
+Wire Wire Line
+	6775 4775 7425 4775
+Wire Wire Line
+	7925 4875 7925 4775
+Connection ~ 7925 4775
+Wire Wire Line
+	7075 4725 7075 4775
+$Comp
+L 1u_0402 C122
+U 1 1 5C507D85
+P 5325 4775
+F 0 "C122" H 5375 4875 50  0000 L CNN
+F 1 "1u_0402" H 5125 5125 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 5325 5025 60  0001 C CNN
+F 3 "" H 5325 4775 60  0000 C CNN
+F 4 "DigiKey" H 5325 5525 60  0001 C CNN "Vendor"
+F 5 "490-13409-1-ND" H 5325 5625 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics North America" H 5325 5425 60  0001 C CNN "Manufacturer"
+F 7 "GCM155C71A105KE38D" H 5325 5325 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 1UF 10V X7S 0402" H 5325 5225 60  0001 C CNN "Description"
+F 9 "1uF" H 5450 4675 50  0000 C CNN "Component Value"
+	1    5325 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L 1u_0402 C126
+U 1 1 5C507F8E
+P 7625 4775
+F 0 "C126" H 7675 4875 50  0000 L CNN
+F 1 "1u_0402" H 7425 5125 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 7625 5025 60  0001 C CNN
+F 3 "" H 7625 4775 60  0000 C CNN
+F 4 "DigiKey" H 7625 5525 60  0001 C CNN "Vendor"
+F 5 "490-13409-1-ND" H 7625 5625 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics North America" H 7625 5425 60  0001 C CNN "Manufacturer"
+F 7 "GCM155C71A105KE38D" H 7625 5325 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 1UF 10V X7S 0402" H 7625 5225 60  0001 C CNN "Description"
+F 9 "1uF" H 7750 4675 50  0000 C CNN "Component Value"
+	1    7625 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L 10u_0805 L7
+U 1 1 5C508583
+P 7075 4525
+F 0 "L7" V 6990 4555 50  0000 C CNN
+F 1 "10u_0805" H 7075 4775 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0805" H 7075 4875 60  0001 C CNN
+F 3 "" H 7075 4525 60  0000 C CNN
+F 4 "Digi-Key" H 7075 5175 60  0001 C CNN "Vendor"
+F 5 "445-6396-1-ND" H 7075 5075 60  0001 C CNN "Vendor Part Number"
+F 6 "TDK Corporation" H 7075 5375 60  0001 C CNN "Manufacturer"
+F 7 "MLZ2012M100WT000" H 7075 5275 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FIXED IND 10UH 350MA 470 MOHM" H 7075 4975 60  0001 C CNN "Description"
+F 9 "10uH" V 7140 4505 50  0000 C CNN "Component Value"
+	1    7075 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10u_0805 L6
+U 1 1 5C508795
+P 7075 3875
+F 0 "L6" V 6990 3905 50  0000 C CNN
+F 1 "10u_0805" H 7075 4125 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0805" H 7075 4225 60  0001 C CNN
+F 3 "" H 7075 3875 60  0000 C CNN
+F 4 "Digi-Key" H 7075 4525 60  0001 C CNN "Vendor"
+F 5 "445-6396-1-ND" H 7075 4425 60  0001 C CNN "Vendor Part Number"
+F 6 "TDK Corporation" H 7075 4725 60  0001 C CNN "Manufacturer"
+F 7 "MLZ2012M100WT000" H 7075 4625 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FIXED IND 10UH 350MA 470 MOHM" H 7075 4325 60  0001 C CNN "Description"
+F 9 "10uH" V 7140 3855 50  0000 C CNN "Component Value"
+	1    7075 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1u_0402 C124
+U 1 1 5C508E2C
+P 7375 3125
+F 0 "C124" H 7425 3225 50  0000 L CNN
+F 1 "1u_0402" H 7175 3475 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 7375 3375 60  0001 C CNN
+F 3 "" H 7375 3125 60  0000 C CNN
+F 4 "DigiKey" H 7375 3875 60  0001 C CNN "Vendor"
+F 5 "490-13409-1-ND" H 7375 3975 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics North America" H 7375 3775 60  0001 C CNN "Manufacturer"
+F 7 "GCM155C71A105KE38D" H 7375 3675 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 1UF 10V X7S 0402" H 7375 3575 60  0001 C CNN "Description"
+F 9 "1uF" H 7500 3025 50  0000 C CNN "Component Value"
+	1    7375 3125
+	0    1    1    0   
+$EndComp
+$Comp
+L GALI-74+ U66
+U 1 1 5C5093FA
+P 6225 4775
+F 0 "U66" H 6475 5025 60  0000 C CNN
+F 1 "GALI-74+" H 6225 5375 60  0001 C CNN
+F 2 "LimeMicroBGD_Library:SOT89" H 6225 5475 60  0001 C CNN
+F 3 "" H 6225 5475 60  0000 C CNN
+F 4 "Mini-Circuits" H 6225 5975 60  0001 C CNN "Vendor"
+F 5 "GALI-74+" H 6225 5875 60  0001 C CNN "Vendor Part Number"
+F 6 "Mini-Circuits" H 6225 5775 60  0001 C CNN "Manufacturer"
+F 7 "GALI-74+" H 6225 5675 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Low Noise MMIC Amplifier, DC to 1 GHz " H 6225 5575 60  0001 C CNN "Description"
+F 9 "GALI-74+" H 6525 4475 60  0000 C CNN "Component Value"
+	1    6225 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 100nF_0402 C121
+U 1 1 5C530DF3
+P 2425 2275
+F 0 "C121" H 2475 2375 50  0000 L CNN
+F 1 "100nF_0402" H 2625 2325 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 2375 2275 60  0001 C CNN
+F 3 "" H 2425 2275 60  0000 C CNN
+F 4 "DigiKey" H 2525 2775 60  0001 C CNN "Vendor"
+F 5 "311-1047-1-ND" H 2575 2875 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 2475 2675 60  0001 C CNN "Manufacturer"
+F 7 "CC0402ZRY5V7BB104" H 2525 2575 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP, CER, 0.1UF, 16V, Y5V, 0402," H 2625 2475 60  0001 C CNN "Description"
+F 9 "100nF" H 2550 2175 50  0000 C CNN "Component Value"
+	1    2425 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 100nF_0402 C123
+U 1 1 5C530EBA
+P 5475 2275
+F 0 "C123" H 5525 2375 50  0000 L CNN
+F 1 "100nF_0402" H 5675 2325 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 5425 2275 60  0001 C CNN
+F 3 "" H 5475 2275 60  0000 C CNN
+F 4 "DigiKey" H 5575 2775 60  0001 C CNN "Vendor"
+F 5 "311-1047-1-ND" H 5625 2875 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 5525 2675 60  0001 C CNN "Manufacturer"
+F 7 "CC0402ZRY5V7BB104" H 5575 2575 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP, CER, 0.1UF, 16V, Y5V, 0402," H 5675 2475 60  0001 C CNN "Description"
+F 9 "100nF" H 5600 2175 50  0000 C CNN "Component Value"
+	1    5475 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L FB_600R_2A_0805 FB8
+U 1 1 5C531047
+P 6325 1975
+F 0 "FB8" H 6340 2055 60  0000 C CNN
+F 1 "FB_600R_2A_0805" H 6325 1775 60  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0805" H 6325 1675 60  0001 C CNN
+F 3 "" H 6325 1975 60  0000 C CNN
+F 4 "445-2206-1-ND" H 6840 2555 60  0001 C CNN "Vendor Part Number"
+F 5 "Digi-Key" H 6740 2455 60  0001 C CNN "Vendor"
+F 6 "FERRITE CHIP BEAD, 600 OHM, SMD," H 6440 2155 60  0001 C CNN "Description"
+F 7 "MPZ2012S601AT000" H 6540 2255 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TDK Corporation" H 6640 2355 60  0001 C CNN "Manufacturer"
+F 9 "600_Ohm_@_100MHz_2A" H 6325 1875 60  0000 C CNN "Component Value"
+	1    6325 1975
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5025 1925 5175 1925
+Wire Wire Line
+	5175 1925 5175 2025
+Wire Wire Line
+	5175 2025 5025 2025
+Connection ~ 5175 1975
+Wire Wire Line
+	4375 1925 4225 1925
+Wire Wire Line
+	4225 1925 4225 2025
+Wire Wire Line
+	4225 2025 4375 2025
+Text HLabel 3775 2125 0    60   Input ~ 0
+LNA_EN
+Text HLabel 2425 1875 1    60   Input ~ 0
+LNA_VDD
+Wire Wire Line
+	4225 1975 2425 1975
+Wire Wire Line
+	2425 1875 2425 2075
+Connection ~ 4225 1975
+Connection ~ 2425 1975
+Wire Wire Line
+	3775 2125 4375 2125
+$Comp
+L GND #PWR0471
+U 1 1 5C531C95
+P 2425 2575
+F 0 "#PWR0471" H 2425 2575 30  0001 C CNN
+F 1 "GND" H 2425 2505 30  0001 C CNN
+F 2 "" H 2425 2575 60  0000 C CNN
+F 3 "" H 2425 2575 60  0000 C CNN
+	1    2425 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 2575 2425 2475
+$Comp
+L GND #PWR0472
+U 1 1 5C531D6E
+P 5475 2575
+F 0 "#PWR0472" H 5475 2575 30  0001 C CNN
+F 1 "GND" H 5475 2505 30  0001 C CNN
+F 2 "" H 5475 2575 60  0000 C CNN
+F 3 "" H 5475 2575 60  0000 C CNN
+	1    5475 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5475 2475 5475 2575
+$Comp
+L GND #PWR0473
+U 1 1 5C531F64
+P 5025 2225
+F 0 "#PWR0473" H 5025 2225 30  0001 C CNN
+F 1 "GND" H 5025 2155 30  0001 C CNN
+F 2 "" H 5025 2225 60  0000 C CNN
+F 3 "" H 5025 2225 60  0000 C CNN
+	1    5025 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 2125 5025 2225
+Wire Wire Line
+	5475 2075 5475 1975
+Connection ~ 5475 1975
+Wire Wire Line
+	5175 1975 6125 1975
+Wire Wire Line
+	6525 1975 7175 1975
+Text HLabel 3825 4775 0    60   Input ~ 0
+RF_IN
+Text HLabel 9175 4775 2    60   Input ~ 0
+RF_OUT
+$Comp
+L NCP331SNT1G U65
+U 1 1 5D38F2F7
+P 4675 2025
+F 0 "U65" H 4850 1825 60  0000 C CNN
+F 1 "NCP331SNT1G" H 4700 2250 60  0000 C CNN
+F 2 "TSOP-6" H 4675 2025 60  0001 C CNN
+F 3 "" H 4675 2025 60  0000 C CNN
+F 4 "Mouser" H 4675 2850 60  0001 C CNN "Vendor"
+F 5 "863-NCP331SNT1G" H 4675 2750 60  0001 C CNN "Vendor Part Number"
+F 6 "On_Semiconductor" H 4675 2650 60  0001 C CNN "Manufacturer"
+F 7 "NCP331SNT1G" H 4675 2550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "IC_LOAD_SWITCH_SOFT_START_6TSOP" H 4675 2450 60  0001 C CNN "Description"
+F 9 "NCP331SNT1G" H 4700 2350 60  0001 C CNN "Component Value"
+	1    4675 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K_0402_Yageo R124
+U 1 1 5CF6D68F
+P 7925 5125
+F 0 "R124" H 7925 5225 50  0000 C CNN
+F 1 "10K_0402_Yageo" H 7925 5275 50  0001 C CNN
+F 2 "SMD0402" H 7925 5375 60  0001 C CNN
+F 3 "" H 7915 5195 60  0000 C CNN
+F 4 "Mouser" H 7925 5775 60  0001 C CNN "Vendor"
+F 5 "603-RC0402JR-7D10KL" H 7925 5875 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 7925 5675 60  0001 C CNN "Manufacturer"
+F 7 "RC0402JR-7D10KL" H 7925 5575 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors 10K ohm 5% 50V General Purpose" H 7925 5475 60  0001 C CNN "Description"
+F 9 "10K" H 7925 5115 50  0000 C CNN "Component Value"
+	1    7925 5125
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

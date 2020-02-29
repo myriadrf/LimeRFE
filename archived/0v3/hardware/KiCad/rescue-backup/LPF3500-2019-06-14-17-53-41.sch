@@ -1,0 +1,175 @@
+EESchema Schematic File Version 2
+LIBS:Lime_HAM_Z
+LIBS:LimeMicroBGD_Library
+LIBS:Cellular_Subsystem_Library
+LIBS:LimeMicroBGD_Library_bb
+LIBS:LMS8001_AppPCB-cache
+LIBS:LMS8001_PowerSupply-cache
+LIBS:ADM7155_Addon-cache
+LIBS:LMS8001_DigitalPCB-cache
+LIBS:SWR_Meter_Subsystem_library
+LIBS:GPIO_Subsystem-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FilterLib
+LIBS:BB_Library
+LIBS:Lime_RFE-rescue
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 26 44
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4675 3775 0    60   Input ~ 0
+IN
+Text HLabel 7475 3775 2    60   Output ~ 0
+OUT
+$Comp
+L 0R_0603 R154
+U 1 1 5C66E9C0
+P 7100 3775
+F 0 "R154" H 7090 3845 50  0000 C CNN
+F 1 "0R_0603" H 7075 3950 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 7050 4025 60  0001 C CNN
+F 3 "" V 7100 3775 60  0000 C CNN
+F 4 "Digi-Key" H 7100 4435 60  0001 C CNN "Vendor"
+F 5 "541-2779-1-ND" H 7120 4505 60  0001 C CNN "Vendor Part Number"
+F 6 "Vishay_Dale" H 7110 4345 60  0001 C CNN "Manufacturer"
+F 7 "RCS06030000Z0EA" H 7120 4215 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0 OHM JUMPER 1/4W 0603" H 7100 4115 60  0001 C CNN "Description"
+F 9 "0R" H 7100 3765 50  0000 C CNN "Component Value"
+	1    7100 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3775 7475 3775
+$Comp
+L 0R_0603 R153
+U 1 1 5D22D7BC
+P 5050 3775
+F 0 "R153" H 5040 3845 50  0000 C CNN
+F 1 "0R_0603" H 5025 3950 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 5000 4025 60  0001 C CNN
+F 3 "" V 5050 3775 60  0000 C CNN
+F 4 "Digi-Key" H 5050 4435 60  0001 C CNN "Vendor"
+F 5 "541-2779-1-ND" H 5070 4505 60  0001 C CNN "Vendor Part Number"
+F 6 "Vishay_Dale" H 5060 4345 60  0001 C CNN "Manufacturer"
+F 7 "RCS06030000Z0EA" H 5070 4215 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0 OHM JUMPER 1/4W 0603" H 5050 4115 60  0001 C CNN "Description"
+F 9 "0R" H 5050 3765 50  0000 C CNN "Component Value"
+	1    5050 3775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3775 4675 3775
+$Comp
+L GND #PWR0610
+U 1 1 5CA8FAB9
+P 5300 3575
+F 0 "#PWR0610" H 5300 3575 30  0001 C CNN
+F 1 "GND" H 5300 3505 30  0001 C CNN
+F 2 "" H 5300 3575 60  0001 C CNN
+F 3 "" H 5300 3575 60  0001 C CNN
+	1    5300 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0611
+U 1 1 5CA8FAF5
+P 5300 3975
+F 0 "#PWR0611" H 5300 3975 30  0001 C CNN
+F 1 "GND" H 5300 3905 30  0001 C CNN
+F 2 "" H 5300 3975 60  0001 C CNN
+F 3 "" H 5300 3975 60  0001 C CNN
+	1    5300 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0612
+U 1 1 5CA8FB0F
+P 6850 3575
+F 0 "#PWR0612" H 6850 3575 30  0001 C CNN
+F 1 "GND" H 6850 3505 30  0001 C CNN
+F 2 "" H 6850 3575 60  0001 C CNN
+F 3 "" H 6850 3575 60  0001 C CNN
+	1    6850 3575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR0613
+U 1 1 5CA8FB2C
+P 6850 3975
+F 0 "#PWR0613" H 6850 3975 30  0001 C CNN
+F 1 "GND" H 6850 3905 30  0001 C CNN
+F 2 "" H 6850 3975 60  0001 C CNN
+F 3 "" H 6850 3975 60  0001 C CNN
+	1    6850 3975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5575 3575 5300 3575
+Wire Wire Line
+	5575 3775 5300 3775
+Wire Wire Line
+	5575 3975 5300 3975
+Wire Wire Line
+	6475 3575 6850 3575
+Wire Wire Line
+	6850 3775 6475 3775
+Wire Wire Line
+	6850 3975 6475 3975
+$Comp
+L DEA163800LT-5017C1 U96
+U 1 1 5CB1966B
+P 6025 3775
+F 0 "U96" V 5600 3750 60  0000 C CNN
+F 1 "DEA163800LT-5017C1" H 6025 4475 60  0001 C CNN
+F 2 "DEA163800LT-5017C1" H 6025 4575 60  0001 C CNN
+F 3 "" H 5975 4275 60  0000 C CNN
+F 4 "Mouser" H 6025 4975 60  0001 C CNN "Vendor"
+F 5 "810-DEA16380LT5017C1" H 6025 5075 60  0001 C CNN "Vendor Part Number"
+F 6 "TDK Corporation" H 6025 4875 60  0001 C CNN "Manufacturer"
+F 7 "DEA163800LT-5017C1 " H 6025 4775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FILTER LOWPASS 3.5GHZ" H 6025 4675 60  0001 C CNN "Description"
+F 9 " DEA163800LT-5017C1 " V 6450 3775 60  0000 C CNN "Component Value"
+	1    6025 3775
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

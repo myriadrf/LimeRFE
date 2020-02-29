@@ -1,0 +1,312 @@
+EESchema Schematic File Version 2
+LIBS:LMS8001_AppPCB-cache
+LIBS:LMS8001_PowerSupply-cache
+LIBS:ADM7155_Addon-cache
+LIBS:LMS8001_DigitalPCB-cache
+LIBS:SWR_Meter_Subsystem_library
+LIBS:GPIO_Subsystem-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LimeMicroBGD_Library
+LIBS:FilterLib
+LIBS:HAM_BOARD-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 41 41
+Title ""
+Date "7 feb 2018"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6450 2250 2    60   Input ~ 0
+DATA_RESET
+$Comp
+L +5V #PWR?
+U 1 1 5CDB9BC4
+P 6150 1750
+AR Path="/5CD9B8A8/5CDB9BC4" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CDB9BC4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 1840 20  0001 C CNN
+F 1 "+5V" H 6150 1840 30  0000 C CNN
+F 2 "" H 6150 1750 60  0001 C CNN
+F 3 "" H 6150 1750 60  0001 C CNN
+	1    6150 1750
+	0    1    -1   0   
+$EndComp
+Text Label 4400 1950 0    39   ~ 0
+SW2_V1
+$Comp
+L MC74HC164ADG U?
+U 1 1 5CDB9BE4
+P 5450 2100
+AR Path="/5CD9B8A8/5CDB9BE4" Ref="U?"  Part="1" 
+AR Path="/5CF97E00/5CDB9BE4" Ref="U?"  Part="1" 
+F 0 "U?" H 5450 2700 60  0000 C CNN
+F 1 "MC74HC164ADG" H 5450 2600 60  0000 C CNN
+F 2 "MC74HC164ADG" H 5450 2925 60  0001 C CNN
+F 3 "" H 5250 2150 60  0000 C CNN
+F 4 "Mouser" H 5450 3325 60  0001 C CNN "Vendor"
+F 5 "863-MC74HC164ADG" H 5450 3225 60  0001 C CNN "Vendor Part Number"
+F 6 "ON Semiconductor" H 5450 3125 60  0001 C CNN "Manufacturer"
+F 7 "MC74HC164ADG" H 5450 3025 60  0001 C CNN "Manufacturer Part Number"
+F 8 "IC SHIFT REGSTR 8BIT" H 5450 2825 60  0001 C CNN "Description"
+	1    5450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5CDB9BEB
+P 4700 1850
+AR Path="/5CD9B8A8/5CDB9BEB" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CDB9BEB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4700 1940 20  0001 C CNN
+F 1 "+5V" H 4700 1940 30  0000 C CNN
+F 2 "" H 4700 1850 60  0001 C CNN
+F 3 "" H 4700 1850 60  0001 C CNN
+	1    4700 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CDB9BF2
+P 4800 2350
+AR Path="/5CD9B8A8/5CDB9BF2" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CDB9BF2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 2350 30  0001 C CNN
+F 1 "GND" H 4800 2280 30  0001 C CNN
+F 2 "" H 4800 2350 60  0000 C CNN
+F 3 "" H 4800 2350 60  0000 C CNN
+	1    4800 2350
+	0    1    1    0   
+$EndComp
+Text HLabel 4400 1750 0    60   Input ~ 0
+DATA_IN
+Text HLabel 6450 2350 2    60   Input ~ 0
+DATA_CLK
+Text HLabel 6450 2150 2    60   Output ~ 0
+DATA_OUT
+NoConn ~ 4400 3600
+$Comp
+L GND #PWR?
+U 1 1 5CF7E821
+P 4400 3800
+AR Path="/5CD9B8A8/5CF7E821" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CF7E821" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 3800 30  0001 C CNN
+F 1 "GND" H 4400 3730 30  0001 C CNN
+F 2 "" H 4400 3800 60  0000 C CNN
+F 3 "" H 4400 3800 60  0000 C CNN
+	1    4400 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V #PWR?
+U 1 1 5CF7E827
+P 5250 3600
+AR Path="/5CD9B8A8/5CF7E827" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CF7E827" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 3560 30  0001 C CNN
+F 1 "+3V" H 5250 3710 30  0000 C CNN
+F 2 "" H 5250 3600 60  0000 C CNN
+F 3 "" H 5250 3600 60  0000 C CNN
+	1    5250 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L SN74LV1T04 U?
+U 1 1 5CF7E833
+P 4800 3700
+AR Path="/5CD9B8A8/5CF7E833" Ref="U?"  Part="1" 
+AR Path="/5CF97E00/5CF7E833" Ref="U?"  Part="1" 
+F 0 "U?" H 5000 3500 60  0000 C CNN
+F 1 "SN74LV1T04" H 4800 3900 60  0000 C CNN
+F 2 "SN74LV1T04" H 4800 4000 60  0001 C CNN
+F 3 "" H 4600 3700 60  0000 C CNN
+F 4 "DigiKey" H 4800 4100 60  0001 C CNN "Vendor"
+F 5 "-" H 4800 4200 60  0001 C CNN "Vendor Part Number"
+F 6 "-" H 4800 4300 60  0001 C CNN "Manufacturer"
+F 7 "-" H 4800 4400 60  0001 C CNN "Manufacturer Part Number"
+F 8 "-" H 4800 4500 60  0001 C CNN "Description"
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5550 3700
+$Comp
+L GND #PWR?
+U 1 1 5CF7E83A
+P 5550 3900
+AR Path="/5CD9B8A8/5CF7E83A" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CF7E83A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 3900 30  0001 C CNN
+F 1 "GND" H 5550 3830 30  0001 C CNN
+F 2 "" H 5550 3900 60  0000 C CNN
+F 3 "" H 5550 3900 60  0000 C CNN
+	1    5550 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V #PWR?
+U 1 1 5CF7E840
+P 6400 3700
+AR Path="/5CD9B8A8/5CF7E840" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CF7E840" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6400 3660 30  0001 C CNN
+F 1 "+3V" H 6400 3810 30  0000 C CNN
+F 2 "" H 6400 3700 60  0000 C CNN
+F 3 "" H 6400 3700 60  0000 C CNN
+	1    6400 3700
+	0    1    1    0   
+$EndComp
+Text HLabel 6750 3900 2    60   Output ~ 0
+SW5_A_3V
+$Comp
+L SN74LV1T04 U?
+U 1 1 5CF7E850
+P 5950 3800
+AR Path="/5CD9B8A8/5CF7E850" Ref="U?"  Part="1" 
+AR Path="/5CF97E00/5CF7E850" Ref="U?"  Part="1" 
+F 0 "U?" H 6150 3600 60  0000 C CNN
+F 1 "SN74LV1T04" H 5950 4000 60  0000 C CNN
+F 2 "SN74LV1T04" H 5950 4100 60  0001 C CNN
+F 3 "" H 5750 3800 60  0000 C CNN
+F 4 "DigiKey" H 5950 4200 60  0001 C CNN "Vendor"
+F 5 "-" H 5950 4300 60  0001 C CNN "Vendor Part Number"
+F 6 "-" H 5950 4400 60  0001 C CNN "Manufacturer"
+F 7 "-" H 5950 4500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "-" H 5950 4600 60  0001 C CNN "Description"
+	1    5950 3800
+	1    0    0    -1  
+$EndComp
+Text Label 4050 3700 0    39   ~ 0
+SW1
+Text HLabel 5750 4150 2    60   Output ~ 0
+SW5_B_3V
+NoConn ~ 4400 4450
+$Comp
+L GND #PWR?
+U 1 1 5CF7E937
+P 4400 4650
+AR Path="/5CD9B8A8/5CF7E937" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CF7E937" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4400 4650 30  0001 C CNN
+F 1 "GND" H 4400 4580 30  0001 C CNN
+F 2 "" H 4400 4650 60  0000 C CNN
+F 3 "" H 4400 4650 60  0000 C CNN
+	1    4400 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V #PWR?
+U 1 1 5CF7E93D
+P 5250 4450
+AR Path="/5CD9B8A8/5CF7E93D" Ref="#PWR?"  Part="1" 
+AR Path="/5CF97E00/5CF7E93D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 4410 30  0001 C CNN
+F 1 "+3V" H 5250 4560 30  0000 C CNN
+F 2 "" H 5250 4450 60  0000 C CNN
+F 3 "" H 5250 4450 60  0000 C CNN
+	1    5250 4450
+	0    1    1    0   
+$EndComp
+Text Label 4050 4550 0    39   ~ 0
+SW3
+Text HLabel 5750 4650 2    60   Output ~ 0
+SW7
+Text Label 4400 2050 0    39   ~ 0
+SW2_V2
+Text Label 4400 2150 0    39   ~ 0
+SW2_V3
+NoConn ~ 4800 2250
+Wire Wire Line
+	6050 2250 6450 2250
+Wire Wire Line
+	6150 1750 6050 1750
+Wire Wire Line
+	4800 1950 4400 1950
+Wire Wire Line
+	4700 1850 4800 1850
+Wire Wire Line
+	4800 1750 4400 1750
+Wire Wire Line
+	6050 2350 6450 2350
+Wire Wire Line
+	5250 3600 5200 3600
+Wire Wire Line
+	6400 3700 6350 3700
+Wire Wire Line
+	6350 3900 6750 3900
+Wire Wire Line
+	5200 3800 5550 3800
+Wire Wire Line
+	4050 3700 4400 3700
+Wire Wire Line
+	5350 4150 5750 4150
+Wire Wire Line
+	5350 3800 5350 4150
+Connection ~ 5350 3800
+Wire Wire Line
+	5250 4450 5200 4450
+Wire Wire Line
+	4050 4550 4400 4550
+Wire Wire Line
+	4800 2050 4400 2050
+Wire Wire Line
+	4800 2150 4400 2150
+Wire Wire Line
+	6450 2150 6050 2150
+NoConn ~ 6050 1850
+NoConn ~ 6050 1950
+NoConn ~ 6050 2050
+Wire Wire Line
+	5200 4650 5750 4650
+$Comp
+L SN74LV1T34 U?
+U 1 1 5CFCAE50
+P 4800 4550
+F 0 "U?" H 5000 4350 60  0000 C CNN
+F 1 "SN74LV1T34" H 4800 4750 60  0000 C CNN
+F 2 "SN74LV1T34" H 4800 4850 60  0001 C CNN
+F 3 "" H 4600 4550 60  0000 C CNN
+F 4 "DigiKey" H 4800 4950 60  0001 C CNN "Vendor"
+F 5 "-" H 4800 5050 60  0001 C CNN "Vendor Part Number"
+F 6 "-" H 4800 5150 60  0001 C CNN "Manufacturer"
+F 7 "-" H 4800 5250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "-" H 4800 5350 60  0001 C CNN "Description"
+	1    4800 4550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,358 @@
+EESchema Schematic File Version 2
+LIBS:Lime_HAM_Z
+LIBS:LimeMicroBGD_Library
+LIBS:Cellular_Subsystem_Library
+LIBS:LimeMicroBGD_Library_bb
+LIBS:LMS8001_AppPCB-cache
+LIBS:LMS8001_PowerSupply-cache
+LIBS:ADM7155_Addon-cache
+LIBS:LMS8001_DigitalPCB-cache
+LIBS:SWR_Meter_Subsystem_library
+LIBS:GPIO_Subsystem-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FilterLib
+LIBS:BB_Library
+LIBS:Lime_RFE-rescue
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 18 44
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2800 2925 0    39   ~ 0
+FAN POWER
+$Comp
+L GND #PWR0491
+U 1 1 5CC0CB28
+P 8125 4950
+F 0 "#PWR0491" H 8125 5050 50  0001 C CNN
+F 1 "GND" H 8125 4890 50  0000 C CNN
+F 2 "" H 8125 4950 60  0001 C CNN
+F 3 "" H 8125 4950 60  0001 C CNN
+	1    8125 4950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0492
+U 1 1 5CC0CB43
+P 8125 4200
+F 0 "#PWR0492" H 8125 4300 50  0001 C CNN
+F 1 "GND" H 8125 4140 50  0000 C CNN
+F 2 "" H 8125 4200 60  0001 C CNN
+F 3 "" H 8125 4200 60  0001 C CNN
+	1    8125 4200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8125 4200 8125 4275
+Wire Wire Line
+	8125 4875 8125 4950
+$Comp
+L FAN_CONN_3 P1
+U 1 1 5CC0DEBC
+P 8125 4575
+F 0 "P1" H 8225 4825 50  0000 C CNN
+F 1 "FAN_CONN_3" H 8125 5075 60  0001 C CNN
+F 2 "FAN_CONN_3" H 8125 5175 60  0001 C CNN
+F 3 "" H 8115 4645 60  0000 C CNN
+F 4 "Digi-Key" H 8125 5675 60  0001 C CNN "Vendor"
+F 5 "WM7607DKR-ND" H 8125 5575 60  0001 C CNN "Vendor Part Number"
+F 6 "Molex" H 8125 5475 60  0001 C CNN "Manufacturer"
+F 7 "0533980371" H 8125 5375 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CONN HEADER SMD 3POS 1.25MM" H 8125 5275 60  0001 C CNN "Description"
+F 9 "FAN_CONN_3" V 8125 4575 39  0000 C CNN "Component Value"
+	1    8125 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0493
+U 1 1 5CC0DF41
+P 7825 4675
+F 0 "#PWR0493" H 7825 4775 50  0001 C CNN
+F 1 "GND" H 7825 4615 50  0000 C CNN
+F 2 "" H 7825 4675 60  0001 C CNN
+F 3 "" H 7825 4675 60  0001 C CNN
+	1    7825 4675
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7000 4575 7925 4575
+$Comp
+L 1uF_0603 C203
+U 1 1 5CC2A4C6
+P 3275 3075
+F 0 "C203" H 3325 3175 50  0000 L CNN
+F 1 "1uF_0603" H 3075 3525 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0603_gap05" H 3275 3425 60  0001 C CNN
+F 3 "" H 3275 3075 60  0000 C CNN
+F 4 "Digi-Key" H 3275 3625 60  0001 C CNN "Vendor"
+F 5 "490-3897-1-ND" H 3275 3725 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 3275 3825 60  0001 C CNN "Manufacturer"
+F 7 "GRM188R61E105KA12D" H 3275 3925 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP_CER_1UF_25V_X5R_0603" H 3275 4025 60  0001 C CNN "Description"
+F 9 "1uF" H 3400 2975 50  0000 C CNN "Component Value"
+	1    3275 3075
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR0494
+U 1 1 5CC2A4CD
+P 3275 3375
+F 0 "#PWR0494" H 3275 3375 30  0001 C CNN
+F 1 "GND" H 3275 3305 30  0001 C CNN
+F 2 "" H 3275 3375 60  0001 C CNN
+F 3 "" H 3275 3375 60  0001 C CNN
+	1    3275 3375
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3275 2775
+Wire Wire Line
+	3275 2775 3275 2875
+Wire Wire Line
+	3275 3375 3275 3275
+$Comp
+L GND #PWR0495
+U 1 1 5CC2A4D6
+P 6200 3375
+F 0 "#PWR0495" H 6200 3375 30  0001 C CNN
+F 1 "GND" H 6200 3305 30  0001 C CNN
+F 2 "" H 6200 3375 60  0001 C CNN
+F 3 "" H 6200 3375 60  0001 C CNN
+	1    6200 3375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 1nF_0603 C225
+U 1 1 5CC2A4E2
+P 6200 3075
+F 0 "C225" H 6250 3175 50  0000 L CNN
+F 1 "1nF_0603" H 6050 3475 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0603_gap05" H 6200 3375 60  0001 C CNN
+F 3 "" H 6200 3075 60  0000 C CNN
+F 4 "DigiKey" H 6200 3975 60  0001 C CNN "Vendor"
+F 5 "478-1215-1-ND" H 6200 3875 60  0001 C CNN "Vendor Part Number"
+F 6 "AVX Corporation" H 6200 3775 60  0001 C CNN "Manufacturer"
+F 7 "06035C102KAT2A" H 6200 3675 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 1000PF 50V X7R 0603" H 6200 3575 60  0001 C CNN "Description"
+F 9 "1nF" H 6325 2975 50  0000 C CNN "Component Value"
+	1    6200 3075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3375 6200 3275
+Wire Wire Line
+	6200 2775 6200 2875
+Connection ~ 6200 2775
+$Comp
+L 330R_0603 R1
+U 1 1 5CC2A4F2
+P 5600 2425
+F 0 "R1" H 5590 2495 50  0000 C CNN
+F 1 "330R_0603" H 5600 2675 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 5600 2775 60  0001 C CNN
+F 3 "" V 5600 2425 60  0000 C CNN
+F 4 "Digi-Key" H 5600 3275 60  0001 C CNN "Vendor"
+F 5 "A130088CT-ND" H 5600 3175 60  0001 C CNN "Vendor Part Number"
+F 6 "TE Connectivity Passive Product" H 5600 3075 60  0001 C CNN "Manufacturer"
+F 7 "CRGCQ0603J330R" H 5600 2975 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CRGCQ 0603 330R 5%" H 5600 2875 60  0001 C CNN "Description"
+F 9 "330R" H 5600 2415 50  0000 C CNN "Component Value"
+	1    5600 2425
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5600 2775
+Wire Wire Line
+	5600 2675 5600 2775
+Wire Wire Line
+	4900 2675 5325 2675
+Wire Wire Line
+	5325 2675 5325 2100
+Wire Wire Line
+	5325 2100 5600 2100
+Wire Wire Line
+	5600 2100 5600 2175
+$Comp
+L TPS22810DBVR U110
+U 1 1 5CC2A505
+P 4450 2675
+F 0 "U110" H 4475 3000 60  0000 C CNN
+F 1 "TPS22810DBVR" H 4475 2900 60  0000 C CNN
+F 2 "SOT23_TPS22810DBVR" H 4450 3375 60  0001 C CNN
+F 3 "" H 4425 2675 60  0000 C CNN
+F 4 "Mouser" H 4450 3875 60  0001 C CNN "Vendor"
+F 5 "595-TPS22810DBVR" H 4450 3775 60  0001 C CNN "Vendor Part Number"
+F 6 "Texas Instruments" H 4500 3675 60  0001 C CNN "Manufacturer"
+F 7 "TPS22810DBVR" H 4450 3575 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Power Switch ICs - Power Distribution Automotive 18V, 2A" H 4500 3475 60  0001 C CNN "Description"
+F 9 "TPS22810DBVR" H 4500 3275 60  0001 C CNN "Component Value"
+	1    4450 2675
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2975 2775 4000 2775
+Text HLabel 3775 2575 0    60   Input ~ 0
+FAN_EN_2V5
+Wire Wire Line
+	4000 2575 3775 2575
+$Comp
+L GND #PWR0496
+U 1 1 5CC2A510
+P 3900 2675
+F 0 "#PWR0496" H 3900 2675 30  0001 C CNN
+F 1 "GND" H 3900 2605 30  0001 C CNN
+F 2 "" H 3900 2675 60  0001 C CNN
+F 3 "" H 3900 2675 60  0001 C CNN
+	1    3900 2675
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4000 2675 3900 2675
+$Comp
+L GND #PWR0497
+U 1 1 5CC2A517
+P 5000 1975
+F 0 "#PWR0497" H 5000 1975 30  0001 C CNN
+F 1 "GND" H 5000 1905 30  0001 C CNN
+F 2 "" H 5000 1975 60  0001 C CNN
+F 3 "" H 5000 1975 60  0001 C CNN
+	1    5000 1975
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1nF_0603 C214
+U 1 1 5CC2A523
+P 5000 2275
+F 0 "C214" H 5050 2375 50  0000 L CNN
+F 1 "1nF_0603" H 4850 2675 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0603_gap05" H 5000 2575 60  0001 C CNN
+F 3 "" H 5000 2275 60  0000 C CNN
+F 4 "DigiKey" H 5000 3175 60  0001 C CNN "Vendor"
+F 5 "478-1215-1-ND" H 5000 3075 60  0001 C CNN "Vendor Part Number"
+F 6 "AVX Corporation" H 5000 2975 60  0001 C CNN "Manufacturer"
+F 7 "06035C102KAT2A" H 5000 2875 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 1000PF 50V X7R 0603" H 5000 2775 60  0001 C CNN "Description"
+F 9 "1nF" H 5125 2175 50  0000 C CNN "Component Value"
+	1    5000 2275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 1975 5000 2075
+Wire Wire Line
+	5000 2575 5000 2475
+Wire Wire Line
+	4900 2575 5000 2575
+$Comp
+L +5V #PWR0498
+U 1 1 5CC2A826
+P 2975 2775
+F 0 "#PWR0498" H 2975 2865 20  0001 C CNN
+F 1 "+5V" H 2975 2865 30  0000 C CNN
+F 2 "" H 2975 2775 60  0000 C CNN
+F 3 "" H 2975 2775 60  0000 C CNN
+	1    2975 2775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7925 4675 7825 4675
+Text HLabel 6100 4475 0    60   Output ~ 0
+FAN_SENSE
+Wire Wire Line
+	6900 4475 7925 4475
+Text Label 7025 2775 2    60   ~ 0
+FAN_POWER_5V
+Text Label 7000 4575 0    60   ~ 0
+FAN_POWER_5V
+Wire Wire Line
+	4900 2775 7025 2775
+$Comp
+L 0R_0402_Yageo R235
+U 1 1 5CC0E665
+P 6650 4475
+F 0 "R235" H 6640 4545 50  0000 C CNN
+F 1 "0R_0402_Yageo" H 6650 4625 50  0001 C CNN
+F 2 "SMD0402" H 6650 4725 60  0001 C CNN
+F 3 "" H 6640 4545 60  0000 C CNN
+F 4 "Mouser" H 6650 5125 60  0001 C CNN "Vendor"
+F 5 "603-RC0402JR-070RL" H 6650 5225 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 6650 5025 60  0001 C CNN "Manufacturer"
+F 7 "RC0402JR-070RL" H 6650 4925 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 6650 4825 60  0001 C CNN "Description"
+F 9 "0R" H 6650 4465 50  0000 C CNN "Component Value"
+	1    6650 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0402_NF R216
+U 1 1 5CC0E762
+P 6300 4750
+F 0 "R216" H 6190 4825 50  0000 C CNN
+F 1 "0R_0402_NF" H 6265 4925 50  0001 C CNN
+F 2 "SMD0402" H 6240 5000 60  0001 C CNN
+F 3 "" V 6290 4750 60  0000 C CNN
+F 4 "Digi-Key" H 6310 5420 60  0001 C CNN "Vendor"
+F 5 "311-0.0JRCT-ND" H 6320 5500 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 6290 5330 60  0001 C CNN "Manufacturer"
+F 7 "RC0402JR-070RL" H 6300 5200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES, 0.0 OHM,1/16W, JUMP, 0402 SMD," H 6260 5100 60  0001 C CNN "Description"
+F 9 "0R" H 6250 4750 50  0000 C CNN "Component Value"
+F 10 "NF" H 6400 4750 60  0000 C CNN "Assemble"
+	1    6300 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 4475 6400 4475
+$Comp
+L GND #PWR0499
+U 1 1 5CC0E922
+P 6300 5075
+F 0 "#PWR0499" H 6300 5175 50  0001 C CNN
+F 1 "GND" H 6300 5015 50  0000 C CNN
+F 2 "" H 6300 5075 60  0001 C CNN
+F 3 "" H 6300 5075 60  0001 C CNN
+	1    6300 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5000 6300 5075
+Wire Wire Line
+	6300 4500 6300 4475
+Connection ~ 6300 4475
+$EndSCHEMATC

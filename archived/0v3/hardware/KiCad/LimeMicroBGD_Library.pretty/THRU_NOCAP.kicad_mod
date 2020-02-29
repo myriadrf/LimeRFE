@@ -1,0 +1,12 @@
+(module THRU_NOCAP (layer F.Cu) (tedit 0)
+  (fp_text reference VAL (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.381 0.381) (thickness 0.127)))
+  )
+  (fp_text value REF (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.381 0.381) (thickness 0.127)))
+  )
+  (fp_poly (pts (xy 0 0.64) (xy 0 4.8) (xy 15 4.8) (xy 15 0.64)) (layer F.Cu) (width 0))
+  (fp_poly (pts (xy 0 -0.64) (xy 0 -4.8) (xy 15 -4.8) (xy 15 -0.64)) (layer F.Cu) (width 0))
+  (fp_poly (pts (xy 0 0.395) (xy 4.44 0.395) (xy 4.44 -0.395) (xy 0 -0.395)) (layer F.Cu) (width 0))
+  (fp_poly (pts (xy 4.44 0.395) (xy 15 0.395) (xy 15 -0.395) (xy 4.44 -0.395)) (layer F.Cu) (width 0))
+)

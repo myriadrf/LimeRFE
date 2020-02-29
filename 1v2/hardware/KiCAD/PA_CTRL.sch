@@ -1,0 +1,1363 @@
+EESchema Schematic File Version 2
+LIBS:Lime_HAM_Z
+LIBS:LimeMicroBGD_Library
+LIBS:Cellular_Subsystem_Library
+LIBS:HAM_BOARD-rescue
+LIBS:LimeMicroBGD_Library_bb
+LIBS:LMS8001_AppPCB-cache
+LIBS:LMS8001_PowerSupply-cache
+LIBS:ADM7155_Addon-cache
+LIBS:LMS8001_DigitalPCB-cache
+LIBS:SWR_Meter_Subsystem_library
+LIBS:GPIO_Subsystem-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FilterLib
+LIBS:LimeMicroBGD_Library_old
+LIBS:BB_Library
+LIBS:HAM_BOARD-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 45
+Title ""
+Date "7 feb 2018"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR0352
+U 1 1 59DCF6D3
+P 775 2000
+F 0 "#PWR0352" H 775 2000 30  0001 C CNN
+F 1 "GND" H 775 1930 30  0001 C CNN
+F 2 "" H 775 2000 60  0000 C CNN
+F 3 "" H 775 2000 60  0000 C CNN
+	1    775  2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0353
+U 1 1 59DCF6E1
+P 1650 1400
+F 0 "#PWR0353" H 1650 1400 30  0001 C CNN
+F 1 "GND" H 1650 1330 30  0001 C CNN
+F 2 "" H 1650 1400 60  0000 C CNN
+F 3 "" H 1650 1400 60  0000 C CNN
+	1    1650 1400
+	0    1    1    0   
+$EndComp
+Text Label 1625 2050 1    60   ~ 0
+EN_PA1_INT
+NoConn ~ 2650 1500
+Text Label 1750 6600 2    60   ~ 0
+EN_PA1_INT
+Text Label 1750 6800 2    60   ~ 0
+EN_PA2_INT
+Text HLabel 10600 1225 2    60   Output ~ 0
+PA1_VCC1
+Text HLabel 3775 1300 2    60   Output ~ 0
+PA1_VREF
+Text HLabel 10600 975  2    60   Output ~ 0
+PA1_VCC2
+Text HLabel 1150 6800 0    60   Input ~ 0
+PA2_EN
+Text HLabel 1150 6600 0    60   Input ~ 0
+PA1_EN
+Text HLabel 775  1150 1    60   Input ~ 0
++5V
+Text Notes 1775 1050 0    120  ~ 24
+LDO +2.8V
+$Comp
+L GND #PWR0354
+U 1 1 5A6F33D1
+P 1250 2000
+F 0 "#PWR0354" H 1250 2000 30  0001 C CNN
+F 1 "GND" H 1250 1930 30  0001 C CNN
+F 2 "" H 1250 2000 60  0000 C CNN
+F 3 "" H 1250 2000 60  0000 C CNN
+	1    1250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0355
+U 1 1 5A6F34F9
+P 3450 2000
+F 0 "#PWR0355" H 3450 2000 30  0001 C CNN
+F 1 "GND" H 3450 1930 30  0001 C CNN
+F 2 "" H 3450 2000 60  0000 C CNN
+F 3 "" H 3450 2000 60  0000 C CNN
+	1    3450 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0356
+U 1 1 5A6F3501
+P 2975 2000
+F 0 "#PWR0356" H 2975 2000 30  0001 C CNN
+F 1 "GND" H 2975 1930 30  0001 C CNN
+F 2 "" H 2975 2000 60  0000 C CNN
+F 3 "" H 2975 2000 60  0000 C CNN
+	1    2975 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0357
+U 1 1 5A6FD019
+P 1975 7525
+F 0 "#PWR0357" H 1975 7525 30  0001 C CNN
+F 1 "GND" H 1975 7455 30  0001 C CNN
+F 2 "" H 1975 7525 60  0000 C CNN
+F 3 "" H 1975 7525 60  0000 C CNN
+	1    1975 7525
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0358
+U 1 1 5A6FD1E0
+P 2350 7525
+F 0 "#PWR0358" H 2350 7525 30  0001 C CNN
+F 1 "GND" H 2350 7455 30  0001 C CNN
+F 2 "" H 2350 7525 60  0000 C CNN
+F 3 "" H 2350 7525 60  0000 C CNN
+	1    2350 7525
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0359
+U 1 1 5A7003A8
+P 7675 1550
+F 0 "#PWR0359" H 7675 1550 30  0001 C CNN
+F 1 "GND" H 7675 1480 30  0001 C CNN
+F 2 "" H 7675 1550 60  0000 C CNN
+F 3 "" H 7675 1550 60  0000 C CNN
+	1    7675 1550
+	1    0    0    -1  
+$EndComp
+Text Label 6375 1375 0    60   ~ 0
+EN_PA1_INT
+Text HLabel 4750 1075 1    60   Input ~ 0
++5V
+Text Notes 6450 825  0    120  ~ 24
+SWITCH (OPTIONAL)
+$Comp
+L GND #PWR0360
+U 1 1 5A7003D1
+P 4750 1925
+F 0 "#PWR0360" H 4750 1925 30  0001 C CNN
+F 1 "GND" H 4750 1855 30  0001 C CNN
+F 2 "" H 4750 1925 60  0000 C CNN
+F 3 "" H 4750 1925 60  0000 C CNN
+	1    4750 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0361
+U 1 1 5A7003D9
+P 9700 1925
+F 0 "#PWR0361" H 9700 1925 30  0001 C CNN
+F 1 "GND" H 9700 1855 30  0001 C CNN
+F 2 "" H 9700 1925 60  0000 C CNN
+F 3 "" H 9700 1925 60  0000 C CNN
+	1    9700 1925
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0362
+U 1 1 5A7003E0
+P 9225 1925
+F 0 "#PWR0362" H 9225 1925 30  0001 C CNN
+F 1 "GND" H 9225 1855 30  0001 C CNN
+F 2 "" H 9225 1925 60  0000 C CNN
+F 3 "" H 9225 1925 60  0000 C CNN
+	1    9225 1925
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0363
+U 1 1 5A700407
+P 7275 2575
+F 0 "#PWR0363" H 7275 2575 30  0001 C CNN
+F 1 "GND" H 7275 2505 30  0001 C CNN
+F 2 "" H 7275 2575 60  0000 C CNN
+F 3 "" H 7275 2575 60  0000 C CNN
+	1    7275 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0364
+U 1 1 5A70040E
+P 8025 2325
+F 0 "#PWR0364" H 8025 2325 30  0001 C CNN
+F 1 "GND" H 8025 2255 30  0001 C CNN
+F 2 "" H 8025 2325 60  0000 C CNN
+F 3 "" H 8025 2325 60  0000 C CNN
+	1    8025 2325
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6625 2150
+Text Label 6075 2050 0    60   ~ 0
+EN_PA1_INT
+$Comp
+L GND #PWR0365
+U 1 1 5A700438
+P 5225 1925
+F 0 "#PWR0365" H 5225 1925 30  0001 C CNN
+F 1 "GND" H 5225 1855 30  0001 C CNN
+F 2 "" H 5225 1925 60  0000 C CNN
+F 3 "" H 5225 1925 60  0000 C CNN
+	1    5225 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0366
+U 1 1 5A700471
+P 8450 3225
+F 0 "#PWR0366" H 8450 3225 30  0001 C CNN
+F 1 "GND" H 8450 3155 30  0001 C CNN
+F 2 "" H 8450 3225 60  0000 C CNN
+F 3 "" H 8450 3225 60  0000 C CNN
+	1    8450 3225
+	-1   0    0    -1  
+$EndComp
+Connection ~ 775  1300
+Wire Wire Line
+	775  1900 775  2000
+Wire Wire Line
+	1650 1400 1750 1400
+Wire Wire Line
+	2650 1300 3775 1300
+Wire Wire Line
+	1750 1500 1625 1500
+Wire Wire Line
+	1625 1500 1625 2050
+Wire Wire Line
+	1150 6600 2350 6600
+Wire Wire Line
+	1150 6800 1975 6800
+Wire Wire Line
+	775  1150 775  1500
+Connection ~ 3450 1300
+Wire Wire Line
+	1250 1900 1250 2000
+Wire Wire Line
+	1250 1300 1250 1500
+Connection ~ 1250 1300
+Wire Wire Line
+	3450 1900 3450 2000
+Wire Wire Line
+	2975 1900 2975 2000
+Wire Wire Line
+	2975 1500 2975 1300
+Connection ~ 2975 1300
+Wire Wire Line
+	3450 1500 3450 1300
+Wire Wire Line
+	1975 7425 1975 7525
+Wire Wire Line
+	1975 6800 1975 6925
+Wire Wire Line
+	2350 6600 2350 6925
+Wire Wire Line
+	2350 7425 2350 7525
+Wire Wire Line
+	6825 1275 6925 1275
+Wire Wire Line
+	6825 1175 6825 1275
+Wire Wire Line
+	6825 1175 6925 1175
+Wire Wire Line
+	7675 1275 7575 1275
+Wire Wire Line
+	7675 1175 7675 1275
+Wire Wire Line
+	7675 1175 7575 1175
+Wire Wire Line
+	7675 1375 7675 1550
+Wire Wire Line
+	7675 1375 7575 1375
+Wire Wire Line
+	6925 1375 6375 1375
+Connection ~ 4750 1225
+Connection ~ 6825 1225
+Connection ~ 7675 1225
+Connection ~ 9825 1225
+Wire Wire Line
+	9825 975  9950 975 
+Wire Wire Line
+	4750 1825 4750 1925
+Wire Wire Line
+	4750 1075 4750 1425
+Wire Wire Line
+	9700 1825 9700 1925
+Wire Wire Line
+	9225 1825 9225 1925
+Wire Wire Line
+	9225 1225 9225 1425
+Wire Wire Line
+	9700 1225 9700 1425
+Connection ~ 9225 1225
+Connection ~ 9700 1225
+Wire Wire Line
+	9825 1225 9825 975 
+Wire Wire Line
+	7275 2500 7275 2575
+Wire Wire Line
+	8025 2150 8025 2325
+Wire Wire Line
+	8025 2150 7925 2150
+Wire Wire Line
+	6625 2050 6075 2050
+Wire Wire Line
+	5725 1950 6625 1950
+Connection ~ 5725 1225
+Connection ~ 8750 1225
+Wire Wire Line
+	8075 1225 7675 1225
+Wire Wire Line
+	6375 1225 6825 1225
+Connection ~ 5225 1225
+Wire Wire Line
+	5225 1825 5225 1925
+Wire Wire Line
+	5225 1425 5225 1225
+Wire Wire Line
+	4750 1225 5875 1225
+Wire Wire Line
+	8450 3125 8450 3225
+Wire Wire Line
+	8450 2025 8450 1950
+Connection ~ 8450 1950
+Wire Wire Line
+	8450 2525 8450 2625
+Wire Wire Line
+	8450 2575 8225 2575
+Wire Wire Line
+	8225 2575 8225 2050
+Wire Wire Line
+	8225 2050 7925 2050
+Connection ~ 8450 2575
+Wire Wire Line
+	10450 1225 10600 1225
+Wire Wire Line
+	10450 975  10600 975 
+Wire Wire Line
+	775  1300 1750 1300
+Wire Wire Line
+	8575 1225 9950 1225
+Text Notes 6775 2775 0    120  ~ 24
+LDO +4.5V
+Wire Wire Line
+	5725 1225 5725 1375
+Wire Wire Line
+	5725 1875 5725 1950
+Wire Wire Line
+	8750 1225 8750 1375
+Wire Wire Line
+	8750 1950 8750 1875
+Wire Wire Line
+	7925 1950 8750 1950
+$Comp
+L NCP702_2V8 U50
+U 1 1 5CA2F71B
+P 2200 1400
+F 0 "U50" H 2200 1150 60  0000 C CNN
+F 1 "NCP702_2V8" H 2200 1800 60  0001 C CNN
+F 2 "NCP702_TSOP5" H 2200 1900 60  0001 C CNN
+F 3 "" H 2150 1750 60  0000 C CNN
+F 4 "Mouser" H 2200 2300 60  0001 C CNN "Vendor"
+F 5 "863-NCP702SN28T1G" H 2200 2400 60  0001 C CNN "Vendor Part Number"
+F 6 "ON Semiconductor" H 2200 2200 60  0001 C CNN "Manufacturer"
+F 7 "NCP702SN28T1G" H 2200 2100 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LDO Voltage Regulators 200 MA LDO ULTRA-LOW IQ" H 2200 2000 60  0001 C CNN "Description"
+F 9 "NCP702_2V8" H 2200 1650 60  0000 C CNN "Component Value"
+	1    2200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10uF_1206_Taiyo C93
+U 1 1 5CA30A71
+P 775 1700
+F 0 "C93" H 825 1800 50  0000 L CNN
+F 1 "10uF_1206_Taiyo" H 475 2050 50  0001 L CNN
+F 2 "SMD1206" H 775 1950 60  0001 C CNN
+F 3 "" H 825 1800 60  0000 C CNN
+F 4 "Mouser" H 775 2450 60  0001 C CNN "Vendor"
+F 5 "963-TMK316BJ106KL-T" H 775 2550 60  0001 C CNN "Vendor Part Number"
+F 6 "Taiyo Yuden" H 775 2350 60  0001 C CNN "Manufacturer"
+F 7 "TMK316BJ106KL-T" H 775 2250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 25V X5R +/-10% 1206 Gen Purp" H 775 2150 60  0001 C CNN "Description"
+F 9 "10uF" H 900 1600 50  0000 C CNN "Component Value"
+	1    775  1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C96
+U 1 1 5CA30B99
+P 1250 1700
+F 0 "C96" H 1300 1800 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 900 2100 50  0001 L CNN
+F 2 "SMD0402" H 1250 2000 39  0001 C CNN
+F 3 "" H 1300 1800 60  0000 C CNN
+F 4 "Mouser" H 1250 2200 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 1200 2300 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 1250 2400 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 1300 2500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 1350 2600 60  0001 C CNN "Description"
+F 9 "0.1uF" H 1375 1600 50  0000 C CNN "Component Value"
+	1    1250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C98
+U 1 1 5CA30E38
+P 2975 1700
+F 0 "C98" H 3025 1800 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 2625 2100 50  0001 L CNN
+F 2 "SMD0402" H 2975 2000 39  0001 C CNN
+F 3 "" H 3025 1800 60  0000 C CNN
+F 4 "Mouser" H 2975 2200 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 2925 2300 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 2975 2400 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 3025 2500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 3075 2600 60  0001 C CNN "Description"
+F 9 "0.1uF" H 3100 1600 50  0000 C CNN "Component Value"
+	1    2975 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10uF_1206_Taiyo C101
+U 1 1 5CA30EC3
+P 3450 1700
+F 0 "C101" H 3500 1800 50  0000 L CNN
+F 1 "10uF_1206_Taiyo" H 3150 2050 50  0001 L CNN
+F 2 "SMD1206" H 3450 1950 60  0001 C CNN
+F 3 "" H 3500 1800 60  0000 C CNN
+F 4 "Mouser" H 3450 2450 60  0001 C CNN "Vendor"
+F 5 "963-TMK316BJ106KL-T" H 3450 2550 60  0001 C CNN "Vendor Part Number"
+F 6 "Taiyo Yuden" H 3450 2350 60  0001 C CNN "Manufacturer"
+F 7 "TMK316BJ106KL-T" H 3450 2250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 25V X5R +/-10% 1206 Gen Purp" H 3450 2150 60  0001 C CNN "Description"
+F 9 "10uF" H 3575 1600 50  0000 C CNN "Component Value"
+	1    3450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0805_Yageo R103
+U 1 1 5CA31ABE
+P 5725 1625
+F 0 "R103" H 5715 1695 50  0000 C CNN
+F 1 "0R_0805_Yageo" H 5725 1775 50  0001 C CNN
+F 2 "SMD0805" H 5725 1875 60  0001 C CNN
+F 3 "" H 5715 1695 60  0000 C CNN
+F 4 "Mouser" H 5725 2275 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 5725 2375 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 5725 2175 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 5725 2075 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 5725 1975 60  0001 C CNN "Description"
+F 9 "0R" H 5725 1615 50  0000 C CNN "Component Value"
+	1    5725 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L 10uF_1206_Taiyo C104
+U 1 1 5CA31DCD
+P 4750 1625
+F 0 "C104" H 4800 1725 50  0000 L CNN
+F 1 "10uF_1206_Taiyo" H 4450 1975 50  0001 L CNN
+F 2 "SMD1206" H 4750 1875 60  0001 C CNN
+F 3 "" H 4800 1725 60  0000 C CNN
+F 4 "Mouser" H 4750 2375 60  0001 C CNN "Vendor"
+F 5 "963-TMK316BJ106KL-T" H 4750 2475 60  0001 C CNN "Vendor Part Number"
+F 6 "Taiyo Yuden" H 4750 2275 60  0001 C CNN "Manufacturer"
+F 7 "TMK316BJ106KL-T" H 4750 2175 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 25V X5R +/-10% 1206 Gen Purp" H 4750 2075 60  0001 C CNN "Description"
+F 9 "10uF" H 4875 1525 50  0000 C CNN "Component Value"
+	1    4750 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C106
+U 1 1 5CA32087
+P 5225 1625
+F 0 "C106" H 5275 1725 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 4875 2025 50  0001 L CNN
+F 2 "SMD0402" H 5225 1925 39  0001 C CNN
+F 3 "" H 5275 1725 60  0000 C CNN
+F 4 "Mouser" H 5225 2125 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 5175 2225 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 5225 2325 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 5275 2425 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 5325 2525 60  0001 C CNN "Description"
+F 9 "0.1uF" H 5350 1525 50  0000 C CNN "Component Value"
+	1    5225 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10uF_1206_Taiyo C110
+U 1 1 5CA322AA
+P 9700 1625
+F 0 "C110" H 9750 1725 50  0000 L CNN
+F 1 "10uF_1206_Taiyo" H 9400 1975 50  0001 L CNN
+F 2 "SMD1206" H 9700 1875 60  0001 C CNN
+F 3 "" H 9750 1725 60  0000 C CNN
+F 4 "Mouser" H 9700 2375 60  0001 C CNN "Vendor"
+F 5 "963-TMK316BJ106KL-T" H 9700 2475 60  0001 C CNN "Vendor Part Number"
+F 6 "Taiyo Yuden" H 9700 2275 60  0001 C CNN "Manufacturer"
+F 7 "TMK316BJ106KL-T" H 9700 2175 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 25V X5R +/-10% 1206 Gen Purp" H 9700 2075 60  0001 C CNN "Description"
+F 9 "10uF" H 9825 1525 50  0000 C CNN "Component Value"
+	1    9700 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C108
+U 1 1 5CA32395
+P 9225 1625
+F 0 "C108" H 9275 1725 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 8875 2025 50  0001 L CNN
+F 2 "SMD0402" H 9225 1925 39  0001 C CNN
+F 3 "" H 9275 1725 60  0000 C CNN
+F 4 "Mouser" H 9225 2125 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 9175 2225 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 9225 2325 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 9275 2425 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 9325 2525 60  0001 C CNN "Description"
+F 9 "0.1uF" H 9350 1525 50  0000 C CNN "Component Value"
+	1    9225 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0805_Yageo R113
+U 1 1 5CA32608
+P 8750 1625
+F 0 "R113" H 8740 1695 50  0000 C CNN
+F 1 "0R_0805_Yageo" H 8750 1775 50  0001 C CNN
+F 2 "SMD0805" H 8750 1875 60  0001 C CNN
+F 3 "" H 8740 1695 60  0000 C CNN
+F 4 "Mouser" H 8750 2275 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 8750 2375 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 8750 2175 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 8750 2075 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 8750 1975 60  0001 C CNN "Description"
+F 9 "0R" H 8750 1615 50  0000 C CNN "Component Value"
+	1    8750 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L 0RNF_0805_Yageo R105
+U 1 1 5CA32E7A
+P 6125 1225
+F 0 "R105" H 6115 1295 50  0000 C CNN
+F 1 "0RNF_0805_Yageo" H 6125 1375 50  0001 C CNN
+F 2 "SMD0805" H 6125 1475 60  0001 C CNN
+F 3 "" H 6115 1295 60  0000 C CNN
+F 4 "Mouser" H 6125 1875 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 6125 1975 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 6125 1775 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 6125 1675 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 6125 1575 60  0001 C CNN "Description"
+F 9 "NF" H 6125 1215 50  0000 C CNN "Component Value"
+	1    6125 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0RNF_0805_Yageo R107
+U 1 1 5CA3303D
+P 8325 1225
+F 0 "R107" H 8315 1295 50  0000 C CNN
+F 1 "0RNF_0805_Yageo" H 8325 1375 50  0001 C CNN
+F 2 "SMD0805" H 8325 1475 60  0001 C CNN
+F 3 "" H 8315 1295 60  0000 C CNN
+F 4 "Mouser" H 8325 1875 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 8325 1975 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 8325 1775 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 8325 1675 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 8325 1575 60  0001 C CNN "Description"
+F 9 "NF" H 8325 1215 50  0000 C CNN "Component Value"
+	1    8325 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L LD39200 U55
+U 1 1 5CA33C54
+P 7275 2050
+F 0 "U55" H 7725 1700 60  0000 C CNN
+F 1 "LD39200" H 7275 2400 60  0001 C CNN
+F 2 "LD39200" H 7275 2500 60  0001 C CNN
+F 3 "" H 7225 2400 60  0000 C CNN
+F 4 "Mouser" H 7275 2900 60  0001 C CNN "Vendor"
+F 5 "511-LD39200PUR" H 7275 3000 60  0001 C CNN "Vendor Part Number"
+F 6 "STMicroelectronics" H 7275 2800 60  0001 C CNN "Manufacturer"
+F 7 "LD39200PUR" H 7275 2700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LDO Voltage Regulators 2 A high PSRR ultra low drop linear regulator with reverse current protection" H 7275 2600 60  0001 C CNN "Description"
+F 9 "LD39200" H 7275 2300 60  0000 C CNN "Component Value"
+	1    7275 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0805_Yageo R115
+U 1 1 5CA34528
+P 10200 975
+F 0 "R115" H 10190 1045 50  0000 C CNN
+F 1 "0R_0805_Yageo" H 10200 1125 50  0001 C CNN
+F 2 "SMD0805" H 10200 1225 60  0001 C CNN
+F 3 "" H 10190 1045 60  0000 C CNN
+F 4 "Mouser" H 10200 1625 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 10200 1725 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 10200 1525 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 10200 1425 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 10200 1325 60  0001 C CNN "Description"
+F 9 "0R" H 10200 965 50  0000 C CNN "Component Value"
+	1    10200 975 
+	-1   0    0    1   
+$EndComp
+$Comp
+L 0R_0805_Yageo R116
+U 1 1 5CA345DF
+P 10200 1225
+F 0 "R116" H 10190 1295 50  0000 C CNN
+F 1 "0R_0805_Yageo" H 10200 1375 50  0001 C CNN
+F 2 "SMD0805" H 10200 1475 60  0001 C CNN
+F 3 "" H 10190 1295 60  0000 C CNN
+F 4 "Mouser" H 10200 1875 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 10200 1975 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 10200 1775 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 10200 1675 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 10200 1575 60  0001 C CNN "Description"
+F 9 "0R" H 10200 1215 50  0000 C CNN "Component Value"
+	1    10200 1225
+	-1   0    0    1   
+$EndComp
+$Comp
+L NCP331SNT1G U53
+U 1 1 5CA35098
+P 7225 1275
+F 0 "U53" H 7250 1600 60  0000 C CNN
+F 1 "NCP331SNT1G" H 7250 1500 60  0000 C CNN
+F 2 "TSOP-6" H 7225 1025 60  0001 C CNN
+F 3 "" H 7225 1275 60  0000 C CNN
+F 4 "Mouser" H 7225 1675 60  0001 C CNN "Vendor"
+F 5 "863-NCP331SNT1G" H 7225 1775 60  0001 C CNN "Vendor Part Number"
+F 6 "ON Semiconductor" H 7225 1875 60  0001 C CNN "Manufacturer"
+F 7 "NCP331SNT1G" H 7225 1975 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Power Switch ICs - Power Distribution LOAD SW W AUTO DISCHARGE" H 7225 2075 60  0001 C CNN "Description"
+F 9 "NCP331SNT1G" H 7225 2175 60  0001 C CNN "Component Value"
+	1    7225 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K_0402_Yageo R110
+U 1 1 5CA35A75
+P 8450 2875
+F 0 "R110" H 8440 2945 50  0000 C CNN
+F 1 "10K_0402_Yageo" H 8450 3025 50  0001 C CNN
+F 2 "SMD0402" H 8450 3125 60  0001 C CNN
+F 3 "" H 8440 2945 60  0000 C CNN
+F 4 "Mouser" H 8450 3525 60  0001 C CNN "Vendor"
+F 5 "603-RC0402JR-7D10KL" H 8450 3625 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 8450 3425 60  0001 C CNN "Manufacturer"
+F 7 "RC0402JR-7D10KL" H 8450 3325 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors 10K ohm 5% 50V General Purpose" H 8450 3225 60  0001 C CNN "Description"
+F 9 "10K" H 8450 2865 50  0000 C CNN "Component Value"
+	1    8450 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L 80k_0402_Yageo R109
+U 1 1 5CA36222
+P 8450 2275
+F 0 "R109" H 8440 2345 50  0000 C CNN
+F 1 "80k_0402_Yageo" H 8450 2425 50  0001 C CNN
+F 2 "SMD0402" H 8450 2525 60  0001 C CNN
+F 3 "" H 8440 2345 60  0000 C CNN
+F 4 "Mouser" H 8450 2925 60  0001 C CNN "Vendor"
+F 5 "603-RC0402FR-0780K6L" H 8450 3025 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 8450 2825 60  0001 C CNN "Manufacturer"
+F 7 "RC0402FR-0780K6L" H 8450 2725 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD 80.6K OHM 1%" H 8450 2625 60  0001 C CNN "Description"
+F 9 "80.6k" H 8450 2265 50  0000 C CNN "Component Value"
+	1    8450 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L 10K_0402_Yageo R101
+U 1 1 5CA37241
+P 1975 7175
+F 0 "R101" H 1965 7245 50  0000 C CNN
+F 1 "10K_0402_Yageo" H 1975 7325 50  0001 C CNN
+F 2 "SMD0402" H 1975 7425 60  0001 C CNN
+F 3 "" H 1965 7245 60  0000 C CNN
+F 4 "Mouser" H 1975 7825 60  0001 C CNN "Vendor"
+F 5 "603-RC0402JR-7D10KL" H 1975 7925 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 1975 7725 60  0001 C CNN "Manufacturer"
+F 7 "RC0402JR-7D10KL" H 1975 7625 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors 10K ohm 5% 50V General Purpose" H 1975 7525 60  0001 C CNN "Description"
+F 9 "10K" H 1975 7165 50  0000 C CNN "Component Value"
+	1    1975 7175
+	0    1    1    0   
+$EndComp
+$Comp
+L 10K_0402_Yageo R102
+U 1 1 5CA3734D
+P 2350 7175
+F 0 "R102" H 2340 7245 50  0000 C CNN
+F 1 "10K_0402_Yageo" H 2350 7325 50  0001 C CNN
+F 2 "SMD0402" H 2350 7425 60  0001 C CNN
+F 3 "" H 2340 7245 60  0000 C CNN
+F 4 "Mouser" H 2350 7825 60  0001 C CNN "Vendor"
+F 5 "603-RC0402JR-7D10KL" H 2350 7925 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 2350 7725 60  0001 C CNN "Manufacturer"
+F 7 "RC0402JR-7D10KL" H 2350 7625 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors 10K ohm 5% 50V General Purpose" H 2350 7525 60  0001 C CNN "Description"
+F 9 "10K" H 2350 7165 50  0000 C CNN "Component Value"
+	1    2350 7175
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0367
+U 1 1 5CA3BB61
+P 775 4475
+F 0 "#PWR0367" H 775 4475 30  0001 C CNN
+F 1 "GND" H 775 4405 30  0001 C CNN
+F 2 "" H 775 4475 60  0000 C CNN
+F 3 "" H 775 4475 60  0000 C CNN
+	1    775  4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0368
+U 1 1 5CA3BB67
+P 1650 3875
+F 0 "#PWR0368" H 1650 3875 30  0001 C CNN
+F 1 "GND" H 1650 3805 30  0001 C CNN
+F 2 "" H 1650 3875 60  0000 C CNN
+F 3 "" H 1650 3875 60  0000 C CNN
+	1    1650 3875
+	0    1    1    0   
+$EndComp
+Text Label 1625 4525 1    60   ~ 0
+EN_PA2_INT
+NoConn ~ 2650 3975
+Text HLabel 10600 3700 2    60   Output ~ 0
+PA2_VCC1
+Text HLabel 3775 3775 2    60   Output ~ 0
+PA2_VREF
+Text HLabel 10600 3450 2    60   Output ~ 0
+PA2_VCC2
+Text HLabel 775  3625 1    60   Input ~ 0
++5V
+Text Notes 1775 3525 0    120  ~ 24
+LDO +2.8V
+$Comp
+L GND #PWR0369
+U 1 1 5CA3BB74
+P 1250 4475
+F 0 "#PWR0369" H 1250 4475 30  0001 C CNN
+F 1 "GND" H 1250 4405 30  0001 C CNN
+F 2 "" H 1250 4475 60  0000 C CNN
+F 3 "" H 1250 4475 60  0000 C CNN
+	1    1250 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0370
+U 1 1 5CA3BB7A
+P 3450 4475
+F 0 "#PWR0370" H 3450 4475 30  0001 C CNN
+F 1 "GND" H 3450 4405 30  0001 C CNN
+F 2 "" H 3450 4475 60  0000 C CNN
+F 3 "" H 3450 4475 60  0000 C CNN
+	1    3450 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0371
+U 1 1 5CA3BB80
+P 2975 4475
+F 0 "#PWR0371" H 2975 4475 30  0001 C CNN
+F 1 "GND" H 2975 4405 30  0001 C CNN
+F 2 "" H 2975 4475 60  0000 C CNN
+F 3 "" H 2975 4475 60  0000 C CNN
+	1    2975 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0372
+U 1 1 5CA3BB86
+P 7675 4025
+F 0 "#PWR0372" H 7675 4025 30  0001 C CNN
+F 1 "GND" H 7675 3955 30  0001 C CNN
+F 2 "" H 7675 4025 60  0000 C CNN
+F 3 "" H 7675 4025 60  0000 C CNN
+	1    7675 4025
+	1    0    0    -1  
+$EndComp
+Text Label 6375 3850 0    60   ~ 0
+EN_PA2_INT
+Text HLabel 4750 3550 1    60   Input ~ 0
++5V
+Text Notes 6450 3300 0    120  ~ 24
+SWITCH (OPTIONAL)
+$Comp
+L GND #PWR0373
+U 1 1 5CA3BB8F
+P 4750 4400
+F 0 "#PWR0373" H 4750 4400 30  0001 C CNN
+F 1 "GND" H 4750 4330 30  0001 C CNN
+F 2 "" H 4750 4400 60  0000 C CNN
+F 3 "" H 4750 4400 60  0000 C CNN
+	1    4750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0374
+U 1 1 5CA3BB95
+P 9700 4400
+F 0 "#PWR0374" H 9700 4400 30  0001 C CNN
+F 1 "GND" H 9700 4330 30  0001 C CNN
+F 2 "" H 9700 4400 60  0000 C CNN
+F 3 "" H 9700 4400 60  0000 C CNN
+	1    9700 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0375
+U 1 1 5CA3BB9B
+P 9225 4400
+F 0 "#PWR0375" H 9225 4400 30  0001 C CNN
+F 1 "GND" H 9225 4330 30  0001 C CNN
+F 2 "" H 9225 4400 60  0000 C CNN
+F 3 "" H 9225 4400 60  0000 C CNN
+	1    9225 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0376
+U 1 1 5CA3BBA1
+P 7275 5050
+F 0 "#PWR0376" H 7275 5050 30  0001 C CNN
+F 1 "GND" H 7275 4980 30  0001 C CNN
+F 2 "" H 7275 5050 60  0000 C CNN
+F 3 "" H 7275 5050 60  0000 C CNN
+	1    7275 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0377
+U 1 1 5CA3BBA7
+P 8025 4800
+F 0 "#PWR0377" H 8025 4800 30  0001 C CNN
+F 1 "GND" H 8025 4730 30  0001 C CNN
+F 2 "" H 8025 4800 60  0000 C CNN
+F 3 "" H 8025 4800 60  0000 C CNN
+	1    8025 4800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6625 4625
+Text Label 6075 4525 0    60   ~ 0
+EN_PA2_INT
+$Comp
+L GND #PWR0378
+U 1 1 5CA3BBAF
+P 5225 4400
+F 0 "#PWR0378" H 5225 4400 30  0001 C CNN
+F 1 "GND" H 5225 4330 30  0001 C CNN
+F 2 "" H 5225 4400 60  0000 C CNN
+F 3 "" H 5225 4400 60  0000 C CNN
+	1    5225 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0379
+U 1 1 5CA3BBB5
+P 8450 5700
+F 0 "#PWR0379" H 8450 5700 30  0001 C CNN
+F 1 "GND" H 8450 5630 30  0001 C CNN
+F 2 "" H 8450 5700 60  0000 C CNN
+F 3 "" H 8450 5700 60  0000 C CNN
+	1    8450 5700
+	-1   0    0    -1  
+$EndComp
+Connection ~ 775  3775
+Wire Wire Line
+	775  4375 775  4475
+Wire Wire Line
+	1650 3875 1750 3875
+Wire Wire Line
+	2650 3775 3775 3775
+Wire Wire Line
+	1750 3975 1625 3975
+Wire Wire Line
+	1625 3975 1625 4525
+Wire Wire Line
+	775  3625 775  3975
+Connection ~ 3450 3775
+Wire Wire Line
+	1250 4375 1250 4475
+Wire Wire Line
+	1250 3775 1250 3975
+Connection ~ 1250 3775
+Wire Wire Line
+	3450 4375 3450 4475
+Wire Wire Line
+	2975 4375 2975 4475
+Wire Wire Line
+	2975 3975 2975 3775
+Connection ~ 2975 3775
+Wire Wire Line
+	3450 3975 3450 3775
+Wire Wire Line
+	6825 3750 6925 3750
+Wire Wire Line
+	6825 3650 6825 3750
+Wire Wire Line
+	6825 3650 6925 3650
+Wire Wire Line
+	7675 3750 7575 3750
+Wire Wire Line
+	7675 3650 7675 3750
+Wire Wire Line
+	7675 3650 7575 3650
+Wire Wire Line
+	7675 3850 7675 4025
+Wire Wire Line
+	7675 3850 7575 3850
+Wire Wire Line
+	6925 3850 6375 3850
+Connection ~ 4750 3700
+Connection ~ 6825 3700
+Connection ~ 7675 3700
+Connection ~ 9825 3700
+Wire Wire Line
+	9825 3450 9950 3450
+Wire Wire Line
+	4750 4300 4750 4400
+Wire Wire Line
+	4750 3550 4750 3900
+Wire Wire Line
+	9700 4300 9700 4400
+Wire Wire Line
+	9225 4300 9225 4400
+Wire Wire Line
+	9225 3700 9225 3900
+Wire Wire Line
+	9700 3700 9700 3900
+Connection ~ 9225 3700
+Connection ~ 9700 3700
+Wire Wire Line
+	9825 3700 9825 3450
+Wire Wire Line
+	7275 4975 7275 5050
+Wire Wire Line
+	8025 4625 8025 4800
+Wire Wire Line
+	8025 4625 7925 4625
+Wire Wire Line
+	6625 4525 6075 4525
+Wire Wire Line
+	5725 4425 6625 4425
+Connection ~ 5725 3700
+Connection ~ 8750 3700
+Wire Wire Line
+	8075 3700 7675 3700
+Wire Wire Line
+	6375 3700 6825 3700
+Connection ~ 5225 3700
+Wire Wire Line
+	5225 4300 5225 4400
+Wire Wire Line
+	5225 3900 5225 3700
+Wire Wire Line
+	4750 3700 5875 3700
+Wire Wire Line
+	8450 5600 8450 5700
+Wire Wire Line
+	8450 4500 8450 4425
+Connection ~ 8450 4425
+Wire Wire Line
+	8450 5000 8450 5100
+Wire Wire Line
+	8450 5050 8225 5050
+Wire Wire Line
+	8225 5050 8225 4525
+Wire Wire Line
+	8225 4525 7925 4525
+Connection ~ 8450 5050
+Wire Wire Line
+	10450 3700 10600 3700
+Wire Wire Line
+	10450 3450 10600 3450
+Wire Wire Line
+	775  3775 1750 3775
+Wire Wire Line
+	8575 3700 9950 3700
+Text Notes 6775 5250 0    120  ~ 24
+LDO +4.5V
+Wire Wire Line
+	5725 3700 5725 3850
+Wire Wire Line
+	5725 4350 5725 4425
+Wire Wire Line
+	8750 3700 8750 3850
+Wire Wire Line
+	8750 4425 8750 4350
+Wire Wire Line
+	7925 4425 8750 4425
+$Comp
+L NCP702_2V8 U51
+U 1 1 5CA3BC07
+P 2200 3875
+F 0 "U51" H 2200 3625 60  0000 C CNN
+F 1 "NCP702_2V8" H 2200 4275 60  0001 C CNN
+F 2 "NCP702_TSOP5" H 2200 4375 60  0001 C CNN
+F 3 "" H 2150 4225 60  0000 C CNN
+F 4 "Mouser" H 2200 4775 60  0001 C CNN "Vendor"
+F 5 "863-NCP702SN28T1G" H 2200 4875 60  0001 C CNN "Vendor Part Number"
+F 6 "ON Semiconductor" H 2200 4675 60  0001 C CNN "Manufacturer"
+F 7 "NCP702SN28T1G" H 2200 4575 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LDO Voltage Regulators 200 MA LDO ULTRA-LOW IQ" H 2200 4475 60  0001 C CNN "Description"
+F 9 "NCP702_2V8" H 2200 4125 60  0000 C CNN "Component Value"
+	1    2200 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10uF_1206_Taiyo C94
+U 1 1 5CA3BC13
+P 775 4175
+F 0 "C94" H 825 4275 50  0000 L CNN
+F 1 "10uF_1206_Taiyo" H 475 4525 50  0001 L CNN
+F 2 "SMD1206" H 775 4425 60  0001 C CNN
+F 3 "" H 825 4275 60  0000 C CNN
+F 4 "Mouser" H 775 4925 60  0001 C CNN "Vendor"
+F 5 "963-TMK316BJ106KL-T" H 775 5025 60  0001 C CNN "Vendor Part Number"
+F 6 "Taiyo Yuden" H 775 4825 60  0001 C CNN "Manufacturer"
+F 7 "TMK316BJ106KL-T" H 775 4725 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 25V X5R +/-10% 1206 Gen Purp" H 775 4625 60  0001 C CNN "Description"
+F 9 "10uF" H 900 4075 50  0000 C CNN "Component Value"
+	1    775  4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C97
+U 1 1 5CA3BC1F
+P 1250 4175
+F 0 "C97" H 1300 4275 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 900 4575 50  0001 L CNN
+F 2 "SMD0402" H 1250 4475 39  0001 C CNN
+F 3 "" H 1300 4275 60  0000 C CNN
+F 4 "Mouser" H 1250 4675 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 1200 4775 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 1250 4875 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 1300 4975 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 1350 5075 60  0001 C CNN "Description"
+F 9 "0.1uF" H 1375 4075 50  0000 C CNN "Component Value"
+	1    1250 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C99
+U 1 1 5CA3BC2B
+P 2975 4175
+F 0 "C99" H 3025 4275 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 2625 4575 50  0001 L CNN
+F 2 "SMD0402" H 2975 4475 39  0001 C CNN
+F 3 "" H 3025 4275 60  0000 C CNN
+F 4 "Mouser" H 2975 4675 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 2925 4775 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 2975 4875 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 3025 4975 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 3075 5075 60  0001 C CNN "Description"
+F 9 "0.1uF" H 3100 4075 50  0000 C CNN "Component Value"
+	1    2975 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10uF_1206_Taiyo C102
+U 1 1 5CA3BC37
+P 3450 4175
+F 0 "C102" H 3500 4275 50  0000 L CNN
+F 1 "10uF_1206_Taiyo" H 3150 4525 50  0001 L CNN
+F 2 "SMD1206" H 3450 4425 60  0001 C CNN
+F 3 "" H 3500 4275 60  0000 C CNN
+F 4 "Mouser" H 3450 4925 60  0001 C CNN "Vendor"
+F 5 "963-TMK316BJ106KL-T" H 3450 5025 60  0001 C CNN "Vendor Part Number"
+F 6 "Taiyo Yuden" H 3450 4825 60  0001 C CNN "Manufacturer"
+F 7 "TMK316BJ106KL-T" H 3450 4725 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 25V X5R +/-10% 1206 Gen Purp" H 3450 4625 60  0001 C CNN "Description"
+F 9 "10uF" H 3575 4075 50  0000 C CNN "Component Value"
+	1    3450 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0805_Yageo R104
+U 1 1 5CA3BC43
+P 5725 4100
+F 0 "R104" H 5715 4170 50  0000 C CNN
+F 1 "0R_0805_Yageo" H 5725 4250 50  0001 C CNN
+F 2 "SMD0805" H 5725 4350 60  0001 C CNN
+F 3 "" H 5715 4170 60  0000 C CNN
+F 4 "Mouser" H 5725 4750 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 5725 4850 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 5725 4650 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 5725 4550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 5725 4450 60  0001 C CNN "Description"
+F 9 "0R" H 5725 4090 50  0000 C CNN "Component Value"
+	1    5725 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L 10uF_1206_Taiyo C105
+U 1 1 5CA3BC4F
+P 4750 4100
+F 0 "C105" H 4800 4200 50  0000 L CNN
+F 1 "10uF_1206_Taiyo" H 4450 4450 50  0001 L CNN
+F 2 "SMD1206" H 4750 4350 60  0001 C CNN
+F 3 "" H 4800 4200 60  0000 C CNN
+F 4 "Mouser" H 4750 4850 60  0001 C CNN "Vendor"
+F 5 "963-TMK316BJ106KL-T" H 4750 4950 60  0001 C CNN "Vendor Part Number"
+F 6 "Taiyo Yuden" H 4750 4750 60  0001 C CNN "Manufacturer"
+F 7 "TMK316BJ106KL-T" H 4750 4650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 25V X5R +/-10% 1206 Gen Purp" H 4750 4550 60  0001 C CNN "Description"
+F 9 "10uF" H 4875 4000 50  0000 C CNN "Component Value"
+	1    4750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C107
+U 1 1 5CA3BC5B
+P 5225 4100
+F 0 "C107" H 5275 4200 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 4875 4500 50  0001 L CNN
+F 2 "SMD0402" H 5225 4400 39  0001 C CNN
+F 3 "" H 5275 4200 60  0000 C CNN
+F 4 "Mouser" H 5225 4600 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 5175 4700 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 5225 4800 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 5275 4900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 5325 5000 60  0001 C CNN "Description"
+F 9 "0.1uF" H 5350 4000 50  0000 C CNN "Component Value"
+	1    5225 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10uF_1206_Taiyo C111
+U 1 1 5CA3BC67
+P 9700 4100
+F 0 "C111" H 9750 4200 50  0000 L CNN
+F 1 "10uF_1206_Taiyo" H 9400 4450 50  0001 L CNN
+F 2 "SMD1206" H 9700 4350 60  0001 C CNN
+F 3 "" H 9750 4200 60  0000 C CNN
+F 4 "Mouser" H 9700 4850 60  0001 C CNN "Vendor"
+F 5 "963-TMK316BJ106KL-T" H 9700 4950 60  0001 C CNN "Vendor Part Number"
+F 6 "Taiyo Yuden" H 9700 4750 60  0001 C CNN "Manufacturer"
+F 7 "TMK316BJ106KL-T" H 9700 4650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 25V X5R +/-10% 1206 Gen Purp" H 9700 4550 60  0001 C CNN "Description"
+F 9 "10uF" H 9825 4000 50  0000 C CNN "Component Value"
+	1    9700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C109
+U 1 1 5CA3BC73
+P 9225 4100
+F 0 "C109" H 9275 4200 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 8875 4500 50  0001 L CNN
+F 2 "SMD0402" H 9225 4400 39  0001 C CNN
+F 3 "" H 9275 4200 60  0000 C CNN
+F 4 "Mouser" H 9225 4600 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 9175 4700 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 9225 4800 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 9275 4900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 9325 5000 60  0001 C CNN "Description"
+F 9 "0.1uF" H 9350 4000 50  0000 C CNN "Component Value"
+	1    9225 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0805_Yageo R114
+U 1 1 5CA3BC7F
+P 8750 4100
+F 0 "R114" H 8740 4170 50  0000 C CNN
+F 1 "0R_0805_Yageo" H 8750 4250 50  0001 C CNN
+F 2 "SMD0805" H 8750 4350 60  0001 C CNN
+F 3 "" H 8740 4170 60  0000 C CNN
+F 4 "Mouser" H 8750 4750 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 8750 4850 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 8750 4650 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 8750 4550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 8750 4450 60  0001 C CNN "Description"
+F 9 "0R" H 8750 4090 50  0000 C CNN "Component Value"
+	1    8750 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L 0RNF_0805_Yageo R106
+U 1 1 5CA3BC8B
+P 6125 3700
+F 0 "R106" H 6115 3770 50  0000 C CNN
+F 1 "0RNF_0805_Yageo" H 6125 3850 50  0001 C CNN
+F 2 "SMD0805" H 6125 3950 60  0001 C CNN
+F 3 "" H 6115 3770 60  0000 C CNN
+F 4 "Mouser" H 6125 4350 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 6125 4450 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 6125 4250 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 6125 4150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 6125 4050 60  0001 C CNN "Description"
+F 9 "NF" H 6125 3690 50  0000 C CNN "Component Value"
+	1    6125 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0RNF_0805_Yageo R108
+U 1 1 5CA3BC97
+P 8325 3700
+F 0 "R108" H 8315 3770 50  0000 C CNN
+F 1 "0RNF_0805_Yageo" H 8325 3850 50  0001 C CNN
+F 2 "SMD0805" H 8325 3950 60  0001 C CNN
+F 3 "" H 8315 3770 60  0000 C CNN
+F 4 "Mouser" H 8325 4350 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 8325 4450 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 8325 4250 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 8325 4150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 8325 4050 60  0001 C CNN "Description"
+F 9 "NF" H 8325 3690 50  0000 C CNN "Component Value"
+	1    8325 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LD39200 U56
+U 1 1 5CA3BCA3
+P 7275 4525
+F 0 "U56" H 7725 4175 60  0000 C CNN
+F 1 "LD39200" H 7275 4875 60  0001 C CNN
+F 2 "LD39200" H 7275 4975 60  0001 C CNN
+F 3 "" H 7225 4875 60  0000 C CNN
+F 4 "Mouser" H 7275 5375 60  0001 C CNN "Vendor"
+F 5 "511-LD39200PUR" H 7275 5475 60  0001 C CNN "Vendor Part Number"
+F 6 "STMicroelectronics" H 7275 5275 60  0001 C CNN "Manufacturer"
+F 7 "LD39200PUR" H 7275 5175 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LDO Voltage Regulators 2 A high PSRR ultra low drop linear regulator with reverse current protection" H 7275 5075 60  0001 C CNN "Description"
+F 9 "LD39200" H 7275 4775 60  0000 C CNN "Component Value"
+	1    7275 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0805_Yageo R117
+U 1 1 5CA3BCAF
+P 10200 3450
+F 0 "R117" H 10190 3520 50  0000 C CNN
+F 1 "0R_0805_Yageo" H 10200 3600 50  0001 C CNN
+F 2 "SMD0805" H 10200 3700 60  0001 C CNN
+F 3 "" H 10190 3520 60  0000 C CNN
+F 4 "Mouser" H 10200 4100 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 10200 4200 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 10200 4000 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 10200 3900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 10200 3800 60  0001 C CNN "Description"
+F 9 "0R" H 10200 3440 50  0000 C CNN "Component Value"
+	1    10200 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L 0R_0805_Yageo R118
+U 1 1 5CA3BCBB
+P 10200 3700
+F 0 "R118" H 10190 3770 50  0000 C CNN
+F 1 "0R_0805_Yageo" H 10200 3850 50  0001 C CNN
+F 2 "SMD0805" H 10200 3950 60  0001 C CNN
+F 3 "" H 10190 3770 60  0000 C CNN
+F 4 "Mouser" H 10200 4350 60  0001 C CNN "Vendor"
+F 5 "603-RC0805JR-070RL" H 10200 4450 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 10200 4250 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 10200 4150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD ZERO OHM JUMPER" H 10200 4050 60  0001 C CNN "Description"
+F 9 "0R" H 10200 3690 50  0000 C CNN "Component Value"
+	1    10200 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L NCP331SNT1G U54
+U 1 1 5CA3BCC7
+P 7225 3750
+F 0 "U54" H 7250 4075 60  0000 C CNN
+F 1 "NCP331SNT1G" H 7250 3975 60  0000 C CNN
+F 2 "TSOP-6" H 7225 3500 60  0001 C CNN
+F 3 "" H 7225 3750 60  0000 C CNN
+F 4 "Mouser" H 7225 4150 60  0001 C CNN "Vendor"
+F 5 "863-NCP331SNT1G" H 7225 4250 60  0001 C CNN "Vendor Part Number"
+F 6 "ON Semiconductor" H 7225 4350 60  0001 C CNN "Manufacturer"
+F 7 "NCP331SNT1G" H 7225 4450 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Power Switch ICs - Power Distribution LOAD SW W AUTO DISCHARGE" H 7225 4550 60  0001 C CNN "Description"
+F 9 "NCP331SNT1G" H 7225 4650 60  0001 C CNN "Component Value"
+	1    7225 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10K_0402_Yageo R112
+U 1 1 5CA3BCD3
+P 8450 5350
+F 0 "R112" H 8440 5420 50  0000 C CNN
+F 1 "10K_0402_Yageo" H 8450 5500 50  0001 C CNN
+F 2 "SMD0402" H 8450 5600 60  0001 C CNN
+F 3 "" H 8440 5420 60  0000 C CNN
+F 4 "Mouser" H 8450 6000 60  0001 C CNN "Vendor"
+F 5 "603-RC0402JR-7D10KL" H 8450 6100 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 8450 5900 60  0001 C CNN "Manufacturer"
+F 7 "RC0402JR-7D10KL" H 8450 5800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors 10K ohm 5% 50V General Purpose" H 8450 5700 60  0001 C CNN "Description"
+F 9 "10K" H 8450 5340 50  0000 C CNN "Component Value"
+	1    8450 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L 80k_0402_Yageo R111
+U 1 1 5CA3BCDF
+P 8450 4750
+F 0 "R111" H 8440 4820 50  0000 C CNN
+F 1 "80k_0402_Yageo" H 8450 4900 50  0001 C CNN
+F 2 "SMD0402" H 8450 5000 60  0001 C CNN
+F 3 "" H 8440 4820 60  0000 C CNN
+F 4 "Mouser" H 8450 5400 60  0001 C CNN "Vendor"
+F 5 "603-RC0402FR-0780K6L" H 8450 5500 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 8450 5300 60  0001 C CNN "Manufacturer"
+F 7 "RC0402FR-0780K6L" H 8450 5200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD 80.6K OHM 1%" H 8450 5100 60  0001 C CNN "Description"
+F 9 "80.6k" H 8450 4740 50  0000 C CNN "Component Value"
+	1    8450 4750
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

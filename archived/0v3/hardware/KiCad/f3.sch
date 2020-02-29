@@ -1,0 +1,343 @@
+EESchema Schematic File Version 2
+LIBS:Lime_HAM_Z
+LIBS:LimeMicroBGD_Library
+LIBS:Cellular_Subsystem_Library
+LIBS:LimeMicroBGD_Library_bb
+LIBS:LMS8001_AppPCB-cache
+LIBS:LMS8001_PowerSupply-cache
+LIBS:ADM7155_Addon-cache
+LIBS:LMS8001_DigitalPCB-cache
+LIBS:SWR_Meter_Subsystem_library
+LIBS:GPIO_Subsystem-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FilterLib
+LIBS:BB_Library
+LIBS:Lime_RFE-rescue
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 17 44
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3425 4350 0    60   Input ~ 0
+IN
+Text HLabel 8625 4325 2    60   Output ~ 0
+OUT
+Wire Wire Line
+	8175 4325 8625 4325
+Wire Wire Line
+	3425 4350 3875 4350
+Wire Wire Line
+	5125 4025 5125 4525
+Wire Wire Line
+	5125 4525 5450 4525
+Wire Wire Line
+	5850 4525 6075 4525
+Wire Wire Line
+	6075 4525 6075 4025
+Wire Wire Line
+	5675 4025 5525 4025
+Wire Wire Line
+	4275 4350 5125 4350
+Connection ~ 5125 4350
+Wire Wire Line
+	4600 4475 4600 4350
+Connection ~ 4600 4350
+Wire Wire Line
+	4925 4475 4925 4350
+Connection ~ 4925 4350
+$Comp
+L GND #PWR0487
+U 1 1 5D22D7DA
+P 4600 5075
+F 0 "#PWR0487" H 4600 5075 30  0001 C CNN
+F 1 "GND" H 4600 5005 30  0001 C CNN
+F 2 "" H 4600 5075 60  0001 C CNN
+F 3 "" H 4600 5075 60  0001 C CNN
+	1    4600 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0488
+U 1 1 5D22D7DB
+P 4925 5075
+F 0 "#PWR0488" H 4925 5075 30  0001 C CNN
+F 1 "GND" H 4925 5005 30  0001 C CNN
+F 2 "" H 4925 5075 60  0001 C CNN
+F 3 "" H 4925 5075 60  0001 C CNN
+	1    4925 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0489
+U 1 1 5D22D7DC
+P 7150 5050
+F 0 "#PWR0489" H 7150 5050 30  0001 C CNN
+F 1 "GND" H 7150 4980 30  0001 C CNN
+F 2 "" H 7150 5050 60  0001 C CNN
+F 3 "" H 7150 5050 60  0001 C CNN
+	1    7150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0490
+U 1 1 5D22D7DD
+P 7475 5050
+F 0 "#PWR0490" H 7475 5050 30  0001 C CNN
+F 1 "GND" H 7475 4980 30  0001 C CNN
+F 2 "" H 7475 5050 60  0001 C CNN
+F 3 "" H 7475 5050 60  0001 C CNN
+	1    7475 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 4025 6425 4525
+Wire Wire Line
+	6825 4025 6825 4525
+Wire Wire Line
+	6075 4325 6425 4325
+Connection ~ 6425 4325
+Connection ~ 6075 4325
+Wire Wire Line
+	7150 4850 7150 5050
+Wire Wire Line
+	7475 4850 7475 5050
+Wire Wire Line
+	6825 4325 7775 4325
+Connection ~ 6825 4325
+Wire Wire Line
+	7150 4450 7150 4325
+Connection ~ 7150 4325
+Wire Wire Line
+	7475 4450 7475 4325
+Connection ~ 7475 4325
+Wire Wire Line
+	4925 4875 4925 5075
+Wire Wire Line
+	4600 4875 4600 5075
+$Comp
+L 3.9nH_0805 L37
+U 1 1 5CAEE983
+P 4600 4675
+F 0 "L37" V 4515 4705 50  0000 C CNN
+F 1 "3.9nH_0805" H 4600 4925 50  0001 C CNN
+F 2 "SMD0805" H 4600 5025 60  0001 C CNN
+F 3 "" H 4600 4675 60  0000 C CNN
+F 4 "Mouser" H 4600 5325 60  0001 C CNN "Vendor"
+F 5 "994-0805HT-3N9TJLB" H 4600 5225 60  0001 C CNN "Vendor Part Number"
+F 6 "COILCRAFT" H 4600 5525 60  0001 C CNN "Manufacturer"
+F 7 "0805HT-3N9TJLB" H 4600 5425 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Fixed Inductors 0805HT Low Profile 3.9 nH 5 % 0.8 A" H 4600 5125 60  0001 C CNN "Description"
+F 9 "3.9nH" V 4665 4655 50  0000 C CNN "Component Value"
+	1    4600 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 39nH_0805 L38
+U 1 1 5CAEEF53
+P 5325 4025
+F 0 "L38" V 5240 4055 50  0000 C CNN
+F 1 "39nH_0805" H 5325 4275 50  0001 C CNN
+F 2 "SMD0805" H 5325 4375 60  0001 C CNN
+F 3 "" H 5325 4025 60  0000 C CNN
+F 4 "Mouser" H 5325 4675 60  0001 C CNN "Vendor"
+F 5 "994-0805HT-39NTJLB" H 5325 4575 60  0001 C CNN "Vendor Part Number"
+F 6 "COILCRAFT" H 5325 4875 60  0001 C CNN "Manufacturer"
+F 7 "0805HT-39NTJLB" H 5325 4775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Fixed Inductors 0805HT Low Profile 39 nH 5 % 0.6 A" H 5325 4475 60  0001 C CNN "Description"
+F 9 "39nH" V 5390 4005 50  0000 C CNN "Component Value"
+	1    5325 4025
+	0    1    1    0   
+$EndComp
+$Comp
+L 12nH_0805 L39
+U 1 1 5CAEF111
+P 5875 4025
+F 0 "L39" V 5790 4055 50  0000 C CNN
+F 1 "12nH_0805" H 5875 4275 50  0001 C CNN
+F 2 "SMD0805" H 5875 4375 60  0001 C CNN
+F 3 "" H 5875 4025 60  0000 C CNN
+F 4 "Mouser" H 5875 4675 60  0001 C CNN "Vendor"
+F 5 "994-0805HP-12NXGRB" H 5875 4575 60  0001 C CNN "Vendor Part Number"
+F 6 "COILCRAFT" H 5875 4875 60  0001 C CNN "Manufacturer"
+F 7 "0805HP-12NXGRB" H 5875 4775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Fixed Inductors 12nH 2% 1.4A DCR=0.039Ohms" H 5875 4475 60  0001 C CNN "Description"
+F 9 "12nH" V 5940 4005 50  0000 C CNN "Component Value"
+	1    5875 4025
+	0    1    1    0   
+$EndComp
+$Comp
+L 22nH_0805 L40
+U 1 1 5CAF19C5
+P 6625 4025
+F 0 "L40" V 6540 4055 50  0000 C CNN
+F 1 "22nH_0805" H 6625 4275 50  0001 C CNN
+F 2 "SMD0805" H 6625 4375 60  0001 C CNN
+F 3 "" H 6625 4025 60  0000 C CNN
+F 4 "Mouser" H 6625 4675 60  0001 C CNN "Vendor"
+F 5 "994-0805HT-22NTJLB" H 6625 4575 60  0001 C CNN "Vendor Part Number"
+F 6 "COILCRAFT" H 6625 4875 60  0001 C CNN "Manufacturer"
+F 7 "0805HT-22NTJLB " H 6625 4775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Fixed Inductors 0805HT Low Profile 22 nH 5 % 0.8 A" H 6625 4475 60  0001 C CNN "Description"
+F 9 "22nH" V 6690 4005 50  0000 C CNN "Component Value"
+	1    6625 4025
+	0    1    1    0   
+$EndComp
+$Comp
+L 3.9nH_0805 L41
+U 1 1 5CAF203D
+P 7150 4650
+F 0 "L41" V 7065 4680 50  0000 C CNN
+F 1 "3.9nH_0805" H 7150 4900 50  0001 C CNN
+F 2 "SMD0805" H 7150 5000 60  0001 C CNN
+F 3 "" H 7150 4650 60  0000 C CNN
+F 4 "Mouser" H 7150 5300 60  0001 C CNN "Vendor"
+F 5 "994-0805HT-3N9TJLB" H 7150 5200 60  0001 C CNN "Vendor Part Number"
+F 6 "COILCRAFT" H 7150 5500 60  0001 C CNN "Manufacturer"
+F 7 "0805HT-3N9TJLB" H 7150 5400 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Fixed Inductors 0805HT Low Profile 3.9 nH 5 % 0.8 A" H 7150 5100 60  0001 C CNN "Description"
+F 9 "3.9nH" V 7215 4630 50  0000 C CNN "Component Value"
+	1    7150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 33pF_0402_GRM1555C1H330GA01J C152
+U 1 1 5CF693B5
+P 4925 4675
+F 0 "C152" H 4975 4775 50  0000 L CNN
+F 1 "33pF_0402_GRM1555C1H330GA01J" H 4725 5125 50  0001 C CNN
+F 2 "SMD0402" H 4925 5025 60  0001 C CNN
+F 3 "" H 4925 4675 60  0000 C CNN
+F 4 "Mouser" H 4925 5225 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H330GA1J" H 4925 5325 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 4925 5425 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H330GA01J" H 4925 5525 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 33pF 50volts C0G 2%" H 4925 5625 60  0001 C CNN "Description"
+F 9 "33pF" H 5050 4575 50  0000 C CNN "Component Value"
+	1    4925 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 33pF_0402_GRM1555C1H330GA01J C155
+U 1 1 5CF694CD
+P 7475 4650
+F 0 "C155" H 7525 4750 50  0000 L CNN
+F 1 "33pF_0402_GRM1555C1H330GA01J" H 7275 5100 50  0001 C CNN
+F 2 "SMD0402" H 7475 5000 60  0001 C CNN
+F 3 "" H 7475 4650 60  0000 C CNN
+F 4 "Mouser" H 7475 5200 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H330GA1J" H 7475 5300 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 7475 5400 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H330GA01J" H 7475 5500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 33pF 50volts C0G 2%" H 7475 5600 60  0001 C CNN "Description"
+F 9 "33pF" H 7600 4550 50  0000 C CNN "Component Value"
+	1    7475 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6.2pF_0402_GRM1555C1H6R2CA01D C153
+U 1 1 5CF695BE
+P 5650 4525
+F 0 "C153" H 5700 4625 50  0000 L CNN
+F 1 "6.2pF_0402_GRM1555C1H6R2CA01D" H 5450 4975 50  0001 C CNN
+F 2 "SMD0402" H 5650 4875 60  0001 C CNN
+F 3 "" H 5650 4525 60  0000 C CNN
+F 4 "Mouser" H 5650 5075 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H6R2CA1D" H 5650 5175 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 5650 5275 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H6R2CA01D" H 5650 5375 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.2pF 50volts C0G +/-0.25pF" H 5650 5475 60  0001 C CNN "Description"
+F 9 "6.2pF" H 5775 4425 50  0000 C CNN "Component Value"
+	1    5650 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L 3pF_0402_GJM1555C1H3R0BB01D C154
+U 1 1 5CF696E2
+P 6625 4525
+F 0 "C154" H 6675 4625 50  0000 L CNN
+F 1 "3pF_0402_GJM1555C1H3R0BB01D" H 6425 4975 50  0001 C CNN
+F 2 "SMD0402" H 6625 4875 60  0001 C CNN
+F 3 "" H 6625 4525 60  0000 C CNN
+F 4 "Mouser" H 6625 5075 60  0001 C CNN "Vendor"
+F 5 "81-GJM1555C1H3R0BB01" H 6625 5175 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 6625 5275 60  0001 C CNN "Manufacturer"
+F 7 "GJM1555C1H3R0BB01D" H 6625 5375 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 3.0pF 50Volts C0G +/-0.1pF" H 6625 5475 60  0001 C CNN "Description"
+F 9 "3pF" H 6750 4425 50  0000 C CNN "Component Value"
+	1    6625 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L 1u_0402 R132
+U 1 1 5CF24FF2
+P 4075 4350
+F 0 "R132" H 4125 4450 50  0000 L CNN
+F 1 "1u_0402" H 3875 4700 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 4075 4600 60  0001 C CNN
+F 3 "" H 4075 4350 60  0000 C CNN
+F 4 "DigiKey" H 4075 5100 60  0001 C CNN "Vendor"
+F 5 "490-13409-1-ND" H 4075 5200 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics North America" H 4075 5000 60  0001 C CNN "Manufacturer"
+F 7 "GCM155C71A105KE38D" H 4075 4900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 1UF 10V X7S 0402" H 4075 4800 60  0001 C CNN "Description"
+F 9 "1uF" H 4200 4250 50  0000 C CNN "Component Value"
+	1    4075 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1u_0402 R133
+U 1 1 5CF252B7
+P 7975 4325
+F 0 "R133" H 8025 4425 50  0000 L CNN
+F 1 "1u_0402" H 7775 4675 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 7975 4575 60  0001 C CNN
+F 3 "" H 7975 4325 60  0000 C CNN
+F 4 "DigiKey" H 7975 5075 60  0001 C CNN "Vendor"
+F 5 "490-13409-1-ND" H 7975 5175 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics North America" H 7975 4975 60  0001 C CNN "Manufacturer"
+F 7 "GCM155C71A105KE38D" H 7975 4875 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 1UF 10V X7S 0402" H 7975 4775 60  0001 C CNN "Description"
+F 9 "1uF" H 8100 4225 50  0000 C CNN "Component Value"
+	1    7975 4325
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

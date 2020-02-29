@@ -1,0 +1,152 @@
+EESchema Schematic File Version 2
+LIBS:Lime_HAM_Z
+LIBS:LimeMicroBGD_Library
+LIBS:Cellular_Subsystem_Library
+LIBS:LimeMicroBGD_Library_bb
+LIBS:LMS8001_AppPCB-cache
+LIBS:LMS8001_PowerSupply-cache
+LIBS:ADM7155_Addon-cache
+LIBS:LMS8001_DigitalPCB-cache
+LIBS:SWR_Meter_Subsystem_library
+LIBS:GPIO_Subsystem-cache
+LIBS:PA_220MHz_920MHz-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FilterLib
+LIBS:BB_Library
+LIBS:Lime_RFE-rescue
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 23 56
+Title "LimeRFE"
+Date "2019-07-12"
+Rev "1v0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4625 3575 0    60   Input ~ 0
+IN
+Text HLabel 7400 3575 2    60   Output ~ 0
+OUT
+Wire Wire Line
+	4625 3575 4900 3575
+Wire Wire Line
+	5300 3575 5525 3575
+Wire Wire Line
+	6525 3575 6775 3575
+Wire Wire Line
+	7175 3575 7400 3575
+$Comp
+L GND #PWR0589
+U 1 1 5D22D7C4
+P 6025 4025
+AR Path="/5CD438F8/5C588C32/5D22D7C4" Ref="#PWR0589"  Part="1" 
+AR Path="/5CD438F8/5D1FD96E/5D22D7C4" Ref="#PWR0530"  Part="1" 
+F 0 "#PWR0589" H 6025 4025 30  0001 C CNN
+F 1 "GND" H 6025 3955 30  0001 C CNN
+F 2 "" H 6025 4025 60  0001 C CNN
+F 3 "" H 6025 4025 60  0001 C CNN
+	1    6025 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0590
+U 1 1 5D22D7C5
+P 6025 3125
+AR Path="/5CD438F8/5C588C32/5D22D7C5" Ref="#PWR0590"  Part="1" 
+AR Path="/5CD438F8/5D1FD96E/5D22D7C5" Ref="#PWR0531"  Part="1" 
+F 0 "#PWR0590" H 6025 3125 30  0001 C CNN
+F 1 "GND" H 6025 3055 30  0001 C CNN
+F 2 "" H 6025 3125 60  0001 C CNN
+F 3 "" H 6025 3125 60  0001 C CNN
+	1    6025 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L DEA252400BT-2030A1 U71
+U 1 1 5D42DEE8
+P 6025 3575
+AR Path="/5CD438F8/5C588C32/5D42DEE8" Ref="U71"  Part="1" 
+AR Path="/5CD438F8/5D1FD96E/5D42DEE8" Ref="U71"  Part="1" 
+F 0 "U71" H 6025 2975 60  0000 C CNN
+F 1 "DEA252400BT-2030A1" H 6025 4275 60  0001 C CNN
+F 2 "LimeMicroBGD_Library:DEA252400BT-2030A1" H 6025 4375 60  0001 C CNN
+F 3 "" H 5975 4075 60  0000 C CNN
+F 4 "Mouser" H 6025 4775 60  0001 C CNN "Vendor"
+F 5 "810-DEA252400BT2030A" H 6025 4875 60  0001 C CNN "Vendor Part Number"
+F 6 "TDK Corporation " H 6025 4675 60  0001 C CNN "Manufacturer"
+F 7 "DEA252400BT-2030A1 " H 6025 4575 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FILTER BANDPASS 2.4GHZ WLAN SMD " H 6025 4475 60  0001 C CNN "Description"
+F 9 "DEA252400BT-2030A1" H 6600 3225 60  0000 C CNN "Component Value"
+	1    6025 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1000pF_0402_GRM1555C1H102GA01D C505
+U 1 1 5D724547
+P 5100 3575
+F 0 "C505" H 5150 3675 50  0000 L CNN
+F 1 "1000pF_0402_GRM1555C1H102GA01D" H 5100 4275 50  0001 C CNN
+F 2 "SMD0402" H 5100 4175 60  0001 C CNN
+F 3 "" H 5100 3575 60  0000 C CNN
+F 4 "Mouser" H 5050 4775 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H102GA1D" H 5050 4675 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 5050 4575 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H102GA01D" H 5100 4475 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.001uF 50Volts 2%" H 5100 4375 60  0001 C CNN "Description"
+F 9 "1000pF" H 5225 3475 50  0000 C CNN "Component Value"
+	1    5100 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L 1000pF_0402_GRM1555C1H102GA01D C506
+U 1 1 5D7245D3
+P 6975 3575
+F 0 "C506" H 7025 3675 50  0000 L CNN
+F 1 "1000pF_0402_GRM1555C1H102GA01D" H 6975 4275 50  0001 C CNN
+F 2 "SMD0402" H 6975 4175 60  0001 C CNN
+F 3 "" H 6975 3575 60  0000 C CNN
+F 4 "Mouser" H 6925 4775 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H102GA1D" H 6925 4675 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 6925 4575 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H102GA01D" H 6975 4475 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.001uF 50Volts 2%" H 6975 4375 60  0001 C CNN "Description"
+F 9 "1000pF" H 7100 3475 50  0000 C CNN "Component Value"
+	1    6975 3575
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
