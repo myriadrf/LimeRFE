@@ -16,15 +16,19 @@ The directory structure is as follows:
               KiCAD/                 - KiCAD schematic and layout files
               PDF/                   - Schematic and layout PDFs
 
-      /archive/<version>/            - Archived versions (structure as above)
+      /archived/<version>/           - Archived versions
+          firmware/                  - Corresponding firmware
+                                     - _Remaining structure as above_
 
 ## Notes on hardware versions
 
-The resources for all production builds will be located in versioned folders in the repository root. The files located under `/archive/` correspond to pre-production designs used in validation and with the beta tester community.
+The resources for all production builds will be located in versioned folders in the repository root. The files located under `/archived/` correspond to pre-production designs used in validation and with the beta tester community.
 
 ### Production boards
 
 * 1v2. This features a number of minor improvements to the 1v0 design, mainly in connection with cellular bands, and is the first version to go into full production.
+
+Firmware sources can be found in the [LimeRFE_FW repository](https://github.com/myriadrf/LimeRFE_FW).
 
 ### Pre-production boards
 
@@ -44,3 +48,5 @@ Software support is provided by [Lime Suite](https://github.com/myriadrf/LimeSui
 ## Licensing
 
 The hardware designs are licensed under a Creative Commons Attribution 3.0 Unported licence.
+
+Firmware sources are licensed under the Apache License Version 2.0.
