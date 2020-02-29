@@ -18,7 +18,7 @@ The directory structure is as follows:
 
       /archived/<version>/           - Archived versions
           firmware/                  - Corresponding firmware
-                                     - _Remaining structure as above_
+                                     - Remaining structure as above
 
 ## Notes on hardware versions
 
@@ -36,10 +36,6 @@ Pre-production boards are not officially supported. However, design materials an
 
 * 1v0. This design featured the full complement of bands following [update of the specifications](https://www.crowdsupply.com/lime-micro/limerfe/updates/performance-of-the-final-production-board). A small number of boards were made available to application developers to facilitate software integration.
 * 0v3. This version was the first made available to the beta tester community and it has a reduced number of branches/bands, which corresponds to the original published specifications. 
-
-## Firmware
-
-The associated firmware can be found in the [LimeRFE_FW repository](https://github.com/myriadrf/LimeRFE_FW).
 
 ## Software
 
