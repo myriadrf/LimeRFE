@@ -2,20 +2,26 @@
 #include "mcu.h"
 #include "chain.h"
 #include "cmd.h"
+#include "errorCode.h"
 
 #define I2C_ADDRESS       0x51 // Random pick, change if needed
 
 bool isMaster;
 
 unsigned char activeBuffer[BUFFER_SIZE];
+unsigned char activeBufferSize = BUFFER_SIZE;
 unsigned char activeState[STATE_SIZE];
 unsigned char nextState[STATE_SIZE];
 
-unsigned char activeChannelID = CID_NOT_SELECTED;
-unsigned char activeTX2TXRX = 0x00;
-unsigned char activeAttenuation = 0x00;
-unsigned char activeNotch = 0x00;
-unsigned char activeMode = 0xff;
+unsigned char activeRxChannelID = CID_WB_1000;        // wb1000
+unsigned char activeTxChannelID = CID_WB_1000;        // wb1000
+unsigned char activeRxConn = CONN_TXRX;               // J3
+unsigned char activeTxConn = CONN_TX;                 // J4
+unsigned char activeAttenuation = 0x00;               // 0
+unsigned char activeNotch = 0x00;                     // 0
+unsigned char activeSwrEn = 0x00;                     // 0
+unsigned char activeSwrSrc = 0x00;                    // 0
+unsigned char activeMode = RFE_MODE_NONE;             // RFE_MODE_NONE
 
 void setup() {
 
@@ -50,13 +56,13 @@ void setup() {
 }
 
 void setDefaults(){
+
   digitalWrite(DATA_RESET_PIN, DATA_RESET);  // reset all shift registers
-  activeState[0] = 0x00;
-  setupMCU(activeState[0], activeState);
-  for (int i=0; i<STATE_SIZE; i++){
-    activeBuffer[i] = 0x0;
-    activeState[i] = 0x0;
-  }
+  digitalWrite(DATA_RESET_PIN, DATA_RESETn);
+
+  configureState(CID_WB_1000, CID_WB_1000, CONN_TXRX, CONN_TX, 0x00, 0x00, 0x00, 0x00);  // set defaults
+  setMode(RFE_MODE_NONE);
+
 }
 
 void loop() {
@@ -68,14 +74,19 @@ void loop() {
       // Blink twice if synchronized
       delay(100);
     } else {
-      wait_for_bytes(BUFFER_SIZE - 1, 1000);
-      Serial.readBytes(activeBuffer + 1, BUFFER_SIZE - 1);
       unsigned char command;
       command = activeBuffer[0];
+      if (command == CMD_MODE) {       // cmd_mode is shorter
+          activeBufferSize = BUFFER_SIZE_MODE;
+      } else {
+          activeBufferSize = BUFFER_SIZE;
+      }
+      wait_for_bytes(activeBufferSize - 1, 1000);
+      Serial.readBytes(activeBuffer + 1, activeBufferSize - 1);
       doCommand();
       activeBuffer[0] = command;
-      Serial.write(activeBuffer,BUFFER_SIZE);
       
+      Serial.write(activeBuffer,activeBufferSize);
       
     }
   }
@@ -91,28 +102,34 @@ void doCommand(){
         setupMCU(activeBuffer[CHAIN_SIZE + 1], activeState);    // 
         
         break;
-      }    
+      }
     case CMD_MODE_FULL: {
         setupMCU(activeBuffer[1], activeState);
         break;
       }
     case CMD_CONFIG:  {
-        configureState(activeBuffer[1], activeBuffer[2], activeBuffer[3], activeBuffer[4]);
-        setMode(activeBuffer[5]);
+        unsigned char err = configureState(activeBuffer[1], activeBuffer[2], activeBuffer[3], activeBuffer[4], activeBuffer[6], activeBuffer[7], activeBuffer[8], activeBuffer[9]);
+        if (err == COMPLETED){
+            err = setMode(activeBuffer[5]);
+        }
+        clearBuffer();
+        activeBuffer[1] = err;
         break;
       }
     case CMD_MODE:  {
-        setMode(activeBuffer[1]);
+        unsigned char err = setMode(activeBuffer[1]);
+        clearBuffer();
+        activeBuffer[1] = err;
         break;
       }
-    case CMD_READ_ADC1: {
+    case CMD_READ_ADC2: {
         clearBuffer();
         int adcValue = analogRead(ADC1_PIN);
         activeBuffer[1] = lowByte(adcValue);
         activeBuffer[2] = highByte(adcValue);
         break;
       }    
-    case CMD_READ_ADC2: {
+    case CMD_READ_ADC1: {
         clearBuffer();
         int adcValue = analogRead(ADC2_PIN);
         activeBuffer[1] = lowByte(adcValue);
@@ -133,18 +150,35 @@ void doCommand(){
       }
     case CMD_GET_CONFIG:  {
         clearBuffer();
-        activeBuffer[1] = activeChannelID;
-        activeBuffer[2] = activeTX2TXRX;
-        activeBuffer[3] = activeNotch;
-        activeBuffer[4] = activeAttenuation;
-        activeBuffer[5] = activeMode;
+        activeBuffer[1] = activeRxChannelID;
+        activeBuffer[2] = activeTxChannelID;
+        activeBuffer[3] = activeRxConn;
+        activeBuffer[4] = activeTxConn;
+        activeBuffer[5] = activeMode;                         // mode
+        activeBuffer[6] = activeNotch;
+        activeBuffer[7] = activeAttenuation;
+        activeBuffer[8] = activeSwrEn;
+        activeBuffer[9] = activeSwrSrc;
+        break;
+      }
+    case CMD_CONFGPIO45:  {
+        configGPIO45(activeBuffer[1], activeBuffer[2]);
+        break;
+      }    
+    case CMD_SETGPIO45:  {
+        setGPIO45(activeBuffer[1], activeBuffer[2]);
+        break;
+      }
+    case CMD_GETGPIO45:  {
+        char pin = activeBuffer[1];
+        clearBuffer();
+        activeBuffer[1] = getGPIO45(pin);
         break;
       }
     case CMD_GET_INFO: {
         clearBuffer();  
-        
-        activeBuffer[1] = 1;    // FW_VER
-        activeBuffer[2] = 0x59; // HW_VER
+        activeBuffer[1] = 0x01;    // FW_VER
+        activeBuffer[2] = 0x10; // HW_VER
         activeBuffer[3] = 1;    // Status
         activeBuffer[4] = 1;    // Status
         break;
@@ -165,8 +199,76 @@ void clearBuffer(){
   }
 }
 
-void configureState(unsigned char channelId, unsigned char selTX2TXRX, unsigned char notch, unsigned char attenuation){
-  switch(channelId){
+unsigned char configureState(unsigned char rxChannelID, unsigned char txChannelId, unsigned char rxConn, unsigned char txConn, unsigned char notch, unsigned char attenuation, unsigned char swrEn, unsigned char swrSrc){
+  switch(rxConn){
+      case CONN_DEFAULT:{
+        if (rxChannelID == CID_HAM_0030){
+          rxConn = CONN_30;
+        } else {
+          rxConn = CONN_TXRX;
+        }
+        break;
+      }
+      case CONN_TXRX:{
+        break;
+      }
+      case CONN_TX:{
+          // error
+          return ERROR_RX_CONN;
+        break;
+      }
+      case CONN_30:{
+        if (isRxH(rxChannelID) || isCell(rxChannelID)){
+          // error
+          return ERROR_RX_CONN;
+        }
+        break;
+      }
+      default: {
+        // error
+        return ERROR_RX_CONN;
+        break;
+      }
+  }
+  
+  switch(txConn){
+      case CONN_DEFAULT:{
+        if (txChannelId == CID_HAM_0030){
+          txConn = CONN_30;
+        } else {
+          txConn = CONN_TXRX;
+        }
+        break;
+      }
+      case CONN_TXRX:{
+        if (txChannelId == CID_HAM_0030){
+          // error
+          return ERROR_TX_CONN;
+        }
+        break;
+      }
+      case CONN_TX:{
+        if (txChannelId == CID_HAM_0030 || isCell(txChannelId)){
+          // error
+          return ERROR_TX_CONN;
+        }
+        break;
+      }
+      case CONN_30:{
+        if (txChannelId != CID_HAM_0030){
+          // error
+          return ERROR_TX_CONN;
+        }
+        break;
+      }
+      default: {
+        // error
+        return ERROR_TX_CONN;
+        break;
+      }
+  }
+  
+  switch(rxChannelID){
     case CID_WB_1000: {
         memcpy(nextState, STATE_HAMWB1, sizeof(STATE_HAMWB1[0])*CHAIN_SIZE);
         break;
@@ -219,11 +321,60 @@ void configureState(unsigned char channelId, unsigned char selTX2TXRX, unsigned 
         memcpy(nextState, STATE_CELLB38, sizeof(STATE_CELLB38[0])*CHAIN_SIZE);
         break;
       }
+    default: {
+        return ERROR_WRONG_CHANNEL_CODE;
+        break;
+      }
   }
 
+  if(isCell(rxChannelID) || isCell(txChannelId)) {       
+      if(txChannelId != rxChannelID){
+          return ERROR_CELL_TX_NOT_EQUAL_RX;
+      }
+  } else {
+      switch(txChannelId){
+        case CID_WB_1000: {
+            setTxState(nextState, STATE_HAMWB1);
+            break;
+          }
+        case CID_WB_4000: {
+            setTxState(nextState, STATE_HAMWB2);
+            break;
+          }
+        case CID_HAM_0030:  {
+            setTxState(nextState, STATE_HAM30);
+            break;
+          }
+        case CID_HAM_0145:  {
+            setTxState(nextState, STATE_HAM145);
+            break;
+          }
+        case CID_HAM_0435:  {
+            setTxState(nextState, STATE_HAM435);
+            break;
+          }
+        case CID_HAM_1280:  {
+            setTxState(nextState, STATE_HAM1280);
+            break;
+          }
+        case CID_HAM_2400:  {
+            setTxState(nextState, STATE_HAM2400);
+            break;
+          }
+        case CID_HAM_3500:  {
+            setTxState(nextState, STATE_HAM3500);
+            break;
+          }
+        default:  {
+            return ERROR_WRONG_CHANNEL_CODE;
+            break;
+        }
+      }
+  }
+  
   //////// set notch
   unsigned char notchBit;
-
+  
   if (notch == NOTCH_VALUE_ON)
     notchBit = NOTCH_BIT_ON;
   else
@@ -231,116 +382,166 @@ void configureState(unsigned char channelId, unsigned char selTX2TXRX, unsigned 
     
   (notchBit == 1) ? nextState[NOTCH_BYTE -1] |= (1 << NOTCH_BIT) : nextState[NOTCH_BYTE - 1] &= ~(1 << NOTCH_BIT);
 
+  (swrEn == 1) ? nextState[SWR_EN_BYTE -1] |= (1 << SWR_EN_BIT) : nextState[SWR_EN_BYTE - 1] &= ~(1 << SWR_EN_BIT);
+
+  (swrSrc == 1) ? nextState[SWR_SRC_BYTE -1] |= (1 << SWR_SRC_BIT) : nextState[SWR_SRC_BYTE - 1] &= ~(1 << SWR_SRC_BIT);
+  
   //////// set attenuation
   unsigned char usatt = attenuation;
   
   for(int i=0; i<3; i++)
     ((usatt >> i) & 0x01) ? nextState[ATTEN_BYTE - 1] |= (1 << (ATTEN_BIT + i)) : nextState[ATTEN_BYTE - 1] &= ~(1 << (ATTEN_BIT + i));
 
-  //////// set sw position
-  (selTX2TXRX == 1) ? nextState[TX2TXRX_BYTE - 1] |= (1 << TX2TXRX_BIT) : nextState[TX2TXRX_BYTE - 1] &= ~(1 << TX2TXRX_BIT);
-  
+  //////// set RX sw position
+  (rxConn == CONN_30) ? nextState[RX2TXRX_BYTE - 1] |= (1 << RX2TXRX_BIT) : nextState[RX2TXRX_BYTE - 1] &= ~(1 << RX2TXRX_BIT);
+
+  //////// set TX sw position
+  (txConn == CONN_TXRX) ? nextState[TX2TXRX_BYTE - 1] |= (1 << TX2TXRX_BIT) : nextState[TX2TXRX_BYTE - 1] &= ~(1 << TX2TXRX_BIT);
+
   //////// shift data
   shiftData(nextState, CHAIN_SIZE, activeState);   // Shift Chain Data
-  
+
   //////// set active values
-  activeChannelID = channelId;
-  activeTX2TXRX = selTX2TXRX;
+  activeRxChannelID = rxChannelID;
+  activeTxChannelID = txChannelId;
+  activeRxConn = rxConn;
+  activeTxConn = txConn;
   activeNotch = notch;
   activeAttenuation = attenuation;
+  activeSwrEn = swrEn;
+  activeSwrSrc = swrSrc;
+    
+  return COMPLETED;
 }
 
-void setMode(unsigned char mode){
+void setTxState(unsigned char* state, const unsigned char* txState){
+  for(int i = 0; i < CHAIN_SIZE; i++){
+      state[i] = (state[i] & ~TX_MASK[i]) | (txState[i] & TX_MASK[i]);
+  }
+}
+
+unsigned char setMode(unsigned char mode){
   unsigned char nextMCUSetup = 0;
-  unsigned char channelID;
+  unsigned char rxChannelID;
+  unsigned char txChannelID;
   
-  unsigned char iTXRX0 = 0; // V2
-  unsigned char iTXRX1 = 0; // V3
+  unsigned char iTXRX0 = 0;         // V2
+  unsigned char iTXRX1 = 0;         // V3
   unsigned char iLNA_EN = 0;
   unsigned char iPA_EN = 0;
-  unsigned char iRELAY = 0; // 0 - RX; 1 - TX
-  unsigned char iBAND38TX = 0; // 0 - RX; 1 - TX
+  unsigned char iRELAY = 0;         // 0 - RX; 1 - TX
+  unsigned char iBAND38TX = 0;      // 0 - RX; 1 - TX
 
-  channelID = getChannelID();
+  rxChannelID = getRxChannelID();
+  txChannelID = getTxChannelID();
 
-  if(channelID != CID_NOT_SELECTED){
+  if(rxChannelID != CID_NOT_SELECTED){
     activeMode = mode;
-  
-    /* For Cellular channels the mode cannot be changed */
-    if ((channelID == CID_CELL_BAND01) ||
-        (channelID == CID_CELL_BAND02) ||
-        (channelID == CID_CELL_BAND03) ||
-        (channelID == CID_CELL_BAND07) ||
-        (channelID == CID_CELL_BAND38)) {                      // CELL
+    
+    if (isCell(rxChannelID)) {                      /////////////////// CELL ////////////////
       iTXRX0 = 0;
       iTXRX1 = 1;
-      if (channelID == CID_CELL_BAND38){
-        if (mode == RFE_MODE_TX){
+      if (rxChannelID == CID_CELL_BAND38){  
+        if (mode == RFE_MODE_TX){                                // TX mode Band 38
           iBAND38TX = 1;
-        } else {
+        } else if (mode == RFE_MODE_RX) {                        // RX mode Band 38
           iBAND38TX = 0;
+        } else {
+          return ERROR_CELL_WRONG_MODE;                          // not TX or RX mode for Band 38
         }
-      }
-      if (channelID == CID_CELL_BAND07){
-        iBAND38TX = 1;
-      }
-    } else {
+      } else {
+          if (mode != RFE_MODE_TXRX){
+              return ERROR_CELL_WRONG_MODE;                      // not TXRX mode for (Cell - Band 38)
+          }
+
+          if (rxChannelID == CID_CELL_BAND07){
+              iBAND38TX = 1;                                     // enable PA for band 7 (same as for band 38)
+          }
+      }                                                          /////////////////// CELL /////////////////
+      
+    } else {                                                     /////////////////// HAM & WB /////////////
       switch(mode){
         case RFE_MODE_NONE: {
           iLNA_EN = 0;
           iPA_EN = 0;
+          break;
         }
-        break;
         case RFE_MODE_TX: {
-          iLNA_EN = 0;
-          iPA_EN = 1;
-          if (channelID == CID_HAM_0030) {
+          if (txChannelID == CID_HAM_0030) {
             iRELAY = 1;
           } else {
             iTXRX0 = 1;
             iTXRX1 = 1;
           }
+          iLNA_EN = 0;
+          iPA_EN = 1;
+          break;
         }
-        break;
         case RFE_MODE_RX:{
-          if (channelID == CID_HAM_0030) {                    // 30MHz
-            iRELAY = 0;
-          } else if ((channelID == CID_HAM_0145) || 
-                          (channelID == CID_HAM_0435) || 
-                          (channelID == CID_WB_1000)) {       // RX_L
+          if (rxChannelID == CID_HAM_0030) {                    // 30MHz
+              if (activeRxConn == CONN_TXRX){
+                  iTXRX0 = 1;
+                  iTXRX1 = 0;
+              } else if(activeRxConn == CONN_30){
+                  iRELAY = 0;
+              }
+          } else if ((rxChannelID == CID_HAM_0145) || 
+                          (rxChannelID == CID_HAM_0435) || 
+                          (rxChannelID == CID_WB_1000)) {       // RX_L
             iTXRX0 = 1;
             iTXRX1 = 0;
-          } else {                                            // RX_H
-            iTXRX0 = 0;
+          } else {                                              // RX_H
+            iTXRX0 = 0; 
             iTXRX1 = 0;
           }
           iLNA_EN = 1;
           iPA_EN = 0;
+          break;
         }
-        break;
         case RFE_MODE_TXRX: {
-          if(getTX2TXRX() == 0){                              // TX to TX SMA
-            if (channelID == CID_HAM_0030) {                  // 30MHz
-              iRELAY = 0;
-            } else if ((channelID == CID_HAM_0145) || 
-                            (channelID == CID_HAM_0435) || 
-                            (channelID == CID_WB_1000)) {     // RX_L
+          if(activeTxConn != activeRxConn){                     // for RXTX rx_conn and tx_conn have to be different        
+            if (rxChannelID == CID_HAM_0030) {                  // RX_30MHz
+              if (activeRxConn == CONN_TXRX){
+                  iTXRX0 = 1;
+                  iTXRX1 = 0;
+              } else if(activeRxConn == CONN_30){
+                  iRELAY = 0;
+              }
+            } else if ((rxChannelID == CID_HAM_0145) ||
+                            (rxChannelID == CID_HAM_0435) ||
+                            (rxChannelID == CID_WB_1000)) {     // RX_L
               iTXRX0 = 1;
               iTXRX1 = 0;
-            } else {                                          // RX_H
+            } else if ((rxChannelID == CID_HAM_1280) ||
+                            (rxChannelID == CID_HAM_2400) ||
+                            (rxChannelID == CID_HAM_3500) ||
+                            (rxChannelID == CID_WB_4000)) {     // RX_H
               iTXRX0 = 0;
               iTXRX1 = 0;
             }
-            iLNA_EN = 1;
-            iPA_EN = 1;
+            
+            if (txChannelID == CID_HAM_0030) {                  // TX_30MHz
+              iRELAY = 1;
+            } else if(activeTxConn == CONN_TXRX){
+              iTXRX0 = 1;
+              iTXRX1 = 1;
+            }
+            
+            iLNA_EN = 1;                                        // turn LNAs ON
+            iPA_EN = 1;                                         // turn PAs ON
+            
           } else {
             iLNA_EN = 0;
             iPA_EN = 0;
+            if(!isCell(rxChannelID)){
+                // return error "tx_conn = tx_conn"
+                return ERROR_RXTX_SAME_CONN;
+            }
           }
-        }
         break;
+        }
       }
-    }
+    }                                                           /////////////////// HAM & WB /////////////
       
     (iTXRX0 == 1) ? nextMCUSetup |= (1 << (MCU_BYTE_TXRX0_BIT)) : nextMCUSetup &= ~(1 << (MCU_BYTE_TXRX0_BIT));
     (iTXRX1 == 1) ? nextMCUSetup |= (1 << (MCU_BYTE_TXRX1_BIT)) : nextMCUSetup &= ~(1 << (MCU_BYTE_TXRX1_BIT));
@@ -352,7 +553,29 @@ void setMode(unsigned char mode){
     setupMCU(nextMCUSetup, activeState);
     
   }
-  
+  return COMPLETED;
+}
+
+boolean isRxH(unsigned char rxCh){
+  return  (rxCh == CID_WB_4000 || 
+          rxCh == CID_HAM_1280 || 
+          rxCh == CID_HAM_2400 || 
+          rxCh == CID_HAM_3500);
+}
+
+boolean isRxL(unsigned char rxCh){
+  return  (rxCh == CID_WB_1000 || 
+          rxCh == CID_HAM_0030 || 
+          rxCh == CID_HAM_0145 || 
+          rxCh == CID_HAM_0435);
+}
+
+boolean isCell(unsigned char ch){
+  return  (ch == CID_CELL_BAND01 || 
+          ch == CID_CELL_BAND02 || 
+          ch == CID_CELL_BAND03 || 
+          ch == CID_CELL_BAND07 || 
+          ch == CID_CELL_BAND38);
 }
 
 void wait_for_bytes(int num_bytes, unsigned long timeout){
@@ -362,12 +585,12 @@ void wait_for_bytes(int num_bytes, unsigned long timeout){
   
 }
 
-unsigned char getChannelID(){
-  return activeChannelID;
+unsigned char getRxChannelID(){
+  return activeRxChannelID;
 }
 
-unsigned char getTX2TXRX(){
-  return activeTX2TXRX;
+unsigned char getTxChannelID(){
+  return activeTxChannelID;
 }
 
 void receiveEvent(int howMany) {
@@ -376,12 +599,17 @@ void receiveEvent(int howMany) {
     activeBuffer[i] = Wire.read();             // receive byte as a character
     i++;
   }
-  
-  if(howMany == BUFFER_SIZE){
+  unsigned char command = activeBuffer[0];
+  if (command == CMD_MODE) {       // cmd_mode is shorter
+      activeBufferSize = BUFFER_SIZE_MODE;
+  } else {
+      activeBufferSize = BUFFER_SIZE;
+  }
+  if(howMany == activeBufferSize){
     doCommand();
   }
 }
 
 void requestEvent() {
-  Wire.write(activeBuffer, BUFFER_SIZE);
+  Wire.write(activeBuffer, activeBufferSize);
 }

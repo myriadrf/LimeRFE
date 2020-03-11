@@ -87,3 +87,56 @@ double conv_temp(long raw_temp)
   // f(x) = (raw - offset) / coeff
   return((raw_temp - 324.31) / 1.22);
 }
+
+// Read GPIO 4 or 5 //
+char getGPIO45( char pin) {
+  if (pin == 4){
+    if (digitalRead(GPIO4_PIN) == HIGH){
+      return(0x01);
+    } else {
+      return(0x00);
+    }
+  } else if (pin == 5){
+    if (digitalRead(GPIO5_PIN) == HIGH){
+      return(0x01);
+    } else {
+      return(0x00);
+    }
+  } else {
+    return(0xff);
+  }
+}
+
+// Set GPIO 4 or 5 //
+void setGPIO45( char pin, char value) {
+  if (pin == 4){
+    if (value == 0){
+      digitalWrite(GPIO4_PIN, LOW);
+    } else {
+      digitalWrite(GPIO4_PIN, HIGH);
+    }
+  } else if (pin == 5){
+    if (value == 0){
+      digitalWrite(GPIO5_PIN, LOW);
+    } else {
+      digitalWrite(GPIO5_PIN, HIGH);
+    }
+  }
+}
+
+// Set GPIO 4 or 5 direction (1 - in, 0 - out)//
+void configGPIO45( char pin, char dir) {
+  if (pin == 4){
+    if (dir == 0){
+      pinMode(GPIO4_PIN, OUTPUT);
+    } else {
+      pinMode(GPIO4_PIN, INPUT);
+    }
+  } else if (pin == 5){
+    if (dir == 0){
+      pinMode(GPIO5_PIN, OUTPUT);
+    } else {
+      pinMode(GPIO5_PIN, INPUT);
+    }
+  }
+}

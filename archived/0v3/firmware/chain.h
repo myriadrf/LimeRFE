@@ -1,18 +1,18 @@
 #include "consts.h"
 
-#define CID_WB_1000       0
-#define CID_WB_4000       1
-#define CID_HAM_0030      2
-#define CID_HAM_0145      3
-#define CID_HAM_0435      4
-#define CID_HAM_1280      5
-#define CID_HAM_2400      6
-#define CID_HAM_3500      7
-#define CID_CELL_BAND01   8
-#define CID_CELL_BAND02   9
-#define CID_CELL_BAND03   10
-#define CID_CELL_BAND07   11
-#define CID_CELL_BAND38   12
+#define CID_WB_1000       1
+#define CID_WB_4000       2
+#define CID_HAM_0030      3
+#define CID_HAM_0145      5
+#define CID_HAM_0435      7
+#define CID_HAM_1280      9
+#define CID_HAM_2400      10
+#define CID_HAM_3500      11
+#define CID_CELL_BAND01   12
+#define CID_CELL_BAND02   13
+#define CID_CELL_BAND03   14
+#define CID_CELL_BAND07   15
+#define CID_CELL_BAND38   16
 #define CID_NOT_SELECTED  100
 
 #define RFE_MODE_RX       0
@@ -29,8 +29,17 @@
 #define NOTCH_BYTE 8
 #define NOTCH_BIT 0
 
+#define SWR_EN_BYTE 11
+#define SWR_EN_BIT 4
+
+#define SWR_SRC_BYTE 12
+#define SWR_SRC_BIT 3
+
 #define ATTEN_BYTE 12
 #define ATTEN_BIT 0 //LSB bit - Attenuation is 3-bit value
+
+#define RX2TXRX_BYTE 11
+#define RX2TXRX_BIT 6
 
 #define TX2TXRX_BYTE 11
 #define TX2TXRX_BIT 5
@@ -38,6 +47,9 @@
 #define DATA_RESET      1
 #define DATA_RESETn     0
 
+const unsigned char TX_MASK[CHAIN_SIZE] = {0xff, 0x47, 0x4f, 0x73, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x30};
+
+const unsigned char STATE_DEFAULT[CHAIN_SIZE] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0x00};
 const unsigned char STATE_HAMWB1[CHAIN_SIZE] = {0x18, 0x11, 0x00, 0x70, 0x00, 0x00, 0x10, 0x20, 0x14, 0x00, 0x38, 0x60};
 const unsigned char STATE_HAMWB2[CHAIN_SIZE] = {0x00, 0x10, 0x42, 0x22, 0x00, 0x00, 0x10, 0x00, 0x00, 0x64, 0x3A, 0x00};
 const unsigned char STATE_HAM30[CHAIN_SIZE] = {0x81, 0x50, 0x00, 0x00, 0x00, 0x00, 0x10, 0x09, 0x18, 0x00, 0x58, 0x60};
@@ -51,7 +63,6 @@ const unsigned char STATE_CELLB02[CHAIN_SIZE] = {0x00, 0x00, 0x00, 0x00, 0x60, 0
 const unsigned char STATE_CELLB03[CHAIN_SIZE] = {0x00, 0x00, 0x00, 0x00, 0x44, 0x21, 0x06, 0x00, 0x00, 0x00, 0x11, 0x18};
 const unsigned char STATE_CELLB07[CHAIN_SIZE] = {0x00, 0x00, 0x00, 0x00, 0x01, 0x02, 0x65, 0x00, 0x00, 0x00, 0x11, 0x18};
 const unsigned char STATE_CELLB38[CHAIN_SIZE] = {0x00, 0x00, 0x00, 0x00, 0x11, 0x90, 0x25, 0x00, 0x00, 0x00, 0x11, 0x18};
-
 
 void shiftData(unsigned char* data, int dataSize, unsigned char* currentState);
 void myShiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, unsigned char* val, unsigned int numOfBytes);

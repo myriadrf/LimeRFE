@@ -10,6 +10,10 @@
 #define CMD_READ_ADC2               0xa2  // returns ADC2 value
 #define CMD_READ_TEMP               0xa3  // returns temperature
 
+#define CMD_CONFGPIO45              0xb1  // sets the direction of the GPIO4 or GPIO5 pin
+#define CMD_SETGPIO45               0xb2  // sets the value on GPIO4 or GPIO5 pin
+#define CMD_GETGPIO45               0xb3  // gets the value from GPIO4 or GPIO5 pin 
+
 // General CTRL
 #define CMD_GET_INFO                0xe1
 #define CMD_RESET                   0xe2

@@ -31,3 +31,6 @@ void setRXTX(unsigned char value);
 void setBand38(unsigned char value);
 long read_temp();
 double conv_temp(long raw_temp);
+char getGPIO45( char pin);
+void setGPIO45( char pin, char value);
+void configGPIO45( char pin, char dir);
