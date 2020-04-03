@@ -14,6 +14,8 @@
 #define CMD_SETGPIO45               0xb2  // sets the value on GPIO4 or GPIO5 pin
 #define CMD_GETGPIO45               0xb3  // gets the value from GPIO4 or GPIO5 pin 
 
+#define CMD_FAN                     0xc1  // sets FAN On or OFF
+
 // General CTRL
 #define CMD_GET_INFO                0xe1
 #define CMD_RESET                   0xe2

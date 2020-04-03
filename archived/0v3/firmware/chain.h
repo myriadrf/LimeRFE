@@ -44,6 +44,9 @@
 #define TX2TXRX_BYTE 11
 #define TX2TXRX_BIT 5
 
+#define FAN_BYTE 2
+#define FAN_BIT 4
+
 #define DATA_RESET      1
 #define DATA_RESETn     0
 

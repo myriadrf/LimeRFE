@@ -22,6 +22,7 @@ unsigned char activeNotch = 0x00;                     // 0
 unsigned char activeSwrEn = 0x00;                     // 0
 unsigned char activeSwrSrc = 0x00;                    // 0
 unsigned char activeMode = RFE_MODE_NONE;             // RFE_MODE_NONE
+unsigned char activeFan = 0x00;                       // FAN_OFF
 
 void setup() {
 
@@ -76,7 +77,7 @@ void loop() {
     } else {
       unsigned char command;
       command = activeBuffer[0];
-      if (command == CMD_MODE) {       // cmd_mode is shorter
+      if (command == CMD_MODE || activeBuffer[0] == CMD_FAN) {       // cmd_mode is shorter
           activeBufferSize = BUFFER_SIZE_MODE;
       } else {
           activeBufferSize = BUFFER_SIZE;
@@ -122,6 +123,14 @@ void doCommand(){
         activeBuffer[1] = err;
         break;
       }
+    case CMD_FAN:  {
+        activeFan = activeBuffer[1];
+        memcpy(nextState, activeState, sizeof(activeState[0])*CHAIN_SIZE);
+        (activeFan == 1) ? nextState[FAN_BYTE -1] |= (1 << FAN_BIT) : nextState[FAN_BYTE - 1] &= ~(1 << FAN_BIT);
+        //////// shift data
+        shiftData(nextState, CHAIN_SIZE, activeState);   // Shift Chain Data
+        break;
+      }
     case CMD_READ_ADC2: {
         clearBuffer();
         int adcValue = analogRead(ADC1_PIN);
@@ -159,6 +168,7 @@ void doCommand(){
         activeBuffer[7] = activeAttenuation;
         activeBuffer[8] = activeSwrEn;
         activeBuffer[9] = activeSwrSrc;
+        activeBuffer[10] = activeFan;
         break;
       }
     case CMD_CONFGPIO45:  {
