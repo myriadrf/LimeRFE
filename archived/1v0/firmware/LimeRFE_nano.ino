@@ -168,7 +168,7 @@ void doCommand(){
         activeBuffer[7] = activeAttenuation;
         activeBuffer[8] = activeSwrEn;
         activeBuffer[9] = activeSwrSrc;
-        activeBuffer[9] = activeFan;
+        activeBuffer[10] = activeFan;
         break;
       }
     case CMD_CONFGPIO45:  {
