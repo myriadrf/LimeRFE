@@ -1,0 +1,321 @@
+EESchema Schematic File Version 2
+LIBS:LimeMicroBGD_Library
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 57
+Title "LimeRFE"
+Date "2019-07-12"
+Rev "1v0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 33K_0402_Yageo R89
+U 1 1 5CA1D11D
+P 6625 4475
+F 0 "R89" H 6615 4545 50  0000 C CNN
+F 1 "33K_0402_Yageo" H 6625 4625 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 6625 4725 60  0001 C CNN
+F 3 "" H 6615 4545 60  0000 C CNN
+F 4 "Mouser" H 6625 5125 60  0001 C CNN "Vendor"
+F 5 "652-CR0402-JW-333GLF" H 6625 5225 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 6625 5025 60  0001 C CNN "Manufacturer"
+F 7 "CR0402-JW-333GLF" H 6625 4925 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors 33KOHM 1/16WATT 5%" H 6625 4825 60  0001 C CNN "Description"
+F 9 "33K" H 6625 4465 50  0000 C CNN "Component Value"
+	1    6625 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0412
+U 1 1 5CA1D1D8
+P 6250 5100
+F 0 "#PWR0412" H 6250 4850 50  0001 C CNN
+F 1 "GND" H 6250 4950 50  0001 C CNN
+F 2 "" H 6250 5100 50  0001 C CNN
+F 3 "" H 6250 5100 50  0001 C CNN
+	1    6250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0413
+U 1 1 5CA1D5F4
+P 5700 4375
+F 0 "#PWR0413" H 5700 4125 50  0001 C CNN
+F 1 "GND" H 5700 4225 50  0001 C CNN
+F 2 "" H 5700 4375 50  0001 C CNN
+F 3 "" H 5700 4375 50  0001 C CNN
+	1    5700 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4075 6250 4075
+Wire Wire Line
+	6250 4075 6250 4550
+Wire Wire Line
+	6250 4475 6375 4475
+Connection ~ 6250 4475
+Wire Wire Line
+	6875 4475 7050 4475
+Text HLabel 7050 4475 2    60   Input ~ 0
+PD_2V5
+$Comp
+L GND #PWR0414
+U 1 1 5CA1D8F6
+P 5300 3875
+F 0 "#PWR0414" H 5300 3625 50  0001 C CNN
+F 1 "GND" H 5300 3725 50  0001 C CNN
+F 2 "" H 5300 3875 50  0001 C CNN
+F 3 "" H 5300 3875 50  0001 C CNN
+	1    5300 3875
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0415
+U 1 1 5CA1D90A
+P 5300 4075
+F 0 "#PWR0415" H 5300 3825 50  0001 C CNN
+F 1 "GND" H 5300 3925 50  0001 C CNN
+F 2 "" H 5300 4075 50  0001 C CNN
+F 3 "" H 5300 4075 50  0001 C CNN
+	1    5300 4075
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0416
+U 1 1 5CA1D91E
+P 5300 4175
+F 0 "#PWR0416" H 5300 3925 50  0001 C CNN
+F 1 "GND" H 5300 4025 50  0001 C CNN
+F 2 "" H 5300 4175 50  0001 C CNN
+F 3 "" H 5300 4175 50  0001 C CNN
+	1    5300 4175
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0417
+U 1 1 5CA1D932
+P 6100 3875
+F 0 "#PWR0417" H 6100 3625 50  0001 C CNN
+F 1 "GND" H 6100 3725 50  0001 C CNN
+F 2 "" H 6100 3875 50  0001 C CNN
+F 3 "" H 6100 3875 50  0001 C CNN
+	1    6100 3875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR0418
+U 1 1 5CA1D946
+P 6100 4175
+F 0 "#PWR0418" H 6100 3925 50  0001 C CNN
+F 1 "GND" H 6100 4025 50  0001 C CNN
+F 2 "" H 6100 4175 50  0001 C CNN
+F 3 "" H 6100 4175 50  0001 C CNN
+	1    6100 4175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3975 7000 3975
+Wire Wire Line
+	6625 3975 6625 3700
+$Comp
+L 0.1uF_0402_Murata C76
+U 1 1 5CA1E354
+P 7200 3975
+F 0 "C76" H 7250 4075 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 6850 4375 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 7200 4275 39  0001 C CNN
+F 3 "" H 7250 4075 60  0000 C CNN
+F 4 "Mouser" H 7200 4475 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 7150 4575 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 7200 4675 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 7250 4775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 7300 4875 60  0001 C CNN "Description"
+F 9 "0.1uF" H 7325 3875 50  0000 C CNN "Component Value"
+	1    7200 3975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0.1uF_0402_Murata C73
+U 1 1 5CA1E3F7
+P 4650 3975
+F 0 "C73" H 4700 4075 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 4300 4375 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 4650 4275 39  0001 C CNN
+F 3 "" H 4700 4075 60  0000 C CNN
+F 4 "Mouser" H 4650 4475 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 4600 4575 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 4650 4675 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 4700 4775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 4750 4875 60  0001 C CNN "Description"
+F 9 "0.1uF" H 4775 3875 50  0000 C CNN "Component Value"
+	1    4650 3975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3975 4850 3975
+Connection ~ 6625 3975
+$Comp
+L 0.1uF_0402_Murata C75
+U 1 1 5CA1E72D
+P 7200 3075
+F 0 "C75" H 7250 3175 50  0000 L CNN
+F 1 "0.1uF_0402_Murata" H 6850 3475 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 7200 3375 39  0001 C CNN
+F 3 "" H 7250 3175 60  0000 C CNN
+F 4 "Mouser" H 7200 3575 60  0001 C CNN "Vendor"
+F 5 "81-GRM155R71C104JA8J" H 7150 3675 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 7200 3775 60  0001 C CNN "Manufacturer"
+F 7 "GRM155R71C104JA88J" H 7250 3875 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT .1uF 16Volts 5%" H 7300 3975 60  0001 C CNN "Description"
+F 9 "0.1uF" H 7325 2975 50  0000 C CNN "Component Value"
+	1    7200 3075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR0419
+U 1 1 5CA1E779
+P 7400 2700
+F 0 "#PWR0419" H 7400 2450 50  0001 C CNN
+F 1 "GND" H 7400 2550 50  0001 C CNN
+F 2 "" H 7400 2700 50  0001 C CNN
+F 3 "" H 7400 2700 50  0001 C CNN
+	1    7400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR0420
+U 1 1 5CA1E79C
+P 7400 3075
+F 0 "#PWR0420" H 7400 2825 50  0001 C CNN
+F 1 "GND" H 7400 2925 50  0001 C CNN
+F 2 "" H 7400 3075 50  0001 C CNN
+F 3 "" H 7400 3075 50  0001 C CNN
+	1    7400 3075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 2700 7000 2700
+Wire Wire Line
+	6625 2700 6625 3300
+Connection ~ 6625 2700
+Wire Wire Line
+	7000 3075 6625 3075
+Connection ~ 6625 3075
+Text HLabel 4125 3975 0    60   Input ~ 0
+IN
+Wire Wire Line
+	4125 3975 4450 3975
+Text HLabel 7850 3975 2    60   Output ~ 0
+OUT
+Wire Wire Line
+	7400 3975 7850 3975
+Text HLabel 6400 2700 0    60   Input ~ 0
+LNA_VDD_5V
+$Comp
+L 11K_0402_Panasonic R88
+U 1 1 5CBF1B0B
+P 6250 4800
+F 0 "R88" H 6240 4870 50  0000 C CNN
+F 1 "11K_0402_Panasonic" H 6250 4950 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 6250 5050 60  0001 C CNN
+F 3 "" H 6240 4870 60  0000 C CNN
+F 4 "Mouser" H 6250 5550 60  0001 C CNN "Vendor"
+F 5 "667-ERJ-2RKF1102X" H 6250 5450 60  0001 C CNN "Vendor Part Number"
+F 6 "Yageo" H 6250 5350 60  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1102X" H 6250 5250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD 0402 11Kohms 1% AEC-Q200" H 6250 5150 60  0001 C CNN "Description"
+F 9 "11K" H 6250 4790 50  0000 C CNN "Component Value"
+	1    6250 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 5100 6250 5050
+$Comp
+L 1uF_0402_GCM155C71A105KE38D C74
+U 1 1 5D5F3F66
+P 7200 2700
+F 0 "C74" H 7250 2800 50  0000 L CNN
+F 1 "1uF_0402_GCM155C71A105KE38D" H 6600 3150 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 7200 3050 60  0001 C CNN
+F 3 "" H 7200 2700 60  0000 C CNN
+F 4 "Mouser" H 7200 3650 60  0001 C CNN "Vendor"
+F 5 "81-GCM155C71A105KE8D" H 7200 3550 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 7200 3450 60  0001 C CNN "Manufacturer"
+F 7 "GCM155C71A105KE38D" H 7200 3350 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 1uF 10volts X7S 10%" H 7150 3250 60  0001 C CNN "Description"
+F 9 "1uF" H 7325 2600 50  0000 C CNN "Component Value"
+	1    7200 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 18nH_0603_LQW18AN18NG00D L4
+U 1 1 5D717A53
+P 6625 3500
+F 0 "L4" V 6540 3530 50  0000 C CNN
+F 1 "18nH_0603_LQW18AN18NG00D" H 6625 3850 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 6625 3950 60  0001 C CNN
+F 3 "" V 6540 3530 60  0000 C CNN
+F 4 "Mouser" H 6625 4450 60  0001 C CNN "Vendor"
+F 5 "81-LQW18AN18NG00D" H 6625 4350 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 6625 4250 60  0001 C CNN "Manufacturer"
+F 7 "LQW18AN18NG00D" H 6625 4150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Fixed Inductors 0603 18nH 2%, 550mA" H 6625 4050 60  0001 C CNN "Description"
+F 9 "18nH" V 6690 3480 50  0000 C CNN "Component Value"
+	1    6625 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TQP3M9037 U45
+U 1 1 5D788FFD
+P 5700 4075
+F 0 "U45" H 5550 4425 50  0000 C CNN
+F 1 "TQP3M9037" H 5750 3825 50  0000 L CNN
+F 2 "LimeMicroBGD_Library:TQP3M9037" H 5700 5625 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/412/TQP3M9037_Data_Sheet-1500717.pdf" H 5700 5525 50  0001 C CNN
+F 4 "Mouser" H 5700 5025 60  0001 C CNN "Vendor"
+F 5 "772-TQP3M9037" H 5700 5125 60  0001 C CNN "Vendor Part Number"
+F 6 "Qorvo" H 5700 5225 60  0001 C CNN "Manufacturer"
+F 7 "TQP3M9037" H 5700 5325 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RF Amplifier 1.5-2.7GHz NF .4dB Gain 20dB" H 5700 5425 60  0001 C CNN "Description"
+F 9 "LowNoise_HighLinear_LNA" H 5700 4925 60  0001 C CNN "Component Value"
+	1    5700 4075
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,2332 @@
+Info: Reading netlist file "D:\Lime\Projects\Misc\Filter Modules\PCB\Design\HAM_v4\NEW\KiCad_Design_files\HAM_BOARD.net".
+
+Info: Using references to match components and footprints.
+
+* Warning: component 'U96': board footprint 'LimeMicroBGD_Library:DEA163800LT-5017C1', netlist footprint 'zako_footprints:DEA163800LT-5017C1'
+
+Error: Component 'U45' footprint 'TQP3M9037' was not found in any libraries in the footprint library table.
+
+Error: Component 'U40' footprint 'TQM963014' was not found in any libraries in the footprint library table.
+
+Error: Component 'U19' footprint 'TPS62136RGXT' was not found in any libraries in the footprint library table.
+
+Error: Component 'U21' footprint 'TPS62136RGXT' was not found in any libraries in the footprint library table.
+
+Error: Component 'U115' footprint 'TC74HC04AF' was not found in any libraries in the footprint library table.
+
+Error: Component 'L2' footprint 'SPM6530T-2R2M' was not found in any libraries in the footprint library table.
+
+Error: Component 'L1' footprint 'SPM6530T-2R2M' was not found in any libraries in the footprint library table.
+
+* Warning: component 'U57': board footprint 'LimeMicroBGD_Library:SOT89', netlist footprint 'SOT-89'
+
+Error: Component 'R149' footprint 'SMD2512' was not found in any libraries in the footprint library table.
+
+* Warning: component 'C74': board footprint 'LimeMicroBGD_Library:SMD0402', netlist footprint 'SMD00402'
+
+* Warning: component 'J17': board footprint 'LimeMicroBGD_Library:SMA_v2', netlist footprint 'SMA_v2'
+
+* Warning: component 'J18': board footprint 'LimeMicroBGD_Library:SMA_v2', netlist footprint 'SMA_v2'
+
+* Warning: component 'J2': board footprint 'LimeMicroBGD_Library:SMA_v2', netlist footprint 'SMA_H_v3'
+
+* Warning: component 'J1': board footprint 'LimeMicroBGD_Library:SMA_v2', netlist footprint 'SMA_H_v2'
+
+* Warning: component 'J4': board footprint 'LimeMicroBGD_Library:SMA_v2', netlist footprint 'SMA_H_v2'
+
+* Warning: component 'J3': board footprint 'LimeMicroBGD_Library:SMA_v2', netlist footprint 'SMA_H_v2'
+
+Error: Component 'J5' footprint 'SMA_H_v2' was not found in any libraries in the footprint library table.
+
+* Warning: component 'U5': board footprint 'LimeMicroBGD_Library:SKYA21003', netlist footprint 'SKYA21003_12QFN'
+
+* Warning: component 'U34': board footprint 'LimeMicroBGD_Library:SKYA21003', netlist footprint 'SKYA21003_12QFN'
+
+* Warning: component 'U10': board footprint 'LimeMicroBGD_Library:SKYA21003', netlist footprint 'SKYA21003_12QFN'
+
+* Warning: component 'U37': board footprint 'LimeMicroBGD_Library:SKYA21003', netlist footprint 'SKYA21003_12QFN'
+
+Error: Component 'R18' footprint 'R_SM0402' was not found in any libraries in the footprint library table.
+
+Error: Component 'U101' footprint 'RD01MUS2B' was not found in any libraries in the footprint library table.
+
+Error: Component 'U109' footprint 'RD01MUS2B' was not found in any libraries in the footprint library table.
+
+Error: Component 'U107' footprint 'RD01MUS2B' was not found in any libraries in the footprint library table.
+
+Error: Component 'U111' footprint 'RD01MUS2B' was not found in any libraries in the footprint library table.
+
+Error: Component 'U39' footprint 'QPQ1297' was not found in any libraries in the footprint library table.
+
+Error: Component 'U41' footprint 'QPQ1282' was not found in any libraries in the footprint library table.
+
+Error: Component 'U48' footprint 'QPA9419' was not found in any libraries in the footprint library table.
+
+Error: Component 'U124' footprint 'QPA9419' was not found in any libraries in the footprint library table.
+
+Error: Component 'U122' footprint 'QPA9419' was not found in any libraries in the footprint library table.
+
+* Warning: component 'U120': board footprint 'LimeMicroBGD_Library:QPA9426', netlist footprint 'QPA9419'
+
+Error: Component 'U38' footprint 'MAFR-000633-001' was not found in any libraries in the footprint library table.
+
+* Warning: component 'D3': board footprint 'LEDs:LED_0603', netlist footprint 'LED_0603'
+
+* Warning: component 'D8': board footprint 'LEDs:LED_0603', netlist footprint 'LED_0603'
+
+* Warning: component 'L5': board footprint 'LimeMicroBGD_Library:SMD0805', netlist footprint 'IND_0805'
+
+* Warning: component 'L4': board footprint 'LimeMicroBGD_Library:SMD0603', netlist footprint 'IND_0603'
+
+Error: Component 'L3' footprint 'IND_0201' was not found in any libraries in the footprint library table.
+
+* Warning: component 'U29': board footprint 'HMC544AE', netlist footprint 'HMC544A'
+
+* Warning: component 'U30': board footprint 'HMC544AE', netlist footprint 'HMC544A'
+
+Error: Component 'U49' footprint 'HHM22152A2' was not found in any libraries in the footprint library table.
+
+* Warning: component 'U47': board footprint 'LimeMicroBGD_Library:LLP-6', netlist footprint 'HHM22152A2'
+
+Error: Component 'U125' footprint 'HHM22152A2' was not found in any libraries in the footprint library table.
+
+Error: Component 'U123' footprint 'HHM22152A2' was not found in any libraries in the footprint library table.
+
+Error: Component 'U121' footprint 'HHM22152A2' was not found in any libraries in the footprint library table.
+
+Error: Component 'C32' footprint 'ESK107M063AH1EA' was not found in any libraries in the footprint library table.
+
+* Warning: component 'U7': board footprint 'LimeMicroBGD_Library:DRDC3105F-7_SOT23', netlist footprint 'DRDC3105F-7_SOT23'
+
+Error: Component 'Q14' footprint 'DPAK' was not found in any libraries in the footprint library table.
+
+Error: Component 'Q8' footprint 'DPAK' was not found in any libraries in the footprint library table.
+
+Error: Component 'Q7' footprint 'DPAK' was not found in any libraries in the footprint library table.
+
+Error: Component 'Q11' footprint 'DPAK' was not found in any libraries in the footprint library table.
+
+Error: Component 'Q9' footprint 'DPAK' was not found in any libraries in the footprint library table.
+
+Error: Component 'Q13' footprint 'DPAK' was not found in any libraries in the footprint library table.
+
+Error: Component 'Q10' footprint 'DPAK' was not found in any libraries in the footprint library table.
+
+Error: Component 'Q12' footprint 'DPAK' was not found in any libraries in the footprint library table.
+
+Error: Component 'J16' footprint 'CONN_1757307' was not found in any libraries in the footprint library table.
+
+Error: Component 'J15' footprint 'CONN_1757242' was not found in any libraries in the footprint library table.
+
+Error: Component 'IC2' footprint 'AD5513' was not found in any libraries in the footprint library table.
+
+Error: Component 'IC1' footprint 'AD5513' was not found in any libraries in the footprint library table.
+
+Error: Component 'U43' footprint '885026' was not found in any libraries in the footprint library table.
+
+Error: Component 'U77' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U84' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U83' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U82' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U85' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U64' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U81' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U86' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U87' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U88' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U76' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U78' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U79' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U80' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+Error: Component 'U69' footprint '74LVC1G08GW_TSSOP-5' was not found in any libraries in the footprint library table.
+
+* Warning: component 'U112': board footprint 'LimeMicroBGD_Library:6WSON', netlist footprint '6WSON'
+
+* Warning: component 'U95': board footprint 'LimeMicroBGD_Library:2450LP14B100', netlist footprint '2450LP14B100T '
+
+* Warning: component 'U11': board footprint 'LimeMicroBGD_Library:1462042-8', netlist footprint '1462042-8'
+
+Error: No footprint defined for component 'D12'.
+
+Info: Checking netlist component footprint "C1:/5D35FF6E:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C2:/5CC283A8:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C3:/5CC434DF:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C4:/5CC344C3:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C5:/5CC43504:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C6:/5CF3B830:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C7:/5A688ED5/5A69F6C9:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C8:/5A688ED5/5A728832:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C9:/5A688ED5/5A6A4B4A:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C10:/5A688ED5/5A69F692:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C11:/5A688ED5/5A798170:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C12:/5A688ED5/5A69EB43:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C13:/5A688ED5/5A7989A1:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C14:/5A688ED5/5A69EAF2:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C15:/5C59C1A3/5C5EA9BE:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C16:/5C59C1A3/5D386EF0:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C17:/5C59C1A3/5C97FCCC:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C18:/5C59C1A3/5C5EAAF5:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C19:/5C59C1A3/5D386EFC:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C20:/5C59C1A3/5C9514A0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C21:/5C59C1A3/5C5EC37C:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C22:/5C59C1A3/5D3875BB:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C23:/5C59C1A3/5C981ECC:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C24:/5C59C1A3/5C9802FE:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C25:/5C59C1A3/5C8AD843:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C26:/5C59C1A3/5C9821AF:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C27:/5C5A6AF9/5583B246:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C28:/5C5A6AF9/521924AE:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C29:/5C5A6AF9/52192E20:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C30:/5C5A6AF9/533FB71A:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C31:/5C5A6AF9/556D807E:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C32:/5C95B92D/5D2B5798:ESK107M063AH1EA".
+
+Error: Cannot add new component "C32:/5C95B92D/5D2B5798" due to missing footprint "ESK107M063AH1EA".
+
+Info: Checking netlist component footprint "C33:/5C95B92D/5D2688B5:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C34:/5C95B92D/5D267BFF:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C35:/5C95B92D/5D281513:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C36:/5C95B92D/5D2688C1:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C37:/5C95B92D/5D281507:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C38:/5C95B92D/5D2682C1:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C39:/5C95B92D/5D2814FB:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C40:/5C95B92D/5D2688CD:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C41:/5C95B92D/5D2814EF:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C42:/5C95B92D/5D2683B7:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C43:/5C95B92D/5D280FB0:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C44:/5C95B92D/5D2688D9:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C45:/5C95B92D/5D280FA4:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C46:/5C95B92D/5D2683C3:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C47:/5C95B92D/5D280EF4:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C48:/5C95B92D/5D280D03:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C49:/5C95B92D/5D283190:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C50:/5C95B92D/5D2833CB:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C51:/5C95B92D/5D282954:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C52:/5C92C2C9/5CA5CB02:SMD0603".
+
+Info: Checking netlist component footprint "C53:/5C92C2C9/5CA52AC2:SMD0603".
+
+Info: Checking netlist component footprint "C54:/5C92C2C9/5CA50149:SMD0603".
+
+Info: Checking netlist component footprint "C55:/5C92C2C9/5CA5CB09:SMD0603".
+
+Info: Checking netlist component footprint "C56:/5C92C2C9/5CA52AC9:SMD0603".
+
+Info: Checking netlist component footprint "C57:/5C92C2C9/5CA5020E:SMD0603".
+
+Info: Checking netlist component footprint "C58:/5C92C2C9/5CA5CAFA:SMD0402".
+
+Info: Checking netlist component footprint "C59:/5C92C2C9/5CA51AB4:SMD0402".
+
+Info: Checking netlist component footprint "C60:/5C92C2C9/5CA4F286:SMD0402".
+
+Info: Checking netlist component footprint "C61:/5C92C2C9/5CA551D4:SMD0402".
+
+Info: Checking netlist component footprint "C62:/5C92C2C9/5CA5E083:SMD0402".
+
+Info: Checking netlist component footprint "C63:/5C92C2C9/5CA55C12:SMD0402".
+
+Info: Checking netlist component footprint "C64:/5C92C2C9/5CA5A04E:SMD0402".
+
+Info: Checking netlist component footprint "C65:/5C92C2C9/5CA5E0A7:SMD0402".
+
+Info: Checking netlist component footprint "C66:/5C92C2C9/5CA5E0CE:SMD0402".
+
+Info: Checking netlist component footprint "C67:/5C92C2C9/5CA63194:SMD0603".
+
+Info: Checking netlist component footprint "C68:/5C92C2C9/5CA636A6:SMD0603".
+
+Info: Checking netlist component footprint "C69:/5C92C2C9/5C916B9B:SMD0603".
+
+Info: Checking netlist component footprint "C70:/5C92C2C9/5C9166F9:SMD0402".
+
+Info: Checking netlist component footprint "C71:/5C92C2C9/5C9151EE:SMD0603".
+
+Info: Checking netlist component footprint "C72:/5C92C2C9/5C9153A2:SMD0603".
+
+Info: Checking netlist component footprint "C73:/5CA7A302/5C9E88D3/5CA1E3F7:SMD0402".
+
+Info: Checking netlist component footprint "C74:/5CA7A302/5C9E88D3/5CA1E02B:SMD00402".
+
+Info: Checking netlist component footprint "C75:/5CA7A302/5C9E88D3/5CA1E72D:SMD0402".
+
+Info: Checking netlist component footprint "C76:/5CA7A302/5C9E88D3/5CA1E354:SMD0402".
+
+Info: Checking netlist component footprint "C77:/5CA7A302/5CA209E7/5CA2239E:SMD1206".
+
+Info: Checking netlist component footprint "C78:/5CA7A302/5CA209E7/5CA21B58:SMD0603".
+
+Info: Checking netlist component footprint "C79:/5CA7A302/5CA209E7/5CA22DC3:SMD0603".
+
+Info: Checking netlist component footprint "C80:/5CA7A302/5CA209E7/5CA2122C:SMD0603".
+
+Info: Checking netlist component footprint "C81:/5CA7A302/5CA209E7/5CA214DA:SMD0603".
+
+Info: Checking netlist component footprint "C82:/5CA7A302/5CA209E7/5CA22E98:SMD0603".
+
+Info: Checking netlist component footprint "C83:/5CA7A302/5CA209E7/5CA21BE8:SMD0603".
+
+Info: Checking netlist component footprint "C84:/5CA7A302/5CA209E7/5CA225B6:SMD1206".
+
+Info: Checking netlist component footprint "C85:/5CA7A302/5CA27FB3/5CA28727:SMD1206".
+
+Info: Checking netlist component footprint "C86:/5CA7A302/5CA27FB3/5CA2870D:SMD0603".
+
+Info: Checking netlist component footprint "C87:/5CA7A302/5CA27FB3/5CA28741:SMD0603".
+
+Info: Checking netlist component footprint "C88:/5CA7A302/5CA27FB3/5CA286F3:SMD0603".
+
+Info: Checking netlist component footprint "C89:/5CA7A302/5CA27FB3/5CA28700:SMD0603".
+
+Info: Checking netlist component footprint "C90:/5CA7A302/5CA27FB3/5CA2874E:SMD0603".
+
+Info: Checking netlist component footprint "C91:/5CA7A302/5CA27FB3/5CA2871A:SMD0603".
+
+Info: Checking netlist component footprint "C92:/5CA7A302/5CA27FB3/5CA28734:SMD1206".
+
+Info: Checking netlist component footprint "C93:/5CA7A302/5CA2CBE2/5CA30A71:SMD1206".
+
+Info: Checking netlist component footprint "C94:/5CA7A302/5CA2CBE2/5CA3BC13:SMD1206".
+
+Info: Checking netlist component footprint "C95:/5CA7A302/5CA2CBE2/5CA37582:SMD0402".
+
+Info: Checking netlist component footprint "C96:/5CA7A302/5CA2CBE2/5CA30B99:SMD0402".
+
+Info: Checking netlist component footprint "C97:/5CA7A302/5CA2CBE2/5CA3BC1F:SMD0402".
+
+Info: Checking netlist component footprint "C98:/5CA7A302/5CA2CBE2/5CA30E38:SMD0402".
+
+Info: Checking netlist component footprint "C99:/5CA7A302/5CA2CBE2/5CA3BC2B:SMD0402".
+
+Info: Checking netlist component footprint "C100:/5CA7A302/5CA2CBE2/5CA37D74:SMD0402".
+
+Info: Checking netlist component footprint "C101:/5CA7A302/5CA2CBE2/5CA30EC3:SMD1206".
+
+Info: Checking netlist component footprint "C102:/5CA7A302/5CA2CBE2/5CA3BC37:SMD1206".
+
+Info: Checking netlist component footprint "C103:/5CA7A302/5CA2CBE2/5CA37B0C:SMD1206".
+
+Info: Checking netlist component footprint "C104:/5CA7A302/5CA2CBE2/5CA31DCD:SMD1206".
+
+Info: Checking netlist component footprint "C105:/5CA7A302/5CA2CBE2/5CA3BC4F:SMD1206".
+
+Info: Checking netlist component footprint "C106:/5CA7A302/5CA2CBE2/5CA32087:SMD0402".
+
+Info: Checking netlist component footprint "C107:/5CA7A302/5CA2CBE2/5CA3BC5B:SMD0402".
+
+Info: Checking netlist component footprint "C108:/5CA7A302/5CA2CBE2/5CA32395:SMD0402".
+
+Info: Checking netlist component footprint "C109:/5CA7A302/5CA2CBE2/5CA3BC73:SMD0402".
+
+Info: Checking netlist component footprint "C110:/5CA7A302/5CA2CBE2/5CA322AA:SMD1206".
+
+Info: Checking netlist component footprint "C111:/5CA7A302/5CA2CBE2/5CA3BC67:SMD1206".
+
+Info: Checking netlist component footprint "C112:/5CA7A302/5CA46740/5CA48924:SMD0402".
+
+Info: Checking netlist component footprint "C113:/5CA7A302/5CA46740/5CA47EF3:SMD1206".
+
+Info: Checking netlist component footprint "C114:/5CA7A302/5CA46740/5CA483FA:SMD0402".
+
+Info: Checking netlist component footprint "C115:/5CA7A302/5CA46740/5CA488A1:SMD0402".
+
+Info: Checking netlist component footprint "C116:/5CA7A302/5CA46740/5CA48A24:SMD0402".
+
+Info: Checking netlist component footprint "C117:/5CAD20EB/5C63F11A:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C118:/5CAD20EB/5C647691:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C119:/5CAD20EB/5C6412BD:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C120:/5CAD20EB/5C67850C:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C121:/5CAD20EB/5C574E67/5C530DF3:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C122:/5CAD20EB/5C574E67/5C507D85:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C123:/5CAD20EB/5C574E67/5C530EBA:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C124:/5CAD20EB/5C574E67/5C508E2C:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C125:/5CAD20EB/5C574E67/5C4F27EA:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C126:/5CAD20EB/5C574E67/5C507F8E:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C127:/5CAD20EB/5C584512/5C601712:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C128:/5CAD20EB/5C584512/5C6017CD:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C129:/5CAD20EB/5C584512/5C60209F:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C130:/5CAD20EB/5C584512/5C602E5E:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C131:/5CAD20EB/5C584512/5C60291A:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C132:/5CAD20EB/5C584512/5C602926:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C133:/5CAD20EB/5C584512/5C60295A:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C134:/5CAD20EB/5C584512/5C603FFD:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C135:/5CAD20EB/5C584512/5C608083:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C136:/5CAD20EB/5C584512/5C60401F:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C137:/5CAD20EB/5C584512/5C608328:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C138:/5CAD20EB/5C584512/5C60400E:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C139:/5CAD20EB/5C584512/5C608460:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C140:/5CAD20EB/5C584512/5C604736:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C141:/5CAD20EB/5C58761B/5D22D7DE:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C142:/5CAD20EB/5C58761B/5C556E67:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C143:/5CAD20EB/5C58761B/5D22D7DF:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C144:/5CAD20EB/5C58761B/5C557518:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C145:/5CAD20EB/5C58761B/5C557500:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C146:/5CAD20EB/5C58761B/5C557F84:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C147:/5CAD20EB/5C58761B/5C557F6C:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C148:/5CAD20EB/5C58795F/5D22D79D:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C149:/5CAD20EB/5C58795F/5C546948:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C150:/5CAD20EB/5C58795F/5C546A22:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C151:/5CAD20EB/5C58795F/5C5467A9:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C152:/5CAD20EB/5C587A6E/5C694DF7:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C153:/5CAD20EB/5C587A6E/5C694FE3:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C154:/5CAD20EB/5C587A6E/5C69507F:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C155:/5CAD20EB/5C587A6E/5D22D7D9:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C156:/5CD438F8/5C645A64:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C157:/5CD438F8/5C644AB8:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C158:/5CD438F8/5A68A45D/5C64A2A9:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C159:/5CD438F8/5A68A45D/5C50D38B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C160:/5CD438F8/5A68A45D/5C5317BB:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C161:/5CD438F8/5A68A45D/5C64A288:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C162:/5CD438F8/5A68A45D/5C64A287:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C163:/5CD438F8/5A68A45D/5C50D63D:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C164:/5CD70128/5C9FE8A2/5CA6347F:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C165:/5CD70128/5C9FE8A2/5CA63518:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C166:/5CD70128/5C9FE8A2/5CA6394E:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C167:/5CD70128/5C9FE8A2/5CA63844:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C168:/5CD70128/5C9FE8A2/5CA63AD6:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C169:/5CD70128/5C9FEC23/5CA72236:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C170:/5CD70128/5C9FEC23/5CA72169:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C171:/5CD70128/5C9FEC23/5CA72696:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C172:/5CD70128/5C9FEC23/5CA7261B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C173:/5CD70128/5C9FEC23/5CA7270C:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C174:/5CD70128/5CA4EA33/5C8953B3:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C175:/5CD70128/5CA4EA33/5C90C4FE:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C176:/5CD70128/5CA4EA33/5C90CD9C:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C177:/5CD70128/5CA4EA33/5D4B5EF4:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C178:/5CD70128/5CA4EA33/5C90E3BB:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C179:/5CD70128/5CA4EA33/5C90E48E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C180:/5CD70128/5CA4EA33/5D4B5F27:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C181:/5CD70128/5CA4EA33/5CA82D10:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C182:/5CD70128/5CA4EA33/5D5241BB:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "C183:/5CD70128/5CA4EA33/5CA82D11:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C184:/5CD70128/5CA4EA33/5D4B5F47:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C185:/5CD70128/5CA4EA33/5C8B6D67:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C186:/5CD70128/5CA4EA33/5D523E29:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "C187:/5CD70128/5CA4EA33/5D4B5FB6:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C188:/5CD70128/5CA4EA33/5C90FBA1:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C189:/5CD70128/5CA4EA33/5D4B5ED2:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C190:/5CD70128/5CA4EA33/5C9112B1:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C191:/5CD70128/5CA4EA33/5C91139A:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C192:/5CD70128/5CA4EA33/5C8BB308:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C193:/5CD70128/5CA4EA33/5D4B5EE1:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C194:/5CD70128/5CA7992F/5D4C9D0C:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C195:/5CD70128/5CA7992F/5D4C9D32:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C196:/5CD70128/5CA7992F/5D4C9B88:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C197:/5CD70128/5CA7992F/5D4C9B7B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C198:/5CD70128/5CA7992F/5D4C9B95:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C199:/5CD70128/5CA7992F/5D4C9D52:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C200:/5CD70128/5CA7992F/5D4C9BC9:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C201:/5CD70128/5CA7992F/5D4C9BBC:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C202:/5CD70128/5CA7992F/5D4C9E41:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C203:/5CD70128/5CA7992F/5D4C9DFD:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C204:/5CD70128/5CA7992F/5D4C9E0C:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C205:/5CD70128/5CA79F87/5CA7DB74:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C206:/5CD70128/5CA79F87/5CA7DB9A:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C207:/5CD70128/5CA79F87/5CA7D9F0:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C208:/5CD70128/5CA79F87/5CA7D9E3:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C209:/5CD70128/5CA79F87/5CA7D9FD:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C210:/5CD70128/5CA79F87/5CA7DBBA:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C211:/5CD70128/5CA79F87/5CA7DA31:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C212:/5CD70128/5CA79F87/5CA7DA24:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C213:/5CD70128/5CA79F87/5CA7DCA8:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C214:/5CD70128/5CA79F87/5CA7DC65:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C215:/5CD70128/5CA79F87/5CA7DC74:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C216:/5CD70128/5CA79F95/5CA29E42:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C217:/5CD70128/5CA79F95/5CA2E534:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C218:/5CD70128/5CA79F95/5C8A77B5:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C219:/5CD70128/5CA79F95/5C8A6FCE:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C220:/5CD70128/5CA79F95/5C8A80BB:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C221:/5CD70128/5CA79F95/5CA319C9:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C222:/5CD70128/5CA79F95/5CA82D14:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C223:/5CD70128/5CA79F95/5C8B6D5B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C224:/5CD70128/5CA79F95/5D4BF7A0:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C225:/5CD70128/5CA79F95/5D4BF758:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C226:/5CD70128/5CA79F95/5D4BF767:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C227:/5CD70128/5D141CF6/5CA8D77D:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C228:/5CD70128/5D141CF6/5CA8D78A:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C229:/5CD70128/5D141CF6/5CA8D7B4:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C230:/5CD70128/5D141CF6/5CA8D7A7:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C231:/5CD70128/5D141CF6/5CA8D79A:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C232:/5CD70128/5D141CF6/5CA8D800:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C233:/5CD70128/5D141CF6/5CA8D80F:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C234:/5CD70128/5D148F25/5CA8C75D:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C235:/5CD70128/5D148F25/5CA8C783:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C236:/5CD70128/5D148F25/5CA8C5E6:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C237:/5CD70128/5D148F25/5CA8C5D9:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C238:/5CD70128/5D148F25/5CA8C5F3:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C239:/5CD70128/5D148F25/5CA8C7A3:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C240:/5CD70128/5D148F25/5CA8C627:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C241:/5CD70128/5D148F25/5CA8C61A:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C242:/5CD70128/5D148F25/5CA8C891:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C243:/5CD70128/5D148F25/5CA8C84E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C244:/5CD70128/5D148F25/5CA8C85D:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C245:/5CD70128/5D150A4E/5CA88502:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C246:/5CD70128/5D150A4E/5CA88528:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C247:/5CD70128/5D150A4E/5CA8838B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C248:/5CD70128/5D150A4E/5CA8837E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C249:/5CD70128/5D150A4E/5CA88398:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C250:/5CD70128/5D150A4E/5CA88548:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C251:/5CD70128/5D150A4E/5CA883CC:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C252:/5CD70128/5D150A4E/5CA883BF:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C253:/5CD70128/5D150A4E/5CA88636:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C254:/5CD70128/5D150A4E/5CA885F3:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C255:/5CD70128/5D150A4E/5CA88602:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C256:/5CD70128/5D158247/5CA897C6:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C257:/5CD70128/5D158247/5CA897EC:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C258:/5CD70128/5D158247/5CA8964F:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C259:/5CD70128/5D158247/5CA89642:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C260:/5CD70128/5D158247/5CA8965C:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C261:/5CD70128/5D158247/5CA8980C:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C262:/5CD70128/5D158247/5CA89690:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C263:/5CD70128/5D158247/5CA89683:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C264:/5CD70128/5D158247/5CA898FA:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C265:/5CD70128/5D158247/5CA898B7:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C266:/5CD70128/5D158247/5CA898C6:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C267:/5CD70128/5D14A45D/59CB9808:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C268:/5CD70128/5D14A45D/59CB987D:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C269:/5CD70128/5D14A45D/59CBA430:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "C270:/5CD70128/5D14A45D/59CBA331:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "C271:/5CD70128/5D14A45D/59CBA2E0:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "C272:/5CD70128/5D14A45D/5D4F2C6E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C273:/5CD70128/5D14A45D/5D4F2C7D:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C274:/5CD70128/5CA4EEDF/5CA9FDE9:SMD1206".
+
+Info: Checking netlist component footprint "C275:/5CD70128/5CA4EEDF/5CA9FDCF:SMD0603".
+
+Info: Checking netlist component footprint "C276:/5CD70128/5CA4EEDF/5CA9FE03:SMD0603".
+
+Info: Checking netlist component footprint "C277:/5CD70128/5CA4EEDF/5CA9FDB5:SMD0603".
+
+Info: Checking netlist component footprint "C278:/5CD70128/5CA4EEDF/5CA9FDC2:SMD0603".
+
+Info: Checking netlist component footprint "C279:/5CD70128/5CA4EEDF/5CA9FE10:SMD0603".
+
+Info: Checking netlist component footprint "C280:/5CD70128/5CA4EEDF/5CA9FDDC:SMD0603".
+
+Info: Checking netlist component footprint "C281:/5CD70128/5CA4EEDF/5CA9FDF6:SMD1206".
+
+Info: Checking netlist component footprint "C282:/5CD70128/5CA73DAB/5CAA0739:SMD1206".
+
+Info: Checking netlist component footprint "C283:/5CD70128/5CA73DAB/5CAA071F:SMD0603".
+
+Info: Checking netlist component footprint "C284:/5CD70128/5CA73DAB/5CAA0753:SMD0603".
+
+Info: Checking netlist component footprint "C285:/5CD70128/5CA73DAB/5CAA0705:SMD0603".
+
+Info: Checking netlist component footprint "C286:/5CD70128/5CA73DAB/5CAA0712:SMD0603".
+
+Info: Checking netlist component footprint "C287:/5CD70128/5CA73DAB/5CAA0760:SMD0603".
+
+Info: Checking netlist component footprint "C288:/5CD70128/5CA73DAB/5CAA072C:SMD0603".
+
+Info: Checking netlist component footprint "C289:/5CD70128/5CA73DAB/5CAA0746:SMD1206".
+
+Info: Checking netlist component footprint "C290:/5CD70128/5CA78E32/5CAA1017:SMD1206".
+
+Info: Checking netlist component footprint "C291:/5CD70128/5CA78E32/5CAA0FFD:SMD0603".
+
+Info: Checking netlist component footprint "C292:/5CD70128/5CA78E32/5CAA1031:SMD0603".
+
+Info: Checking netlist component footprint "C293:/5CD70128/5CA78E32/5CAA0FE3:SMD0603".
+
+Info: Checking netlist component footprint "C294:/5CD70128/5CA78E32/5CAA0FF0:SMD0603".
+
+Info: Checking netlist component footprint "C295:/5CD70128/5CA78E32/5CAA103E:SMD0603".
+
+Info: Checking netlist component footprint "C296:/5CD70128/5CA78E32/5CAA100A:SMD0603".
+
+Info: Checking netlist component footprint "C297:/5CD70128/5CA78E32/5CAA1024:SMD1206".
+
+Info: Checking netlist component footprint "C298:/5CD70128/5CE6339F/5CA9AE4B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C299:/5CD70128/5CE6339F/5CA9AF5A:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C300:/5CD70128/5CE6339F/5CA9AF67:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C301:/5CD70128/5CE6339F/5CA9B031:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C302:/5CD70128/5CE6339F/5CA9AF81:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C303:/5CD70128/5CE6339F/5CA9AF8E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C304:/5CD70128/5CE6339F/5CA9B064:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C305:/5CD70128/5CE6339F/5CA9AE83:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C306:/5CD70128/5CE6339F/5CA9B136:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "C307:/5CD70128/5CE6339F/5CA9AE90:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C308:/5CD70128/5CE6339F/5CA9B084:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C309:/5CD70128/5CE6339F/5CA9AEB7:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C310:/5CD70128/5CE6339F/5CA9B129:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "C311:/5CD70128/5CE6339F/5CA9B0E7:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C312:/5CD70128/5CE6339F/5CA9AFA8:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C313:/5CD70128/5CE6339F/5CA9B00F:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C314:/5CD70128/5CE6339F/5CA9AFC2:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C315:/5CD70128/5CE6339F/5CA9AFCF:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C316:/5CD70128/5CE6339F/5CA9AEC4:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "C317:/5CD70128/5CE6339F/5CA9B01E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "CON1:/5C5A6AF9/5D43715E:LimeMicroBGD_Library:USB-MINI-B".
+
+Info: Checking netlist component footprint "D1:/5A688ED5/5D40C229:LED_0603".
+
+Info: Checking netlist component footprint "D2:/5A688ED5/5D40C2E2:LED_0603".
+
+Info: Checking netlist component footprint "D3:/5C59C1A3/5D410AEF:LED_0603".
+
+Info: Checking netlist component footprint "D4:/5C59C1A3/5D367E11:NSR20F30NXT5G".
+
+Info: Checking netlist component footprint "D5:/5C59C1A3/5D368176:NSR20F30NXT5G".
+
+Info: Checking netlist component footprint "D6:/5C59C1A3/5D3681C7:NSR20F30NXT5G".
+
+Info: Checking netlist component footprint "D7:/5C59C1A3/5D410C6E:LED_0603".
+
+Info: Checking netlist component footprint "D8:/5C59C1A3/5D410864:LED_0603".
+
+Info: Checking netlist component footprint "D9:/5C59C1A3/5D410DD4:LED_0603".
+
+Info: Checking netlist component footprint "D10:/5C95B92D/5D4175C8:LED_0603".
+
+Info: Checking netlist component footprint "D11:/5C95B92D/5D417EFB:LED_0603".
+
+Info: Checking netlist component footprint "D12:/5C95B92D/5D25B5A1:".
+
+Error: Cannot add new component "D12:/5C95B92D/5D25B5A1" due to missing footprint "".
+
+Info: Checking netlist component footprint "D13:/5C95B92D/5D4179DF:LED_0603".
+
+Info: Checking netlist component footprint "D14:/5C95B92D/5D417F07:LED_0603".
+
+Info: Checking netlist component footprint "D15:/5CD70128/5CA4EA33/5D4B5F34:VMN2".
+
+Info: Checking netlist component footprint "D16:/5CD70128/5CA7992F/5D4C9D3F:VMN2".
+
+Info: Checking netlist component footprint "D17:/5CD70128/5CA79F87/5CA7DBA7:VMN2".
+
+Info: Checking netlist component footprint "D18:/5CD70128/5CA79F95/5CA30A1F:VMN2".
+
+Info: Checking netlist component footprint "D19:/5CD70128/5D148F25/5CA8C790:VMN2".
+
+Info: Checking netlist component footprint "D20:/5CD70128/5D150A4E/5CA88535:VMN2".
+
+Info: Checking netlist component footprint "D21:/5CD70128/5D158247/5CA897F9:VMN2".
+
+Info: Checking netlist component footprint "D22:/5CD70128/5CE6339F/5CA9B071:VMN2".
+
+Info: Checking netlist component footprint "FB1:/5C59C1A3/5C5EAB33:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "FB2:/5C59C1A3/5D386F08:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "FB3:/5C5A6AF9/558A1958:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "FB4:/5CA7A302/5CA209E7/5CA20E18:SMD0805".
+
+Info: Checking netlist component footprint "FB5:/5CA7A302/5CA209E7/5CA2373C:SMD0805".
+
+Info: Checking netlist component footprint "FB6:/5CA7A302/5CA27FB3/5CA286E6:SMD0805".
+
+Info: Checking netlist component footprint "FB7:/5CA7A302/5CA27FB3/5CA287A7:SMD0805".
+
+Info: Checking netlist component footprint "FB8:/5CAD20EB/5C574E67/5C531047:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "FB9:/5CD438F8/5A68A45D/5C531505:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "FB10:/5CD70128/5CA4EEDF/5CA9FDA8:SMD0805".
+
+Info: Checking netlist component footprint "FB11:/5CD70128/5CA4EEDF/5CA9FE5A:SMD0805".
+
+Info: Checking netlist component footprint "FB12:/5CD70128/5CA73DAB/5CAA06F8:SMD0805".
+
+Info: Checking netlist component footprint "FB13:/5CD70128/5CA73DAB/5CAA07AA:SMD0805".
+
+Info: Checking netlist component footprint "FB14:/5CD70128/5CA78E32/5CAA0FD6:SMD0805".
+
+Info: Checking netlist component footprint "FB15:/5CD70128/5CA78E32/5CAA1088:SMD0805".
+
+Info: Checking netlist component footprint "IC1:/5C92C2C9/5CA55727:AD5513".
+
+Error: Cannot add new component "IC1:/5C92C2C9/5CA55727" due to missing footprint "AD5513".
+
+Info: Checking netlist component footprint "IC2:/5C92C2C9/5CA5E08F:AD5513".
+
+Error: Cannot add new component "IC2:/5C92C2C9/5CA5E08F" due to missing footprint "AD5513".
+
+Info: Checking netlist component footprint "J1:/5C9F21FA:SMA_H_v2".
+
+Info: Checking netlist component footprint "J2:/5C9F1E18:SMA_H_v3".
+
+Info: Checking netlist component footprint "J3:/5C9EFF66:SMA_H_v2".
+
+Info: Checking netlist component footprint "J4:/5C9F0CC6:SMA_H_v2".
+
+Info: Checking netlist component footprint "J5:/5C9F1641:SMA_H_v2".
+
+Error: Cannot add new component "J5:/5C9F1641" due to missing footprint "SMA_H_v2".
+
+Info: Checking netlist component footprint "J6:/5A688ED5/5D402C58:M20-8770342".
+
+Info: Checking netlist component footprint "J7:/5A688ED5/5D402E2F:M20-8770342".
+
+Info: Checking netlist component footprint "J8:/5A688ED5/5D3FFCAC:54202-G3003LF".
+
+Info: Checking netlist component footprint "J9:/5C59C1A3/5D45753B:M20-8770342".
+
+Info: Checking netlist component footprint "J10:/5C59C1A3/5D405402:M20-8770342".
+
+Info: Checking netlist component footprint "J11:/5C59C1A3/5D45C782:LimeMicroBGD_Library:PINHEADER_2X3".
+
+Info: Checking netlist component footprint "J12:/5C95B92D/5D3FA1E8:M20-8760546".
+
+Info: Checking netlist component footprint "J13:/5C95B92D/5D3F6A58:M20-8750442".
+
+Info: Checking netlist component footprint "J14:/5C95B92D/5D3FB9A6:TSM-102-02-T-SV".
+
+Info: Checking netlist component footprint "J15:/5C95B92D/5D288DD9:CONN_1757242".
+
+Error: Cannot add new component "J15:/5C95B92D/5D288DD9" due to missing footprint "CONN_1757242".
+
+Info: Checking netlist component footprint "J16:/5C95B92D/5D28AA4C:CONN_1757307".
+
+Error: Cannot add new component "J16:/5C95B92D/5D28AA4C" due to missing footprint "CONN_1757307".
+
+Info: Checking netlist component footprint "J17:/5C92C2C9/5CA5CA96:SMA_v2".
+
+Info: Checking netlist component footprint "J18:/5C92C2C9/5C8BBCC4:SMA_v2".
+
+Info: Checking netlist component footprint "J19:/5CA7A302/5CA209E7/5CA25025:UMC_SMD".
+
+Info: Checking netlist component footprint "J20:/5CA7A302/5CA209E7/5CA25614:UMC_SMD".
+
+Info: Checking netlist component footprint "J21:/5CA7A302/5CA27FB3/5CA287E9:UMC_SMD".
+
+Info: Checking netlist component footprint "J22:/5CA7A302/5CA27FB3/5CA28820:UMC_SMD".
+
+Info: Checking netlist component footprint "J23:/5CB19CCA/5D434C1C:M20-8770342".
+
+Info: Checking netlist component footprint "J24:/5CD70128/5CA4EA33/5D51CCFD:TSM-102-02-T-SV".
+
+Info: Checking netlist component footprint "J25:/5CD70128/5CA79F87/5CA7DCBC:TSM-102-02-T-SV".
+
+Info: Checking netlist component footprint "J26:/5CD70128/5CA79F95/5D520615:TSM-102-02-T-SV".
+
+Info: Checking netlist component footprint "J27:/5CD70128/5D148F25/5CA8C8A5:TSM-102-02-T-SV".
+
+Info: Checking netlist component footprint "J28:/5CD70128/5D150A4E/5CA8864A:TSM-102-02-T-SV".
+
+Info: Checking netlist component footprint "J29:/5CD70128/5D158247/5CA8990E:TSM-102-02-T-SV".
+
+Info: Checking netlist component footprint "J30:/5CD70128/5CA4EEDF/5CA9FE89:UMC_SMD".
+
+Info: Checking netlist component footprint "J31:/5CD70128/5CA4EEDF/5CA9FEB6:UMC_SMD".
+
+Adding new component "J31:/5CD70128/5CA4EEDF/5CA9FEB6" footprint "UMC_SMD".
+
+Changing component "J31:/5CD70128/5CA4EEDF/5CA9FEB6" pin "2" net name from "" to "GND".
+
+Changing component "J31:/5CD70128/5CA4EEDF/5CA9FEB6" pin "4" net name from "" to "GND".
+
+Changing component "J31:/5CD70128/5CA4EEDF/5CA9FEB6" pin "3" net name from "" to "GND".
+
+Changing component "J31:/5CD70128/5CA4EEDF/5CA9FEB6" pin "1" net name from "" to "Net-(J31-Pad1)".
+
+Info: Checking netlist component footprint "J32:/5CD70128/5CA73DAB/5CAA07D9:UMC_SMD".
+
+Adding new component "J32:/5CD70128/5CA73DAB/5CAA07D9" footprint "UMC_SMD".
+
+Changing component "J32:/5CD70128/5CA73DAB/5CAA07D9" pin "2" net name from "" to "GND".
+
+Changing component "J32:/5CD70128/5CA73DAB/5CAA07D9" pin "4" net name from "" to "GND".
+
+Changing component "J32:/5CD70128/5CA73DAB/5CAA07D9" pin "3" net name from "" to "GND".
+
+Changing component "J32:/5CD70128/5CA73DAB/5CAA07D9" pin "1" net name from "" to "Net-(J32-Pad1)".
+
+Info: Checking netlist component footprint "J33:/5CD70128/5CA73DAB/5CAA0806:UMC_SMD".
+
+Adding new component "J33:/5CD70128/5CA73DAB/5CAA0806" footprint "UMC_SMD".
+
+Changing component "J33:/5CD70128/5CA73DAB/5CAA0806" pin "2" net name from "" to "GND".
+
+Changing component "J33:/5CD70128/5CA73DAB/5CAA0806" pin "4" net name from "" to "GND".
+
+Changing component "J33:/5CD70128/5CA73DAB/5CAA0806" pin "3" net name from "" to "GND".
+
+Changing component "J33:/5CD70128/5CA73DAB/5CAA0806" pin "1" net name from "" to "Net-(J33-Pad1)".
+
+Info: Checking netlist component footprint "J34:/5CD70128/5CA78E32/5CAA10B7:UMC_SMD".
+
+Adding new component "J34:/5CD70128/5CA78E32/5CAA10B7" footprint "UMC_SMD".
+
+Changing component "J34:/5CD70128/5CA78E32/5CAA10B7" pin "2" net name from "" to "GND".
+
+Changing component "J34:/5CD70128/5CA78E32/5CAA10B7" pin "4" net name from "" to "GND".
+
+Changing component "J34:/5CD70128/5CA78E32/5CAA10B7" pin "3" net name from "" to "GND".
+
+Changing component "J34:/5CD70128/5CA78E32/5CAA10B7" pin "1" net name from "" to "Net-(J34-Pad1)".
+
+Info: Checking netlist component footprint "J35:/5CD70128/5CA78E32/5CAA10E4:UMC_SMD".
+
+Info: Checking netlist component footprint "J36:/5CD70128/5CE6339F/5CA9B118:TSM-102-02-T-SV".
+
+Info: Checking netlist component footprint "L1:/5C59C1A3/5C9811E7:SPM6530T-2R2M".
+
+Error: Cannot add new component "L1:/5C59C1A3/5C9811E7" due to missing footprint "SPM6530T-2R2M".
+
+Info: Checking netlist component footprint "L2:/5C59C1A3/5C981602:SPM6530T-2R2M".
+
+Error: Cannot add new component "L2:/5C59C1A3/5C981602" due to missing footprint "SPM6530T-2R2M".
+
+Info: Checking netlist component footprint "L3:/5CA7A302/5CA33EF6:IND_0201".
+
+Error: Cannot add new component "L3:/5CA7A302/5CA33EF6" due to missing footprint "IND_0201".
+
+Info: Checking netlist component footprint "L4:/5CA7A302/5C9E88D3/5CA1DB59:IND_0603".
+
+Info: Checking netlist component footprint "L5:/5CA7A302/5CA46740/5CA49001:IND_0805".
+
+Info: Checking netlist component footprint "L6:/5CAD20EB/5C574E67/5C508795:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L7:/5CAD20EB/5C574E67/5C508583:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L8:/5CAD20EB/5C584512/5C601B47:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L9:/5CAD20EB/5C584512/5C6019F1:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L10:/5CAD20EB/5C584512/5C601656:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L11:/5CAD20EB/5C584512/5C6020AB:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L12:/5CAD20EB/5C584512/5C602E52:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L13:/5CAD20EB/5C584512/5C602932:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L14:/5CAD20EB/5C584512/5C60290E:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L15:/5CAD20EB/5C584512/5C602973:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L16:/5CAD20EB/5C584512/5C602966:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L17:/5CAD20EB/5C584512/5C69EF6A:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L18:/5CAD20EB/5C584512/5C69CE99:LimeMicroBGD_Library:SMD1008".
+
+Info: Checking netlist component footprint "L19:/5CAD20EB/5C584512/5C69CEA5:LimeMicroBGD_Library:SMD1008".
+
+Info: Checking netlist component footprint "L20:/5CAD20EB/5C584512/5C6A10C4:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L21:/5CAD20EB/5C584512/5C69CAC8:LimeMicroBGD_Library:SMD1008".
+
+Info: Checking netlist component footprint "L22:/5CAD20EB/5C584512/5C69CCEF:LimeMicroBGD_Library:SMD1008".
+
+Info: Checking netlist component footprint "L23:/5CAD20EB/5C584512/5C6A1340:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L24:/5CAD20EB/5C584512/5C69CFE0:LimeMicroBGD_Library:SMD1008".
+
+Info: Checking netlist component footprint "L25:/5CAD20EB/5C584512/5C69CFEC:LimeMicroBGD_Library:SMD1008".
+
+Info: Checking netlist component footprint "L26:/5CAD20EB/5C584512/5C6A1350:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L27:/5CAD20EB/5C58761B/5D22D7E0:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L28:/5CAD20EB/5C58761B/5C55750C:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L29:/5CAD20EB/5C58761B/5D22D7AD:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L30:/5CAD20EB/5C58761B/5C557F78:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L31:/5CAD20EB/5C58761B/5C557F90:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L32:/5CAD20EB/5C58795F/5C546AE7:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L33:/5CAD20EB/5C58795F/5C546DA4:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L34:/5CAD20EB/5C58795F/5C546D2B:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L35:/5CAD20EB/5C58795F/5D22D7A6:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L36:/5CAD20EB/5C58795F/5C547868:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L37:/5CAD20EB/5C587A6E/5C69479C:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L38:/5CAD20EB/5C587A6E/5C694885:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L39:/5CAD20EB/5C587A6E/5C694906:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L40:/5CAD20EB/5C587A6E/5C6949BC:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L41:/5CAD20EB/5C587A6E/5C694D13:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L42:/5CD438F8/5A68A45D/5C50C470:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L43:/5CD438F8/5A68A45D/5C50BACC:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L44:/5CD70128/5C9FE8A2/5CA632DA:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L45:/5CD70128/5C9FE8A2/5CA6372F:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L46:/5CD70128/5C9FE8A2/5CA637CB:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L47:/5CD70128/5C9FEC23/5CA7206C:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L48:/5CD70128/5C9FEC23/5CA725AF:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L49:/5CD70128/5CA4EA33/5C90D958:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L50:/5CD70128/5CA4EA33/5C89CBF5:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L51:/5CD70128/5CA4EA33/5CA82D13:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L52:/5CD70128/5CA4EA33/5C90F7A6:LimeMicroBGD_Library:SMD1008".
+
+Info: Checking netlist component footprint "L53:/5CD70128/5CA4EA33/5C910836:LimeMicroBGD_Library:SMD0604".
+
+Info: Checking netlist component footprint "L54:/5CD70128/5CA4EA33/5D5255F4:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L55:/5CD70128/5CA7992F/5D4C9B5C:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L56:/5CD70128/5CA7992F/5D4C9BAF:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L57:/5CD70128/5CA79F87/5CA7D9C4:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L58:/5CD70128/5CA79F87/5CA7DA17:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L59:/5CD70128/5CA79F95/5CA82D0B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L60:/5CD70128/5CA79F95/5C8B6AE4:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L61:/5CD70128/5D141CF6/5CA8D770:LimeMicroBGD_Library:IND_0402".
+
+Info: Checking netlist component footprint "L62:/5CD70128/5D148F25/5CA8C5BA:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L63:/5CD70128/5D148F25/5CA8C60D:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L64:/5CD70128/5D150A4E/5CA8835F:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L65:/5CD70128/5D150A4E/5CA883B2:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L66:/5CD70128/5D158247/5CA89623:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L67:/5CD70128/5D158247/5CA89676:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L68:/5CD70128/5D14A45D/59CB975A:LimeMicroBGD_Library:IND_0402".
+
+Info: Checking netlist component footprint "L69:/5CD70128/5CE6339F/5CA9AF74:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L70:/5CD70128/5CE6339F/5CA9AE64:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "L71:/5CD70128/5CE6339F/5CA9AEAA:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "L72:/5CD70128/5CE6339F/5CA9AF9B:LimeMicroBGD_Library:SMD1008".
+
+Info: Checking netlist component footprint "L73:/5CD70128/5CE6339F/5CA9AFB5:LimeMicroBGD_Library:SMD0604".
+
+Info: Checking netlist component footprint "L74:/5CD70128/5CE6339F/5CA9B143:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "Q1:/5A688ED5/5C5CB175:LimeMicroBGD_Library:BSN20".
+
+Info: Checking netlist component footprint "Q2:/5A688ED5/5D3EAEAB:LimeMicroBGD_Library:BSN20".
+
+Info: Checking netlist component footprint "Q3:/5C95B92D/5D2705B3:BC817_SOT-23".
+
+Info: Checking netlist component footprint "Q4:/5C95B92D/5D270A72:BC817_SOT-23".
+
+Info: Checking netlist component footprint "Q5:/5C95B92D/5D27024B:BC817_SOT-23".
+
+Info: Checking netlist component footprint "Q6:/5C95B92D/5D270C2F:BC817_SOT-23".
+
+Info: Checking netlist component footprint "Q7:/5CD70128/5CA4EA33/5D4B5F59:DPAK".
+
+Error: Cannot add new component "Q7:/5CD70128/5CA4EA33/5D4B5F59" due to missing footprint "DPAK".
+
+Info: Checking netlist component footprint "Q8:/5CD70128/5CA7992F/5D4C9D64:DPAK".
+
+Error: Cannot add new component "Q8:/5CD70128/5CA7992F/5D4C9D64" due to missing footprint "DPAK".
+
+Info: Checking netlist component footprint "Q9:/5CD70128/5CA79F87/5CA7DBCC:DPAK".
+
+Error: Cannot add new component "Q9:/5CD70128/5CA79F87/5CA7DBCC" due to missing footprint "DPAK".
+
+Info: Checking netlist component footprint "Q10:/5CD70128/5CA79F95/5CA3516A:DPAK".
+
+Error: Cannot add new component "Q10:/5CD70128/5CA79F95/5CA3516A" due to missing footprint "DPAK".
+
+Info: Checking netlist component footprint "Q11:/5CD70128/5D148F25/5CA8C7B5:DPAK".
+
+Error: Cannot add new component "Q11:/5CD70128/5D148F25/5CA8C7B5" due to missing footprint "DPAK".
+
+Info: Checking netlist component footprint "Q12:/5CD70128/5D150A4E/5CA8855A:DPAK".
+
+Error: Cannot add new component "Q12:/5CD70128/5D150A4E/5CA8855A" due to missing footprint "DPAK".
+
+Info: Checking netlist component footprint "Q13:/5CD70128/5D158247/5CA8981E:DPAK".
+
+Error: Cannot add new component "Q13:/5CD70128/5D158247/5CA8981E" due to missing footprint "DPAK".
+
+Info: Checking netlist component footprint "Q14:/5CD70128/5CE6339F/5CA9B096:DPAK".
+
+Error: Cannot add new component "Q14:/5CD70128/5CE6339F/5CA9B096" due to missing footprint "DPAK".
+
+Info: Checking netlist component footprint "R1:/5CA4E975:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R2:/5CA4E9BC:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R3:/5CA4E9AF:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R4:/5CB07F55:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R5:/5CB087B4:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R6:/5C9DB3A9:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R7:/5C926962:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R8:/5CE87807:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R9:/5CFAF473:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R10:/5C5C650C:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R11:/5C6D6B19:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R12:/5C9E37E3:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R13:/5A688ED5/5A69EA69:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R14:/5A688ED5/5A69D98B:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R15:/5A688ED5/5A69E004:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R16:/5A688ED5/5A6AC4BE:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R17:/5A688ED5/5A6AC4CA:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R18:/5A688ED5/5CD270F3:R_SM0402".
+
+Error: Cannot add new component "R18:/5A688ED5/5CD270F3" due to missing footprint "R_SM0402".
+
+Info: Checking netlist component footprint "R19:/5A688ED5/5D291752:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R20:/5A688ED5/5D29192E:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R21:/5A688ED5/5D291A2F:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R22:/5A688ED5/5D291A3B:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R23:/5A688ED5/5C7D3F17:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R24:/5A688ED5/5C5CEB6A:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R25:/5C59C1A3/5C98908D:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R26:/5C59C1A3/5C985B57:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R27:/5C59C1A3/5C5EB092:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R28:/5C59C1A3/5D3875A9:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R29:/5C59C1A3/5C98815E:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R30:/5C59C1A3/5C984743:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R31:/5C59C1A3/5C942B7D:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R32:/5C59C1A3/5C989E0B:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R33:/5C59C1A3/5C986D18:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R34:/5C59C1A3/5C9314F0:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R35:/5C59C1A3/5C930C8B:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R36:/5C59C1A3/5C986C3B:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R37:/5C59C1A3/5C94ABAD:LimeMicroBGD_Library:SMD0402".
+
+Changing component "R37:/5C59C1A3/5C94ABAD" pin "1" net name from "+7.5V" to "+5V".
+
+Info: Checking netlist component footprint "R38:/5C59C1A3/5C982BD6:LimeMicroBGD_Library:SMD0402".
+
+Changing component "R38:/5C59C1A3/5C982BD6" pin "2" net name from "+7.5V" to "+5V".
+
+Info: Checking netlist component footprint "R39:/5C5A6AF9/50F6FEF0:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R40:/5C5A6AF9/50F6FE98:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R41:/5C5A6AF9/556D80B1:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R42:/5C95B92D/5C820974:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "R43:/5C95B92D/5C820982:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "R44:/5C95B92D/5C820990:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "R45:/5C95B92D/5C820966:Capacitors_SMD:C_0402".
+
+Info: Checking netlist component footprint "R46:/5C95B92D/5D29E119:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R47:/5C95B92D/5D29D839:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R48:/5C95B92D/5D29F83F:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R49:/5C95B92D/5D2A048C:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R50:/5C95B92D/5D29E1BA:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R51:/5C95B92D/5D29E280:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R52:/5C95B92D/5D2A01FF:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R53:/5C95B92D/5D2A052C:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R54:/5C95B92D/5D297A33:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R55:/5C95B92D/5D297D5B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R56:/5C95B92D/5D297F07:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R57:/5C95B92D/5D297F13:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R58:/5C95B92D/5D2994EF:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R59:/5C95B92D/5D299911:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R60:/5C95B92D/5D2999A1:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R61:/5C95B92D/5D2999AD:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R62:/5C92C2C9/5CA5CAC2:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R63:/5C92C2C9/5C93683B:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R64:/5C92C2C9/5CA5CACE:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R65:/5C92C2C9/5CA545D0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R66:/5C92C2C9/5C9369A2:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R67:/5C92C2C9/5CA5CADA:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R68:/5C92C2C9/5CA54DC5:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R69:/5C92C2C9/5C9395E5:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R70:/5C92C2C9/5CA5CAEE:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R71:/5C92C2C9/5CA5483A:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R72:/5C92C2C9/5CA4D578:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R73:/5C92C2C9/5CA5CB23:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R74:/5C92C2C9/5CA52AE3:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R75:/5C92C2C9/5CA508AF:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R76:/5C92C2C9/5CA4DC8A:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R77:/5C92C2C9/5CA5E09B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R78:/5C92C2C9/5CA5ADC4:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R79:/5C92C2C9/5CA5B455:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R80:/5C92C2C9/5C90FC8B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R81:/5C92C2C9/5C90FAFB:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R82:/5C92C2C9/5C910911:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R83:/5C92C2C9/5C9359F5:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R84:/5C92C2C9/5C90E8D0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R85:/5C92C2C9/5C910A27:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R86:/5C92C2C9/5C914A41:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R87:/5C92C2C9/5C91496B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R88:/5CA7A302/5C9E88D3/5CA1CEE0:SMD0402".
+
+Info: Checking netlist component footprint "R89:/5CA7A302/5C9E88D3/5CA1D11D:SMD0402".
+
+Info: Checking netlist component footprint "R90:/5CA7A302/5CA209E7/5CA24B92:SMD0402".
+
+Info: Checking netlist component footprint "R91:/5CA7A302/5CA209E7/5CA24814:SMD0402".
+
+Info: Checking netlist component footprint "R92:/5CA7A302/5CA209E7/5CA255FC:SMD0402".
+
+Info: Checking netlist component footprint "R93:/5CA7A302/5CA209E7/5CA25608:SMD0402".
+
+Info: Checking netlist component footprint "R94:/5CA7A302/5CA209E7/5CA3AE63:SMD0402".
+
+Info: Checking netlist component footprint "R95:/5CA7A302/5CA27FB3/5CA287DC:SMD0402".
+
+Info: Checking netlist component footprint "R96:/5CA7A302/5CA27FB3/5CA287CF:SMD0402".
+
+Info: Checking netlist component footprint "R97:/5CA7A302/5CA27FB3/5CA28806:SMD0402".
+
+Info: Checking netlist component footprint "R98:/5CA7A302/5CA27FB3/5CA28813:SMD0402".
+
+Info: Checking netlist component footprint "R99:/5CA7A302/5CA27FB3/5CA3C491:SMD0402".
+
+Info: Checking netlist component footprint "R100:/5CA7A302/5CA2CBE2/5CA38660:SMD0402".
+
+Info: Checking netlist component footprint "R101:/5CA7A302/5CA2CBE2/5CA37241:SMD0402".
+
+Info: Checking netlist component footprint "R102:/5CA7A302/5CA2CBE2/5CA3734D:SMD0402".
+
+Info: Checking netlist component footprint "R103:/5CA7A302/5CA2CBE2/5CA31ABE:SMD0805".
+
+Info: Checking netlist component footprint "R104:/5CA7A302/5CA2CBE2/5CA3BC43:SMD0805".
+
+Info: Checking netlist component footprint "R105:/5CA7A302/5CA2CBE2/5CA32E7A:SMD0805".
+
+Info: Checking netlist component footprint "R106:/5CA7A302/5CA2CBE2/5CA3BC8B:SMD0805".
+
+Info: Checking netlist component footprint "R107:/5CA7A302/5CA2CBE2/5CA3303D:SMD0805".
+
+Info: Checking netlist component footprint "R108:/5CA7A302/5CA2CBE2/5CA3BC97:SMD0805".
+
+Info: Checking netlist component footprint "R109:/5CA7A302/5CA2CBE2/5CA36222:SMD0402".
+
+Info: Checking netlist component footprint "R110:/5CA7A302/5CA2CBE2/5CA35A75:SMD0402".
+
+Info: Checking netlist component footprint "R111:/5CA7A302/5CA2CBE2/5CA3BCDF:SMD0402".
+
+Info: Checking netlist component footprint "R112:/5CA7A302/5CA2CBE2/5CA3BCD3:SMD0402".
+
+Info: Checking netlist component footprint "R113:/5CA7A302/5CA2CBE2/5CA32608:SMD0805".
+
+Info: Checking netlist component footprint "R114:/5CA7A302/5CA2CBE2/5CA3BC7F:SMD0805".
+
+Info: Checking netlist component footprint "R115:/5CA7A302/5CA2CBE2/5CA34528:SMD0805".
+
+Info: Checking netlist component footprint "R116:/5CA7A302/5CA2CBE2/5CA345DF:SMD0805".
+
+Info: Checking netlist component footprint "R117:/5CA7A302/5CA2CBE2/5CA3BCAF:SMD0805".
+
+Info: Checking netlist component footprint "R118:/5CA7A302/5CA2CBE2/5CA3BCBB:SMD0805".
+
+Info: Checking netlist component footprint "R119:/5CAD20EB/5C574E67/5C64A293:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R120:/5CAD20EB/5C574E67/5C64A298:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R121:/5CAD20EB/5C574E67/5C64A297:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R122:/5CAD20EB/5C574E67/5C64A28D:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R123:/5CAD20EB/5C574E67/5C64A283:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R124:/5CAD20EB/5C574E67/5C64A29D:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R125:/5CAD20EB/5C574E67/5C4F45D0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R126:/5CAD20EB/5C584512/5C6755B0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R127:/5CAD20EB/5C584512/5C675094:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R128:/5CAD20EB/5C58761B/5C558648:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R129:/5CAD20EB/5C58761B/5D22D7B7:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R130:/5CAD20EB/5C58795F/5C55624B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R131:/5CAD20EB/5C58795F/5C6C16B0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R132:/5CAD20EB/5C587A6E/5C672A76:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R133:/5CAD20EB/5C587A6E/5C672970:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R134:/5CD438F8/5C588C2E/5C671D70:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R135:/5CD438F8/5C588C2E/5C671C85:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R136:/5CD438F8/5C588C32/5D22D7C1:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R137:/5CD438F8/5C588C32/5D22D7C0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R138:/5CD438F8/5C5896A6/5C66EB3A:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R139:/5CD438F8/5C5896A6/5D22D7BB:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R140:/5CD438F8/5A68A45D/5C4F40F6:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R141:/5CD438F8/5A68A45D/5C4F4D8B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R142:/5CD438F8/5A68A45D/5C64A296:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R143:/5CD438F8/5A68A45D/5C50C9AC:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R144:/5CD438F8/5A68A45D/5C4F2CE7:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R145:/5CD438F8/5A68A45D/5C4836CB:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R146:/5CD438F8/5A68A45D/5C64A29C:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R147:/5CD438F8/5A68A45D/5C64A294:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R148:/5CD70128/5D4FCF48:LimeMicroBGD_Library:SMD0402".
+
+Info: Checking netlist component footprint "R149:/5CD70128/5D509EC4:SMD2512".
+
+Error: Cannot add new component "R149:/5CD70128/5D509EC4" due to missing footprint "SMD2512".
+
+Info: Checking netlist component footprint "R150:/5CD70128/5D11EC6D:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R151:/5CD70128/5C9FD930/5C670E8E:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R152:/5CD70128/5C9FD930/5C670E11:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R153:/5CD70128/5C9FDBCE/5D22D7BC:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R154:/5CD70128/5C9FDBCE/5C66E9C0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R155:/5CD70128/5C9FE8A2/5D22D7A8:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R156:/5CD70128/5C9FE8A2/5D22D7E1:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R157:/5CD70128/5C9FEC23/5D22D7CA:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R158:/5CD70128/5C9FEC23/5D22D7C8:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R159:/5CD70128/5CA4EA33/5CA82D09:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R160:/5CD70128/5CA4EA33/5C90B832:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R161:/5CD70128/5CA4EA33/5D4B5F9D:SMD_TC33X".
+
+Info: Checking netlist component footprint "R162:/5CD70128/5CA4EA33/5D4B5F01:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R163:/5CD70128/5CA4EA33/5CA82D1E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R164:/5CD70128/5CA4EA33/5C89C38B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R165:/5CD70128/5CA4EA33/5CA82D12:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R166:/5CD70128/5CA4EA33/5D4B5F1A:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R167:/5CD70128/5CA4EA33/5CA82D1F:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R168:/5CD70128/5CA4EA33/5D4B5EBF:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R169:/5CD70128/5CA4EA33/5C8BCB63:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R170:/5CD70128/5CA7992F/5D4C9B43:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R171:/5CD70128/5CA7992F/5D4C9C6E:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R172:/5CD70128/5CA7992F/5D4C9C3C:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R173:/5CD70128/5CA7992F/5D4C9C7B:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R174:/5CD70128/5CA7992F/5D4C9C55:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R175:/5CD70128/5CA7992F/5D4C9C88:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R176:/5CD70128/5CA7992F/5D4C9DC4:SMD_TC33X".
+
+Info: Checking netlist component footprint "R177:/5CD70128/5CA7992F/5D4C9D19:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R178:/5CD70128/5CA7992F/5D4C9C61:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R179:/5CD70128/5CA7992F/5D4C9C95:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R180:/5CD70128/5CA7992F/5D4C9C12:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R181:/5CD70128/5CA7992F/5D4C9B4F:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R182:/5CD70128/5CA7992F/5D4C9BA2:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R183:/5CD70128/5CA7992F/5D4C9E1F:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R184:/5CD70128/5CA7992F/5D4C9C1E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R185:/5CD70128/5CA7992F/5D4C9CC6:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R186:/5CD70128/5CA7992F/5D4C9DEA:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R187:/5CD70128/5CA7992F/5D4C9CA1:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R188:/5CD70128/5CA7992F/5D4C9CD3:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R189:/5CD70128/5CA7992F/5D4C9CAD:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R190:/5CD70128/5CA7992F/5D4C9CE0:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R191:/5CD70128/5CA7992F/5D4C9CB9:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R192:/5CD70128/5CA7992F/5D4C9CFF:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R193:/5CD70128/5CA7992F/5D4C9CED:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R194:/5CD70128/5CA7992F/5D4C9C00:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R195:/5CD70128/5CA79F87/5CA7D9AB:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R196:/5CD70128/5CA79F87/5CA7DAD6:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R197:/5CD70128/5CA79F87/5CA7DAA4:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R198:/5CD70128/5CA79F87/5CA7DAE3:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R199:/5CD70128/5CA79F87/5CA7DABD:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R200:/5CD70128/5CA79F87/5CA7DAF0:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R201:/5CD70128/5CA79F87/5CA7DC2C:SMD_TC33X".
+
+Info: Checking netlist component footprint "R202:/5CD70128/5CA79F87/5CA7DB81:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R203:/5CD70128/5CA79F87/5CA7DAC9:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R204:/5CD70128/5CA79F87/5CA7DAFD:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R205:/5CD70128/5CA79F87/5CA7DA7A:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R206:/5CD70128/5CA79F87/5CA7D9B7:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R207:/5CD70128/5CA79F87/5CA7DA0A:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R208:/5CD70128/5CA79F87/5CA7DC87:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R209:/5CD70128/5CA79F87/5CA7DA86:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R210:/5CD70128/5CA79F87/5CA7DB2E:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R211:/5CD70128/5CA79F87/5CA7DC52:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R212:/5CD70128/5CA79F87/5CA7DB09:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R213:/5CD70128/5CA79F87/5CA7DB3B:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R214:/5CD70128/5CA79F87/5CA7DB15:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R215:/5CD70128/5CA79F87/5CA7DB48:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R216:/5CD70128/5CA79F87/5CA7DB21:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R217:/5CD70128/5CA79F87/5CA7DB67:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R218:/5CD70128/5CA79F87/5CA7DB55:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R219:/5CD70128/5CA79F87/5CA7DA68:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R220:/5CD70128/5CA79F95/5C891EB1:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R221:/5CD70128/5CA79F95/5C922678:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R222:/5CD70128/5CA79F95/5CA82D22:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R223:/5CD70128/5CA79F95/5C922B1F:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R224:/5CD70128/5CA79F95/5C921ABA:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R225:/5CD70128/5CA79F95/5C922BB7:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R226:/5CD70128/5CA79F95/5CA3CB3A:SMD_TC33X".
+
+Info: Checking netlist component footprint "R227:/5CD70128/5CA79F95/5CA2AE72:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R228:/5CD70128/5CA79F95/5C921B3D:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R229:/5CD70128/5CA79F95/5C922C5E:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R230:/5CD70128/5CA79F95/5C90095E:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R231:/5CD70128/5CA79F95/5CA82D0A:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R232:/5CD70128/5CA79F95/5C8B637D:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R233:/5CD70128/5CA79F95/5D4BF77A:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R234:/5CD70128/5CA79F95/5C900AE2:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R235:/5CD70128/5CA79F95/5C9243B5:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R236:/5CD70128/5CA79F95/5D4BF745:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R237:/5CD70128/5CA79F95/5C923F19:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R238:/5CD70128/5CA79F95/5C9248CB:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R239:/5CD70128/5CA79F95/5C923FE3:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R240:/5CD70128/5CA79F95/5C924969:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R241:/5CD70128/5CA79F95/5C92421A:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R242:/5CD70128/5CA79F95/5C91FE67:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R243:/5CD70128/5CA79F95/5C924A2A:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R244:/5CD70128/5CA79F95/5CA82D1C:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R245:/5CD70128/5CE2AFFD/5D22D7C2:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R246:/5CD70128/5CE2AFFD/5D22D7BF:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R247:/5CD70128/5CE63392/5D22D7B6:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R248:/5CD70128/5CE63392/5C558743:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R249:/5CD70128/5D141CF6/5CA8D7ED:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R250:/5CD70128/5D148F25/5CA8C5A1:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R251:/5CD70128/5D148F25/5CA8C6BF:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R252:/5CD70128/5D148F25/5CA8C69A:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R253:/5CD70128/5D148F25/5CA8C6CC:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R254:/5CD70128/5D148F25/5CA8C6A6:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R255:/5CD70128/5D148F25/5CA8C6D9:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R256:/5CD70128/5D148F25/5CA8C815:SMD_TC33X".
+
+Info: Checking netlist component footprint "R257:/5CD70128/5D148F25/5CA8C76A:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R258:/5CD70128/5D148F25/5CA8C6B2:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R259:/5CD70128/5D148F25/5CA8C6E6:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R260:/5CD70128/5D148F25/5CA8C670:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R261:/5CD70128/5D148F25/5CA8C5AD:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R262:/5CD70128/5D148F25/5CA8C600:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R263:/5CD70128/5D148F25/5CA8C870:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R264:/5CD70128/5D148F25/5CA8C67C:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R265:/5CD70128/5D148F25/5CA8C717:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R266:/5CD70128/5D148F25/5CA8C83B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R267:/5CD70128/5D148F25/5CA8C6F2:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R268:/5CD70128/5D148F25/5CA8C724:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R269:/5CD70128/5D148F25/5CA8C6FE:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R270:/5CD70128/5D148F25/5CA8C731:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R271:/5CD70128/5D148F25/5CA8C70A:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R272:/5CD70128/5D148F25/5CA8C750:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R273:/5CD70128/5D148F25/5CA8C73E:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R274:/5CD70128/5D148F25/5CA8C65E:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R275:/5CD70128/5D150A4E/5CA88346:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R276:/5CD70128/5D150A4E/5CA88464:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R277:/5CD70128/5D150A4E/5CA8843F:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R278:/5CD70128/5D150A4E/5CA88471:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R279:/5CD70128/5D150A4E/5CA8844B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R280:/5CD70128/5D150A4E/5CA8847E:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R281:/5CD70128/5D150A4E/5CA885BA:SMD_TC33X".
+
+Info: Checking netlist component footprint "R282:/5CD70128/5D150A4E/5CA8850F:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R283:/5CD70128/5D150A4E/5CA88457:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R284:/5CD70128/5D150A4E/5CA8848B:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R285:/5CD70128/5D150A4E/5CA88415:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R286:/5CD70128/5D150A4E/5CA88352:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R287:/5CD70128/5D150A4E/5CA883A5:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R288:/5CD70128/5D150A4E/5CA88615:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R289:/5CD70128/5D150A4E/5CA88421:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R290:/5CD70128/5D150A4E/5CA884BC:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R291:/5CD70128/5D150A4E/5CA885E0:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R292:/5CD70128/5D150A4E/5CA88497:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R293:/5CD70128/5D150A4E/5CA884C9:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R294:/5CD70128/5D150A4E/5CA884A3:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R295:/5CD70128/5D150A4E/5CA884D6:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R296:/5CD70128/5D150A4E/5CA884AF:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R297:/5CD70128/5D150A4E/5CA884F5:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R298:/5CD70128/5D150A4E/5CA884E3:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R299:/5CD70128/5D150A4E/5CA88403:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R300:/5CD70128/5D158247/5CA8960A:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R301:/5CD70128/5D158247/5CA89728:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R302:/5CD70128/5D158247/5CA89703:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R303:/5CD70128/5D158247/5CA89735:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R304:/5CD70128/5D158247/5CA8970F:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R305:/5CD70128/5D158247/5CA89742:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R306:/5CD70128/5D158247/5CA8987E:SMD_TC33X".
+
+Info: Checking netlist component footprint "R307:/5CD70128/5D158247/5CA897D3:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R308:/5CD70128/5D158247/5CA8971B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R309:/5CD70128/5D158247/5CA8974F:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R310:/5CD70128/5D158247/5CA896D9:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R311:/5CD70128/5D158247/5CA89616:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R312:/5CD70128/5D158247/5CA89669:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R313:/5CD70128/5D158247/5CA898D9:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R314:/5CD70128/5D158247/5CA896E5:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R315:/5CD70128/5D158247/5CA89780:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R316:/5CD70128/5D158247/5CA898A4:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R317:/5CD70128/5D158247/5CA8975B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R318:/5CD70128/5D158247/5CA8978D:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R319:/5CD70128/5D158247/5CA89767:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R320:/5CD70128/5D158247/5CA8979A:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R321:/5CD70128/5D158247/5CA89773:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R322:/5CD70128/5D158247/5CA897B9:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R323:/5CD70128/5D158247/5CA897A7:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R324:/5CD70128/5D158247/5CA896C7:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R325:/5CD70128/5D14A45D/5D4F2C5B:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R326:/5CD70128/5CA4EEDF/5CA9FE7C:SMD0402".
+
+Info: Checking netlist component footprint "R327:/5CD70128/5CA4EEDF/5CA9FE6F:SMD0402".
+
+Changing component "R327:/5CD70128/5CA4EEDF/5CA9FE6F" pin "2" net name from "/TX_H2/PA2400/RF_IN" to "/TX_H2/PA2400/IN".
+
+Info: Checking netlist component footprint "R328:/5CD70128/5CA4EEDF/5CA9FE9C:SMD0402".
+
+Changing component "R328:/5CD70128/5CA4EEDF/5CA9FE9C" pin "2" net name from "/TX_H2/LPF2400/IN" to "Net-(R328-Pad2)".
+
+Info: Checking netlist component footprint "R329:/5CD70128/5CA4EEDF/5CA9FEA9:SMD0402".
+
+Info: Checking netlist component footprint "R330:/5CD70128/5CA4EEDF/5CA9FEF1:SMD0402".
+
+Adding new component "R330:/5CD70128/5CA4EEDF/5CA9FEF1" footprint "SMD0402".
+
+Changing component "R330:/5CD70128/5CA4EEDF/5CA9FEF1" pin "1" net name from "" to "Net-(R330-Pad1)".
+
+Changing component "R330:/5CD70128/5CA4EEDF/5CA9FEF1" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R331:/5CD70128/5CA73DAB/5CAA07CC:SMD0402".
+
+Adding new component "R331:/5CD70128/5CA73DAB/5CAA07CC" footprint "SMD0402".
+
+Changing component "R331:/5CD70128/5CA73DAB/5CAA07CC" pin "1" net name from "" to "Net-(J32-Pad1)".
+
+Changing component "R331:/5CD70128/5CA73DAB/5CAA07CC" pin "2" net name from "" to "/TX_H2/PA4000/IN".
+
+Info: Checking netlist component footprint "R332:/5CD70128/5CA73DAB/5CAA07BF:SMD0402".
+
+Changing component "R332:/5CD70128/5CA73DAB/5CAA07BF" pin "2" net name from "/TX_H2/PA4000/RF_IN" to "/TX_H2/PA4000/IN".
+
+Info: Checking netlist component footprint "R333:/5CD70128/5CA73DAB/5CAA07EC:SMD0402".
+
+Changing component "R333:/5CD70128/5CA73DAB/5CAA07EC" pin "2" net name from "/TX_H2/PA4000/RF_OUT" to "Net-(R333-Pad2)".
+
+Info: Checking netlist component footprint "R334:/5CD70128/5CA73DAB/5CAA07F9:SMD0402".
+
+Info: Checking netlist component footprint "R335:/5CD70128/5CA73DAB/5CAA0841:SMD0402".
+
+Info: Checking netlist component footprint "R336:/5CD70128/5CA78E32/5CAA10AA:SMD0402".
+
+Info: Checking netlist component footprint "R337:/5CD70128/5CA78E32/5CAA109D:SMD0402".
+
+Changing component "R337:/5CD70128/5CA78E32/5CAA109D" pin "2" net name from "/TX_H2/PA3500/RF_IN" to "/TX_H2/PA3500/IN".
+
+Info: Checking netlist component footprint "R338:/5CD70128/5CA78E32/5CAA10CA:SMD0402".
+
+Changing component "R338:/5CD70128/5CA78E32/5CAA10CA" pin "2" net name from "/TX_H2/LPF3500/IN" to "Net-(R338-Pad2)".
+
+Info: Checking netlist component footprint "R339:/5CD70128/5CA78E32/5CAA10D7:SMD0402".
+
+Info: Checking netlist component footprint "R340:/5CD70128/5CA78E32/5CAA111F:SMD0402".
+
+Info: Checking netlist component footprint "R341:/5CD70128/5CE6339F/5CA9AE3E:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "R342:/5CD70128/5CE6339F/5CA9AF4B:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R343:/5CD70128/5CE6339F/5CA9B0D1:SMD_TC33X".
+
+Info: Checking netlist component footprint "R344:/5CD70128/5CE6339F/5CA9B03E:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R345:/5CD70128/5CE6339F/5CA9B0F7:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R346:/5CD70128/5CE6339F/5CA9AE57:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R347:/5CD70128/5CE6339F/5CA9AE9D:LimeMicroBGD_Library:SMD0805".
+
+Info: Checking netlist component footprint "R348:/5CD70128/5CE6339F/5CA9B057:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R349:/5CD70128/5CE6339F/5CA9B103:LimeMicroBGD_Library:SMD0603_gap05".
+
+Info: Checking netlist component footprint "R350:/5CD70128/5CE6339F/5CA9AFFC:LimeMicroBGD_Library:SMD0603".
+
+Info: Checking netlist component footprint "R351:/5CD70128/5CE6339F/5CA9AEFB:LimeMicroBGD_Library:SMD1206".
+
+Info: Checking netlist component footprint "SW1:/5A688ED5/5A69EA51:LimeMicroBGD_Library:B3U-1000P".
+
+Info: Checking netlist component footprint "SW2:/5C95B92D/5D294D69:ADE04S04".
+
+Info: Checking netlist component footprint "U1:/5D2C5E2A:LimeMicroBGD_Library:F1956NBGI8".
+
+Info: Checking netlist component footprint "U2:/5D2D2E39:zako_footprints:HMC544AE".
+
+Info: Checking netlist component footprint "U3:/5D2D0A7E:zako_footprints:HMC544AE".
+
+Info: Checking netlist component footprint "U4:/5D2D92F4:14QFN_SKY13415-485LF".
+
+Info: Checking netlist component footprint "U5:/5D324F3C:SKYA21003_12QFN".
+
+Info: Checking netlist component footprint "U7:/5D4479A6:DRDC3105F-7_SOT23".
+
+Info: Checking netlist component footprint "U8:/5D2D57E0:zako_footprints:HMC544AE".
+
+Info: Checking netlist component footprint "U9:/5D2DE5F4:14QFN_SKY13414-485LF".
+
+Info: Checking netlist component footprint "U10:/5D2E4590:SKYA21003_12QFN".
+
+Info: Checking netlist component footprint "U11:/5D2EC0CF:1462042-8".
+
+Info: Checking netlist component footprint "U12:/5A688ED5/5D376020:LimeMicroBGD_Library:ATMEGA328P-AU".
+
+Info: Checking netlist component footprint "U13:/5A688ED5/5D36B1AE:LimeMicroBGD_Library:FT232RL".
+
+Info: Checking netlist component footprint "U14:/5A688ED5/5D3776BA:LimeMicroBGD_Library:SN74LV1T34".
+
+Info: Checking netlist component footprint "U15:/5A688ED5/5D37790F:LimeMicroBGD_Library:SN74LV1T34".
+
+Info: Checking netlist component footprint "U16:/5A688ED5/5D377AE7:LimeMicroBGD_Library:SN74LV1T34".
+
+Info: Checking netlist component footprint "U17:/5C59C1A3/5D2FEC97:LimeMicroBGD_Library:NCP702_TSOP5".
+
+Info: Checking netlist component footprint "U18:/5C59C1A3/5D37C79B:NCP160_WLCSP4".
+
+Info: Checking netlist component footprint "U19:/5C59C1A3/5C9361E2:TPS62136RGXT".
+
+Error: Cannot add new component "U19:/5C59C1A3/5C9361E2" due to missing footprint "TPS62136RGXT".
+
+Info: Checking netlist component footprint "U20:/5C59C1A3/5D2FBEBF:LimeMicroBGD_Library:6-DFN".
+
+Info: Checking netlist component footprint "U21:/5C59C1A3/5C8A8B5D:TPS62136RGXT".
+
+Error: Cannot add new component "U21:/5C59C1A3/5C8A8B5D" due to missing footprint "TPS62136RGXT".
+
+Info: Checking netlist component footprint "U22:/5C5A6AF9/55EF0DCB:LimeMicroBGD_Library:SOT-666".
+
+Info: Checking netlist component footprint "U23:/5C95B92D/5D2A38AE:74LVC1T45".
+
+Info: Checking netlist component footprint "U24:/5C95B92D/5D2A4132:74LVC1T45".
+
+Info: Checking netlist component footprint "U25:/5C95B92D/5D2A41C7:74LVC1T45".
+
+Info: Checking netlist component footprint "U26:/5C95B92D/5D2A4379:74LVC1T45".
+
+Info: Checking netlist component footprint "U27:/5C95B92D/5D2843AF:ULN2003D1013TR".
+
+Info: Checking netlist component footprint "U28:/5C95B92D/5D2846DA:ULN2003D1013TR".
+
+Info: Checking netlist component footprint "U29:/5C92C2C9/5CA4E73D:HMC544A".
+
+Info: Checking netlist component footprint "U30:/5C92C2C9/5CA5CC8D:HMC544A".
+
+Info: Checking netlist component footprint "U31:/5C92C2C9/5CA48670:TSOP-6".
+
+Info: Checking netlist component footprint "U32:/5C92C2C9/5C901C0E:M14A".
+
+Info: Checking netlist component footprint "U33:/5CA7A302/5CA411F3:SKYA21003_12QFN".
+
+Adding new component "U33:/5CA7A302/5CA411F3" footprint "SKYA21003_12QFN".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "7" net name from "" to "/Cell/SW_CPL_CTRL".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "8" net name from "" to "Net-(U33-Pad8)".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "9" net name from "" to "Net-(U33-Pad9)".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "12" net name from "" to "GND".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "11" net name from "" to "/Cell/PA1_CPL".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "10" net name from "" to "GND".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "6" net name from "" to "GND".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "4" net name from "" to "GND".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "5" net name from "" to "/Cell/PA2_CPL".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "3" net name from "" to "GND".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "1" net name from "" to "GND".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "2" net name from "" to "/Cell/CPL".
+
+Changing component "U33:/5CA7A302/5CA411F3" pin "1" net name from "" to "GND".
+
+Info: Checking netlist component footprint "U34:/5CA7A302/5CA2B70C:SKYA21003_12QFN".
+
+Info: Checking netlist component footprint "U35:/5CA7A302/5C9E73C2:14QFN_SKY13415-485LF".
+
+Info: Checking netlist component footprint "U36:/5CA7A302/5C9E631F:14QFN_SKY13414-485LF".
+
+Info: Checking netlist component footprint "U37:/5CA7A302/5C9E5A90:SKYA21003_12QFN".
+
+Info: Checking netlist component footprint "U38:/5CA7A302/5C9E2991:MAFR-000633-001".
+
+Error: Cannot add new component "U38:/5CA7A302/5C9E2991" due to missing footprint "MAFR-000633-001".
+
+Info: Checking netlist component footprint "U39:/5CA7A302/5C9DF7F8:QPQ1297".
+
+Error: Cannot add new component "U39:/5CA7A302/5C9DF7F8" due to missing footprint "QPQ1297".
+
+Info: Checking netlist component footprint "U40:/5CA7A302/5C9DFAFB:TQM963014".
+
+Error: Cannot add new component "U40:/5CA7A302/5C9DFAFB" due to missing footprint "TQM963014".
+
+Info: Checking netlist component footprint "U41:/5CA7A302/5C9DFC1D:QPQ1282".
+
+Error: Cannot add new component "U41:/5CA7A302/5C9DFC1D" due to missing footprint "QPQ1282".
+
+Info: Checking netlist component footprint "U42:/5CA7A302/5C9E14AC:TQQ6107".
+
+Info: Checking netlist component footprint "U43:/5CA7A302/5C9E1AD6:885026".
+
+Error: Cannot add new component "U43:/5CA7A302/5C9E1AD6" due to missing footprint "885026".
+
+Info: Checking netlist component footprint "U44:/5CA7A302/5C9E2B8D:14QFN_SKY13415-485LF".
+
+Info: Checking netlist component footprint "U45:/5CA7A302/5C9E88D3/5CA1D3DD:TQP3M9037".
+
+Error: Cannot add new component "U45:/5CA7A302/5C9E88D3/5CA1D3DD" due to missing footprint "TQP3M9037".
+
+Info: Checking netlist component footprint "U46:/5CA7A302/5CA209E7/5CA20A9F:QPA9426".
+
+Info: Checking netlist component footprint "U47:/5CA7A302/5CA209E7/5CA395A7:HHM22152A2".
+
+Info: Checking netlist component footprint "U48:/5CA7A302/5CA27FB3/5CA2A151:QPA9419".
+
+Error: Cannot add new component "U48:/5CA7A302/5CA27FB3/5CA2A151" due to missing footprint "QPA9419".
+
+Info: Checking netlist component footprint "U49:/5CA7A302/5CA27FB3/5CA3C472:HHM22152A2".
+
+Error: Cannot add new component "U49:/5CA7A302/5CA27FB3/5CA3C472" due to missing footprint "HHM22152A2".
+
+Info: Checking netlist component footprint "U50:/5CA7A302/5CA2CBE2/5CA2F71B:NCP702_TSOP5".
+
+Info: Checking netlist component footprint "U51:/5CA7A302/5CA2CBE2/5CA3BC07:NCP702_TSOP5".
+
+Info: Checking netlist component footprint "U52:/5CA7A302/5CA2CBE2/5CA39EC6:TSOP-6".
+
+Info: Checking netlist component footprint "U53:/5CA7A302/5CA2CBE2/5CA35098:TSOP-6".
+
+Info: Checking netlist component footprint "U54:/5CA7A302/5CA2CBE2/5CA3BCC7:TSOP-6".
+
+Info: Checking netlist component footprint "U55:/5CA7A302/5CA2CBE2/5CA33C54:LD39200".
+
+Info: Checking netlist component footprint "U56:/5CA7A302/5CA2CBE2/5CA3BCA3:LD39200".
+
+Info: Checking netlist component footprint "U57:/5CA7A302/5CA46740/5CA46FC2:SOT-89".
+
+Info: Checking netlist component footprint "U58:/5CAD20EB/5C615A54:LimeMicroBGD_Library:MASW-008566-TR3000".
+
+Info: Checking netlist component footprint "U59:/5CAD20EB/5C613D37:LimeMicroBGD_Library:MASW-008566-TR3000".
+
+Info: Checking netlist component footprint "U60:/5CAD20EB/5CD0BB7D:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U61:/5CAD20EB/5D395377:LimeMicroBGD_Library:PE4245".
+
+Info: Checking netlist component footprint "U62:/5CAD20EB/5CD0DCB1:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U63:/5CAD20EB/5D395B8A:LimeMicroBGD_Library:PE4245".
+
+Info: Checking netlist component footprint "U64:/5CAD20EB/5CD16F20:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U64:/5CAD20EB/5CD16F20" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U65:/5CAD20EB/5C574E67/5D38F2F7:TSOP-6".
+
+Info: Checking netlist component footprint "U66:/5CAD20EB/5C574E67/5C5093FA:LimeMicroBGD_Library:SOT89".
+
+Info: Checking netlist component footprint "U67:/5CD438F8/5C613877:LimeMicroBGD_Library:SKY13575-639LF".
+
+Info: Checking netlist component footprint "U68:/5CD438F8/5CD47362:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U69:/5CD438F8/5CD531FD:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U69:/5CD438F8/5CD531FD" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U70:/5CD438F8/5C588C2E/5D431025:BP0805A1308ASTR".
+
+Adding new component "U70:/5CD438F8/5C588C2E/5D431025" footprint "BP0805A1308ASTR".
+
+Changing component "U70:/5CD438F8/5C588C2E/5D431025" pin "3" net name from "" to "GND".
+
+Changing component "U70:/5CD438F8/5C588C2E/5D431025" pin "2" net name from "" to "Net-(R135-Pad2)".
+
+Changing component "U70:/5CD438F8/5C588C2E/5D431025" pin "4" net name from "" to "GND".
+
+Changing component "U70:/5CD438F8/5C588C2E/5D431025" pin "1" net name from "" to "Net-(R134-Pad1)".
+
+Info: Checking netlist component footprint "U71:/5CD438F8/5C588C32/5D42DEE8:LimeMicroBGD_Library:DEA252400BT-2030A1".
+
+Info: Checking netlist component footprint "U72:/5CD438F8/5C5896A6/5D42CE0D:LimeMicroBGD_Library:3600BP14M0600T".
+
+Info: Checking netlist component footprint "U73:/5CD438F8/5A68A45D/5D390C2B:TSOP-6".
+
+Info: Checking netlist component footprint "U74:/5CD438F8/5A68A45D/5C64A27E:LimeMicroBGD_Library:SOT89".
+
+Info: Checking netlist component footprint "U75:/5CD70128/5D00E31B:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U76:/5CD70128/5D0A1376:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U76:/5CD70128/5D0A1376" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U77:/5CD70128/5D0A138F:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U77:/5CD70128/5D0A138F" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U78:/5CD70128/5D0A13A8:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U78:/5CD70128/5D0A13A8" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U79:/5CD70128/5D0A13C1:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U79:/5CD70128/5D0A13C1" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U80:/5CD70128/5D0A13DA:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U80:/5CD70128/5D0A13DA" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U81:/5CD70128/5D07C12F:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U81:/5CD70128/5D07C12F" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U82:/5CD70128/5D09461C:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U82:/5CD70128/5D09461C" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U83:/5CD70128/5D094998:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U83:/5CD70128/5D094998" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U84:/5CD70128/5D095079:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U84:/5CD70128/5D095079" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U85:/5CD70128/5D095096:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U85:/5CD70128/5D095096" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U86:/5CD70128/5D095A5D:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U86:/5CD70128/5D095A5D" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U87:/5CD70128/5D095A7A:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U87:/5CD70128/5D095A7A" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U88:/5CD70128/5D095A97:74LVC1G08GW_TSSOP-5".
+
+Error: Cannot add new component "U88:/5CD70128/5D095A97" due to missing footprint "74LVC1G08GW_TSSOP-5".
+
+Info: Checking netlist component footprint "U89:/5CD70128/5D00E354:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U90:/5CD70128/5D12620C:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U91:/5CD70128/5CE5A723:LimeMicroBGD_Library:MASW-008566-TR3000".
+
+Info: Checking netlist component footprint "U92:/5CD70128/5D17E59D:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U93:/5CD70128/5CC8DA98:14QFN_SKY13414-485LF".
+
+Changing component "U93:/5CD70128/5CC8DA98" pin "9" net name from "/TX_H2/PA4000/RF_IN" to "Net-(U93-Pad9)".
+
+Changing component "U93:/5CD70128/5CC8DA98" pin "10" net name from "/TX_H2/PA2400/RF_IN" to "Net-(U93-Pad10)".
+
+Changing component "U93:/5CD70128/5CC8DA98" pin "3" net name from "/TX_H2/PA3500/RF_IN" to "Net-(U93-Pad3)".
+
+Info: Checking netlist component footprint "U94:/5CD70128/5D422D9F:14QFN_SKY13418-485LF".
+
+Changing component "U94:/5CD70128/5D422D9F" pin "3" net name from "/TX_H2/PA4000/RF_OUT" to "Net-(U94-Pad3)".
+
+Info: Checking netlist component footprint "U95:/5CD70128/5C9FD930/5CA8CF22:2450LP14B100T ".
+
+Info: Checking netlist component footprint "U96:/5CD70128/5C9FDBCE/5CA8F998:zako_footprints:DEA163800LT-5017C1".
+
+Info: Checking netlist component footprint "U97:/5CD70128/5CA4EA33/5C913741:SMD_AFT09MS007NT1".
+
+Info: Checking netlist component footprint "U98:/5CD70128/5CA4EA33/5D4B5EAC:6WSON".
+
+Info: Checking netlist component footprint "U99:/5CD70128/5CA7992F/5D4C9C49:SMD_AFT09MS007NT1".
+
+Info: Checking netlist component footprint "U100:/5CD70128/5CA7992F/5D4C9DD7:6WSON".
+
+Info: Checking netlist component footprint "U101:/5CD70128/5CA79F87/5CA8269A:RD01MUS2B".
+
+Error: Cannot add new component "U101:/5CD70128/5CA79F87/5CA8269A" due to missing footprint "RD01MUS2B".
+
+Info: Checking netlist component footprint "U102:/5CD70128/5CA79F87/5CA7DC3F:6WSON".
+
+Info: Checking netlist component footprint "U103:/5CD70128/5CA79F95/5CA82D23:SMD_AFT09MS007NT1".
+
+Info: Checking netlist component footprint "U104:/5CD70128/5CA79F95/5D4BF732:6WSON".
+
+Info: Checking netlist component footprint "U105:/5CD70128/5D141CF6/5CA8D763:LimeMicroBGD_Library:DF782".
+
+Info: Checking netlist component footprint "U106:/5CD70128/5D141CF6/5CA8D7DA:6WSON".
+
+Info: Checking netlist component footprint "U107:/5CD70128/5D148F25/5CA8C8B6:RD01MUS2B".
+
+Error: Cannot add new component "U107:/5CD70128/5D148F25/5CA8C8B6" due to missing footprint "RD01MUS2B".
+
+Info: Checking netlist component footprint "U108:/5CD70128/5D148F25/5CA8C828:6WSON".
+
+Info: Checking netlist component footprint "U109:/5CD70128/5D150A4E/5CA8865B:RD01MUS2B".
+
+Error: Cannot add new component "U109:/5CD70128/5D150A4E/5CA8865B" due to missing footprint "RD01MUS2B".
+
+Info: Checking netlist component footprint "U110:/5CD70128/5D150A4E/5CA885CD:6WSON".
+
+Info: Checking netlist component footprint "U111:/5CD70128/5D158247/5CA8991F:RD01MUS2B".
+
+Error: Cannot add new component "U111:/5CD70128/5D158247/5CA8991F" due to missing footprint "RD01MUS2B".
+
+Info: Checking netlist component footprint "U112:/5CD70128/5D158247/5CA89891:6WSON".
+
+Info: Checking netlist component footprint "U113:/5CD70128/5D14A45D/59CB9652:LimeMicroBGD_Library:DF782".
+
+Info: Checking netlist component footprint "U114:/5CD70128/5D14A45D/5D4F2C48:6WSON".
+
+Info: Checking netlist component footprint "U115:/5CD9B8A8/5D34B606:TC74HC04AF".
+
+Error: Cannot add new component "U115:/5CD9B8A8/5D34B606" due to missing footprint "TC74HC04AF".
+
+Info: Checking netlist component footprint "U116:/5CD9B8A8/5CDB9BE4:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U117:/5CD9B8A8/5CDB9C1D:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U118:/5CA7A302/5CA96AF0:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U119:/5CA7A302/5CA96B14:MC74HC164ADG".
+
+Info: Checking netlist component footprint "U120:/5CD70128/5CA4EEDF/5CA9FECA:QPA9419".
+
+Info: Checking netlist component footprint "U121:/5CD70128/5CA4EEDF/5CA9FED7:HHM22152A2".
+
+Error: Cannot add new component "U121:/5CD70128/5CA4EEDF/5CA9FED7" due to missing footprint "HHM22152A2".
+
+Info: Checking netlist component footprint "U122:/5CD70128/5CA73DAB/5CAA081A:QPA9419".
+
+Error: Cannot add new component "U122:/5CD70128/5CA73DAB/5CAA081A" due to missing footprint "QPA9419".
+
+Info: Checking netlist component footprint "U123:/5CD70128/5CA73DAB/5CAA0827:HHM22152A2".
+
+Error: Cannot add new component "U123:/5CD70128/5CA73DAB/5CAA0827" due to missing footprint "HHM22152A2".
+
+Info: Checking netlist component footprint "U124:/5CD70128/5CA78E32/5CAA10F8:QPA9419".
+
+Error: Cannot add new component "U124:/5CD70128/5CA78E32/5CAA10F8" due to missing footprint "QPA9419".
+
+Info: Checking netlist component footprint "U125:/5CD70128/5CA78E32/5CAA1105:HHM22152A2".
+
+Error: Cannot add new component "U125:/5CD70128/5CA78E32/5CAA1105" due to missing footprint "HHM22152A2".
+
+Info: Checking netlist component footprint "U126:/5CD70128/5CE6339F/5CA9AFDC:SMD_AFT09MS007NT1".
+
+Info: Checking netlist component footprint "U127:/5CD70128/5CE6339F/5CA9AFE9:6WSON".
+
+Info: Checking netlist component footprint "X1:/5A688ED5/5D3E74A2:CSTNE16M0V530000R0".
+
+Error: Component 'U4' pad '15' not found in footprint '14QFN_SKY13415-485LF'
+
+Error: Component 'U9' pad '15' not found in footprint '14QFN_SKY13414-485LF'
+
+Error: Component 'U18' pad 'B2' not found in footprint 'NCP160_WLCSP4'
+
+Error: Component 'U18' pad 'A2' not found in footprint 'NCP160_WLCSP4'
+
+Error: Component 'U18' pad 'A1' not found in footprint 'NCP160_WLCSP4'
+
+Error: Component 'U18' pad 'B1' not found in footprint 'NCP160_WLCSP4'
+
+Error: Component 'U35' pad '15' not found in footprint '14QFN_SKY13415-485LF'
+
+Error: Component 'U36' pad '15' not found in footprint '14QFN_SKY13414-485LF'
+
+Error: Component 'U44' pad '15' not found in footprint '14QFN_SKY13415-485LF'
+
+Error: Component 'U93' pad '15' not found in footprint '14QFN_SKY13414-485LF'
+
+Error: Component 'U94' pad '15' not found in footprint '14QFN_SKY13418-485LF'
+

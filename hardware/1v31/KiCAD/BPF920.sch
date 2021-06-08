@@ -1,0 +1,155 @@
+EESchema Schematic File Version 2
+LIBS:LimeMicroBGD_Library
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 26 57
+Title "LimeRFE"
+Date "2019-07-12"
+Rev "1v0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4625 3575 0    60   Input ~ 0
+IN
+Text HLabel 7400 3575 2    60   Output ~ 0
+OUT
+$Comp
+L B39921B3728U410 U139
+U 1 1 5D29304C
+P 5900 3575
+F 0 "U139" V 5275 3575 60  0000 C CNN
+F 1 "B39921B3728U410" H 5950 4025 60  0001 C CNN
+F 2 "LimeMicroBGD_Library:B39921B3728U410" H 5950 4125 60  0001 C CNN
+F 3 "" H 5900 3975 60  0000 C CNN
+F 4 "Digi-Key" H 5950 4625 60  0001 C CNN "Vendor"
+F 5 "495-7429-6-ND" H 5950 4525 60  0001 C CNN "Vendor Part Number"
+F 6 "Qualcomm" H 5950 4425 60  0001 C CNN "Manufacturer"
+F 7 "B39921B3728U410" H 5950 4325 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FILTER SAW 915MHZ 6SMD" H 5950 4225 60  0001 C CNN "Description"
+F 9 "B39921B3728U410" V 5375 3575 60  0000 C CNN "Component Value"
+	1    5900 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0616
+U 1 1 5D2931D5
+P 6250 3425
+F 0 "#PWR0616" H 6250 3425 30  0001 C CNN
+F 1 "GND" H 6250 3355 30  0001 C CNN
+F 2 "" H 6250 3425 60  0001 C CNN
+F 3 "" H 6250 3425 60  0001 C CNN
+	1    6250 3425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR0617
+U 1 1 5D2931F1
+P 6250 3725
+F 0 "#PWR0617" H 6250 3725 30  0001 C CNN
+F 1 "GND" H 6250 3655 30  0001 C CNN
+F 2 "" H 6250 3725 60  0001 C CNN
+F 3 "" H 6250 3725 60  0001 C CNN
+	1    6250 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR0618
+U 1 1 5D293208
+P 5550 3425
+F 0 "#PWR0618" H 5550 3425 30  0001 C CNN
+F 1 "GND" H 5550 3355 30  0001 C CNN
+F 2 "" H 5550 3425 60  0001 C CNN
+F 3 "" H 5550 3425 60  0001 C CNN
+	1    5550 3425
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR0619
+U 1 1 5D293220
+P 5550 3725
+F 0 "#PWR0619" H 5550 3725 30  0001 C CNN
+F 1 "GND" H 5550 3655 30  0001 C CNN
+F 2 "" H 5550 3725 60  0001 C CNN
+F 3 "" H 5550 3725 60  0001 C CNN
+	1    5550 3725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4825 3575 4625 3575
+Wire Wire Line
+	5550 3575 5225 3575
+Wire Wire Line
+	6250 3575 6500 3575
+Wire Wire Line
+	6900 3575 7400 3575
+$Comp
+L 1000pF_0402_GRM1555C1H102FA01D C373
+U 1 1 5D2DDE15
+P 5025 3575
+F 0 "C373" H 5075 3675 50  0000 L CNN
+F 1 "1000pF_0402_GRM1555C1H102FA01D" H 4675 3975 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 5025 3875 39  0001 C CNN
+F 3 "" H 5075 3675 60  0000 C CNN
+F 4 "Mouser" H 5025 4075 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H102FA1D" H 4975 4175 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 5025 4275 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H102FA01D" H 5075 4375 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.001uF 50Volts 1%" H 5125 4475 60  0001 C CNN "Description"
+F 9 "1000pF" H 5150 3475 50  0000 C CNN "Component Value"
+	1    5025 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L 1000pF_0402_GRM1555C1H102FA01D C375
+U 1 1 5D2DDEC0
+P 6700 3575
+F 0 "C375" H 6750 3675 50  0000 L CNN
+F 1 "1000pF_0402_GRM1555C1H102FA01D" H 6350 3975 50  0001 L CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 6700 3875 39  0001 C CNN
+F 3 "" H 6750 3675 60  0000 C CNN
+F 4 "Mouser" H 6700 4075 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H102FA1D" H 6650 4175 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata Electronics" H 6700 4275 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H102FA01D" H 6750 4375 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.001uF 50Volts 1%" H 6800 4475 60  0001 C CNN "Description"
+F 9 "1000pF" H 6825 3475 50  0000 C CNN "Component Value"
+	1    6700 3575
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

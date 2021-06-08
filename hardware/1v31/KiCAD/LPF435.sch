@@ -1,0 +1,275 @@
+EESchema Schematic File Version 2
+LIBS:LimeMicroBGD_Library
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 31 57
+Title "LimeRFE"
+Date "2019-07-12"
+Rev "1v0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3525 3275 0    60   Input ~ 0
+IN
+Text HLabel 8475 3250 2    60   Output ~ 0
+OUT
+Wire Wire Line
+	8200 3250 8475 3250
+Wire Wire Line
+	3800 3275 3525 3275
+$Comp
+L GND #PWR0759
+U 1 1 5CA72303
+P 4750 4175
+F 0 "#PWR0759" H 4750 4175 30  0001 C CNN
+F 1 "GND" H 4750 4105 30  0001 C CNN
+F 2 "" H 4750 4175 60  0001 C CNN
+F 3 "" H 4750 4175 60  0001 C CNN
+	1    4750 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0760
+U 1 1 5CA72787
+P 5900 4200
+F 0 "#PWR0760" H 5900 4200 30  0001 C CNN
+F 1 "GND" H 5900 4130 30  0001 C CNN
+F 2 "" H 5900 4200 60  0001 C CNN
+F 3 "" H 5900 4200 60  0001 C CNN
+	1    5900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0761
+U 1 1 5CA727C8
+P 6850 4200
+F 0 "#PWR0761" H 6850 4200 30  0001 C CNN
+F 1 "GND" H 6850 4130 30  0001 C CNN
+F 2 "" H 6850 4200 60  0001 C CNN
+F 3 "" H 6850 4200 60  0001 C CNN
+	1    6850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 2975 5175 3425
+Wire Wire Line
+	5575 2975 5575 3425
+Wire Wire Line
+	6150 2975 6150 3425
+Wire Wire Line
+	6550 2975 6550 3425
+Wire Wire Line
+	4300 3275 5175 3275
+Connection ~ 5175 3275
+Wire Wire Line
+	4750 4175 4750 3950
+Wire Wire Line
+	4750 3550 4750 3275
+Connection ~ 4750 3275
+Wire Wire Line
+	5900 4200 5900 3950
+Wire Wire Line
+	5575 3275 6150 3275
+Connection ~ 6150 3275
+Connection ~ 5575 3275
+Wire Wire Line
+	5900 3550 5900 3275
+Connection ~ 5900 3275
+Wire Wire Line
+	6850 4200 6850 3950
+Wire Wire Line
+	7700 3250 6550 3250
+Connection ~ 6550 3250
+Wire Wire Line
+	6850 3550 6850 3250
+Connection ~ 6850 3250
+$Comp
+L 3pF_0402_GJM1555C1H3R0BB01D C169
+U 1 1 5CF83963
+P 4750 3750
+F 0 "C169" H 4800 3850 50  0000 L CNN
+F 1 "3pF_0402_GJM1555C1H3R0BB01D" H 4550 4200 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 4750 4100 60  0001 C CNN
+F 3 "" H 4750 3750 60  0000 C CNN
+F 4 "Mouser" H 4750 4300 60  0001 C CNN "Vendor"
+F 5 "81-GJM1555C1H3R0BB01" H 4750 4400 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 4750 4500 60  0001 C CNN "Manufacturer"
+F 7 "GJM1555C1H3R0BB01D" H 4750 4600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 3.0pF 50Volts C0G +/-0.1pF" H 4750 4700 60  0001 C CNN "Description"
+F 9 "3pF" H 4875 3650 50  0000 C CNN "Component Value"
+	1    4750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4.7pF_0402_GJM1555C1H4R7CB01D C170
+U 1 1 5CF83A2E
+P 5375 3425
+F 0 "C170" H 5425 3525 50  0000 L CNN
+F 1 "4.7pF_0402_GJM1555C1H4R7CB01D" H 5175 3875 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 5375 3775 60  0001 C CNN
+F 3 "" H 5375 3425 60  0000 C CNN
+F 4 "Mouser" H 5375 3975 60  0001 C CNN "Vendor"
+F 5 "81-GJM1555C1H4R7CB1D" H 5375 4075 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 5375 4175 60  0001 C CNN "Manufacturer"
+F 7 "GJM1555C1H4R7CB01D" H 5375 4275 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 4.7pF 50Volts C0G +/-0.25pF" H 5375 4375 60  0001 C CNN "Description"
+F 9 "4.7pF" H 5500 3325 50  0000 C CNN "Component Value"
+	1    5375 3425
+	0    1    1    0   
+$EndComp
+$Comp
+L 8pF_0402_GCM1555C1H8R0BA16D C171
+U 1 1 5CF83AE1
+P 5900 3750
+F 0 "C171" H 5950 3850 50  0000 L CNN
+F 1 "8pF_0402_GCM1555C1H8R0BA16D" H 5700 4200 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 5900 4100 60  0001 C CNN
+F 3 "" H 5900 3750 60  0000 C CNN
+F 4 "Mouser" H 5900 4300 60  0001 C CNN "Vendor"
+F 5 "81-GCM1555C1H8R0BA6D" H 5900 4400 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 5900 4500 60  0001 C CNN "Manufacturer"
+F 7 "GCM1555C1H8R0BA16D" H 5900 4600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 8.0pF 50volts C0G 0.1pF" H 5900 4700 60  0001 C CNN "Description"
+F 9 "8pF" H 6025 3650 50  0000 C CNN "Component Value"
+	1    5900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1.5pF_0402_GJM1555C1H1R5CB01D C172
+U 1 1 5CF83B69
+P 6350 3425
+F 0 "C172" H 6400 3525 50  0000 L CNN
+F 1 "1.5pF_0402_GJM1555C1H1R5CB01D" H 6150 3875 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 6350 3775 60  0001 C CNN
+F 3 "" H 6350 3425 60  0000 C CNN
+F 4 "Mouser" H 6350 3975 60  0001 C CNN "Vendor"
+F 5 "81-GJM1555C1H1R5CB01" H 6350 4075 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 6350 4175 60  0001 C CNN "Manufacturer"
+F 7 "GJM1555C1H1R5CB01D" H 6350 4275 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 1.5pF 50Volts C0G +/-0.25pF" H 6350 4375 60  0001 C CNN "Description"
+F 9 "1.5pF" H 6475 3325 50  0000 C CNN "Component Value"
+	1    6350 3425
+	0    1    1    0   
+$EndComp
+$Comp
+L 4.7pF_0402_GJM1555C1H4R7CB01D C173
+U 1 1 5CF83C08
+P 6850 3750
+F 0 "C173" H 6900 3850 50  0000 L CNN
+F 1 "4.7pF_0402_GJM1555C1H4R7CB01D" H 6650 4200 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0402" H 6850 4100 60  0001 C CNN
+F 3 "" H 6850 3750 60  0000 C CNN
+F 4 "Mouser" H 6850 4300 60  0001 C CNN "Vendor"
+F 5 "81-GJM1555C1H4R7CB1D" H 6850 4400 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 6850 4500 60  0001 C CNN "Manufacturer"
+F 7 "GJM1555C1H4R7CB01D" H 6850 4600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 4.7pF 50Volts C0G +/-0.25pF" H 6850 4700 60  0001 C CNN "Description"
+F 9 "4.7pF" H 6975 3650 50  0000 C CNN "Component Value"
+	1    6850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10nH_0805_0805HT-10NTJLC L47
+U 1 1 5D621224
+P 5375 2975
+F 0 "L47" V 5290 3005 50  0000 C CNN
+F 1 "10nH_0805_0805HT-10NTJLC" H 5375 3625 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0805" H 5375 3525 60  0001 C CNN
+F 3 "" H 5375 2975 60  0000 C CNN
+F 4 "Mouser" H 5375 4125 60  0001 C CNN "Vendor"
+F 5 "994-0805HT-10NTJLC" H 5325 4025 60  0001 C CNN "Vendor Part Number"
+F 6 "Coilcraft" H 5325 3925 60  0001 C CNN "Manufacturer"
+F 7 "0805HT-10NTJLC" H 5375 3825 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Fixed Inductors 0805HT Low Profile 10 nH 5 % 0.8 A" H 5325 3725 60  0001 C CNN "Description"
+F 9 "10nH" V 5440 2955 50  0000 C CNN "Component Value"
+	1    5375 2975
+	0    1    1    0   
+$EndComp
+$Comp
+L 15nH_0805_0805HT-15NTJLB L48
+U 1 1 5D625E94
+P 6350 2975
+F 0 "L48" V 6265 3005 50  0000 C CNN
+F 1 "15nH_0805_0805HT-15NTJLB" H 6350 3575 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0805" H 6350 3475 60  0001 C CNN
+F 3 "" H 6350 2975 60  0000 C CNN
+F 4 "Mouser" H 6350 4075 60  0001 C CNN "Vendor"
+F 5 "994-0805HT-15NTJLB" H 6350 3975 60  0001 C CNN "Vendor Part Number"
+F 6 "Coilcraft" H 6300 3875 60  0001 C CNN "Manufacturer"
+F 7 "0805HT-15NTJLB" H 6350 3775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Fixed Inductors 0805HT Low Profile 15 nH 5 % 0.8 A" H 6400 3675 60  0001 C CNN "Description"
+F 9 "15nH" V 6415 2955 50  0000 C CNN "Component Value"
+	1    6350 2975
+	0    1    1    0   
+$EndComp
+$Comp
+L 0R_0603_RCS06030000Z0EA R157
+U 1 1 5D69A9ED
+P 4050 3275
+F 0 "R157" H 4040 3345 50  0000 C CNN
+F 1 "0R_0603_RCS06030000Z0EA" H 4050 3525 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 4050 3625 60  0001 C CNN
+F 3 "" V 4050 3275 60  0000 C CNN
+F 4 "Mouser" H 4050 4125 60  0001 C CNN "Vendor"
+F 5 "RCS06030000Z0EA" H 4070 4005 60  0001 C CNN "Vendor Part Number"
+F 6 "Vishay_Dale" H 4050 3925 60  0001 C CNN "Manufacturer"
+F 7 "RCS06030000Z0EA" H 4000 3825 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD 0.25watt ZeroOhms" H 4050 3725 60  0001 C CNN "Description"
+F 9 "0R" H 4050 3265 50  0000 C CNN "Component Value"
+	1    4050 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0R_0603_RCS06030000Z0EA R158
+U 1 1 5D69AB05
+P 7950 3250
+F 0 "R158" H 7940 3320 50  0000 C CNN
+F 1 "0R_0603_RCS06030000Z0EA" H 7950 3500 50  0001 C CNN
+F 2 "LimeMicroBGD_Library:SMD0603" H 7950 3600 60  0001 C CNN
+F 3 "" V 7950 3250 60  0000 C CNN
+F 4 "Mouser" H 7950 4100 60  0001 C CNN "Vendor"
+F 5 "RCS06030000Z0EA" H 7970 3980 60  0001 C CNN "Vendor Part Number"
+F 6 "Vishay_Dale" H 7950 3900 60  0001 C CNN "Manufacturer"
+F 7 "RCS06030000Z0EA" H 7900 3800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Thick Film Resistors - SMD 0.25watt ZeroOhms" H 7950 3700 60  0001 C CNN "Description"
+F 9 "0R" H 7950 3240 50  0000 C CNN "Component Value"
+	1    7950 3250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
