@@ -10,13 +10,12 @@ The directory structure is as follows:
 
       /archived/<version>/           - Archived versions
           firmware/                  - Corresponding firmware
-                                     - Remaining structure as above
+                                     - Remaining structure as below
 
       /firmware/                     - Firmware sources
 
       /hardware/<version>/
           docs/                      - Documentation
-          firmware/                  - Firmware
           hardware/
               BOM/                   - Bill of materials
               Gerbers/               - Manufacturing files
