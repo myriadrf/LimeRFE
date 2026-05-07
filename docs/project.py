@@ -1,7 +1,7 @@
 # Copyright date and release version should be updated accordingly!
 
 project = 'LimeRFE'
-copyright = '2020-2025 Lime Microsystems'
+copyright = '2020-2026 Lime Microsystems'
 author = 'Lime Microsystems'
 release = 'latest'
 
@@ -19,6 +19,7 @@ highlight_language = 'console'
 # Intersphinx mapping
 # To minimise build time only include projects that are referenced.
 intersphinx_internal = [
+     'suite',
 #    'suiteng',
 ]
 
@@ -30,4 +31,4 @@ intersphinx_external = [
 archived = False
 
 # When True internal intersphinx targets point at stage.myriadrf.org.
-staging = True
+staging = False
