@@ -1,5 +1,5 @@
-API Functions
-#############
+API
+###
 
 API functions for LimeRFE control are implemented in LimeSuite shared library.
 Communication with LimeRFE is possible using USB, or through LimeSDR using I2C.

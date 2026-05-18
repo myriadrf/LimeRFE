@@ -1,5 +1,8 @@
-HAM 144 -146 MHZ (2 m) Band Setup Example
-#########################################
+Lime Suite
+##########
+
+HAM 144-146 MHz (2 m)
+*********************
 
 1. Before any connection terminate connectors J1, J3 and J5 with 50 Ohm terminations.
 2. Connect signal generator to J2 connector. It is recommended to use attenuators between signal generator and connector J2. For all our tests we used 6 dB / 2 W attenuators. Also for initial test set power level below –30 dBm. For our test we used –40 dBm of input power. Do not turn on power, yet. 
@@ -18,3 +21,4 @@ HAM 144 -146 MHZ (2 m) Band Setup Example
 15. Afer this selection press Configure button.
 16. After configuration, in Mode sub-panel two buttons will appear. These two buttons (TX and RX) will turn on and turn off transmitter and receiver independently. Turn on TX mode and turn off RX mode.
 17. In signal generator turn on the power and amplified signal should appear at the spectral analyzer. The expected gain is of about 33 dB.
+

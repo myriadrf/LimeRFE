@@ -1,5 +1,5 @@
-Changing the Bias of Power Amplifiers
-#####################################
+PA Biasing
+##########
 
 All LimeRFE boards arrive in already preset power amplifier bias currents. Some deviation in bias currents might be possible due to different ambient temperature, some minor changes during the transport, etc.
 
@@ -46,8 +46,8 @@ Figure 5 shows possitions of all connectors and trimmers necessary to change pow
 
   Figure 5: Positions of all necessary connectors and trimmers for bias currents changes
 
-HAM 30 MHz (HF) and  50 – 70 MHz (6 & 4 m) power amplifier drain current
-************************************************************************
+HAM 30 MHz (HF) and 50-70 MHz (6 & 4m)
+**************************************
 
 1. Choose external DC power supply of 12 V and 5 V from on board DC-DC convertor by connecting pin 1 and pin 2 of connector J11 on the board (jumper position – right). Connect external DC supply unit to J9, but do not turn on 12 V from DC supply unit.
 2. Terminate J1, J2, J3 and J4 SMA connectors with 50 Ohm terminations
@@ -61,8 +61,8 @@ HAM 30 MHz (HF) and  50 – 70 MHz (6 & 4 m) power amplifier drain current
 10. Turn off Receiver/Turn on Transmitter mode.
 11. Turn around trimmer R343 in clockwise direction until ammeter shows 0.5 A
 
-HAM 144 – 146 MHz (2 m) power amplifier drain current
-*****************************************************
+HAM 144-146 MHz (2 m)
+*********************
 
 1. Choose external DC power supply of 12 V and 5 V from on board DC-DC convertor by connecting pin 1 and pin 2 of connector J11 on the board  (jumper position – right). Connect external DC supply unit to J9, but do not turn on 12 V from DC supply unit.
 2. Terminate J1, J2, J3 and J5 SMA connectors with 50 Ohm terminations
@@ -75,8 +75,8 @@ HAM 144 – 146 MHz (2 m) power amplifier drain current
 9. Turn off Receiver and Turn on Transmitter
 10. Turn around trimmer R161 in clockwise direction until ammeter shows 0.2 A
 
-HAM 220 – 225 MHz (2 m) power amplifier drain current
-*****************************************************
+HAM 220-225 MHz (1.25 m)
+************************
 
 1. Choose external DC power supply of 12 V and 5 V from on board DC-DC convertor by connecting pin 1 and pin 2 of connector J11 on the board  (jumper position – right). Connect external DC supply unit to J9, but do not turn on 12 V from DC supply unit.
 2. Terminate J1, J2, J3 and J5 SMA connectors with 50 Ohm terminations
@@ -89,8 +89,8 @@ HAM 220 – 225 MHz (2 m) power amplifier drain current
 9. Turn off Receiver and Turn on Transmitter
 10. Turn around trimmer R218 in clockwise direction until ammeter shows 0.2 A
 
-HAM 430 – 440 MHz (70 cm) power amplifier drain current
-*******************************************************
+HAM 430-440 MHz (70 cm)
+***********************
 
 1. Choose external DC power supply of 12 V and 5 V from on board DC-DC convertor by connecting pin 1 and pin 2 of connector J11 on the board (jumper position – right). Connect external DC supply unit to J9, but do not turn on 12 V from DC supply unit.
 2. Terminate J1, J2, J3 and J5 SMA connectors with 50 Ohm terminations.
@@ -103,8 +103,8 @@ HAM 430 – 440 MHz (70 cm) power amplifier drain current
 9. Turn off Receiver and Turn on Transmitter.
 10. Turn around trimmer R226 in clockwise direction until ammeter shows 0.2 A.
   
-HAM 902 – 928 MHz (70 cm) power amplifier drain current
-*******************************************************
+HAM 902-928 MHz (33 cm)
+***********************
 
 1. Choose external DC power supply of 12 V and 5 V from on board DC-DC convertor by connecting pin 1 and pin 2 of connector J11 on the board (jumper position – right). Connect external DC supply unit to J9, but do not turn on 12 V from DC supply unit.
 2. Terminate J1, J2, J3 and J5 SMA connectors with 50 Ohm terminations.
@@ -117,8 +117,8 @@ HAM 902 – 928 MHz (70 cm) power amplifier drain current
 9. Turn off Receiver and Turn on Transmitter.
 10. Turn around trimmer R253 in clockwise direction until ammeter shows 0.1 A. 
   
-HAM 1240 – 1325 MHz (23 cm) power amplifier drain current
-*********************************************************
+HAM 1240-1325 MHz (23 cm)
+*************************
 
 1. Choose external DC power supply of 12 V and 5 V from on board DC-DC convertor by connecting pin 1 and pin 2 of connector J11 on the board (jumper position – right). Connect external DC supply unit to J9, but do not turn on 12 V from DC supply unit.
 2. Terminate J1, J2, J3 and J5 SMA connectors with 50 Ohm terminations.
