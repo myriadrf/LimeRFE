@@ -3,7 +3,7 @@
 project = 'LimeRFE'
 copyright = '2020-2026 Lime Microsystems'
 author = 'Lime Microsystems'
-release = 'latest'
+release = '1.31'
 
 # These are used for the "Edit on GitHub" links.
 # github_repo_path should be set to the branch + path to the docs.
@@ -19,8 +19,9 @@ highlight_language = 'console'
 # Intersphinx mapping
 # To minimise build time only include projects that are referenced.
 intersphinx_internal = [
-     'suite',
-#    'suiteng',
+    'quickstart',
+    'sdrgw',
+    'suite',
 ]
 
 intersphinx_external = [
