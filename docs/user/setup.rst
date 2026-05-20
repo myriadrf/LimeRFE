@@ -25,7 +25,7 @@ RF Connections
 .. figure:: /images/LimeRFE_RF_connectors.png
   :width: 600
   
-  Figure 4: LimeRFE board top with RF connector positions
+  Figure 3: LimeRFE board top with RF connector positions
 
 .. list-table:: Table 1. RF Connectors
    :header-rows: 1

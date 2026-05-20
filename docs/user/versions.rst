@@ -10,12 +10,7 @@ v1.0, v1.2 and v1.3 boards should be treated the same in terms of hardware funct
 
   Figure 1: LimeRFE v1.3 board top view
 
-.. figure:: /images/LimeRFE_v1.2_3D_top.png
+.. figure:: /images/LimeRFE_v1.0_3d_top.png
   :width: 600
 
-  Figure 2: LimeRFE v1.2 board top view
-
-.. figure:: /images/LimeRFE_v1.0_3d_top.jpg
-  :width: 600
-
-  Figure 3: LimeRFE v1.0 board top view 
+  Figure 2: LimeRFE v1.0 board top view 

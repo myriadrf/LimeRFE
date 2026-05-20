@@ -19,7 +19,7 @@ v1.0
 
 This is the Reference Manual for LimeRFE v1.0 hardware.
 
-.. figure:: /images/LimeRFE_v1.0_3d_top.jpg
+.. figure:: /images/LimeRFE_v1.0_3d_top.png
   :width: 600
 
   Figure 1: LimeRFE v1.0 board top view
