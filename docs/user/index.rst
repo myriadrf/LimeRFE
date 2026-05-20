@@ -7,7 +7,6 @@ User Guide
 
    versions
    setup
-   clock 
    software
    examples/index
 
