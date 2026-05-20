@@ -1,0 +1,146 @@
+EESchema Schematic File Version 2
+LIBS:Lime_HAM_Z
+LIBS:LimeMicroBGD_Library
+LIBS:Cellular_Subsystem_Library
+LIBS:LimeMicroBGD_Library_bb
+LIBS:LMS8001_AppPCB-cache
+LIBS:LMS8001_PowerSupply-cache
+LIBS:ADM7155_Addon-cache
+LIBS:LMS8001_DigitalPCB-cache
+LIBS:SWR_Meter_Subsystem_library
+LIBS:GPIO_Subsystem-cache
+LIBS:PA_220MHz_920MHz-cache
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FilterLib
+LIBS:BB_Library
+LIBS:Lime_RFE-rescue
+LIBS:Lime_RFE-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 24 56
+Title "LimeRFE"
+Date "2019-07-12"
+Rev "1v0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4675 3775 0    60   Input ~ 0
+IN
+Text HLabel 7475 3775 2    60   Output ~ 0
+OUT
+Wire Wire Line
+	6675 3775 6900 3775
+Wire Wire Line
+	7300 3775 7475 3775
+Wire Wire Line
+	5250 3775 5475 3775
+Wire Wire Line
+	4675 3775 4850 3775
+$Comp
+L GND #PWR0591
+U 1 1 5D22D7BD
+P 6075 4225
+F 0 "#PWR0591" H 6075 4225 30  0001 C CNN
+F 1 "GND" H 6075 4155 30  0001 C CNN
+F 2 "" H 6075 4225 60  0001 C CNN
+F 3 "" H 6075 4225 60  0001 C CNN
+	1    6075 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0592
+U 1 1 5D22D7BE
+P 6075 3325
+F 0 "#PWR0592" H 6075 3325 30  0001 C CNN
+F 1 "GND" H 6075 3255 30  0001 C CNN
+F 2 "" H 6075 3325 60  0001 C CNN
+F 3 "" H 6075 3325 60  0001 C CNN
+	1    6075 3325
+	1    0    0    1   
+$EndComp
+$Comp
+L 3600BP14M0600T U72
+U 1 1 5D42CE0D
+P 6075 3775
+F 0 "U72" H 6075 3225 60  0000 C CNN
+F 1 "3600BP14M0600T" H 6125 4475 60  0001 C CNN
+F 2 "LimeMicroBGD_Library:3600BP14M0600T" H 6125 4575 60  0001 C CNN
+F 3 "" H 6075 4425 60  0000 C CNN
+F 4 "Mouser" H 6075 5075 60  0001 C CNN "Vendor"
+F 5 "609-3600BP14M0600T" H 6100 4975 60  0001 C CNN "Vendor Part Number"
+F 6 "Johanson_Technology_Inc. " H 6075 4875 60  0001 C CNN "Manufacturer"
+F 7 "3600BP14M0600T " H 6075 4775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FILTER BANDPASS 3.6GHZ " H 6125 4675 60  0001 C CNN "Description"
+F 9 "3600BP14M0600T" H 6600 3400 60  0000 C CNN "Component Value"
+	1    6075 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1000pF_0402_GRM1555C1H102GA01D C503
+U 1 1 5D721110
+P 5050 3775
+F 0 "C503" H 5100 3875 50  0000 L CNN
+F 1 "1000pF_0402_GRM1555C1H102GA01D" H 5050 4475 50  0001 C CNN
+F 2 "SMD0402" H 5050 4375 60  0001 C CNN
+F 3 "" H 5050 3775 60  0000 C CNN
+F 4 "Mouser" H 5000 4975 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H102GA1D" H 5000 4875 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 5000 4775 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H102GA01D" H 5050 4675 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.001uF 50Volts 2%" H 5050 4575 60  0001 C CNN "Description"
+F 9 "1000pF" H 5175 3675 50  0000 C CNN "Component Value"
+	1    5050 3775
+	0    1    1    0   
+$EndComp
+$Comp
+L 1000pF_0402_GRM1555C1H102GA01D C504
+U 1 1 5D721188
+P 7100 3775
+F 0 "C504" H 7150 3875 50  0000 L CNN
+F 1 "1000pF_0402_GRM1555C1H102GA01D" H 7100 4475 50  0001 C CNN
+F 2 "SMD0402" H 7100 4375 60  0001 C CNN
+F 3 "" H 7100 3775 60  0000 C CNN
+F 4 "Mouser" H 7050 4975 60  0001 C CNN "Vendor"
+F 5 "81-GRM1555C1H102GA1D" H 7050 4875 60  0001 C CNN "Vendor Part Number"
+F 6 "Murata" H 7050 4775 60  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H102GA01D" H 7100 4675 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.001uF 50Volts 2%" H 7100 4575 60  0001 C CNN "Description"
+F 9 "1000pF" H 7225 3675 50  0000 C CNN "Component Value"
+	1    7100 3775
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

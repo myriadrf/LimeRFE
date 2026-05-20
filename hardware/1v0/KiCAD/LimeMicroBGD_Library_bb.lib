@@ -1,0 +1,2997 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 0.1uF_0402
+#
+DEF ~0.1uF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "0.1uF_0402" -200 400 50 H I L CNN
+F2 "SMD0402" 0 300 39 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" 0 500 60 H I C CNN "Vendor"
+F5 "490-6328-1-ND" -50 600 60 H I C CNN "Vendor Part Number"
+F6 "Murrata_Electronics" 0 700 60 H I C CNN "Manufacturer"
+F7 "GRM155R71C104KA88J" 50 800 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 16V X7R 0402" 100 900 60 H I C CNN "Description"
+F9 "0.1uF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0RNF_0402
+#
+DEF ~0RNF_0402 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "0RNF_0402" 0 150 50 H I C CNN
+F2 "SMD0201" 0 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 650 60 H I C CNN "Vendor"
+F5 "-" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 550 60 H I C CNN "Manufacturer"
+F7 "-" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "RES_0.0_OHM_0402_SMD" 0 350 60 H I C CNN "Description"
+F9 "NF" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0R_0402
+#
+DEF ~0R_0402 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "0R_0402" 0 150 50 H I C CNN
+F2 "SMD0201" 0 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 650 60 H I C CNN "Vendor"
+F5 "-" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 550 60 H I C CNN "Manufacturer"
+F7 "-" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "RES_0.0_OHM_0402_SMD" 0 350 60 H I C CNN "Description"
+F9 "0R" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0R_0603
+#
+DEF ~0R_0603 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "0R_0603" -25 175 50 H I C CNN
+F2 "SMD0603" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
+F5 "541-2779-1-ND" 20 730 60 H I C CNN "Vendor Part Number"
+F6 "Vishay_Dale" 10 570 60 H I C CNN "Manufacturer"
+F7 "RCS06030000Z0EA" 20 440 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0 OHM JUMPER 1/4W 0603" 0 340 60 H I C CNN "Description"
+F9 "0R" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0R_1206
+#
+DEF ~0R_1206 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "0R_1206" -25 175 50 H I C CNN
+F2 "SMD1206" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
+F5 "541-0.0UBCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
+F6 "Vishay Dale" 10 570 60 H I C CNN "Manufacturer"
+F7 "CRCW12060000Z0EAHP" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0 OHM JUMPER 3/4W 1206" 0 340 60 H I C CNN "Description"
+F9 "0R" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.15nH_0604
+#
+DEF ~1.15nH_0604 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "1.15nH_0604" 0 250 50 H I C CNN
+F2 "SMD0604" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286335" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "0604HQ-1N1XJLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "Surface Mount High Frequency Inductor, 1.15 nH, 0604HQ Series, 3 A, 0604 [1610 Metric], Wirewound" 0 450 60 H I C CNN "Description"
+F9 "1.15nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.2K_0805_TE_Connectivity
+#
+DEF ~1.2K_0805_TE_Connectivity R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "1.2K_0805_TE_Connectivity" -25 175 50 H I C CNN
+F2 "SMD0805" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Mouser" 0 750 60 H I C CNN "Vendor"
+F5 "279-CRGH0805J1K2" 0 650 60 H I C CNN "Vendor Part Number"
+F6 "TE Connectivity / Neohm" 10 570 60 H I C CNN "Manufacturer"
+F7 "CRGH0805J1K2" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "Thick Film Resistors - SMD CRGH0805 5% 1K2 0.33W" 0 340 60 H I C CNN "Description"
+F9 "1.2K" 0 -2 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.8u_1008
+#
+DEF ~1.8u_1008 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "1.8u_1008" 0 250 50 H I C CNN
+F2 "SMD1008" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 650 60 H I C CNN "Vendor"
+F5 "-" 0 550 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 850 60 H I C CNN "Manufacturer"
+F7 "-" 0 750 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 450 60 H I C CNN "Description"
+F9 "1.8uH" 50 0 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100nF_0402
+#
+DEF ~100nF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "100nF_0402" 200 50 50 H I L CNN
+F2 "SMD0402" -50 0 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" 100 500 60 H I C CNN "Vendor"
+F5 "311-1047-1-ND" 150 600 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" 50 400 60 H I C CNN "Manufacturer"
+F7 "CC0402ZRY5V7BB104" 100 300 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP, CER, 0.1UF, 16V, Y5V, 0402," 200 200 60 H I C CNN "Description"
+F9 "100nF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100nF_0603
+#
+DEF ~100nF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "100nF_0603" -250 450 50 H I L CNN
+F2 "SMD0603" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" 0 950 60 H I C CNN "Vendor"
+F5 "399-7845-1-ND" -50 850 60 H I C CNN "Vendor Part Number"
+F6 "KEMET" 0 750 60 H I C CNN "Manufacturer"
+F7 "C0603C104M5RACTU" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 50V X7R 0603" 0 550 60 H I C CNN "Description"
+F9 "100nF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100pF_0603
+#
+DEF ~100pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "100pF_0603" -250 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1351-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C2A101JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 100PF 100V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "100pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10K_0402
+#
+DEF ~10K_0402 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "10K_0402" 0 150 50 H I C CNN
+F2 "SMD0402" 0 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 650 60 H I C CNN "Vendor"
+F5 "-" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 550 60 H I C CNN "Manufacturer"
+F7 "-" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 350 60 H I C CNN "Description"
+F9 "10K" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10K_TRIMMER
+#
+DEF ~10K_TRIMMER R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "10K_TRIMMER" -25 175 50 H I C CNN
+F2 "SMD_TC33X" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 750 60 H I C CNN "Vendor"
+F5 "TC33X-103ECT-ND" 0 650 60 H I C CNN "Vendor Part Number"
+F6 "Bourns Inc." 10 570 60 H I C CNN "Manufacturer"
+F7 "TC33X-2-103E" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 10K OHM 0.1W J LEAD TOP" 0 340 60 H I C CNN "Description"
+F9 "10K" 1 -2 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+P 2 0 1 0 0 -100 0 -50 N
+P 4 0 1 0 0 -40 -25 -115 25 -115 0 -40 N
+X 1 1 250 0 100 L 60 47 1 1 P
+X 2 2 0 -200 118 U 50 50 1 1 P
+X 3 3 -250 0 100 R 60 47 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10pF_0603
+#
+DEF ~10pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "10pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-11434-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1H100JA01J" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 10PF 50V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "10pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10uF_1206
+#
+DEF ~10uF_1206 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "10uF_1206" 0 400 50 H I C CNN
+F2 "SMD1206" 0 300 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 900 60 H I C CNN "Vendor"
+F5 "587-2399-1-ND" 0 500 60 H I C CNN "Vendor Part Number"
+F6 "Taiyo_Yuden" 0 600 60 H I C CNN "Manufacturer"
+F7 "TMK316B7106KL-TD" 0 700 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP_CER_10UF_25V_X7R_1206" 0 800 60 H I C CNN "Description"
+F9 "10uF" 125 -100 60 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10u_0805
+#
+DEF ~10u_0805 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "10u_0805" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 650 60 H I C CNN "Vendor"
+F5 "445-6396-1-ND" 0 550 60 H I C CNN "Vendor Part Number"
+F6 "TDK Corporation" 0 850 60 H I C CNN "Manufacturer"
+F7 "MLZ2012M100WT000" 0 750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 10UH 350MA 470 MOHM" 0 450 60 H I C CNN "Description"
+F9 "10uH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 12nH_1008
+#
+DEF ~12nH_1008 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "12nH_1008" 0 250 50 H I C CNN
+F2 "SMD1008" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286772RL" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "1008HQ-12NXJLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "Surface Mount High Frequency Inductor, 12 nH, 1008HQ Series, 1.5 A, 1008 [2520 Metric], Wirewound" 0 450 60 H I C CNN "Description"
+F9 "12nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1500pF_0603
+#
+DEF ~1500pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "1500pF_0603" -250 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1455-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1H152JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1500PF 50V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "1500pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150R_0805_TE_Connectivity
+#
+DEF ~150R_0805_TE_Connectivity R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "150R_0805_TE_Connectivity" -25 175 50 H I C CNN
+F2 "SMD0805" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Farnell" 0 750 60 H I C CNN "Vendor"
+F5 "2861902RL" 0 650 60 H I C CNN "Vendor Part Number"
+F6 "TE Connectivity / Holsworthy" 10 570 60 H I C CNN "Manufacturer"
+F7 "CRGCQ0805J150R" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "RGCQ0805J150R -  SMD Chip Resistor, 0805 [2012 Metric], 150 ohm, CRGCQ Series, 150 V, Thick Film, 125 mW" 0 340 60 H I C CNN "Description"
+F9 "150" 0 -2 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 15pF_0603
+#
+DEF ~15pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "15pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1407-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1H150JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 15PF 50V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "15pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 15pF_0603_KEMET
+#
+DEF ~15pF_0603_KEMET C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "15pF_0603_KEMET" -350 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Mouser" 0 950 60 H I C CNN "Vendor"
+F5 "80-C0603C150J5G" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "KEMET" 0 750 60 H I C CNN "Manufacturer"
+F7 "C0603C150J5GACTU" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 15pF 0603 C0G 0.05" 0 550 60 H I C CNN "Description"
+F9 "15pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 18pF_0603
+#
+DEF ~18pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "18pF_0603" -250 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-10707-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1H180JA01J" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 18PF 50V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "18pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 18uF_1008_LS
+#
+DEF ~18uF_1008_LS L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "18uF_1008_LS" 0 250 50 H I C CNN
+F2 "SMD1008" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286856" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "COILCRAFT" 0 650 60 H I C CNN "Manufacturer"
+F7 "1008LS-183XJLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "1008LS-183XJLB -  Surface Mount High Frequency Inductor, 18 µH, 1008LS Series, 160 mA, 1008 [2520 Metric], Wirewound" 0 450 60 H I C CNN "Description"
+F9 "18uH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1K_0603
+#
+DEF ~1K_0603 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "1K_0603" -25 175 50 H I C CNN
+F2 "SMD0603" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 750 60 H I C CNN "Vendor"
+F5 "RHM1.0KDCT-ND" 0 650 60 H I C CNN "Vendor Part Number"
+F6 "Rohm Semiconductor" 10 570 60 H I C CNN "Manufacturer"
+F7 "ESR03EZPJ102" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1K OHM 5% 1/4W 0603" 0 340 60 H I C CNN "Description"
+F9 "1K" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1k_0402
+#
+DEF ~1k_0402 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "1k_0402" -25 175 50 H I C CNN
+F2 "SMD0402" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
+F5 "RMCF0402FT1K00CT-ND" 20 730 60 H I C CNN "Vendor Part Number"
+F6 "Stackpole Electronics Inc" 10 570 60 H I C CNN "Manufacturer"
+F7 "RMCF0402FT1K00" 20 440 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 1K OHM 1/16W 1% 0402" 0 340 60 H I C CNN "Description"
+F9 "1K" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1nF_0402
+#
+DEF ~1nF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "1nF_0402" 200 50 50 H I L CNN
+F2 "SMD0402" -50 0 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" 100 500 60 H I C CNN "Vendor"
+F5 "311-1036-1-ND" 150 600 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" 50 400 60 H I C CNN "Manufacturer"
+F7 "CC0402KRX7R9BB102" 100 300 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1000PF 50V 10% X7R 0402" 200 200 60 H I C CNN "Description"
+F9 "1nF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1nF_0603
+#
+DEF ~1nF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "1nF_0603" -150 400 50 H I L CNN
+F2 "SMD0603" 0 300 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" 0 900 60 H I C CNN "Vendor"
+F5 "478-1215-1-ND" 0 800 60 H I C CNN "Vendor Part Number"
+F6 "AVX Corporation" 0 700 60 H I C CNN "Manufacturer"
+F7 "06035C102KAT2A" 0 600 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1000PF 50V X7R 0603" 0 500 60 H I C CNN "Description"
+F9 "1nF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1uF_0603
+#
+DEF ~1uF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "1uF_0603" -200 450 50 H I L CNN
+F2 "SMD0603" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 550 60 H I C CNN "Vendor"
+F5 "490-3897-1-ND" 0 650 60 H I C CNN "Vendor Part Number"
+F6 "Murata" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM188R61E105KA12D" 0 850 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP_CER_1UF_25V_X5R_0603" 0 950 60 H I C CNN "Description"
+F9 "1uF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1u_0402
+#
+DEF ~1u_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "1u_0402" -200 350 50 H I L CNN
+F2 "SMD00402" 0 250 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" 0 750 60 H I C CNN "Vendor"
+F5 "490-13409-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 650 60 H I C CNN "Manufacturer"
+F7 "GCM155C71A105KE38D" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1UF 10V X7S 0402" 0 450 60 H I C CNN "Description"
+F9 "1uF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 20nH_0805
+#
+DEF ~20nH_0805 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "20nH_0805" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286436" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "0805HQ-20NXGLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "20 nH, 0805HQ Series, 1.4 A, 0805, Wirewound" 0 450 60 H I C CNN "Description"
+F9 "20nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 220pF_0603
+#
+DEF ~220pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "220pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1435-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1H221JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 220PF 50V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "220pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 27nH_0603
+#
+DEF ~27nH_0603 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "27nH_0603" 0 250 50 H I C CNN
+F2 "SMD0603" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
+F5 "490-6579-1-ND" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 650 60 H I C CNN "Manufacturer"
+F7 "LQG18HN27NJ00D" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 27NH 300MA 550 MOHM" 0 450 60 H I C CNN "Description"
+F9 "27nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 27nH_0805
+#
+DEF ~27nH_0805 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "27nH_0805" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286437" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "0805HQ-27NXGLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "27 nH, 0805HQ Series, 1.3 A, 0805, Wirewound" 0 450 60 H I C CNN "Description"
+F9 "27nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 27pF_0603
+#
+DEF ~27pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "27pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1337-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C2A270JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 27PF 100V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "27pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2SK3476
+#
+DEF ~2SK3476 U 0 40 Y Y 1 F N
+F0 "U" 100 200 60 H V C CNN
+F1 "2SK3476" 0 600 60 H I C CNN
+F2 "SMD_2SK3476" 0 700 60 H I C CNN
+F3 "" 0 700 60 H V C CNN
+F4 "Mouser" 0 1200 60 H I C CNN "Vendor"
+F5 "757-2SK3476TE12LQ" 0 1100 60 H I C CNN "Vendor Part Number"
+F6 "Toshiba" 0 1000 60 H I C CNN "Manufacturer"
+F7 "2SK3476" 0 900 60 H I C CNN "Manufacturer Part Number"
+F8 "RF MOSFET Transistors N-Ch Radio Freq 1A 3W 20V VDSS" 0 800 60 H I C CNN "Description"
+F9 "2SK3476" 300 -150 60 H V C CNN "Component Value"
+DRAW
+P 2 0 1 0 -250 150 -250 -150 N
+P 2 0 1 0 -200 -150 0 -150 N
+P 2 0 1 0 -200 0 -100 -50 N
+P 2 0 1 0 -200 0 -100 50 N
+P 2 0 1 0 -200 0 0 0 N
+P 2 0 1 0 -200 150 0 150 N
+P 2 0 1 0 -200 200 -200 -200 N
+P 2 0 1 0 0 0 0 -150 N
+X G 1 -400 0 150 R 50 50 1 1 I
+X S 2 0 -300 150 U 50 50 1 1 I
+X D 3 0 300 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 3.8pF_0603
+#
+DEF ~3.8pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "3.8pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "399-16179-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "KEMET" 0 750 60 H I C CNN "Manufacturer"
+F7 "CBR06C389B5GAC" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER RF 3.8PF 50V +/-0.1 PF C" 0 550 60 H I C CNN "Description"
+F9 "3.8pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.9nH_0805HT
+#
+DEF ~3.9nH_0805HT L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "3.9nH_0805HT" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286484" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "0805HT-3N9TJLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "0805HT-3N9TJLB -  Surface Mount High Frequency Inductor, 3.9 nH, 0805HT Series, 800 mA, 0805 [2012 Metric], Wirewound" 0 450 60 H I C CNN "Description"
+F9 "3.9nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3.9nH_0805_HT
+#
+DEF ~3.9nH_0805_HT L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "3.9nH_0805_HT" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286484" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "0805HT-3N9TJLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "0805HT-3N9TJLB -  Surface Mount High Frequency Inductor, 3.9 nH, 0805HT Series, 800 mA, 0805 [2012 Metric], Wirewound" 0 450 60 H I C CNN "Description"
+F9 "3.9nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 330R_0603
+#
+DEF ~330R_0603 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "330R_0603" 0 250 50 H I C CNN
+F2 "SMD0603" 0 350 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
+F5 "A130088CT-ND" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "TE Connectivity Passive Product" 0 650 60 H I C CNN "Manufacturer"
+F7 "CRGCQ0603J330R" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "CRGCQ 0603 330R 5%" 0 450 60 H I C CNN "Description"
+F9 "330R" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 33uH_1210_CBC3225T330KR
+#
+DEF ~33uH_1210_CBC3225T330KR L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "33uH_1210_CBC3225T330KR" 0 250 50 H I C CNN
+F2 "SMD1210" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Mouser" 0 850 60 H I C CNN "Vendor"
+F5 "963-CBC3225T330KR" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Taiyo Yuden" 0 650 60 H I C CNN "Manufacturer"
+F7 "CBC3225T330KR" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "Fixed Inductors 1210 33uH 533mOhms +/-10% 500mA" 0 450 60 H I C CNN "Description"
+F9 "33uH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 36.5R_0805_MULTICOMP
+#
+DEF ~36.5R_0805_MULTICOMP R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "36.5R_0805_MULTICOMP" -25 175 50 H I C CNN
+F2 "SMD0805" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Farnell" 0 750 60 H I C CNN "Vendor"
+F5 "2141719RL" 0 650 60 H I C CNN "Vendor Part Number"
+F6 "MULTICOMP" 10 570 60 H I C CNN "Manufacturer"
+F7 "MC01W0805136R5" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "MC01W0805136R5 -  SMD Chip Resistor, 0805 [2012 Metric], 36.5 ohm, MC 1% Series, 150 V, Thick Film, 100 mW" 0 340 60 H I C CNN "Description"
+F9 "36.5" 0 -2 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 39pF_0603
+#
+DEF ~39pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "39pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1417-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1H390JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 39PF 50V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "39pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 39pF_0603_KEMET
+#
+DEF ~39pF_0603_KEMET C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "39pF_0603_KEMET" -350 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Mouser" 0 950 60 H I C CNN "Vendor"
+F5 "80-C0603C390K5G" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "KEMET" 0 750 60 H I C CNN "Manufacturer"
+F7 "C0603C390K5GACTU" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 39pF 0603 C0G 10%" 0 550 60 H I C CNN "Description"
+F9 "39pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7uF_0603
+#
+DEF ~4.7uF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "4.7uF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 250 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" 0 750 60 H I C CNN "Vendor"
+F5 "-" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 650 60 H I C CNN "Manufacturer"
+F7 "-" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP_CER_4.7UF_?V_0603" 0 450 60 H I C CNN "Description"
+F9 "4.7uF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47pF_0603
+#
+DEF ~47pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "47pF_0603" -250 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1343-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C2A470JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 47PF 100V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "47pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 5.6nH_0805_HQ
+#
+DEF ~5.6nH_0805_HQ L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "5.6nH_0805_HQ" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286445" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "0805HQ-5N6XJLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "0805HQ-5N6XJLB -  Surface Mount High Frequency Inductor, 5.6 nH, 0805HQ Series, 1.6 A, 0805 [2012 Metric], Wirewound" 0 450 60 H I C CNN "Description"
+F9 "5.6nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 50R_0805
+#
+DEF ~50R_0805 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "50R_0805" -25 175 50 H I C CNN
+F2 "SMD0805" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 750 60 H I C CNN "Vendor"
+F5 "541-2832-6-ND" 0 650 60 H I C CNN "Vendor Part Number"
+F6 "Vishay Dale" 10 570 60 H I C CNN "Manufacturer"
+F7 "RCS080551R0FKEA" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 51 OHM 1% 0.4W 0805" 0 340 60 H I C CNN "Description"
+F9 "50R" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 62nH_0805
+#
+DEF ~62nH_0805 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "62nH_0805" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
+F5 "490-16049-1-ND" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 650 60 H I C CNN "Manufacturer"
+F7 "LQW2BAN62NG00L" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 62NH 1.65A 120 MOHM" 0 450 60 H I C CNN "Description"
+F9 "62nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 62pF_0603
+#
+DEF ~62pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "62pF_0603" -250 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "399-14992-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "KEMET" 0 750 60 H I C CNN "Manufacturer"
+F7 "C0603C620J1GAC7867" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 62PF 100V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "62pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 62pF_0805
+#
+DEF ~62pF_0805 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "62pF_0805" -250 350 50 H I L CNN
+F2 "SMD0805" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "399-9262-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "KEMET" 0 750 60 H I C CNN "Manufacturer"
+F7 "C0805C620J5GACTU" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 62PF 50V C0G/NP0 0805" 0 550 60 H I C CNN "Description"
+F9 "62pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680R_1206_TE_Connectivity
+#
+DEF ~680R_1206_TE_Connectivity R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "680R_1206_TE_Connectivity" -25 175 50 H I C CNN
+F2 "SMD1206" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Mouser" 0 750 60 H I C CNN "Vendor"
+F5 "279-CRGCQ1206J680R" 0 650 60 H I C CNN "Vendor Part Number"
+F6 "TE Connectivity / Holsworthy" 10 570 60 H I C CNN "Manufacturer"
+F7 "CRGCQ1206J680R" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "Thick Film Resistors - SMD CRGCQ 1206 680R 5% SMD Resistor" 0 340 60 H I C CNN "Description"
+F9 "680" 0 -2 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680nH_0805
+#
+DEF ~680nH_0805 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "680nH_0805" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286524" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "0805LS-681XGLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "680 nH, 0805LS Series, 590 mA, 0805, Wirewound" 0 450 60 H I C CNN "Description"
+F9 "680nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680pF_0603
+#
+DEF ~680pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "680pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-11431-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1E681JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 680PF 25V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "680pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 68nF_0402
+#
+DEF ~68nF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "68nF_0402" 200 50 50 H I L CNN
+F2 "SMD0402" 0 250 39 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Mouser" 0 350 60 H I C CNN "Vendor"
+F5 "81-GRM155R71H683ME4D" 100 450 60 H I C CNN "Vendor Part Number"
+F6 "Murata_Electronics" 100 550 60 H I C CNN "Manufacturer"
+F7 "GRM155R71H683ME14D" 100 650 60 H I C CNN "Manufacturer Part Number"
+F8 "Multilayer_Ceramic_Capacitors_MLCC_-_SMD/SMT" 100 750 60 H I C CNN "Description"
+F9 "68nF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 68nH_0805
+#
+DEF ~68nH_0805 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "68nH_0805" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
+F5 "490-16905-1-ND" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 650 60 H I C CNN "Manufacturer"
+F7 "LQW2BAS68NG00L" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 68NH 500MA 380 MOHM" 0 450 60 H I C CNN "Description"
+F9 "68nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 68pF_0603
+#
+DEF ~68pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "68pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1423-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1H680JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 68PF 50V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "68pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 744889020100
+#
+DEF ~744889020100 T 0 40 N N 1 F N
+F0 "T" -160 162 50 V V C CNN
+F1 "744889020100" 0 250 50 H I C CNN
+F2 "744889020100" 0 350 60 H I C CNN
+F3 "" 100 0 60 H V C CNN
+F4 "Mouser" 0 850 60 H I C CNN "Vendor"
+F5 "710-744889020100" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Wurth Electronics" 0 650 60 H I C CNN "Manufacturer"
+F7 "744889020100" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "Coupled Inductors WE-MTCI 5030 10uH 20% 0.95A 750mOhm" 0 450 60 H I C CNN "Description"
+F9 "10_40nH" 165 -20 50 V V C CNN "Component Value"
+DRAW
+A -75 -75 25 -899 899 0 0 0 N -75 -100 -75 -50
+A -75 -25 25 -899 899 0 0 0 N -75 -50 -75 0
+A -75 25 25 -899 899 0 0 0 N -75 0 -75 50
+A -75 75 25 -899 899 0 0 0 N -75 50 -75 100
+A 75 -75 25 901 -901 0 0 0 N 75 -50 75 -100
+A 75 -25 25 901 -901 0 0 0 N 75 0 75 -50
+A 75 25 25 901 -901 0 0 0 N 75 50 75 0
+A 75 75 25 901 -901 0 0 0 N 75 100 75 50
+P 2 0 0 0 -75 -100 -100 -100 N
+P 2 0 0 0 -75 -50 -100 -50 N
+P 2 0 0 0 -75 0 -100 0 N
+P 2 0 0 0 -75 50 -100 50 N
+P 2 0 0 0 -75 100 -100 100 N
+P 2 0 0 0 75 -100 100 -100 N
+P 2 0 0 0 75 -50 100 -50 N
+P 2 0 0 0 75 0 100 0 N
+P 2 0 0 0 75 50 100 50 N
+P 2 0 0 0 75 100 100 100 N
+C -52 122 11 0 1 0 N
+C 50 122 11 0 1 0 N
+X 1 1 -100 200 100 D 50 50 1 1 P
+X 2 2 -100 -200 100 U 50 50 1 1 P
+X 3 3 100 -200 100 U 50 50 1 1 P
+X 4 4 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 78nH_0805
+#
+DEF ~78nH_0805 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "78nH_0805" 0 250 50 H I C CNN
+F2 "SMD0805" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2286541" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 650 60 H I C CNN "Manufacturer"
+F7 "0805LS-78NXJLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "78 nH, 0805LS Series, 2 A, 0805, Wirewound" 0 450 60 H I C CNN "Description"
+F9 "78nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 8.2nH_0402
+#
+DEF ~8.2nH_0402 L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "8.2nH_0402" 50 250 50 H I C CNN
+F2 "IND_0402" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
+F5 "0402HP-8N2XJLU" 50 550 60 H I C CNN "Vendor Part Number"
+F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
+F7 "0402HP-8N2XJLU" 50 850 60 H I C CNN "Manufacturer Part Number"
+F8 "Inductor, 8.2 nH, 0402, 5%," 0 450 60 H I C CNN "Description"
+F9 "8.2nH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 80K_0402
+#
+DEF ~80K_0402 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "80K_0402" 0 150 50 H I C CNN
+F2 "SMD0402" 0 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 650 60 H I C CNN "Vendor"
+F5 "-" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 550 60 H I C CNN "Manufacturer"
+F7 "-" 0 450 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 350 60 H I C CNN "Description"
+F9 "80K" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 82pF_0603
+#
+DEF ~82pF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "82pF_0603" -200 350 50 H I L CNN
+F2 "SMD0603" 0 450 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
+F5 "490-1425-1-ND" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "Murata Electronics North America" 0 750 60 H I C CNN "Manufacturer"
+F7 "GRM1885C1H820JA01D" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 82PF 50V C0G/NP0 0603" 0 550 60 H I C CNN "Description"
+F9 "82pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AFT09MS007NT1
+#
+DEF ~AFT09MS007NT1 U 0 40 Y Y 1 F N
+F0 "U" 100 200 60 H V C CNN
+F1 "AFT09MS007NT1" 0 600 60 H I C CNN
+F2 "SMD_AFT09MS007NT1" 0 700 60 H I C CNN
+F3 "" 0 700 60 H V C CNN
+F4 "DigiKey" 0 1200 60 H I C CNN "Vendor"
+F5 "AFT09MS007NT1CT-ND" 0 1100 60 H I C CNN "Vendor Part Number"
+F6 "NXP USA Inc." 0 1000 60 H I C CNN "Manufacturer"
+F7 "AFT09MS007NT1" 0 900 60 H I C CNN "Manufacturer Part Number"
+F8 "FET RF 30V 870MHZ PLD1.5W" 0 800 60 H I C CNN "Description"
+F9 "AFT09MS007NT1" 300 -150 60 H V C CNN "Component Value"
+DRAW
+P 2 0 1 0 -250 150 -250 -150 N
+P 2 0 1 0 -200 -150 0 -150 N
+P 2 0 1 0 -200 0 -100 -50 N
+P 2 0 1 0 -200 0 -100 50 N
+P 2 0 1 0 -200 0 0 0 N
+P 2 0 1 0 -200 150 0 150 N
+P 2 0 1 0 -200 200 -200 -200 N
+P 2 0 1 0 0 0 0 -150 N
+X G 1 -400 0 150 R 50 50 1 1 I
+X S 2 0 -300 150 U 50 50 1 1 I
+X D 3 0 300 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ATMEGA328P-AU
+#
+DEF ~ATMEGA328P-AU U 0 40 Y Y 1 F N
+F0 "U" -600 1250 60 H V C CNN
+F1 "ATMEGA328P-AU" 0 1350 60 H I C CNN
+F2 "ATMEGA328P-AU" 0 1450 60 H I C CNN
+F3 "" -150 1300 60 H V C CNN
+F4 "Digi-Key" 0 1850 60 H I C CNN "Vendor"
+F5 "-" 0 1950 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 1750 60 H I C CNN "Manufacturer"
+F7 "-" 0 1650 60 H I C CNN "Manufacturer Part Number"
+F8 "ATMEGA328P-AU" 0 1550 60 H I C CNN "Description"
+F9 "ATMEGA328P-AU" 0 1250 60 H V C CNN "Component Value"
+DRAW
+S -750 1200 750 -1100 0 1 0 N
+S -700 1100 -700 1100 0 1 0 N
+X PD3(INT1) 1 1050 -700 300 L 50 50 1 1 B
+X PD4(XCK/T0) 2 1050 -600 300 L 50 50 1 1 B
+X GND 3 -1050 -100 300 R 50 50 1 1 I
+X VCC 4 -1050 -300 300 R 50 50 1 1 I
+X GND 5 -1050 -200 300 R 50 50 1 1 I
+X VCC 6 -1050 -400 300 R 50 50 1 1 W
+X PB6(XTAL1/TOSC1) 7 -1050 600 300 R 50 50 1 1 P
+X PB7(XTAL2/TOSC2) 8 -1050 700 300 R 50 50 1 1 P
+X PD5(T1) 9 1050 -500 300 L 50 50 1 1 B
+X PD6(AIN0) 10 1050 -400 300 L 50 50 1 1 B
+X AREF 20 -1050 400 300 R 50 50 1 1 I
+X PD0(RXD) 30 1050 -1000 300 L 50 50 1 1 I
+X PD7(AIN1) 11 1050 -300 300 L 50 50 1 1 B
+X AGND 21 -1050 200 300 R 50 50 1 1 I
+X PD1(TXD) 31 1050 -900 300 L 50 50 1 1 I
+X PB0(ICP) 12 1050 600 300 L 50 50 1 1 B
+X ADC7 22 -1050 -800 300 R 50 50 1 1 B
+X PD2(INT0) 32 1050 -800 300 L 50 50 1 1 B
+X PB1(OC1A) 13 1050 700 300 L 50 50 1 1 B
+X PC0(ADC0) 23 1050 -100 300 L 50 50 1 1 B
+X PB2(SS/OC1B) 14 1050 800 300 L 50 50 1 1 B
+X PC1(ADC1) 24 1050 0 300 L 50 50 1 1 B
+X PB3(MOSI/OC2) 15 1050 900 300 L 50 50 1 1 B
+X PC2(ADC2) 25 1050 100 300 L 50 50 1 1 B
+X PB4(MISO) 16 1050 1000 300 L 50 50 1 1 B
+X PC3(ADC3) 26 1050 200 300 L 50 50 1 1 B
+X PB5(SCK) 17 1050 1100 300 L 50 50 1 1 B
+X PC4(ADC4/SDA) 27 1050 300 300 L 50 50 1 1 B
+X AVCC 18 -1050 300 300 R 50 50 1 1 I
+X PC5(ADC5/SCL) 28 1050 400 300 L 50 50 1 1 B
+X ADC6 19 -1050 -900 300 R 50 50 1 1 I
+X RESET 29 -1050 1100 300 R 50 50 1 1 I I
+ENDDRAW
+ENDDEF
+#
+# BSN20
+#
+DEF BSN20 Q 0 0 Y Y 1 F N
+F0 "Q" 0 -149 40 H V R CNN
+F1 "BSN20" 0 150 40 H V R CNN
+F2 "BSN20" -100 100 29 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SOT-23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+C 100 -50 5 0 1 0 N
+C 100 50 5 0 1 0 N
+P 2 0 1 20 25 -40 25 -65 N
+P 2 0 1 20 25 15 25 -15 N
+P 2 0 1 20 25 65 25 40 N
+P 2 0 1 0 120 15 115 10 N
+P 2 0 1 0 120 15 140 15 N
+P 2 0 1 0 140 15 145 20 N
+P 3 0 1 10 0 60 0 -60 0 -60 N
+P 4 0 1 0 30 -50 100 -50 100 -100 100 -100 N
+P 4 0 1 0 30 50 100 50 100 100 100 100 N
+P 4 0 1 0 100 50 130 50 130 -50 100 -50 N
+P 4 0 1 0 130 15 120 -10 140 -10 130 15 F
+P 5 0 1 0 30 0 50 0 100 0 100 -50 100 -50 N
+P 6 0 1 0 35 0 75 15 75 -15 35 0 40 0 40 0 F
+X D D 100 200 100 D 40 40 1 1 P
+X G G -200 -50 200 R 40 40 1 1 P
+X S S 100 -200 100 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_4
+#
+DEF CONN_4 P 0 40 Y N 1 F N
+F0 "P" -50 0 50 V V C CNN
+F1 "CONN_4" 50 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -100 200 100 -200 0 1 0 N
+X P1 1 -350 150 250 R 50 50 1 1 P I
+X P2 2 -350 50 250 R 50 50 1 1 P I
+X P3 3 -350 -50 250 R 50 50 1 1 P I
+X P4 4 -350 -150 250 R 50 50 1 1 P I
+X P4 5 0 -450 250 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CP1
+#
+DEF CP1 C 0 10 N N 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "CP1" 50 -100 50 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+T 0 -50 100 80 0 0 0 + Normal 0 C C
+A 0 -200 180 563 1236 0 1 15 N 100 -50 -100 -50
+P 4 0 1 15 -100 50 100 50 50 50 50 50 N
+X ~ 1 0 200 150 D 40 40 1 1 P
+X ~ 2 0 -200 180 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CSTCE16M0V53-R0
+#
+DEF ~CSTCE16M0V53-R0 X 0 40 Y Y 1 F N
+F0 "X" 0 -200 60 H V C CNN
+F1 "CSTCE16M0V53-R0" -25 300 60 H I C CIN
+F2 "CSTCE16M0V53-R0" -25 400 60 H I C CNN
+F3 "" -300 50 60 V V C CNN
+F4 "490-1198-1-ND" -25 850 60 H I C CNN "Vendor Part Number"
+F5 "CSTCE16M0V53-R0" -25 600 60 H I C CNN "Manufacturer Part Number"
+F6 "Digikey" -25 775 60 H I C CNN "Vendor"
+F7 "Murata_Electronics_North_America" -25 700 60 H I C CNN "Manufacturer"
+F8 "CER_RES_16.0000MHZ_15PF_SMD" 25 500 60 H I C CNN "Description"
+F9 "16MHz" 0 175 60 H V C CNN "Component Value"
+DRAW
+C -250 0 5 0 1 20 N
+C 0 -350 5 0 1 20 N
+C 250 0 5 0 1 20 N
+P 2 0 1 0 -325 0 -25 0 N
+P 2 0 1 0 -150 -275 -150 -425 N
+P 2 0 1 0 -125 -275 -125 -425 N
+P 2 0 1 0 -25 -125 -25 125 N
+P 2 0 1 20 0 -75 0 75 N
+P 2 0 1 0 25 -125 25 125 N
+P 2 0 1 0 125 -350 -125 -350 N
+P 2 0 1 0 125 -275 125 -425 N
+P 2 0 1 0 150 -275 150 -425 N
+P 2 0 1 0 325 0 25 0 N
+P 3 0 1 0 -150 -350 -250 -350 -250 0 N
+P 3 0 1 0 150 -350 250 -350 250 0 N
+X ~ 1 -400 0 75 R 50 50 1 1 I
+X ~ 2 0 -425 75 U 50 50 1 1 I
+X ~ 3 400 0 75 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# F1956NBGI8
+#
+DEF F1956NBGI8 U 0 40 Y Y 1 F N
+F0 "U" 0 -50 60 H V C CNN
+F1 "F1956NBGI8" 0 50 60 H V C CNN
+F2 "F1956NBGI8" 0 950 60 H I C CNN
+F3 "" 650 -50 60 V V C CNN
+F4 "DigiKey" 0 1050 60 H I C CNN "Vendor"
+F5 "-" 0 1150 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 1250 60 H I C CNN "Manufacturer"
+F7 "-" 0 1350 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 1450 60 H I C CNN "Description"
+DRAW
+S -650 650 650 -650 0 1 0 N
+X NC 1 -800 350 150 R 50 50 1 1 I
+X +5V 2 -800 250 150 R 50 50 1 1 I
+X V_MODE 3 -800 150 150 R 50 50 1 1 I
+X A0 4 -800 50 150 R 50 50 1 1 I
+X GND 5 -800 -50 150 R 50 50 1 1 I
+X GND 6 -800 -150 150 R 50 50 1 1 I
+X RF1 7 -800 -250 150 R 50 50 1 1 I
+X GND 8 -800 -350 150 R 50 50 1 1 I
+X GND 9 -350 -800 150 U 50 50 1 1 I
+X GND 10 -250 -800 150 U 50 50 1 1 I
+X NC 20 800 -50 150 L 50 50 1 1 I
+X D2 30 -150 800 150 D 50 50 1 1 I
+X GND 11 -150 -800 150 U 50 50 1 1 I
+X A2 21 800 50 150 L 50 50 1 1 I
+X D1 31 -250 800 150 D 50 50 1 1 I
+X GND 12 -50 -800 150 U 50 50 1 1 I
+X A1 22 800 150 150 L 50 50 1 1 I
+X D0 32 -350 800 150 D 50 50 1 1 I
+X GND 13 50 -800 150 U 50 50 1 1 I
+X LE 23 800 250 150 L 50 50 1 1 I
+X GND 33 -550 800 150 D 50 50 1 1 I
+X GND 14 150 -800 150 U 50 50 1 1 I
+X CLK 24 800 350 150 L 50 50 1 1 I
+X GND 15 250 -800 150 U 50 50 1 1 I
+X DATA 25 350 800 150 D 50 50 1 1 I
+X GND 16 350 -800 150 U 50 50 1 1 I
+X D6 26 250 800 150 D 50 50 1 1 I
+X GND 17 800 -350 150 L 50 50 1 1 I
+X D5 27 150 800 150 D 50 50 1 1 I
+X RF2 18 800 -250 150 L 50 50 1 1 I
+X D4 28 50 800 150 D 50 50 1 1 I
+X GND 19 800 -150 150 L 50 50 1 1 I
+X D3 29 -50 800 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# FB_600R_2A_0805
+#
+DEF ~FB_600R_2A_0805 FB 0 40 N N 1 F N
+F0 "FB" 15 80 60 H V C CNN
+F1 "FB_600R_2A_0805" 0 -200 60 H I C CNN
+F2 "SMD0805" 0 -300 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "445-2206-1-ND" 515 580 60 H I C CNN "Vendor Part Number"
+F5 "Digi-Key" 415 480 60 H I C CNN "Vendor"
+F6 "FERRITE CHIP BEAD, 600 OHM, SMD," 115 180 60 H I C CNN "Description"
+F7 "MPZ2012S601AT000" 215 280 60 H I C CNN "Manufacturer Part Number"
+F8 "TDK Corporation" 315 380 60 H I C CNN "Manufacturer"
+F9 "600_Ohm_@_100MHz_2A" 0 -100 60 H V C CNN "Component Value"
+DRAW
+A -50 -5 25 113 1686 0 1 0 N -25 0 -75 0
+A 0 -5 25 113 1686 0 1 0 N 25 0 -25 0
+A 50 -5 25 113 1686 0 1 0 N 75 0 25 0
+S -100 35 100 -35 0 1 10 N
+P 2 0 1 0 -75 0 -95 0 N
+P 2 0 1 0 75 0 95 0 N
+X 1 1 -200 0 100 R 40 40 1 1 P
+X 2 2 200 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FT232RL
+#
+DEF ~FT232RL U 0 40 Y Y 1 F N
+F0 "U" -600 950 60 H V C CNN
+F1 "FT232RL" 0 1050 60 H I C CNN
+F2 "FT232RL" 0 1150 60 H I C CNN
+F3 "" -150 1000 60 H V C CNN
+F4 "Digi-Key" 0 1550 60 H I C CNN "Vendor"
+F5 "-" 0 1650 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 1450 60 H I C CNN "Manufacturer"
+F7 "-" 0 1350 60 H I C CNN "Manufacturer Part Number"
+F8 "FT232RL" 0 1250 60 H I C CNN "Description"
+F9 "FT232RL" 0 950 60 H V C CNN "Component Value"
+DRAW
+S -750 800 -750 800 0 1 0 N
+S -700 800 -700 800 0 1 0 N
+S -650 900 650 -900 0 1 0 N
+X TXD 1 -950 800 300 R 50 50 1 1 I
+X DTR# 2 -950 700 300 R 50 50 1 1 I
+X RTS# 3 -950 600 300 R 50 50 1 1 I
+X VCCIO 4 -950 500 300 R 50 50 1 1 I
+X RXD 5 -950 400 300 R 50 50 1 1 I
+X RI# 6 -950 300 300 R 50 50 1 1 B
+X GND1 7 -950 -600 300 R 50 50 1 1 I
+X NC1 8 -950 200 300 R 50 50 1 1 I
+X DCR# 9 -950 100 300 R 50 50 1 1 I
+X DCD# 10 -950 0 300 R 50 50 1 1 I
+X VCC 20 950 800 300 L 50 50 1 1 I
+X CTS# 11 -950 -100 300 R 50 50 1 1 I
+X GND3 21 -950 -800 300 R 50 50 1 1 I
+X CBUS4 12 950 -100 300 L 50 50 1 1 B
+X CBUS1 22 950 200 300 L 50 50 1 1 B
+X CBUS2 13 950 100 300 L 50 50 1 1 I
+X CBUS0 23 950 300 300 L 50 50 1 1 I
+X CBUS3 14 950 0 300 L 50 50 1 1 I
+X NC2 24 950 400 300 L 50 50 1 1 I
+X USBDP 15 950 -800 300 L 50 50 1 1 I
+X AGND 25 -950 -500 300 R 50 50 1 1 I
+X USBDM 16 950 -700 300 L 50 50 1 1 I
+X TEST 26 -950 -300 300 R 50 50 1 1 I
+X 3V3OUT 17 950 -500 300 L 50 50 1 1 I
+X OSCI 27 950 500 300 L 50 50 1 1 I
+X GND2 18 -950 -700 300 R 50 50 1 1 I
+X OSCO 28 950 600 300 L 50 50 1 1 B
+X RESET# 19 950 -300 300 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GALI-74+
+#
+DEF ~GALI-74+ U 0 40 Y Y 1 F N
+F0 "U" 250 250 60 H V C CNN
+F1 "GALI-74+" 0 600 60 H I C CNN
+F2 "SOT89" 0 700 60 H I C CNN
+F3 "" 0 700 60 H V C CNN
+F4 "Mini-Circuits" 0 1200 60 H I C CNN "Vendor"
+F5 "GALI-74+" 0 1100 60 H I C CNN "Vendor Part Number"
+F6 "Mini-Circuits" 0 1000 60 H I C CNN "Manufacturer"
+F7 "GALI-74+" 0 900 60 H I C CNN "Manufacturer Part Number"
+F8 "Low Noise MMIC Amplifier, DC to 1 GHz " 0 800 60 H I C CNN "Description"
+F9 "GALI-74+" 300 -300 60 H V C CNN "Component Value"
+DRAW
+P 4 0 1 0 -350 450 -350 -450 400 0 -350 450 N
+X RF_IN 1 -500 0 150 R 50 50 1 1 I
+X GND 2 0 -400 150 U 50 50 1 1 I
+X RF_OUT 3 550 0 150 L 50 50 1 1 I
+X GND 4 0 400 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF ~GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "GND" 0 -70 30 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
+X GND 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LD39200
+#
+DEF ~LD39200 U 0 40 Y Y 1 F N
+F0 "U" 450 -350 60 H V C CNN
+F1 "LD39200" 0 350 60 H I C CNN
+F2 "LD39200" 0 450 60 H I C CNN
+F3 "" -50 350 60 H V C CNN
+F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
+F5 "497-17110-1-ND" 0 950 60 H I C CNN "Vendor Part Number"
+F6 "STMicroelectronics" 0 750 60 H I C CNN "Manufacturer"
+F7 "LD39200PUR" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "IC_REG_LINEAR_2000MA_6DFN" 0 550 60 H I C CNN "Description"
+F9 "LD39200" 0 250 60 H V C CNN "Component Value"
+DRAW
+S -500 200 500 -300 0 1 0 N
+X OUT 1 -650 100 150 R 50 50 1 1 I
+X ADJ/SENSE 2 -650 0 150 R 50 50 1 1 I
+X GND 3 -650 -100 150 R 50 50 1 1 I
+X PG 4 650 -100 150 L 50 50 1 1 I
+X EN 5 650 0 150 L 50 50 1 1 B
+X IN 6 650 100 150 L 50 50 1 1 B
+X PAD 7 0 -450 150 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# LED0603_GREEN
+#
+DEF LED0603_GREEN D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED0603_GREEN" 0 -100 50 H V C CNN
+F2 "LED_0603" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
+F5 "SML-D12M1WT86CT-ND" 280 200 60 V I C CNN "Vendor Part Number"
+F6 "Rohm Semiconductor" 380 300 60 V I C CNN "Manufacturer"
+F7 "SML-D12M1WT86" 480 400 60 V I C CNN "Manufacturer Part Number"
+F8 "Yellow-Green 572nm LED Indication - Discrete 2.2V 0603 (1608 Metric)" 580 500 60 V I C CNN "Description"
+F9 "SML-D12M1WT86" 10 0 50 V V C CNN "Component Value"
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+P 3 0 1 0 65 -40 110 -80 105 -55 N
+P 3 0 1 0 80 -25 125 -65 120 -40 N
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED0603_RED
+#
+DEF LED0603_RED D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED0603_RED" 0 -100 50 H V C CNN
+F2 "LED_0603" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
+F5 "SML-D12U1WT86CT-ND" 280 200 60 V I C CNN "Vendor Part Number"
+F6 "Rohm Semiconductor" 380 300 60 V I C CNN "Manufacturer"
+F7 "SML-D12U1WT86" 480 400 60 V I C CNN "Manufacturer Part Number"
+F8 "Red 620nm LED Indication - Discrete 2.2V 0603 (1608 Metric)" 580 500 60 V I C CNN "Description"
+F9 "SML-D12U1WT86" 10 0 50 V V C CNN "Component Value"
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+P 3 0 1 0 65 -40 110 -80 105 -55 N
+P 3 0 1 0 80 -25 125 -65 120 -40 N
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MASW-008566-TR3000
+#
+DEF MASW-008566-TR3000 U 0 40 Y Y 1 F N
+F0 "U" 25 725 60 H V C CNN
+F1 "MASW-008566-TR3000" 25 625 60 H V C CNN
+F2 "16QFN" 0 850 60 H I C CNN
+F3 "" 100 300 60 H V C CNN
+F4 "Digi-Key" 0 1450 60 H I C CNN "Vendor"
+F5 "1465-1364-1-ND" 0 1350 60 H I C CNN "Vendor Part Number"
+F6 "M/A-Com Technology Solutions" 0 1250 60 H I C CNN "Manufacturer"
+F7 "MASW-008566-TR3000" 0 1150 60 H I C CNN "Manufacturer Part Number"
+F8 "IC RF SWITCH SP4T 3GHZ 16QFN" 0 1050 60 H I C CNN "Description"
+F9 "MASW-008566-TR3000" 0 950 60 H I C CNN "Component Value"
+DRAW
+S -350 350 350 -350 0 1 0 N
+X V1 1 -550 150 200 R 50 50 1 1 I
+X RF1 2 -550 50 200 R 50 50 1 1 B
+X GND 3 -550 -50 200 R 50 50 1 1 I
+X RF2 4 -550 -150 200 R 50 50 1 1 B
+X GND 5 -150 -550 200 U 50 50 1 1 I
+X V2 6 -50 -550 200 U 50 50 1 1 I
+X V3 7 50 -550 200 U 50 50 1 1 I
+X GND 8 150 -550 200 U 50 50 1 1 I
+X RF3 9 550 -150 200 L 50 50 1 1 B
+X GND 10 550 -50 200 L 50 50 1 1 I
+X GND 11 550 50 200 L 50 50 1 1 I
+X RF4 12 550 150 200 L 50 50 1 1 B
+X GND 13 150 550 200 D 50 50 1 1 I
+X V4 14 50 550 200 D 50 50 1 1 I
+X GND 15 -50 550 200 D 50 50 1 1 I
+X ANT 16 -150 550 200 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# MH3261-601Y
+#
+DEF ~MH3261-601Y FB 0 40 N N 1 F N
+F0 "FB" -85 30 50 V V C CNN
+F1 "MH3261-601Y" 0 250 50 H I C CNN
+F2 "SMD1206" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Mouser" 0 850 60 H I C CNN "Vendor"
+F5 "652-MH3261-601Y" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Bourns" 0 650 60 H I C CNN "Manufacturer"
+F7 "MH3261-601Y" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "Ferrite Beads 600 ohms 25% HIGH CURRENT" 0 450 60 H I C CNN "Description"
+F9 "600 Ohm" 100 0 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+P 2 0 1 0 30 100 30 -100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MJD112RLG
+#
+DEF ~MJD112RLG Q 0 0 N Y 1 F N
+F0 "Q" 150 100 50 H V C CNN
+F1 "MJD112RLG" 0 450 50 H I C CNN
+F2 "DPAK" -50 550 60 H I C CNN
+F3 "" -50 0 60 V V C CNN
+F4 "Digi-Key" 0 1050 60 H I C CNN "Vendor"
+F5 "MJD112RLGOSCT-ND" 0 950 60 H I C CNN "Vendor Part Number"
+F6 "ON Semiconductor" 10 870 60 H I C CNN "Manufacturer"
+F7 "MJD112RLG" 0 750 60 H I C CNN "Manufacturer Part Number"
+F8 "TRANS NPN DARL 100V 2A DPAK" 0 640 60 H I C CNN "Description"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+C 0 0 100 0 1 0 N
+P 2 0 1 0 -50 -25 50 -75 N
+P 2 0 1 0 -50 0 -125 0 N
+P 2 0 1 0 -50 25 50 75 N
+P 2 0 1 0 -50 75 -50 -75 N
+P 2 0 1 0 50 -75 50 -100 N
+P 2 0 1 0 50 75 50 100 N
+P 3 0 1 0 10 -55 -5 -60 50 -75 N
+P 3 0 1 0 50 -75 10 -40 10 -55 N
+X B 1 -200 0 100 R 60 47 1 1 P
+X C 2 50 200 100 D 60 47 1 1 P
+X E 3 50 -200 100 U 60 47 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MSS5121-472MLB
+#
+DEF ~MSS5121-472MLB L 0 40 N N 1 F N
+F0 "L" -85 30 50 V V C CNN
+F1 "MSS5121-472MLB" 0 250 50 H I C CNN
+F2 "MSS5121-472MLB" 0 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Farnell" 0 850 60 H I C CNN "Vendor"
+F5 "2288573" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "COILCRAFT" 0 650 60 H I C CNN "Manufacturer"
+F7 "MSS5121-472MLB" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "MSS5121-472MLB -  Power Inductor (SMD), 4.7 µH, 1.9 A, Shielded, 1.38 A, MSS5121 Series, 5.1mm x 5.1mm x 2.2mm" 0 450 60 H I C CNN "Description"
+F9 "4.7uH" 65 -20 50 V V C CNN "Component Value"
+DRAW
+A -25 -75 25 901 -901 0 0 0 N -25 -50 -25 -100
+A -25 -25 25 901 -901 0 0 0 N -25 0 -25 -50
+A -25 25 25 901 -901 0 0 0 N -25 50 -25 0
+A -25 75 25 901 -901 0 0 0 N -25 100 -25 50
+P 2 0 0 0 -25 -100 0 -100 N
+P 2 0 0 0 -25 -50 0 -50 N
+P 2 0 0 0 -25 0 0 0 N
+P 2 0 0 0 -25 50 0 50 N
+P 2 0 0 0 -25 100 0 100 N
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# NCP331SNT1G
+#
+DEF NCP331SNT1G U 0 40 Y Y 1 F N
+F0 "U" 25 325 60 H V C CNN
+F1 "NCP331SNT1G" 25 225 60 H V C CNN
+F2 "TSOP-6" 0 0 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 125 425 60 H I C CNN "Vendor"
+F5 "NCP331SNT1GOSCT-ND" 225 525 60 H I C CNN "Vendor Part Number"
+F6 "On_Semiconductor" 325 625 60 H I C CNN "Manufacturer"
+F7 "NCP331SNT1G" 425 725 60 H I C CNN "Manufacturer Part Number"
+F8 "IC_LOAD_SWITCH_SOFT_START_6TSOP" 525 825 60 H I C CNN "Description"
+F9 "NCP331SNT1G" 625 925 60 H I C CNN "Component Value"
+DRAW
+S -175 150 225 -150 0 1 0 N
+X OUT 1 350 100 118 L 50 50 1 1 I
+X OUT 2 350 0 118 L 50 50 1 1 I
+X EN 3 -300 -100 118 R 50 50 1 1 P
+X GND 4 350 -100 118 L 50 50 1 1 I
+X IN 5 -300 100 118 R 50 50 1 1 I
+X IN 6 -300 0 118 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# NCP702_3V0
+#
+DEF ~NCP702_3V0 U 0 40 Y Y 1 F N
+F0 "U" 0 -250 60 H V C CNN
+F1 "NCP702_3V0" 0 400 60 H I C CNN
+F2 "NCP702_TSOP5" 0 500 60 H I C CNN
+F3 "" -50 350 60 H V C CNN
+F4 "Digi-Key" 0 900 60 H I C CNN "Vendor"
+F5 "NCP702SN30T1GOSCT-ND" 0 1000 60 H I C CNN "Vendor Part Number"
+F6 "ON_Semiconductor" 0 800 60 H I C CNN "Manufacturer"
+F7 "NCP702SN30T1G" 0 700 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LINEAR 3V 200MA 5TSOP" 0 600 60 H I C CNN "Description"
+F9 "NCP702_3V0" 0 250 60 H V C CNN "Component Value"
+DRAW
+S -300 200 300 -200 0 1 0 N
+X IN 1 -450 100 150 R 50 50 1 1 I
+X GND 2 -450 0 150 R 50 50 1 1 I
+X EN 3 -450 -100 150 R 50 50 1 1 I
+X N/C 4 450 -100 150 L 50 50 1 1 I
+X OUT 5 450 100 150 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# NCP702_3V3
+#
+DEF ~NCP702_3V3 U 0 40 Y Y 1 F N
+F0 "U" 0 -250 60 H V C CNN
+F1 "NCP702_3V3" 0 400 60 H I C CNN
+F2 "NCP702_TSOP5" 0 500 60 H I C CNN
+F3 "" -50 350 60 H V C CNN
+F4 "Digi-Key" 0 900 60 H I C CNN "Vendor"
+F5 "NCP702SN33T1GOSCT-ND" 0 1000 60 H I C CNN "Vendor Part Number"
+F6 "ON_Semiconductor" 0 800 60 H I C CNN "Manufacturer"
+F7 "NCP702SN33T1G" 0 700 60 H I C CNN "Manufacturer Part Number"
+F8 "IC_REG_LDO_3.3V_0.2A_5TSOP" 0 600 60 H I C CNN "Description"
+F9 "NCP702_3V3" 0 250 60 H V C CNN "Component Value"
+DRAW
+S -300 200 300 -200 0 1 0 N
+X IN 1 -450 100 150 R 50 50 1 1 I
+X GND 2 -450 0 150 R 50 50 1 1 I
+X EN 3 -450 -100 150 R 50 50 1 1 I
+X N/C 4 450 -100 150 L 50 50 1 1 I
+X OUT 5 450 100 150 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# NL17SZ16
+#
+DEF ~NL17SZ16 U 0 40 Y Y 1 F N
+F0 "U" -350 250 60 H V C CNN
+F1 "NL17SZ16" 0 350 60 H I C CNN
+F2 "NL17SZ16" 0 450 60 H I C CNN
+F3 "" -50 300 60 H V C CNN
+F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
+F5 "NL17SZ16DFT2GOSCT-ND" 0 950 60 H I C CNN "Vendor Part Number"
+F6 "ON_Semiconductor" 0 750 60 H I C CNN "Manufacturer"
+F7 "NL17SZ16DFT2G" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "IC_BUFFER_NON-INVERTING_SOT353" 0 550 60 H I C CNN "Description"
+F9 "NL17SZ16" 0 250 60 H V C CNN "Component Value"
+DRAW
+S -400 200 400 -200 0 1 0 N
+X NC 1 -550 100 150 R 50 50 1 1 I
+X A(IN) 2 -550 0 150 R 50 50 1 1 P
+X GND 3 -550 -100 150 R 50 50 1 1 I
+X Y(OUT) 4 550 -100 150 L 50 50 1 1 I
+X VCC 5 550 100 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PE4245
+#
+DEF PE4245 U 0 40 Y Y 1 F N
+F0 "U" 200 -200 60 H V C CNN
+F1 "PE4245" 0 200 60 H V C CNN
+F2 "PE4245" 0 300 60 H I C CNN
+F3 "" -200 0 60 H V C CNN
+F4 "DigiKey" 0 400 60 H I C CNN "Vendor"
+F5 "-" 0 500 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 600 60 H I C CNN "Manufacturer"
+F7 "-" 0 700 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 800 60 H I C CNN "Description"
+DRAW
+S -250 150 250 -150 0 1 0 N
+X RF2 1 -400 100 150 R 50 50 1 1 B
+X GND 2 -400 0 150 R 50 50 1 1 I
+X RF1 3 -400 -100 150 R 50 50 1 1 B
+X +3V 4 400 -100 150 L 50 50 1 1 W
+X CTRL 5 400 0 150 L 50 50 1 1 I
+X RFC 6 400 100 150 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# PE42520
+#
+DEF PE42520 U 0 40 Y Y 1 F N
+F0 "U" 450 550 60 H V C CNN
+F1 "PE42520" 0 0 60 H V C CNN
+F2 "PE42520" 0 750 60 H I C CNN
+F3 "" -450 50 60 H V C CNN
+F4 "DigiKey" 0 850 60 H I C CNN "Vendor"
+F5 "-" 0 950 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 1050 60 H I C CNN "Manufacturer"
+F7 "-" 0 1150 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 1250 60 H I C CNN "Description"
+DRAW
+S 500 500 -500 -500 0 1 0 N
+X GND 1 -650 150 150 R 50 50 1 1 I
+X RF1 2 -650 50 150 R 50 50 1 1 B
+X GND 3 -650 -50 150 R 50 50 1 1 I
+X GND 4 -650 -150 150 R 50 50 1 1 I
+X GND 5 -150 -650 150 U 50 50 1 1 I
+X GND 6 -50 -650 150 U 50 50 1 1 I
+X RFC 7 50 -650 150 U 50 50 1 1 B
+X GND 8 150 -650 150 U 50 50 1 1 I
+X GND 9 650 -150 150 L 50 50 1 1 I
+X GND 10 650 -50 150 L 50 50 1 1 I
+X RF2 11 650 50 150 L 50 50 1 1 B
+X GND 12 650 150 150 L 50 50 1 1 I
+X GND 13 150 650 150 D 50 50 1 1 I
+X CTRL 14 50 650 150 D 50 50 1 1 I
+X LS 15 -50 650 150 D 50 50 1 1 I
+X +5V 16 -150 650 150 D 50 50 1 1 I
+X GND 17 -400 650 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PE42523
+#
+DEF PE42523 U 0 40 Y Y 1 F N
+F0 "U" 450 550 60 H V C CNN
+F1 "PE42523" 0 0 60 H V C CNN
+F2 "PE42523" 0 750 60 H I C CNN
+F3 "" -450 50 60 H V C CNN
+F4 "DigiKey" 0 850 60 H I C CNN "Vendor"
+F5 "-" 0 950 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 1050 60 H I C CNN "Manufacturer"
+F7 "-" 0 1150 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 1250 60 H I C CNN "Description"
+DRAW
+S 500 500 -500 -500 0 1 0 N
+X GND 1 -650 150 150 R 50 50 1 1 I
+X RF1 2 -650 50 150 R 50 50 1 1 I
+X GND 3 -650 -50 150 R 50 50 1 1 I
+X GND 4 -650 -150 150 R 50 50 1 1 I
+X GND 5 -150 -650 150 U 50 50 1 1 I
+X GND 6 -50 -650 150 U 50 50 1 1 I
+X RFC 7 50 -650 150 U 50 50 1 1 I
+X GND 8 150 -650 150 U 50 50 1 1 I
+X GND 9 650 -150 150 L 50 50 1 1 I
+X GND 10 650 -50 150 L 50 50 1 1 I
+X RF2 11 650 50 150 L 50 50 1 1 I
+X GND 12 650 150 150 L 50 50 1 1 I
+X GND 13 150 650 150 D 50 50 1 1 I
+X CTRL 14 50 650 150 D 50 50 1 1 I
+X LS 15 -50 650 150 D 50 50 1 1 I
+X +5V 16 -150 650 150 D 50 50 1 1 I
+X GND 17 -400 650 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PGA-103+
+#
+DEF PGA-103+ U 0 40 Y Y 1 F N
+F0 "U" 0 400 60 H V C CNN
+F1 "PGA-103+" 0 300 60 H V C CNN
+F2 "DF782" 600 0 60 V I C CNN
+F3 "" -200 0 60 H V C CNN
+F4 "MiniCircuits" 780 50 60 V I C CNN "Vendor"
+F5 "PGA-103+" 880 150 60 V I C CNN "Vendor Part Number"
+F6 "MiniCircuits" 980 250 60 V I C CNN "Manufacturer"
+F7 "PGA-103+" 1080 350 60 V I C CNN "Manufacturer Part Number"
+F8 "RF amplifier" 1180 450 60 V I C CNN "Description"
+DRAW
+S -350 200 350 -200 0 1 0 N
+X RFIN 1 -500 0 150 R 50 50 1 1 I
+X GND 2 0 -350 150 U 50 50 1 1 I
+X RFOUT 3 500 0 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PINHEADER_2X8
+#
+DEF PINHEADER_2X8 J 0 40 Y Y 1 F N
+F0 "J" 25 450 60 H V C CNN
+F1 "PINHEADER_2X8" -300 200 60 V V C CNN
+F2 "PINHEADER_2X8" 0 650 60 H I C CNN
+F3 "" -50 400 60 H V C CNN
+F4 "Digi-Key" 0 750 60 H I C CNN "Vendor"
+F5 "-" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 950 60 H I C CNN "Manufacturer"
+F7 "-" 0 1050 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 1150 60 H I C CNN "Description"
+DRAW
+S -100 400 100 -400 0 1 0 N
+X ~ 1 -200 350 101 R 50 50 1 1 I
+X ~ 2 200 350 101 L 50 50 1 1 I
+X ~ 3 -200 250 101 R 50 50 1 1 I
+X ~ 4 200 250 101 L 50 50 1 1 I
+X ~ 5 -200 150 101 R 50 50 1 1 I
+X ~ 6 200 150 101 L 50 50 1 1 I
+X ~ 7 -200 50 101 R 50 50 1 1 I
+X ~ 8 200 50 101 L 50 50 1 1 I
+X ~ 9 -200 -50 101 R 50 50 1 1 I
+X ~ 10 200 -50 101 L 50 50 1 1 I
+X ~ 11 -200 -150 101 R 50 50 1 1 I
+X ~ 12 200 -150 101 L 50 50 1 1 I
+X ~ 13 -200 -250 101 R 50 50 1 1 I
+X ~ 14 200 -250 101 L 50 50 1 1 I
+X ~ 15 -200 -350 101 R 50 50 1 1 I
+X ~ 16 200 -350 101 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PIN_HEADER_2x5
+#
+DEF PIN_HEADER_2x5 J 0 40 Y N 1 F N
+F0 "J" 50 300 60 H V C CNN
+F1 "PIN_HEADER_2x5" 0 -350 60 H V C CNN
+F2 "PIN_HEADER_2x5" 0 400 60 H I C CNN
+F3 "" 50 50 60 H V C CNN
+F4 "Digi-Key" 0 500 60 H I C CNN "Vendor"
+F5 "952-1389-ND" 0 600 60 H I C CNN "Vendor Part Number"
+F6 "Harwin Inc." 0 700 60 H I C CNN "Manufacturer"
+F7 "M50-3600542" 0 800 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN HEADER SMD 10POS 1.27MM" 0 900 60 H I C CNN "Description"
+DRAW
+C -50 -200 30 0 0 0 N
+C -50 -100 30 0 0 0 N
+C -50 0 30 0 0 0 N
+C -50 100 30 0 0 0 N
+C -50 200 30 0 0 0 N
+C 50 -200 30 0 0 0 N
+C 50 -100 30 0 0 0 N
+C 50 0 30 0 0 0 N
+C 50 100 30 0 0 0 N
+C 50 200 30 0 0 0 N
+P 2 0 0 0 -100 -100 -80 -100 N
+P 2 0 0 0 -100 100 -80 100 N
+P 2 0 0 0 -80 -200 -100 -200 N
+P 2 0 0 0 -80 0 -100 0 N
+P 2 0 0 0 -80 200 -100 200 N
+P 2 0 0 0 80 -200 100 -200 N
+P 2 0 0 0 80 0 100 0 N
+P 2 0 0 0 80 200 100 200 N
+P 2 0 0 0 100 -100 80 -100 N
+P 2 0 0 0 100 100 80 100 N
+S -100 250 100 -250 0 1 0 N
+X 1 1 -300 200 200 R 50 50 1 1 B
+X 2 2 300 200 200 L 50 50 1 1 P
+X 3 3 -300 100 200 R 50 50 1 1 O
+X 4 4 300 100 200 L 50 50 1 1 O
+X 5 5 -300 0 200 R 50 50 1 1 O
+X 6 6 300 0 200 L 50 50 1 1 P
+X 7 7 -300 -100 200 R 50 50 1 1 O
+X 8 8 300 -100 200 L 50 50 1 1 O
+X 9 9 -300 -200 200 R 50 50 1 1 O
+X 10 10 300 -200 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# QPA9426
+#
+DEF QPA9426 U 0 40 Y Y 1 F N
+F0 "U" 0 550 60 H V C CNN
+F1 "QPA9426" 0 450 60 H V C CNN
+F2 "QPA9426" 600 0 60 V I C CNN
+F3 "" -200 0 60 H V C CNN
+F4 "Mouser" 780 50 60 V I C CNN "Vendor"
+F5 "772-QPA9426SR" 880 150 60 V I C CNN "Vendor Part Number"
+F6 "Qorvo" 980 250 60 V I C CNN "Manufacturer"
+F7 "QPA9426" 1080 350 60 V I C CNN "Manufacturer Part Number"
+F8 "RF Amplifier 2.5-2.7GHz Gain 34dB PAE 14%" 1180 450 60 V I C CNN "Description"
+DRAW
+S -400 400 350 -350 0 1 0 N
+X VREF 1 -550 300 150 R 50 50 1 1 I
+X GND 2 -550 200 150 R 50 50 1 1 I
+X GND 3 -550 100 150 R 50 50 1 1 I
+X VCC1 4 -550 0 150 R 50 50 1 1 I
+X RFIN 5 -550 -100 150 R 50 50 1 1 I
+X GND 6 -550 -200 150 R 50 50 1 1 I
+X NC_VPD 7 -550 -300 150 R 50 50 1 1 I
+X GND 8 500 -300 150 L 50 50 1 1 I
+X GND 9 500 -200 150 L 50 50 1 1 I
+X GND 10 500 -100 150 L 50 50 1 1 I
+X VCC2 11 500 0 150 L 50 50 1 1 I
+X RFOUT 12 500 100 150 L 50 50 1 1 O
+X GND 13 500 200 150 L 50 50 1 1 I
+X GND 14 500 300 150 L 50 50 1 1 I
+X PAD 15 0 -500 150 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R R 0 0 N Y 1 F N
+F0 "R" 80 0 40 V V C CNN
+F1 "R" 7 1 40 V V C CNN
+F2 "" -70 0 30 V V C CNN
+F3 "" 0 0 30 H V C CNN
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 12 N
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RCIL05AL
+#
+DEF ~RCIL05AL U 0 40 Y Y 1 F N
+F0 "U" -350 250 60 H V C CNN
+F1 "RCIL05AL" 0 350 60 H I C CNN
+F2 "RCIL05AL" 0 450 60 H I C CNN
+F3 "" -50 300 60 H V C CNN
+F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
+F5 "-" 0 950 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 750 60 H I C CNN "Manufacturer"
+F7 "-" 0 650 60 H I C CNN "Manufacturer Part Number"
+F8 "ISOLATOR" 0 550 60 H I C CNN "Description"
+F9 "RCIL05AL" 0 250 60 H V C CNN "Component Value"
+DRAW
+S -400 200 400 -200 0 1 0 N
+X GND 1 -550 100 150 R 50 50 1 1 I
+X GND 2 -550 0 150 R 50 50 1 1 I
+X P1/IN 3 -550 -100 150 R 50 50 1 1 I
+X P2/OUT 4 550 -100 150 L 50 50 1 1 B
+X GND 5 550 0 150 L 50 50 1 1 B
+X GND 6 550 100 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RD07MUS2B
+#
+DEF ~RD07MUS2B U 0 40 Y Y 1 F N
+F0 "U" 100 200 60 H V C CNN
+F1 "RD07MUS2B" 0 600 60 H I C CNN
+F2 "SMD_RD07MUS2B" 0 700 60 H I C CNN
+F3 "" 0 700 60 H V C CNN
+F4 "http://www.anglia-live.com" 0 1200 60 H I C CNN "Vendor"
+F5 "RD07MUS2B" 0 1100 60 H I C CNN "Vendor Part Number"
+F6 "Mitsubishi Electric" 0 1000 60 H I C CNN "Manufacturer"
+F7 "RD07MUS2B" 0 900 60 H I C CNN "Manufacturer Part Number"
+F8 "Silicon MOSFET Power Transistor,175MHz,527MHz,870MHz,7W" 0 800 60 H I C CNN "Description"
+F9 "RD07MUS2B" 300 -150 60 H V C CNN "Component Value"
+DRAW
+P 2 0 1 0 -250 150 -250 -150 N
+P 2 0 1 0 -200 -150 0 -150 N
+P 2 0 1 0 -200 0 -100 -50 N
+P 2 0 1 0 -200 0 -100 50 N
+P 2 0 1 0 -200 0 0 0 N
+P 2 0 1 0 -200 150 0 150 N
+P 2 0 1 0 -200 200 -200 -200 N
+P 2 0 1 0 0 0 0 -150 N
+X G 1 -400 0 150 R 50 50 1 1 I
+X S 2 0 -300 150 U 50 50 1 1 I
+X D 3 0 300 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RD16HHF1
+#
+DEF ~RD16HHF1 U 0 40 Y Y 1 F N
+F0 "U" 100 200 60 H V C CNN
+F1 "RD16HHF1" 0 600 60 H I C CNN
+F2 "RD16HHF1" 0 700 60 H I C CNN
+F3 "" 0 700 60 H V C CNN
+F4 "http://www.anglia.com/" 0 1200 60 H I C CNN "Vendor"
+F5 "RD16HHF1-501" 0 1100 60 H I C CNN "Vendor Part Number"
+F6 "MITSUBISHI" 0 1000 60 H I C CNN "Manufacturer"
+F7 "RD16HHF1-501" 0 900 60 H I C CNN "Manufacturer Part Number"
+F8 "TRANS 30MHZ 16W 12.5V" 0 800 60 H I C CNN "Description"
+F9 "RD16HHF1" 300 -150 60 H V C CNN "Component Value"
+DRAW
+P 2 0 1 0 -250 150 -250 -150 N
+P 2 0 1 0 -200 -150 0 -150 N
+P 2 0 1 0 -200 0 -100 -50 N
+P 2 0 1 0 -200 0 -100 50 N
+P 2 0 1 0 -200 0 0 0 N
+P 2 0 1 0 -200 150 0 150 N
+P 2 0 1 0 -200 200 -200 -200 N
+P 2 0 1 0 0 0 0 -150 N
+X G 1 -400 0 150 R 50 50 1 1 I
+X S 2 0 -300 150 U 50 50 1 1 I
+X D 3 0 300 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# RFSW6042
+#
+DEF RFSW6042 U 0 40 Y Y 1 F N
+F0 "U" 0 -650 60 H V C CNN
+F1 "RFSW6042" -50 -800 60 H V C CNN
+F2 "RFSW6042" 0 650 60 H I C CNN
+F3 "" -200 0 60 H V C CNN
+F4 "DigiKey" 0 750 60 H I C CNN "Vendor"
+F5 "-" 0 850 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 950 60 H I C CNN "Manufacturer"
+F7 "-" 0 1050 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 1150 60 H I C CNN "Description"
+DRAW
+S -350 400 350 -400 0 1 0 N
+X C2 1 -500 50 150 R 50 50 1 1 I
+X C1 2 -500 -50 150 R 50 50 1 1 I
+X +5V 3 -150 -550 150 U 50 50 1 1 I
+X RF4 4 -50 -550 150 U 50 50 1 1 I
+X GND 5 50 -550 150 U 50 50 1 1 I
+X RF3 6 150 -550 150 U 50 50 1 1 I
+X ANT 7 500 -50 150 L 50 50 1 1 I
+X GND 8 500 50 150 L 50 50 1 1 I
+X RF1 9 150 550 150 D 50 50 1 1 I
+X GND 10 50 550 150 D 50 50 1 1 I
+X RF2 11 -50 550 150 D 50 50 1 1 I
+X GND 12 -150 550 150 D 50 50 1 1 O
+X GND 13 -250 550 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SKY13575-639LF
+#
+DEF SKY13575-639LF U 0 40 Y Y 1 F N
+F0 "U" 25 725 60 H V C CNN
+F1 "SKY13575-639LF" 25 625 60 H V C CNN
+F2 "14QFN" 0 850 60 H I C CNN
+F3 "" 100 300 60 H V C CNN
+F4 "Digi-Key" 0 1450 60 H I C CNN "Vendor"
+F5 "863-1767-1-ND" 0 1350 60 H I C CNN "Vendor Part Number"
+F6 "Skyworks Solutions Inc." 0 1250 60 H I C CNN "Manufacturer"
+F7 "SKY13575-639LF" 0 1150 60 H I C CNN "Manufacturer Part Number"
+F8 "IC RF SWITCH SP4T 6GHZ 14QFN" 0 1050 60 H I C CNN "Description"
+F9 "SKY13575-639LF" 0 950 60 H I C CNN "Component Value"
+DRAW
+S -350 350 350 -350 0 1 0 N
+X GND 1 -550 150 200 R 50 50 1 1 I
+X RFC 2 -550 50 200 R 50 50 1 1 I
+X GND 3 -550 -50 200 R 50 50 1 1 I
+X GND 4 -550 -150 200 R 50 50 1 1 I
+X RF4 5 -100 -550 200 U 50 50 1 1 I
+X GND 6 0 -550 200 U 50 50 1 1 I
+X RF3 7 100 -550 200 U 50 50 1 1 I
+X VC1 8 550 -150 200 L 50 50 1 1 I
+X VC2 9 550 -50 200 L 50 50 1 1 I
+X VDD 10 550 50 200 L 50 50 1 1 I
+X GND 11 550 150 200 L 50 50 1 1 I
+X RF2 12 100 550 200 D 50 50 1 1 I
+X GND 13 0 550 200 D 50 50 1 1 I
+X RF1 14 -100 550 200 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMA_jack_SMD
+#
+DEF SMA_jack_SMD X 0 40 N N 1 F N
+F0 "X" 125 115 60 H V C CNN
+F1 "SMA_jack_SMD" 400 0 60 H V C CNN
+F2 "SMA_v2" 0 300 60 H I C CNN
+F3 "" 125 115 60 H V C CNN
+F4 "Digi-Key" 0 800 60 H I C CNN "Vendor"
+F5 "CON-SMA-EDGE-S-ND" 0 700 60 H I C CNN "Vendor Part Number"
+F6 "RF Solutions" 0 600 60 H I C CNN "Manufacturer"
+F7 "CON-SMA-EDGE-S" -50 500 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN SMA JACK STR EDGE MNT" 50 400 60 H I C CNN "Description"
+DRAW
+A -27 101 76 -884 -1639 0 1 0 N -25 25 -100 80
+A -25 100 75 -899 899 0 1 0 N -25 25 -25 175
+A -24 97 78 907 1666 0 1 0 N -25 175 -100 115
+C -25 100 25 0 1 0 F
+X RF 1 -150 100 100 R 0 0 1 1 B
+X GND1 2 -100 -100 100 U 0 0 1 1 P
+X GND2 3 -50 -100 100 U 0 0 1 1 P
+X GND3 4 0 -100 100 U 0 0 1 1 P
+X GND4 5 50 -100 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SMA_vert_SMD
+#
+DEF SMA_vert_SMD X 0 40 N N 1 F N
+F0 "X" 125 315 60 H V C CNN
+F1 "SMA_vert_SMD" 400 200 60 H V C CNN
+F2 "SMA_vert_SMD" 0 0 60 H I C CNN
+F3 "" 125 315 60 H V C CNN
+F4 "Digi-Key" 225 415 60 H I C CNN "Vendor"
+F5 "WM9458-ND" 325 515 60 H I C CNN "Vendor Part Number"
+F6 "Molex Inc" 425 615 60 H I C CNN "Manufacturer"
+F7 "0732511352" 525 715 60 H I C CNN "Manufacturer Part Number"
+F8 "SMA JACK 50 OHM VERT SMD" 625 815 60 H I C CNN "Description"
+DRAW
+A -27 301 76 -884 -1639 0 1 0 N -25 225 -100 280
+A -25 300 75 -899 899 0 1 0 N -25 225 -25 375
+A -24 297 78 907 1666 0 1 0 N -25 375 -100 315
+C -25 300 25 0 1 0 F
+X RF 1 -150 300 100 R 0 0 1 1 B
+X GND1 2 -100 100 100 U 0 0 1 1 P
+X GND2 3 -50 100 100 U 0 0 1 1 P
+X GND3 4 0 100 100 U 0 0 1 1 P
+X GND4 5 50 100 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SMD_0603_NF
+#
+DEF ~SMD_0603_NF R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "SMD_0603_NF" -25 175 50 H I C CNN
+F2 "SMD0603" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "_" 0 660 60 H I C CNN "Vendor"
+F5 "_" 20 730 60 H I C CNN "Vendor Part Number"
+F6 "_" 10 570 60 H I C CNN "Manufacturer"
+F7 "_" 20 440 60 H I C CNN "Manufacturer Part Number"
+F8 "_" 0 340 60 H I C CNN "Description"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SN74LV1T04
+#
+DEF SN74LV1T04 U 0 40 Y Y 1 F N
+F0 "U" 200 -200 60 H V C CNN
+F1 "SN74LV1T04" 0 200 60 H V C CNN
+F2 "SN74LV1T04" 0 300 60 H I C CNN
+F3 "" -200 0 60 H V C CNN
+F4 "DigiKey" 0 400 60 H I C CNN "Vendor"
+F5 "-" 0 500 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 600 60 H I C CNN "Manufacturer"
+F7 "-" 0 700 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 800 60 H I C CNN "Description"
+DRAW
+T 0 0 0 39 0 0 0 LS_INV Normal 0 C C
+S -250 150 250 -150 0 1 0 N
+X NC 1 -400 100 150 R 50 50 1 1 I
+X A 2 -400 0 150 R 50 50 1 1 I
+X GND 3 -400 -100 150 R 50 50 1 1 I
+X Y 4 400 -100 150 L 50 50 1 1 O
+X VCC 5 400 100 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SN74LV1T34
+#
+DEF SN74LV1T34 U 0 40 Y Y 1 F N
+F0 "U" 200 -200 60 H V C CNN
+F1 "SN74LV1T34" 0 200 60 H V C CNN
+F2 "SN74LV1T34" 0 300 60 H I C CNN
+F3 "" -200 0 60 H V C CNN
+F4 "DigiKey" 0 400 60 H I C CNN "Vendor"
+F5 "-" 0 500 60 H I C CNN "Vendor Part Number"
+F6 "-" 0 600 60 H I C CNN "Manufacturer"
+F7 "-" 0 700 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 800 60 H I C CNN "Description"
+DRAW
+T 0 0 0 39 0 0 0 LS_BUFF Normal 0 C C
+S -250 150 250 -150 0 1 0 N
+X NC 1 -400 100 150 R 50 50 1 1 I
+X A 2 -400 0 150 R 50 50 1 1 I
+X GND 3 -400 -100 150 R 50 50 1 1 I
+X Y 4 400 -100 150 L 50 50 1 1 O
+X VCC 5 400 100 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SN74LVC1G139
+#
+DEF SN74LVC1G139 U 0 40 Y Y 1 F N
+F0 "U" 300 400 60 H V C CNN
+F1 "SN74LVC1G139" 700 -300 60 H V C CNN
+F2 "SN74LVC1G139DCTR" 0 500 60 H I C CNN
+F3 "" 100 300 60 H V C CNN
+F4 "-" 0 1100 60 H I C CNN "Vendor"
+F5 "-" 50 1000 60 H I R CNN "Vendor Part Number"
+F6 "-" 0 900 60 H I C CNN "Manufacturer"
+F7 "-" 0 800 60 H I C CNN "Manufacturer Part Number"
+F8 "-" 0 700 60 H I C CNN "Description"
+F9 "-" 0 600 60 H I C CNN "Component Value"
+DRAW
+S -350 350 350 -350 0 1 0 N
+X A 1 -550 150 200 R 50 50 1 1 I
+X B 2 -550 50 200 R 50 50 1 1 I
+X Y3 3 -550 -50 200 R 50 50 1 1 O
+X GND 4 -550 -150 200 R 50 50 1 1 I
+X Y2 5 550 -150 200 L 50 50 1 1 O
+X Y1 6 550 -50 200 L 50 50 1 1 O
+X Y0 7 550 50 200 L 50 50 1 1 O
+X VCC 8 550 150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SW_PUSH
+#
+DEF SW_PUSH SW 0 40 N N 1 F N
+F0 "SW" 150 110 50 H V C CNN
+F1 "SW_PUSH" 0 -80 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -170 50 170 60 0 1 0 N
+P 4 0 1 0 -40 60 -30 90 30 90 40 60 N
+X 1 1 -300 0 200 R 60 60 0 1 P I
+X 2 2 300 0 200 L 60 60 0 1 P I
+ENDDRAW
+ENDDEF
+#
+# TPS22810DRVT
+#
+DEF TPS22810DRVT U 0 40 Y Y 1 F N
+F0 "U" 25 325 60 H V C CNN
+F1 "TPS22810DRVT" 25 225 60 H V C CNN
+F2 "6WSON" 0 700 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 0 1200 60 H I C CNN "Vendor"
+F5 "296-46947-1-ND" 0 1100 60 H I C CNN "Vendor Part Number"
+F6 "Texas Instruments" 50 1000 60 H I C CNN "Manufacturer"
+F7 "TPS22810DRVT" 0 900 60 H I C CNN "Manufacturer Part Number"
+F8 "IC PWR SWITCH N-CHAN 1:1 6WSON" 50 800 60 H I C CNN "Description"
+F9 "TPS22810DRVT" 0 450 60 H I C CNN "Component Value"
+DRAW
+S -175 150 225 -150 0 1 0 N
+X VOUT 1 350 100 118 L 50 50 1 1 I
+X QOD 2 350 0 118 L 50 50 1 1 I
+X CT 3 350 -100 118 L 50 50 1 1 I
+X GND 4 -300 -100 118 R 50 50 1 1 P
+X EN 5 -300 0 118 R 50 50 1 1 I
+X VIN 6 -300 100 118 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# UMC_SMD
+#
+DEF ~UMC_SMD J 0 40 N N 1 F N
+F0 "J" 25 150 60 H V C CNN
+F1 "UMC_SMD" 0 300 60 H I C CNN
+F2 "UMC_SMD" 0 400 60 H I C CNN
+F3 "" 150 15 60 H V C CNN
+F4 "Digi-Key" 0 800 60 H I C CNN "Vendor"
+F5 "WM5587CT-ND" 0 900 60 H I C CNN "Vendor Part Number"
+F6 "Molex_LLC" 0 700 60 H I C CNN "Manufacturer"
+F7 "0734120110" 0 600 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN_UMC_RCPT_STR_50_OHM_SMD" 0 500 60 H I C CNN "Description"
+F9 "UMC_SMD" 325 0 60 H V C CNN "Component Value"
+DRAW
+A -2 1 76 -884 -1639 0 1 0 N 0 -75 -75 -20
+A 0 0 75 -899 899 0 1 0 N 0 -75 0 75
+A 1 -3 78 907 1666 0 1 0 N 0 75 -75 15
+C 0 0 25 0 1 0 F
+X RF 1 -125 0 100 R 0 0 1 1 P
+X GND1 2 -50 -200 100 U 0 0 1 1 P
+X GND2 3 0 -200 100 U 0 0 1 1 P
+X GND3 4 50 -200 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ZENER_Diode_5.09V
+#
+DEF ~ZENER_Diode_5.09V D 0 0 N Y 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ZENER_Diode_5.09V" 0 250 50 H I C CNN
+F2 "VMN2" -50 350 60 H I C CNN
+F3 "" 50 0 60 V V C CNN
+F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
+F5 "CDZFHT2RA5.1BCT-ND" 0 750 60 H I C CNN "Vendor Part Number"
+F6 "Rohm Semiconductor" 10 670 60 H I C CNN "Manufacturer"
+F7 "CDZFHT2RA5.1B" 0 550 60 H I C CNN "Manufacturer Part Number"
+F8 "ZENER DIODE, 100MW, 2 PIN" 0 440 60 H I C CNN "Description"
+F9 "5.09V" 0 -100 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+P 3 0 1 0 50 0 50 -25 25 -50 N
+P 3 0 1 0 50 0 50 25 75 50 N
+P 5 0 1 0 -50 0 -50 50 50 0 -50 -50 -50 0 N
+X 1 1 150 0 100 L 60 0 1 1 P
+X 2 2 -150 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pin_header_1x3
+#
+DEF pin_header_1x3 J 0 40 Y N 1 F N
+F0 "J" 0 250 60 H V C CNN
+F1 "pin_header_1x3" 0 -200 60 H V C CNN
+F2 "pin_header_1x3_vert" 0 0 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 100 350 60 H I C CNN "Vendor"
+F5 "609-3461-ND" 200 450 60 H I C CNN "Vendor Part Number"
+F6 "FCI" 300 550 60 H I C CNN "Manufacturer"
+F7 "68000-103HLF" 400 650 60 H I C CNN "Manufacturer Part Number"
+F8 "BERGSTIK II .100\" SR STRAIGHT" 500 750 60 H I C CNN "Description"
+DRAW
+C 0 -50 30 0 0 0 N
+C 0 50 30 0 0 0 N
+C 0 150 30 0 0 0 N
+P 2 0 0 0 30 -50 50 -50 N
+P 2 0 0 0 30 150 50 150 N
+P 2 0 0 0 50 50 30 50 N
+S -100 200 100 -100 0 1 0 N
+X 1 1 250 150 200 L 50 50 1 1 P
+X 2 2 250 50 200 L 50 50 1 1 O
+X 3 3 250 -50 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pin_header_2x3
+#
+DEF pin_header_2x3 J 0 40 Y N 1 F N
+F0 "J" 50 250 60 H V C CNN
+F1 "pin_header_2x3" 50 -150 60 H V C CNN
+F2 "pin_header_1x3_vert" 0 350 60 H I C CNN
+F3 "" 50 0 60 H V C CNN
+F4 "Digi-Key" 0 450 60 H I C CNN "Vendor"
+F5 "609-3461-ND" 0 550 60 H I C CNN "Vendor Part Number"
+F6 "FCI" 0 650 60 H I C CNN "Manufacturer"
+F7 "68000-103HLF" 0 750 60 H I C CNN "Manufacturer Part Number"
+F8 "BERGSTIK II .100\" SR STRAIGHT" 0 850 60 H I C CNN "Description"
+DRAW
+C -50 -50 30 0 0 0 N
+C -50 50 30 0 0 0 N
+C -50 150 30 0 0 0 N
+C 50 -50 30 0 0 0 N
+C 50 50 30 0 0 0 N
+C 50 150 30 0 0 0 N
+P 2 0 0 0 -100 50 -80 50 N
+P 2 0 0 0 -80 -50 -100 -50 N
+P 2 0 0 0 -80 150 -100 150 N
+P 2 0 0 0 80 -50 100 -50 N
+P 2 0 0 0 80 150 100 150 N
+P 2 0 0 0 100 50 80 50 N
+S -100 200 100 -100 0 1 0 N
+X 1 1 -300 150 200 R 50 50 1 1 B
+X 2 2 300 150 200 L 50 50 1 1 P
+X 3 3 -300 50 200 R 50 50 1 1 O
+X 4 4 300 50 200 L 50 50 1 1 B
+X 5 5 -300 -50 200 R 50 50 1 1 B
+X 6 6 300 -50 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
