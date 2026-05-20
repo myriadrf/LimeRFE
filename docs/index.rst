@@ -114,12 +114,35 @@ TX
 Digital Interface
 =================
 
-I2C, USB 2.0 or 3.0?
+I2C, USB 2.0
 
 Power Supply
 ============
 
-Power sources table with voltages and max power?
+.. list-table::
+   :header-rows: 1
+   
+   * - Connector
+     - Description
+     - Max. recommended value
+   * - J9
+     - External 12 V connection – GND (PINs 1, 3), 12 V (PIN 2)
+     - 14 V
+   * - J10
+     - External 5 V connection – GND (PINs 1, 3), 5 V (PIN 2)
+     - 5.5 V
+   * - J11
+     - 5 V source selection:
+       
+       5 V is obtained from DC-DC connector supplied from external 12 V (PIN connection 1-2, jumper position – right);
+       
+       5 V is obtained from USB (PIN connection 3-4, jumper position – center);
+       
+       5 V is obtained from external 5 V supply unit (PIN connection 5-6, jumper position – left).
+     - 
+   * - J23
+     - External 12 V connection
+     - 14 V
 
 Environmental
 =============
@@ -133,8 +156,8 @@ Environmental
      - Value
      - Notes
    * - Operating Temperature
-     - ??
-     - What grade?
+     - -20 °C to +70 °C
+     - Commercial-grade
    * - Storage Temperature
      - -40 °C to +85 °C
      - N/A
@@ -146,7 +169,7 @@ Environmental
 Mechanical
 ==========
 
-size and weight?
+Board size 125.12mm x 162.51mm and weight 260g
 
 Features
 ********
