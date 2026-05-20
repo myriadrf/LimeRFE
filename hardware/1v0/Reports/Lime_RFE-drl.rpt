@@ -1,0 +1,33 @@
+Drill report for /home/mihajlob/svn/lms8001/lms8001/PCB/LimeRFE_1v0/KiCad_Design_files/Lime_RFE.kicad_pcb
+Created on Tue 17 Sep 2019 15:45:00 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  T                         front
+    L2 :  GND                       inner1
+    L3 :  SIG1                      inner2
+    L4 :  SIG2                      inner3
+    L5 :  PWR                       inner4
+    L6 :  B                         back
+
+
+Drill file 'Lime_RFE.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (2781 holes)
+    T2  0.50mm  0.020"  (17 holes)
+    T3  1.00mm  0.039"  (2 holes)  (with 2 slots)
+    T4  1.25mm  0.049"  (1 hole)  (with 1 slot)
+    T5  1.40mm  0.055"  (10 holes)
+    T6  3.00mm  0.118"  (9 holes)
+    T7  3.17mm  0.125"  (3 holes)
+
+    Total plated holes count 2823
+
+
+Drill file 'Lime_RFE-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.00mm  0.039"  (32 holes)
+
+    Total unplated holes count 32

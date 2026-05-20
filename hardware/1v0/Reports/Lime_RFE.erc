@@ -1,0 +1,115 @@
+ERC report (Tue 17 Sep 2019 15:47:24 CEST, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /MCU/
+
+***** Sheet /PowerSupply/
+
+***** Sheet /USB/
+
+***** Sheet /GPIO_Subsystem/
+
+***** Sheet /SWR_Meter_Subsystem/
+
+***** Sheet /Cell/
+
+***** Sheet /Cell/LNA/
+
+***** Sheet /Cell/PA_7_38/
+
+***** Sheet /Cell/PA_1_2_3/
+
+***** Sheet /Cell/CELL_PREDRIVER/
+
+***** Sheet /RX_L/
+
+***** Sheet /RX_L/LNA_L/
+
+***** Sheet /RX_L/Notch/
+
+***** Sheet /RX_L/BPF30/
+
+***** Sheet /RX_L/BPF60/
+
+***** Sheet /RX_L/BPF220/
+
+***** Sheet /RX_L/BPF145/
+
+***** Sheet /RX_L/BPF440/
+
+***** Sheet /FAN/
+
+***** Sheet /RX_H/
+
+***** Sheet /RX_H/BPF1300/
+
+***** Sheet /RX_H/BPF2400/
+
+***** Sheet /RX_H/BPF3500/
+
+***** Sheet /RX_H/LNA_H/
+
+***** Sheet /RX_H/BPF920/
+
+***** Sheet /TX_H2/
+
+***** Sheet /TX_H2/LPF2400/
+
+***** Sheet /TX_H2/LPF3500/
+
+***** Sheet /TX_H2/LPF145/
+
+***** Sheet /TX_H2/LPF435/
+
+***** Sheet /TX_H2/PA145/
+
+***** Sheet /TX_H2/PA2400/
+
+***** Sheet /TX_H2/PA4000/
+
+***** Sheet /TX_H2/PA3500/
+
+***** Sheet /TX_H2/PA1280/
+
+***** Sheet /TX_H2/PA1000/
+
+***** Sheet /TX_H2/PA435/
+
+***** Sheet /TX_H2/LPF1280/
+
+***** Sheet /TX_H2/PA30/
+
+***** Sheet /TX_H2/PDRIV1000/
+
+***** Sheet /TX_H2/PDRIV30/
+
+***** Sheet /TX_H2/PDRIV435/
+
+***** Sheet /TX_H2/PDRIV145/
+
+***** Sheet /TX_H2/PREDRIVER_H/
+
+***** Sheet /TX_H2/PA_220/
+
+***** Sheet /TX_H2/PA_920/
+
+***** Sheet /TX_H2/LPF920/
+
+***** Sheet /TX_H2/LPF220/
+
+***** Sheet /TX_H2/HF_BANK/
+
+***** Sheet /TX_H2/HF_BANK/LPF30/
+
+***** Sheet /TX_H2/HF_BANK/LPF70/
+
+***** Sheet /TX_H2/PDRIV220/
+
+***** Sheet /TX_H2/PDRIV920/
+
+***** Sheet /TX_H2/PDRIV1280/
+
+***** Sheet /TOP_CTR/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
