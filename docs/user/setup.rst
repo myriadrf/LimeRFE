@@ -12,9 +12,19 @@ There are 2 possible ways to run the LimeRFE board:
 Cooling
 *******
 
-Fan mounting holes and Fan connectors?
+There are two main ways to dissipate heat from LimeRFE board:
 
-Heatsink parameters?
+* Active - External 5V FAN can be connected to P1.
+* Passive - Default heat sink part number is 567-558-75AB:
+
+  * Mounting Style:Screw.
+  * Heat sink Material:Aluminum.
+  * Fin Style:Rectangular Fin.
+  * Thermal Resistance:1.8 C/W.
+  * Power Dissipation @ Temperature Rise 12.0W @ 40°C.
+  * Length:61 mm.
+  * Width:116.8 mm.
+  * Height:19.1 mm.
 
 .. note::
    In the event of errors, instability or reduced performance, check the board temperature to ensure that it is within the specified operating range.
