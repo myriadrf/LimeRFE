@@ -9,12 +9,9 @@ v1.0
    cons
    rxblock
    txblock
-   clock
-   usb
    leds
    gpios
    peripheralinterfaces
-   jtag
    power
 
 This is the Reference Manual for LimeRFE v1.0 hardware.
