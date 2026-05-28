@@ -3,7 +3,6 @@ ICSP Connector
 
 ICSP connectors pinout is given in table 7.
 
-
 .. list-table:: Table 7. ICSP connector pinout (J8)
    :stub-columns: 1
 

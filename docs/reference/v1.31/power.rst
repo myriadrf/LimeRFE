@@ -6,11 +6,11 @@ Supply option is chosen by properly configuring and connecting connectors J9, J1
 .. figure:: /images/LimeRFE_v1.31_pwrcon.png
   :width: 600
 
-  Figure 9. LimeRFE v1.0 board power supply connectors
+  Figure 9. LimeRFE v1.31 board power supply connectors
 
-There are three ways of providing 5 V supply to the board. It is possible to select one of these ways by placing a jumper at connector J11, Table 4.
+There are three ways of providing 5 V supply to the board. It is possible to select one of these ways by placing a jumper at connector J11, Table 8.
 
-.. list-table:: Table 4. Power supply options with connector J11
+.. list-table:: Table 8. Power supply options with connector J11
    :header-rows: 1
 
    * - Jumper position
