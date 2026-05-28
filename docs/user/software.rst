@@ -19,14 +19,14 @@ Basic Setup
 .. figure:: /images/LimeRFE_v1.0_suitegui.jpg
   :width: 600
 
-  Figure 6: Lime Suite GUI window
+  Figure 4: Lime Suite GUI window
 
 2. LimeRFE Controls window should appear, Figure 7. This window consists of several panels: Communication, Configuration, Synchronize, RX Channel, TX Channel, Mode, SWR (to display this pannel go to View/Power Meter) and Message Display panel.
 
 .. figure:: /images/LimeRFE_v1.0_suitectrl.jpg
   :width: 300
 
-  Figure 7: LimeRFE Controls window (To display SWR pannel go to View/Power Meter)
+  Figure 5: LimeRFE Controls window (To display SWR pannel go to View/Power Meter)
 
 3. In Communication panels, chose one of two possible options, SDR (this is standard I2C communication) or USB. 
    Keep in mind that for SDR (I2C) communication, an additional LimeSDR board must be connected. For SDR (I2C), a default LimeRFE board address is 0x51. If any other device on SDR (I2C) bus has the same address one of these two devices should change its address. LimeRFE address can be changed in its firmware. After connection the board on I2C bus, button Open Port enables communication. Button Close Port terminates SDR (I2C) communication.
@@ -151,7 +151,7 @@ Basic Setup
 .. figure:: /images/LimeRFE_v1.0_withcalibration.png
   :width: 300
 
-  Figure 8: LimeRFE Controls window with opened SWR pannel and enabled SWR
+  Figure 6: LimeRFE Controls window with opened SWR pannel and enabled SWR
 
 .. note::
    It is important to keep the impedance controlled on all output connectors (J3, J4, and J5, see the next Section for detailed description of the connectors). In the very unlikely situations that the impedance on those ports is very reflective, the power amplifier oscillations might occur, which may damage the board. Hence, it is recommended to connect  50 Ω matched loads/sources, and to terminate the unused ports with 50 Ω terminations.
