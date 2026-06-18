@@ -14,12 +14,12 @@ Sub-blocks
 * Cellular receiver
 * HAM/Wideband receiver
 
-From the RX input of the LimeRFE board, the signal is guided to Cellular or HAM/Wideband receive sub-blocks. Once again, depending on selected configuration (primarily regarding the frequency of received signal), the signal is guided through various switches, filters and duplexers to the amplifier units. After amplification, the signal passes again through various switches and filters and is brought to the variable attenuator. This software controlled attenuator can change attenuation 0 − 14 dB in steps of 2 dB. Table 2 gives full, in details, description of signal paths, depending on chosen RX configuration.
+From the RX input of the LimeRFE board, the signal is guided to Cellular or HAM/Wideband receive sub-blocks. Once again, depending on selected configuration (primarily regarding the frequency of received signal), the signal is guided through various switches, filters and duplexers to the amplifier units. After amplification, the signal passes again through various switches and filters and is brought to the variable attenuator. This software controlled attenuator can change attenuation 0 − 14 dB in steps of 2 dB. Table 3 gives full, in details, description of signal paths, depending on chosen RX configuration.
 
 Configuration
 *************
 
-.. list-table:: Table 2. RX configurations and corresponding RF signal path
+.. list-table:: Table 3. RX configurations and corresponding RF signal path
    :header-rows: 1
 
    * - Type

@@ -1,21 +1,21 @@
 LEDs
 ####
 
-The LimeRFE board includes ten indicator LEDs. Their positions on the board are shown in Figures 9 and 10.
+The LimeRFE board includes ten indicator LEDs. Their positions on the board are shown in Figures 8 and 9.
 
 .. figure:: /images/LimeRFE_v1.0_components_LEDs_top.png
   :width: 600
 
-  Figure 9. LimeRFE v1.0 indication top LEDs 
+  Figure 8. LimeRFE v1.0 indication top LEDs 
 
 .. figure:: /images/LimeRFE_v1.0_components_LEDs_bot.png
   :width: 600
 
-  Figure 10. LimeRFE v1.0 indication bottom LEDs 
+  Figure 9. LimeRFE v1.0 indication bottom LEDs 
 
-LEDs funcions are described in table 4.
+LEDs funcions are described in table 5.
 
-.. list-table:: Table 4. Default LEDs configuration
+.. list-table:: Table 5. Default LEDs configuration
    :header-rows: 1
    :stub-columns: 1
    

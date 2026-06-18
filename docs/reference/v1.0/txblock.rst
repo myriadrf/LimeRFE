@@ -15,12 +15,12 @@ Sub-blocks
 * Cellular transmitter 
 * HAM-Wideband transmitter
   
-From the TX input of the LimeRFE board, the signal is guided to Cellular or HAM-Wideband transmitter. Depending on selected configuration (primarily regarding the frequency of received signal), the signal is guided through various switches and filters to the amplifiers units. After amplification, the signal passes again through various switches, duplexers and filters. Table 3 gives full, in details, description of signal paths, depending on chosen TX configuration.
+From the TX input of the LimeRFE board, the signal is guided to Cellular or HAM-Wideband transmitter. Depending on selected configuration (primarily regarding the frequency of received signal), the signal is guided through various switches and filters to the amplifiers units. After amplification, the signal passes again through various switches, duplexers and filters. Table 4 gives full, in details, description of signal paths, depending on chosen TX configuration.
 
 Configuration
 *************
 
-.. list-table:: Table 3. TX configurations and corresponding RF signal path
+.. list-table:: Table 4. TX configurations and corresponding RF signal path
    :header-rows: 1
 
    * - Type
