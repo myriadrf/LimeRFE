@@ -172,57 +172,42 @@ Board size 125.12mm x 162.51mm and weight 260g
 Features
 ********
 
-* Wideband RF front-end for SDR applications
-* Supports amateur radio and cellular frequency bands
-* Integrated RF switching, filtering, and amplification
-* TX/RX switching with configurable signal routing
-* Integrated PA and LNA control
-* Compatible with LimeSDR platforms
-* Compact RF front-end expansion board
-* Optimized for SDR, HAM radio, LTE, and experimental RF applications
-* Various LEDs used as indicators of successful communication, DC voltage status or GPIO signal value.
-
 Devices
 =======
 
-* Front end module	Complete transceiver 1.6 – 4000 MHz
-* Dedicated Cellular, LTE transceiver	Dedicated transceiver for LTE bands 1, 2, 3, 7 and 38
 * ATMEGA328P-AU	Microcontroller
 * FT232RL	USB controller
-* External fan	Allows use of the external fan, which can cool-down external PA connected to the LimeRFE
-* Integrated SWR meter 	Measures reflected and forward wave on connectors J17 and J18, respectivelly. 
-* Measures forward coupled wave on output of the Cellular transmitters.
-* GPIO subcircuit	Controls external devices, allows external devices to control transceiver.
-* DCDC convertors	With 12V input supplies they provide all internal voltages and additionally +5V for external devices.
-* Ferrite core output matching network	For HAM30 / HAM70 transmitter, allows bypassing on-board output matching network and using external ferrite core matching network 
 
-Connections
+RF Front End
+============
+
+* Wideband RF front-end for SDR applications
+* Integrated RF switching, filtering, and amplification
+* TX/RX switching (TDD) with configurable signal routing
+* Dedicated transceiver for LTE bands 1, 2, 3, 7 and 38
+* Forward coupled wave measurements on output of the Cellular transmitters.
+* Integrated SWR meter
+* Integrated ferrite core output matching network with option to bypass it.
+
+General user inputs/outputs
+===========================
+
+* 3x Headers with GPIOs, I2C, ADC input and controls for external relays
+* 4x general purpose LEDs
+
+Connectors
 ===========
 
-* J1	RF	RX output
-* J2	RF	TX input
-* J3	RF	TX/TX in/out
-* J4	RF	TX output
-* J5	RF	TX/TX in/out for low frequency (HAM30 and HAM70)
-* J17	RF	Reflected wave
-* J18	RF	Forward wave
-* P1	Mechanical	For external fan
-* J9, J23	Power	12V DC input
-* J10	Power	5V DC input
-* J33	Power	5V DC output
-* J11	Power	5V selector
-* CON1	Digital – USB 	USB connector for MCU
-* J12	Digital – GPIO	GPIO and I2C 
-* J22	Digital – GPIO	GPIO selector
-* J13	Digital – GPIO	Level shifted GPIO
-* J22	Digital – GPIO	GPIO source selector
-* J14	Digital – Power 	Connects VDD_CON and VDDA if they are the same
-* J15	Digital – Power	Provides VCOM, referent voltage for relay signals
-* J16	Digital – Relay 	Output signals for relays 
-* J6, J7	Digital – ADC 	Selectors for ADC source, either directly to MCU or from J12 or J13 connectors
-* J8	Digital - ICSP	Connected to MCU
-
-
+* USB Mini-B socket
+* ICSP header for MCU SPI
+* 2-pin and 4-pin FAN headers (5V default or 3.3V or VCC_INT voltage)
+* 7x SMAs for RF front-end:
+  
+  * 2x for SDR RF (RX and TX) 
+  * 2x for external antennas (TDD)
+  * 1x for TX output
+  * 2x for SWR measurements operation
+  
 Purchasing
 **********
 
