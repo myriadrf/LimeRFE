@@ -14,7 +14,7 @@ Cooling
 
 The LimeRFE board ships with a pre-installed heatsink. Under normal ambient temperature conditions, passive cooling is sufficient to maintain stable and reliable board operation.
 
-Default heatsink part number is 567-558-75AB:
+Default heatsink is `Wakefield Thermal 558-75AB`_:
 
   * Mounting Style:Screw.
   * Heat sink Material:Aluminum.
@@ -71,3 +71,5 @@ RF Connections
 
 .. warning::
    Care should be taken when connecting external RF signals to the RX inputs, to ensure that the maximum safe input power of +10 dBm is not exceeded, as this may cause permanent damage to the device.
+
+.. _Wakefield Thermal 558-75AB: https://wakefieldthermal.com/wakefield-thermal-heatsink-dc-dc-full-brick-558-75ab/
