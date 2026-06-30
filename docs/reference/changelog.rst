@@ -7,7 +7,7 @@ The first production LimeRFE was revision v1.0 and so this changelog starts with
    Details of internal-only versions which were never released are not included here.
 
 v1.31
-****
+*****
 
 Updates from LimeRFE v1.0 to LimeRFE v1.31
 
