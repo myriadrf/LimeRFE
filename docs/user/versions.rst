@@ -1,7 +1,7 @@
 Board Versions
 ##############
 
-There are currently three versions of the LimeRFE board: v1.0 and v1.31. 
+There are currently two versions of the LimeRFE board: v1.0 and v1.31. 
 
 v1.0 and v1.31 boards should be treated the same in terms of hardware functionality and software support. 
 
