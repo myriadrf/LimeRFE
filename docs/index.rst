@@ -184,8 +184,6 @@ RF Front End
 * Wideband RF front-end for SDR applications
 * Integrated RF switching, filtering, and amplification
 * TX/RX switching (TDD) with configurable signal routing
-* Dedicated transceiver for LTE bands 1, 2, 3, 7 and 38
-* Forward coupled wave measurements on output of the Cellular transmitters.
 * Integrated SWR meter
 * Integrated ferrite core output matching network with option to bypass it.
 
