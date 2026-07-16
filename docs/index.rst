@@ -12,7 +12,6 @@ Introduction
    advanced/index
 
 .. figure:: images/LimeRFE_v1.0_3D.png
-   :alt: LimeSDR XTRX v1.0 board
    :align: center
    :width: 600
 
@@ -176,18 +175,47 @@ Features
 
 Devices
 =======
+* Cellular transmit power amplifiers:
+ 
+  * TQP9421 (bands: 1, 2, 3) 
+  * QPA9421 (bands: 7, 38) 
+  
+* Cellular receive low noise amplifier TQP3M9037
+* Wideband transmit amplifiers:
+  
+  * RD01MUS2B (1 - 1000 MHz)
+  * MMZ38333 (1000 - 4000 MHz)
+
+* HAM transmit power amplifiers:
+
+  * RD16HHF1 (30 MHz, 50 - 70 MHZ)
+  * AFT09MS007NT1 (145 MHz, 225 MHz , 435 MHz)
+  * RFM04U6P (915 MHz)
+  * RD01MUS2B (1280 MHz)
+  * QPA9426 (2400 MHz)
+
+* Wideband/HAM receive low noise amplifiers:
+  
+  * GALI-74+ (up to 1000 MHz)
+  * TQP3M9008 (up to 4000 MHz)
 
 * ATMEGA328P-AU	Microcontroller
 * FT232RL	USB controller
 
-RF Front End
-============
+Integrated filtering and switching
+==================================
 
-* Wideband RF front-end for SDR applications
-* Integrated RF switching, filtering, and amplification
-* TX/RX switching (TDD) with configurable signal routing
-* Integrated SWR meter
-* Integrated ferrite core output matching network with option to bypass it.
+* Cellular bands filter bank
+* HAM low pass filter bank
+* AM/FM Notch filter
+* Integrated ferrite core output matching network with option to bypass it
+
+Integrated SWR meter
+====================
+
+* Transmitted cellular signal power measurements
+* External RF signal direct and reflected power measurements
+* Possibility to correct calculated values.
 
 General user inputs/outputs
 ===========================
