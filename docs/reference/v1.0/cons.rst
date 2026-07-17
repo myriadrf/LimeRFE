@@ -18,7 +18,7 @@ Please, pay attention that in top view connectors J1, J2, J3, J4 and J5 are term
 
 Please, pay attention that in bottom view there are no terminations on J1, J2, J3, J4, J5 connectors. Also, there is no heat sink and RD16HHF1 transistor which are removed for better view of all bottom components.
 
-.. list-table:: Table 1. Connectors
+.. list-table:: Table 2. Connectors
    :header-rows: 1
 
    * - Connector

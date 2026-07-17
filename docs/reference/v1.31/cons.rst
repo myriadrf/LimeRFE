@@ -13,7 +13,7 @@ The top view of the LimeRFE board is shown in Figure 6. The bottom view of the L
 
   Figure 7: LimeRFE v1.31 connectors - bottom view
 
-.. list-table:: Table 1. Connectors
+.. list-table:: Table 2. Connectors
    :header-rows: 1
 
    * - Connector

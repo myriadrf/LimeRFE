@@ -12,7 +12,6 @@ Introduction
    advanced/index
 
 .. figure:: images/LimeRFE_v1.0_3D.png
-   :alt: LimeSDR XTRX v1.0 board
    :align: center
    :width: 600
 
@@ -30,8 +29,9 @@ RX
 .. table:: Maximum input signals for RX
       
    +------------------+-------------------------+------------------------------------+------------------------------------+-------------+
-   | **Channel**      | **Channel Description** | | **RF Input Power [dBm]**         | | **RF Input Power [dBm]**         | **Comment** |
-   |                  |                         | | **LimeRFE 1v0**                  | | **LimeRFE 1v31**                 |             |
+   | **Channel**      | **Channel Description** | **RF Input Power [dBm]**           | **RF Input Power [dBm]**           | **Comment** |
+   |                  |                         |                                    |                                    |             |  
+   |                  |                         | **LimeRFE 1v0**                    | **LimeRFE 1v31**                   |             |
    +==================+=========================+====================================+====================================+=============+
    | HAM 30           | HF                      | 10                                 | 10                                 |             |
    +------------------+-------------------------+                                    |                                    |             |
@@ -75,8 +75,9 @@ TX
 .. table:: Maximum input signals for TX
 
    +------------------+-------------------------+----------------------------------+------------------------------------+-------------+
-   | **Channel**      | **Channel Description** | | **RF Input Power [dBm]**       | | **RF Input Power [dBm]**         | **Comment** |
-   |                  |                         | | **LimeRFE 1v0**                | | **LimeRFE 1v31**                 |             |
+   | **Channel**      | **Channel Description** | **RF Input Power [dBm]**         | **RF Input Power [dBm]**           | **Comment** |
+   |                  |                         |                                  |                                    |             |
+   |                  |                         | **LimeRFE 1v0**                  | **LimeRFE 1v31**                   |             |
    +==================+=========================+==================================+====================================+=============+
    | HAM 30           | HF                      | 13                               | 13                                 |             |
    +------------------+-------------------------+----------------------------------+------------------------------------+-------------+
@@ -174,19 +175,67 @@ Features
 
 Devices
 =======
+* Cellular transmit power amplifiers:
+ 
+  * TQP9421 (bands: 1, 2, 3) 
+  * QPA9421 (bands: 7, 38) 
+  
+* Cellular receive low noise amplifier TQP3M9037
+* Wideband transmit amplifiers:
+  
+  * RD01MUS2B (1 - 1000 MHz)
+  * MMZ38333 (1000 - 4000 MHz)
 
-Clock system
-============
+* HAM transmit power amplifiers:
 
-Memory
-======
+  * RD16HHF1 (30 MHz, 50 - 70 MHZ)
+  * AFT09MS007NT1 (145 MHz, 225 MHz , 435 MHz)
+  * RFM04U6P (915 MHz)
+  * RD01MUS2B (1280 MHz)
+  * QPA9426 (2400 MHz)
 
-General user inputs/outputs:
-============================
+* Wideband/HAM receive low noise amplifiers:
+  
+  * GALI-74+ (up to 1000 MHz)
+  * TQP3M9008 (up to 4000 MHz)
 
-Connections
+* ATMEGA328P-AU	Microcontroller
+* FT232RL	USB controller
+
+Integrated filtering and switching
+==================================
+
+* Cellular bands filter bank
+* HAM low pass filter bank
+* AM/FM Notch filter
+* Integrated ferrite core output matching network with option to bypass it
+
+Integrated SWR meter
+====================
+
+* Transmitted cellular signal power measurements
+* External RF signal direct and reflected power measurements
+* Possibility to correct calculated values.
+
+General user inputs/outputs
+===========================
+
+* 3x Headers with GPIOs, I2C, ADC input and controls for external relays
+* 4x general purpose LEDs
+
+Connectors
 ===========
 
+* USB Mini-B socket
+* ICSP header for MCU SPI
+* 2-pin and 4-pin FAN headers (5V default or 3.3V or VCC_INT voltage)
+* 7x SMAs for RF front-end:
+  
+  * 2x for SDR RF (RX and TX) 
+  * 2x for external antennas (TDD)
+  * 1x for TX output
+  * 2x for SWR measurements operation
+  
 Purchasing
 **********
 

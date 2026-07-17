@@ -1,16 +1,16 @@
 Power Supply
 ############
 
-Supply option is chosen by properly configuring and connecting connectors J9, J10, J11, J23 and CON1 (this is micro USB type B connector). All of these connectors except CON1 are placed in top layer, in the lower-right part of the LimeRFE board, shown in Figure 4. CON1 connector is in bottom layer, in the upper-right part of the LimeRFE board.
+Supply option is chosen by properly configuring and connecting connectors J9, J10, J11, J23 and CON1 (this is micro USB type B connector). All of these connectors except CON1 are placed in top layer, in the lower-right part of the LimeRFE board, shown in Figure 10. CON1 connector is in bottom layer, in the upper-right part of the LimeRFE board.
 
 .. figure:: /images/LimeRFE_v1.0_pwrcon.png
   :width: 600
 
-  Figure 9. LimeRFE v1.0 board power supply connectors
+  Figure 10. LimeRFE v1.0 board power supply connectors
 
-There are three ways of providing 5 V supply to the board. It is possible to select one of these ways by placing a jumper at connector J11, Table 8.
+There are three ways of providing 5 V supply to the board. It is possible to select one of these ways by placing a jumper at connector J11, Table 10.
 
-.. list-table:: Table 8. Power supply options with connector J11
+.. list-table:: Table 10. Power supply options with connector J11
    :header-rows: 1
 
    * - Jumper position
